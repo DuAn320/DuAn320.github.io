@@ -1,6 +1,493 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>CWM：任务、项目、流程与白日梦</title>
+    <url>/2024/08/29/cwm-ren-wu-xiang-mu-liu-cheng-yu-bai-ri-meng/</url>
+    <content><![CDATA[<div id="readmore-container"><h1 id="0-CWM"><a href="#0-CWM" class="headerlink" title="0. CWM"></a>0. CWM</h1><p>Collaborative Work Management <code>(CWM)</code> 是指企业通过工具和方法，帮助团队有效地协调任务、项目和流程，以实现共同目标的管理方式。它是一种强调团队协作和信息共享的工作方式，旨在提高团队的生产力和效率，减少沟通障碍和资源浪费。</p>
+<blockquote>
+<p><a class="link"   href="https://infraon.io/blog/collaborative-work-management/"  title="Everything You Should Know About Collaborative Work Management In 2024">Collaborative work management (CWM) is a structured methodology aimed at optimizing tasks, projects, and processes within teams. It involves coordinating, tracking, and streamlining various activities. CWM ensures efficient communication, workflow, and collaboration among team members, fostering a cohesive approach to achieving common goals. <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><strong>引用时有所改动，原文见文末参考资料</strong></p>
+</blockquote>
+<p>另外值得一提的是：在 <a class="link"   href="https://www.gartner.com/en/documents/5019731"  title="Gartner Magic Quadrant for Collaborative Work Management">Gartner <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 中也有CWM的相关魔力象限，目前已经收录了一些国外厂商，如 <code>Atlassian</code>、<code>ClickUp</code>、<code>Notion</code> 等。</p>
+<hr>
+<h1 id="1-引言"><a href="#1-引言" class="headerlink" title="1. 引言"></a>1. 引言</h1><h2 id="为什么写此内容："><a href="#为什么写此内容：" class="headerlink" title="为什么写此内容："></a>为什么写此内容：</h2><p>主要原因是我在工作中为客户进行Onboarding时，面对复杂的事务性管理场景，得益于 <code>Teambition</code> 的搭建方法论，总能快速上手并取得不错的效果。另外，在内部培训或沟通时，我总是需要反复解释这些概念，并没有系统地将其形成文章。因此，特地撰写此文。</p>
+<h2 id="本次写作的目的："><a href="#本次写作的目的：" class="headerlink" title="本次写作的目的："></a>本次写作的目的：</h2><p>旨在补全搭建逻辑内容，并通过反推论解释其逻辑。从任务管理、项目执行和流程优化的角度探讨企业协作的演变和关键作用。同时提供一些主观的思考和联想，帮助你更好地驾驭这些概念，实现产品的顺利落地和客户组织协作效率的最大化。</p>
+<hr>
+<h1 id="2-企业协作的基本要素"><a href="#2-企业协作的基本要素" class="headerlink" title="2. 企业协作的基本要素"></a>2. 企业协作的基本要素</h1><h2 id="任务（Task）"><a href="#任务（Task）" class="headerlink" title="任务（Task）"></a>任务（Task）</h2><ul>
+<li>任务是企业协作的最小单元，是具体的行动项。任务可独立存在，也可以作为项目和流程的子项。</li>
+<li><strong>任务管理的关键在于确保这些小任务能够被有效地分解、分配并按时完成。</strong></li>
+</ul>
+<p>任务管理通常适用于部门任务池和重点任务督办等场景，尤其适合部门内管理和小型企业。</p>
+<p>其特点是能够随时触发并快速响应变化，协作的生命周期是一个任务的起止时间。</p>
+<p>常见的管理方法包括 PDCA、GTD 和时间四象限等，强调敏捷性、效率和团队合作。</p>
+<p>在这种环境中，快速响应和灵活调整是管理的核心，通常由创始人、业务负责人或团队领导负责。</p>
+<p>然而，由于任务的简单性，客户对这类工具的粘性较低，一个简单的 list 工具即可替代。</p>
+<p><del>PS：刚开始看钉钉快办的PR时，我理解并不是它要完全服务这部分客户，但实际的商业化路径似乎瞄准了SMB，有点尴尬。后续内容还会提及钉钉快办。</del></p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092146412.png"
+                      alt="团队任务管理"
+                ><figcaption>团队任务管理</figcaption></figure></p>
+<p><span style="color: rgb(46, 64, 91)">通过以上图例可以看出，任务管理其实是对离散信息做了一定的有序分类，任务之间并没有任何关联。如果任务完成后，它将被置灰，且在不同的任务列表下可以随时新增任务，这使得它相比项目或流程来说，约束力较小。</span></p>
+<h2 id="项目（Project）"><a href="#项目（Project）" class="headerlink" title="项目（Project）"></a>项目（Project）</h2><ul>
+<li>项目是一组相互关联的任务和活动的集合，通常有明确的目标、时间表和资源限制。</li>
+<li><strong>项目管理的目标是通过合理的资源配置、时间管理和风险控制，确保项目按时、按预算、高质量地完成。</strong></li>
+</ul>
+<p>项目管理通常适用于工程项目管理、软硬件研发项目管理以及定制研发项目等，特别适合跨部门合作和中型企业。</p>
+<p>项目管理的触发机制是计划驱动，需要进行结构化规划、跨部门协调和资源配置。项目的生命周期为项目的起止时间。</p>
+<p>相关方法论包括项目管理、项目集管理、项目组合管理以及瀑布研发模型。</p>
+<p>市场环境通常处于扩张期或结构调整期，管理重点在于提高效能和跨部门合作。典型的管理角色包括项目经理、产品经理和 PMO 部门。</p>
+<p>项目管理工具具有一定的客户粘性，项目结束后迁移成本较高。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092146812.png"
+                      alt="项目管理"
+                ><figcaption>项目管理</figcaption></figure></p>
+<p><span style="color: rgb(46, 64, 91)">可以看到，项目的搭建逻辑在列表搭建上具有一定的时间渐进性，按照项目推进进行阶段划分。每个阶段下方堆积的卡片代表当前阶段下所有需要完成的任务，这些任务都完成后，才标志着该阶段的结束。任务之间可能存在明显的依赖关系。项目计划完成后，除非变更，通常不在已有阶段里新增任务。</span></p>
+<h2 id="流程（Process）"><a href="#流程（Process）" class="headerlink" title="流程（Process）"></a>流程（Process）</h2><ul>
+<li>流程是一个系统化、重复性的活动序列，用于实现特定的业务目标或输出。流程通常是标准化的，具有可预测的结果，通过明确的步骤和规则确保一致性和效率。</li>
+<li><strong>流程管理关注的是优化和持续改进，以确保资源的最佳利用和结果的高效交付。</strong></li>
+</ul>
+<p>流程管理适用于 <code>敏捷研发</code>、人员招聘、特定工作流管理和连锁建店管理等场景，尤其适合成熟商业模式或大型企业。</p>
+<p>流程长期存在并持续优化，生命周期为业务在制品的 1-N。流程管理方法论包括 Scrum、IPD、六西格玛、精益管理和 BPM 等，强调流程优化、标准化管理和长期战略规划。</p>
+<p>在成熟市场和全球化运作中，标准化流程和效率优化是管理的重点。高级管理层、流程优化专家和研发效能部门通常负责这类管理。</p>
+<p>由于流程管理的复杂性，客户对工具的依赖性较高，流程的上下游使用方及在制品的约束（<code>存量生产数据</code>）使得替换工具的难度较大。</p>
+<blockquote>
+<p><a class="link"   href="https://weread.qq.com/web/reader/18a32cc071e2832e18a75ee"  title="SaaS创业路线图：to B产品、营销、运营方法论及实战案例解读">规模化的背后藏着三个字：标准化。–吴昊 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</blockquote>
+<p><span style="color:red">当更多的企业管理科学关注点从分工到协作、从静态到动态、从局部优化到整体优化，流程管理已经从简单的生产优化工具演变为企业整体管理的重要组成部分，鉴于目前的市场产品表现，可以总结为<strong>两种形式 三种表现</strong>。</span></p>
+<div style="background-color: #f0f0f0; padding: 15px; border-radius: 5px; border: 1px solid #ddd;margin-bottom: 20px;">
+   <span style="color:red">传统形式-狭义流程抽象</span>
+
+<p>狭义的流程概念指的是我们去抽象的是一个业务的流程框架，在这个流程中流转的是重复性质的在制品，流程框架是增值的，在制品是重复的，在制品的发起，往往需要在流程的前端控制输入，这是核心观念。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092147078.png"
+                      alt="销售Pipeline管理"
+                ><figcaption>销售Pipeline管理</figcaption></figure></p>
+<p><span style="color: rgb(46, 64, 91)">这里我们看到的是在这个销售Pipeline的管理中，实际上是按照销售漏斗去做了流程节点的划分，然后每一个客户呢，是当作在制品，就是一个卡片去做流转，根据客户情况的推进会调整这个卡片的所处节点，而任务的完成状态，往往在特定的流程节点下，比如说赢单。</span></p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092148195.png"
+                      alt="PingCode Scrum解决方案"
+                ><figcaption>PingCode Scrum解决方案</figcaption></figure></p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092148197.png"
+                      alt="PingCode Kanban解决方案"
+                ><figcaption>PingCode Kanban解决方案</figcaption></figure></p>
+<p><span style="color: rgb(46, 64, 91)">我想研发管理里的Scrum和Kanban方案是标准流程框架这里无需过多解释了吧。</span></p>
+</div>
+
+<div style="background-color: #f0f0f0; padding: 15px; border-radius: 5px; border: 1px solid #ddd;margin-bottom: 20px;">
+   <span style="color:red">创新形式-广义流程抽象（一）</span>
+`表现流程任务之间:`
+
+<p>广义的流程概念怎么理解呀？其实从我的角度广义流程某种程度上更契合客户的使用，因为当客户他能抽象出来一个业务的完整的事项流程图的时候，实际上这个广义流程框架已经搭建完了。最早接触到这种表现形式还是<code>Taskheat</code>。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092148009.png"
+                      alt="钉钉发布会项目"
+                ><figcaption>钉钉发布会项目</figcaption></figure></p>
+<p><span style="color: rgb(46, 64, 91)"><code>Teambition</code>的近期更新支持了流程图应用，然后这个流程图实际上是通过利用任务之间的依赖关系形成的，他能更好地帮我们去表达任务彼此之间和顺序（时间）可视化的关系。</span></p>
+</div>
+
+<div style="background-color: #f0f0f0; padding: 15px; border-radius: 5px; border: 1px solid #ddd;margin-bottom: 20px;">
+    <span style="color:red">创新形式-广义流程抽象（二）</span>
+
+<p><code>表现流程任务本身：</code></p>
+<p>其实在我早期关注流程产品的时候并没有考虑到<code>飞书项目</code>他所代表的这种流程和我之前关注的产品有所不同。也是近期研究的时候发现虽然他们都是在往流程方向发力，但是其核心是不一样的，所以我在广义的流程抽象里定义一个表现流程任务本身的内容。当然市面上还有类似工具的是<code>日事清的流程</code>应用。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092155217.png"
+                      alt="日事清流程1"
+                ><figcaption>日事清流程1</figcaption></figure></p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092149933.png"
+                      alt="日事清流程2"
+                ><figcaption>日事清流程2</figcaption></figure></p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092149937.png"
+                      alt="飞书项目"
+                ><figcaption>飞书项目</figcaption></figure></p>
+<p><span style="color: rgb(46, 64, 91)">当我现在回过头看这两个产品，突然理解了——前前老板给过一个评价是他们有点像是审批，我现在分级之后觉得也确实是这样。他其实是在一个任务背后去嵌套了一套审批的流程，称之为节点或者步骤，配套的去做了字段、子任务、权限控制。流程建立于任务母体的存在。这是跟Teambition当前的思路不一样的地方。</span></p>
+<p>不过Teambition真的只有如此吗？</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092150351.png"
+                      alt="Teambition工作流"
+                ><figcaption>Teambition工作流</figcaption></figure></p>
+</div>
+
+<p>我估计按照现在各家都在 IPD 这一典型流程领域发力，流程管理的格局远不止当前的定义，期待好玩的发生。</p>
+<hr>
+<h1 id="3-任务、项目与流程的联动"><a href="#3-任务、项目与流程的联动" class="headerlink" title="3. 任务、项目与流程的联动"></a>3. 任务、项目与流程的联动</h1><h2 id="任务与流程的联动"><a href="#任务与流程的联动" class="headerlink" title="任务与流程的联动"></a>任务与流程的联动</h2><p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092151358.png"
+                      alt="固定资产管理（任务+流程）1"
+                ><figcaption>固定资产管理（任务+流程）1</figcaption></figure></p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092151360.png"
+                      alt="固定资产管理（任务+流程）2"
+                ><figcaption>固定资产管理（任务+流程）2</figcaption></figure></p>
+<p><span style="color: rgb(46, 64, 91)">在这个场景里，我们可以看到看板上的任务列表，他仅仅是对物品属性的一个分类，下方罗列的每个卡片实际上是具体的物品，物品之间是松散的，不存在相互关联。但是当切换到状态这种流程后呢？看板变成了按照物品领用状态展示的形式。</span></p>
+<h2 id="项目与流程的联动"><a href="#项目与流程的联动" class="headerlink" title="项目与流程的联动"></a>项目与流程的联动</h2><p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092152615.png"
+                      alt="连锁建店管理（项目+流程"
+                ><figcaption>连锁建店管理（项目+流程</figcaption></figure></p>
+<p><span style="color: rgb(46, 64, 91)">在这个场景中，可以看到整体的业务流程、具体的项目卡片以及连接的项目，这是 <strong>Teambition</strong> 经典的总分搭建方法。</span></p>
+<h2 id="任务与项目的联动"><a href="#任务与项目的联动" class="headerlink" title="任务与项目的联动"></a>任务与项目的联动</h2><p><span style="color: red"><del>略，详见PMP中WBS部分</del></span></p>
+<p>本来这对官方父子组合想偷个懒放链接的，自己看了下官方的内容，算了，我自己写。</p>
+<p>项目是一个临时的工作计划，旨在创造一个独特的产品、服务或成果。为了实现这一目标，项目通常需要完成多个相互关联的任务。</p>
+<p>任务是构成项目的基本单元。每个任务代表一个具体的工作活动，具有明确的开始和结束时间，并且通常由团队成员执行。</p>
+<p>项目通常从总体目标出发，逐层分解为多个阶段或子项目，每个阶段或子项目再进一步分解为任务。这种逐层分解的过程通常通过工作分解结构（WBS，Work Breakdown Structure）来实现。</p>
+<p>任务是项目分解的最低层次单位，每个任务都是一个可管理的工作项。</p>
+<h2 id="结合的重要性"><a href="#结合的重要性" class="headerlink" title="结合的重要性"></a>结合的重要性</h2><p>高效的企业协作离不开任务、项目与流程的完美结合。任务是项目的基础，项目是流程的载体，而流程则是确保任务和项目顺利完成的保障。通过合理管理这三者，企业可以实现协作效率的最大化，推动业务的持续发展。</p>
+<hr>
+<h1 id="4-白日梦"><a href="#4-白日梦" class="headerlink" title="4. 白日梦"></a>4. 白日梦</h1><h2 id="第四域的雏形"><a href="#第四域的雏形" class="headerlink" title="第四域的雏形"></a>第四域的雏形</h2><p>在企业的事务性协作中，除了内部管理之外，还应考虑来自外部的信息接收、反馈与处理，我称之为 <code>环境</code> 的管理。这一概念在一些现有产品中已有体现，例如 <code>PingCode</code> 的对外产品 <code>Ship</code> 的工单收集反馈功能。此外，还有一个对外的产品路线图功能尚不清楚是否已经实现。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092152012.png"
+                      alt="PingCode产品路线图"
+                ><figcaption>PingCode产品路线图</figcaption></figure></p>
+<p>另一个相关例子是钉钉推出 <code>快办</code> 时，其应用市场的 PR 介绍中提到“会有人帮你管任务”。当时，仅从 PR 的角度，我可能高估了AI的作用以及这个产品的独特性。我以为会有一个AI结合的深化，能达到部分代替人作业的过程。太理想了。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092153333.png"
+                      alt="钉钉快办"
+                ><figcaption>钉钉快办</figcaption></figure></p>
+<h2 id="信息的皇帝"><a href="#信息的皇帝" class="headerlink" title="信息的皇帝"></a>信息的皇帝</h2><p>目前，许多协作平台都在大力推广AI，但我认为这些AI功能的实际效果并未达到预期，没有带来特别显著的效率增值。有可能也是我对AI的期望较高，尤其是在信息推荐方面，但实际上它仍然只是以传统性的方式呈现与我相关的当前任务的进展。</p>
+<p>我一直觉得头条的推荐算法做得非常好，它基于 <strong>“人性懒惰”</strong> 这一特性，通过用户的喜好来主动推送内容，并根据交互行为不断优化推荐。这使我想到如果企业内的每个员工都能够专注于任务，而有一个AI可以帮助我们梳理外部信息，并精准地推送给我们，工作效率将得到大幅提高。</p>
+<p>这种AI功能类似于高德地图，它可以根据用户的当前路线结合外部路况主动推荐新的路线。类似的，还有那篇曾经广泛讨论的公众号文章 <a class="link"   href="https://mp.weixin.qq.com/s/Mes1RqIOdp48CMw4pXTwXw" >外卖骑手，困在系统里 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 。<strong>不是鼓吹算法和对人的压迫哈</strong>，只是我觉得算法进化到一定程度时，效率是自然而然的事情，像流水线一样减少人性，提高效率。毕竟“朕已阅”。</p>
+<p>这是我对未来的期待。我希望每个人都能成为信息的“皇帝”，无论是处理事务还是应对外部响应。</p>
+<p>同时，产品优化方面还有很多可以改进的地方。例如，iOS 18 中的待办事项与日历的合并，更精准地通过实时活动将信息传达给用户。</p>
+<p>另外，我最近发现了一款名为 <code>uCal</code> 的日历管理软件，它通过一种分层视图直观地展示当前日程的开始和结束时间，这种视图有点像洋葱圈，可以从不同层次观察日程的时间分配。</p>
+<p>更有趣的是，B站有UP发现了一种新用法，即在预定日程时间之后，创建日程实际完成时间记录。这种功能在我之前的客户需求中也有所体现。</p>
+<p>在此基础上，我一直思考协作管理工具是否可以引入一种类似的侵入性强的弹窗提醒功能：当任务预定时间开始时，右上角固定显示浮窗，点击确认后记录系统开始时间；当预定时间到达后，再次弹窗询问是否更新完成时间。这样的功能设计可以大大提高任务的执行效率（提醒和统计方面）。</p>
+<p>哎，反正止不住做白日梦。</p>
+<hr>
+<h1 id="5-结论"><a href="#5-结论" class="headerlink" title="5. 结论"></a>5. 结论</h1><ul>
+<li><strong>任务、项目与流程协作的核心原则</strong>：没有最好，只有更适合。在不同的管理场景下，客户成功经理或者企业需要根据自身的业务特点、团队规模和市场环境选择合适的管理工具和方法。</li>
+<li><strong>未来趋势与展望</strong>：看白日梦能实现几个。</li>
+</ul>
+<hr>
+<h1 id="6-产品致谢与声明"><a href="#6-产品致谢与声明" class="headerlink" title="6. 产品致谢与声明"></a>6. 产品致谢与声明</h1><h2 id="产品致谢"><a href="#产品致谢" class="headerlink" title="产品致谢"></a>产品致谢</h2><ul>
+<li><a class="link"   href="https://www.teambition.com/"  title="Teambition">Teambition <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://www.pingcode.com/"  title="PingCode">PingCode <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://project.feishu.cn/home"  title="飞书项目">飞书项目 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://www.rishiqing.com/"  title="日事清">日事清 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://eyen.fr/taskheat/"  title="Taskheat">Taskheat <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://apps.apple.com/us/app/ucal-calendar/id1615292683"  title="uCal">uCal <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ul>
+<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><p>本文所提及的产品名称、商标及相关介绍均为各自权利所有者的财产，仅用于信息分享和教育目的。本文不涉及任何形式的推广、推荐或商业合作。若涉及产品描述的内容有任何不准确或侵权行为，请与我联系，我将尽快处理。感谢您的理解与支持。</p>
+<br>
+<br>
+<br>
+
+<hr>
+<div style="display: flex; align-items: center; justify-content: space-between;">
+    <div>
+<p style="margin: 0; color: #E62412; font-weight: bold;">段旭东（Anjou Duan）</p>
+        <p style="margin: 0;">找不到理想工作的前协作SaaS赛道CSM</p>
+    </div>
+    <figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://heycsm.com/images/anjouduan.png"
+                      alt="Anjou Duan" style="width: 80px; height: 80px; border-radius: 50%; margin-left: 15px;"
+                ><figcaption>Anjou Duan</figcaption></figure>
+</div>
+
+
+<p>不提<code>Teambition领航员（钉钉数字化专家）</code>、<code>宜搭行业解决方案共创PDSA</code>这些虚名以及有那么<code>一点好看的职业数据</code>，只不过一个平淡无奇的王者荣耀<code>荣耀王者</code>、和平精英<code>传奇王牌</code>的小天才罢了。</p>
+<hr>
+<p style="margin: 0; color: #1B9AEE; font-weight: bold;"> HeyCSM </p>
+
+<p>一个<code>有态度</code>、且<code>有趣</code>更<code>有料</code>的微信公众号和同名网站(<code>heycsm.com</code>)。</p>
+<p>由数字化协作 SaaS（曾服务<code>Teambition</code>、<code>Worktile</code>、<code>PingCode</code>等产品）的 CSM <code>段旭东</code></p>
+<p style="margin: 0; color: #1B9AEE; font-weight: bold;">用 <span style="color: #E62412;">♥️</span> 打造。</p>
+
+</div>
+				<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
+				<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+				<script>
+				var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
+				var isEncrypt = document.getElementById('hexo-blog-encrypt');
+				var allowMobile = false;
+				if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
+					try {
+						var plugin = new ReadmorePlugin();
+						plugin.init({
+							"type": "hexo",
+							"id": "readmore-container",
+							"name": "HeyCSM-你好客户成功经理",
+							"blogId": "85700-3670119654427-676",
+							"qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG",
+							"keyword": "heycsm",
+							"random": "1",
+							"height": "auto",
+							"expires": "365",
+							"lockToc": "yes",
+							"interval": "60",
+							"baseUrl": "",
+							"tocSelector": ""
+						});
+					} catch(e) {
+						console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
+					}
+				}
+				</script>
+			]]></content>
+      <categories>
+        <category>深度文章</category>
+      </categories>
+      <tags>
+        <tag>客户成功</tag>
+        <tag>Teambition</tag>
+        <tag>Worktile</tag>
+        <tag>PingCode</tag>
+        <tag>飞书项目</tag>
+        <tag>日事清</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HeyCSM：协作客户成功陪你看飞书发布会</title>
+    <url>/2024/09/05/heycsm-xie-zuo-ke-hu-cheng-gong-pei-ni-kan-fei-shu-fa-bu-hui/</url>
+    <content><![CDATA[<div id="readmore-container"><h1 id="零、影视飓风Tim云逛展：协作效率与企业数字化转型的动力引擎"><a href="#零、影视飓风Tim云逛展：协作效率与企业数字化转型的动力引擎" class="headerlink" title="零、影视飓风Tim云逛展：协作效率与企业数字化转型的动力引擎"></a>零、影视飓风Tim云逛展：协作效率与企业数字化转型的动力引擎</h1><p>当你关注的宝藏UP主跟你最喜欢的效率工具在一起是什么样的体验？</p>
+<p>我对Tim的喜欢还是他在他自己的创业故事中分享了一句话，我觉得真的是超经典：</p>
+<blockquote>
+<p><a class="link"   href="https://b23.tv/NFHHUXL"  title="【2023】一个百大UP主的创业故事（2）-哔哩哔哩">人最痛苦的，从来都不是累，而是累了，拼了以后，你会发现成果是一坨充满汗水还有鲜血的垃圾，但垃圾就是垃圾，你有什么好说的？ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</blockquote>
+<p>作为一个对自己很苛刻，又有商业化成果产出的知名UP主，在发布会的一开始，Tim带着我们去看了各种各样的企业以及先进个人在使用飞书工具，帮助他们的工作和生活带来了一个效率的变化。</p>
+<p>从工具的角度，不光是先进企业可以用飞书来提升自己的运作效率，我们一些个人或者我们印象中的传统企业也可以使用飞书，让大家的工作变得更容易。</p>
+<p>而且呢，除了有共识的飞书的体验之外，谢欣在Tim的前采中说本次飞书的发布会的重点更多在于飞书性能中的提升，让飞书从丝滑的体验变得强大起来。</p>
+<p>一下就把我的期待感拉满了。</p>
+<p>当然，前采还有更多的有意思画面：比如<code>李斌回应金池长老</code>、<code>稚晖君的智元机器人</code>等，这里不展开讲了，感兴趣的话可以看文末的参考资料来源。</p>
+<p>话不多说，回到发布会。</p>
+<h1 id="一、飞书的愿景：协作效率与企业数字化转型的动力引擎"><a href="#一、飞书的愿景：协作效率与企业数字化转型的动力引擎" class="headerlink" title="一、飞书的愿景：协作效率与企业数字化转型的动力引擎"></a>一、飞书的愿景：协作效率与企业数字化转型的动力引擎</h1><p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092043381.png"
+                      alt="2024年飞书未来无限大会"
+                ><figcaption>2024年飞书未来无限大会</figcaption></figure></p>
+<p>2024年9月4日，飞书召开了一年一度<code>“2024年飞书未来无限大会”</code>的主题发布会，飞书CEO谢欣率先带来了主旨演讲。</p>
+<p>他强调，飞书一直致力于通过创新技术和协作工具提升企业效率，而这次大会则是飞书在企业数字化转型进程中的又一重要里程碑，不管是已有客户、还是业务、以及产品。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092045854.png"
+                      alt="飞书客户"
+                ><figcaption>飞书客户</figcaption></figure></p>
+<p>在 SaaS 行业最重要的一个收入指标叫做<code>ARR</code>，它是衡量一个企业的年度订阅制收入。在 2022 年底的时候，飞书的 ARR 达到了<code>1亿美元</code>，对于 SaaS 行业而言，这是非常重要的一个里程碑。到了 2023 年年底，也就是去年年底的时候，飞书的 ARR 达到了<code>2亿美元</code>，并且成为了国内同行的第一名，这还是非常不容易的一个成绩，今年预计 ARR 将会超过<code>3亿美元</code>。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092045236.png"
+                      alt="飞书ARR"
+                ><figcaption>飞书ARR</figcaption></figure></p>
+<p>谢欣的演讲集中在如何通过数字化协作平台应对现代企业在全球化竞争环境中面临的挑战。根据他分享的数据，全球有超过60%的企业正在经历某种形式的数字化转型，而这些转型背后都离不开高效的协作工具和平台。</p>
+<p>例如，某调研数据显示，已经数字化转型的企业，其员工生产力平均提升了15%-25%，而员工的沟通效率也提升了约20%。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092046687.png"
+                      alt="飞书智能会议解决方案"
+                ><figcaption>飞书智能会议解决方案</figcaption></figure></p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092046453.png"
+                      alt="豆包大模型"
+                ><figcaption>豆包大模型</figcaption></figure></p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092046204.png"
+                      alt="业务工具"
+                ><figcaption>业务工具</figcaption></figure></p>
+<p>飞书在过去几年中，通过不断升级的产品组合和协作功能，助力企业应对远程办公、跨时区团队合作等复杂的工作场景。谢欣指出，未来的企业将越来越依赖数字化工具，而飞书则专注于提供一个高效、安全的生态系统，让企业能够应对迅速变化的市场环境。</p>
+<p>除此之外，在本节中，他还提出来一个有意思的观点：</p>
+<blockquote>
+<p>不是将日常工作融入 AI 中，而是将 AI 融入日常工作中</p>
+</blockquote>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092050591.png"
+                      alt="飞书对AI的态度"
+                ><figcaption>飞书对AI的态度</figcaption></figure></p>
+<h1 id="二、飞书最新产品发布：多维表格与低代码平台的创新之举"><a href="#二、飞书最新产品发布：多维表格与低代码平台的创新之举" class="headerlink" title="二、飞书最新产品发布：多维表格与低代码平台的创新之举"></a>二、飞书最新产品发布：多维表格与低代码平台的创新之举</h1><p>本次大会上，飞书发布了多个重磅产品，其中尤为引人关注的是<strong>多维表格</strong>和<strong>低代码平台</strong>。这些产品展示了飞书在提升企业工作效率和优化协作流程方面的最新技术成果。</p>
+<h2 id="1-多维表格：颠覆传统的表格工具"><a href="#1-多维表格：颠覆传统的表格工具" class="headerlink" title="1. 多维表格：颠覆传统的表格工具"></a>1. 多维表格：颠覆传统的表格工具</h2><p>飞书多维表格的负责人施凯文介绍了这一全新工具如何革新了传统表格的使用方式。</p>
+<p>传统的电子表格虽然功能强大，但在处理复杂数据和跨部门合作时往往显得力不从心。</p>
+<p>而飞书的多维表格则为用户提供了更多的灵活性，允许用户以更直观的方式处理多维度数据。</p>
+<p>例如，一个项目可能涉及多个部门和时间节点，传统的线性表格难以展示其复杂关系，而飞书的多维表格则能够通过多维度的交叉展示，让用户可以从不同角度审视和处理数据。</p>
+<p>多维表格的四项更新：</p>
+<ul>
+<li>多维表格数据库-Time Machine</li>
+<li>仪表盘</li>
+<li>高级权限</li>
+<li>工作流</li>
+</ul>
+<p>以及AI适配</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092050356.png"
+                      alt="多维表格AI"
+                ><figcaption>多维表格AI</figcaption></figure></p>
+<p>多维表格的全面集成AI，将一系列强大 AI 能力融入系统搭建的各个环节，从而让多维表格可以搭出更多的智能化的系统。</p>
+<h2 id="2-低代码平台：为非技术人员赋能"><a href="#2-低代码平台：为非技术人员赋能" class="headerlink" title="2. 低代码平台：为非技术人员赋能"></a>2. 低代码平台：为非技术人员赋能</h2><p>飞书低代码平台的发布同样引发了广泛关注，负责这一产品的周洲在大会上分享了低代码技术如何帮助非技术人员创建复杂的业务应用。</p>
+<p>根据调研数据，企业在内部开发业务应用时，约60%-70%的需求来自于非技术部门，而这些部门常常因缺乏技术能力而依赖IT部门。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092050873.png"
+                      alt="飞书低代码平台"
+                ><figcaption>飞书低代码平台</figcaption></figure></p>
+<p>飞书的低代码平台通过直观的界面和简单的操作以及AI的引入，允许业务人员自主开发和调整应用，减少了对专业开发人员的依赖，并大幅提升了开发速度。</p>
+<h2 id="3-飞书项目：行业首创的可视化工作流引擎"><a href="#3-飞书项目：行业首创的可视化工作流引擎" class="headerlink" title="3. 飞书项目：行业首创的可视化工作流引擎"></a>3. 飞书项目：行业首创的可视化工作流引擎</h2><p>闪回在刚刚7月举办的<a class="link"   href="https://future.feishu.cn/7384341392918462465/city-summit"  title="飞书项目发布会-流程驱动新增长">飞书项目的发布会 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>上，飞书项目的平台能力，包括工作流、引擎、视图、基础平台和产品体验都做了全新的升级。</p>
+<p>IPD 行业解决方案对制造业是一个非常有价值的一套工具，飞书提供了全景的泳道图的能力、协同式的计划表，完整的评审管理解决方案。</p>
+<p>确实对于我们协作领域来说，<code>飞书项目</code>是一个特殊品类的存在。</p>
+<p>对于该论述，欢迎读者查阅之前发过的文章，<a class="link"   href="https://mp.weixin.qq.com/s/gQTq7fQURcr-reSwXCuCbg" >CWM:任务、项目、流程与白日梦 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><a id="jump_8"></a></p>
+<h2 id="4-出海合规方案：全球合规和出海支持"><a href="#4-出海合规方案：全球合规和出海支持" class="headerlink" title="4. 出海合规方案：全球合规和出海支持"></a>4. 出海合规方案：全球合规和出海支持</h2><p>谢欣特别强调了合规问题对企业出海的重要性，并介绍了飞书为全球客户提供的合规解决方案。</p>
+<p>飞书合规平台负责人陈满燕带来了飞书在出海合规以及安全能力上的最新介绍。</p>
+<p>我还记得他举了一个特别典型的例子，就是当你在跟海外同事在群里聊天时候，在这个群里有海外的员工，有国内的员工沟通聊天文档分享的时候，这些数据是存储在哪里？</p>
+<p>我国的网络安全法规定了数据必须存在中国不能随意送出去的，当然海外也会有这样的限制，所以当仅仅是一个简单的聊天行为，都已经存在着存储的问题。</p>
+<p>之后呢，然后如何去做聊天窗口里信息的这个传输呢？传输过来的数据如何驻留以及如何及时的删除等等。</p>
+<p>这些不但是一些数据上技术上的问题，甚至有可能是一些法律上的问题。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092051776.png"
+                      alt="飞书安全功能"
+                ><figcaption>飞书安全功能</figcaption></figure></p>
+<p>飞书在多个国家设立了数据中心，确保数据传输与存储符合各地法律法规，保障企业的全球业务安全运营。同时，飞书支持多语言和跨境合规，让企业在全球范围内无缝协作。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092051812.png"
+                      alt="业务工具回顾"
+                ><figcaption>业务工具回顾</figcaption></figure></p>
+<p>通过这些产品，飞书不仅仅是在工具层面为企业提供支持，更是在架构上为企业数字化转型的未来打下坚实基础。</p>
+<h1 id="三、蓝箭航天与蔚来的成功实践：复杂项目管理中的飞书应用"><a href="#三、蓝箭航天与蔚来的成功实践：复杂项目管理中的飞书应用" class="headerlink" title="三、蓝箭航天与蔚来的成功实践：复杂项目管理中的飞书应用"></a>三、蓝箭航天与蔚来的成功实践：复杂项目管理中的飞书应用</h1><p>在飞书最新产品发布之后，蓝箭航天创始人张昌武和蔚来创始人李斌分享了各自在企业管理中的实践经验，重点展示了飞书如何帮助这些复杂项目管理企业提升运营效率。</p>
+<h2 id="1-蓝箭航天的发展引擎"><a href="#1-蓝箭航天的发展引擎" class="headerlink" title="1. 蓝箭航天的发展引擎"></a>1. 蓝箭航天的发展引擎</h2><p>张昌武提到，蓝箭航天的项目管理涉及多个部门和供应链环节，传统的沟通工具和管理方式无法应对如此复杂的业务需求。蓝箭航天通过飞书的协作工具，尤其是多维表格和低代码平台，简化了内部的沟通流程。</p>
+<p>例如，蓝箭航天在一个卫星发射项目中，通过飞书的工具，将研发、采购、物流等多个部门的工作流程进行统一管理，使得各部门在同一平台上协同工作，极大缩短了项目周期。</p>
+<h2 id="2-蔚来的体系化效率"><a href="#2-蔚来的体系化效率" class="headerlink" title="2. 蔚来的体系化效率"></a>2. 蔚来的体系化效率</h2><p>蔚来汽车的李斌则分享了飞书在汽车制造流程中的应用。蔚来是一家依赖数据和自动化流程的企业，在生产制造、供应链管理、客户服务等方面都采用了大量的数字化工具。</p>
+<p>李斌提到，飞书的低代码平台帮助蔚来实现了多个内部流程的自动化，包括车辆生产进度的实时监控、供应链数据的自动更新等。这些自动化流程让蔚来得以在保持高品质生产的同时，提升整体效率并降低了人工成本。</p>
+<h1 id="四、飞书效率先锋发布：客户成功的战略角色"><a href="#四、飞书效率先锋发布：客户成功的战略角色" class="headerlink" title="四、飞书效率先锋发布：客户成功的战略角色"></a>四、飞书效率先锋发布：客户成功的战略角色</h1><p>飞书客户成功总经理武笑天的演讲成为本次大会的一个亮点。</p>
+<p>果然在到3亿美元的这个量级，产品发布会的主力就是客户成功了啊。另外，飞书<code>企业效能顾问</code>的这个title <del>B格</del>确实给人的感受高一点。</p>
+<p>对于该论述，欢迎读者查阅之前发过的文章，<a class="link"   href="https://mp.weixin.qq.com/s/zsCcpHNrU2AI5OE0nF3IiA" >客户成功离”Tony”老师还有多远？ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><a id="jump_8"></a></p>
+<p>武笑天详细阐述了飞书客户成功团队如何帮助企业充分利用飞书平台的功能，并通过深度的业务支持，帮助企业在数字化转型中取得成功。</p>
+<p>客户成功在SaaS行业扮演着越来越重要的角色，数据显示，企业在使用SaaS工具时，平均只有 <strong>30%-40%</strong> 的功能得到了充分利用，剩余的功能则往往因用户不了解或无法深入应用而被闲置。</p>
+<p>飞书的客户成功团队通过与客户深度合作，帮助客户发掘平台的潜力，定制适合客户业务场景的解决方案，从而显著提升了工具的使用效率。</p>
+<p>武笑天提到，某零售企业在使用飞书后，客户成功团队帮助其优化了库存管理流程，最终使得库存周转率提升了<strong>20%</strong> ，库存成本减少了 <strong>15%</strong>  。</p>
+<h1 id="五、企业数字化转型的圆桌对话：跨行业的经验交流"><a href="#五、企业数字化转型的圆桌对话：跨行业的经验交流" class="headerlink" title="五、企业数字化转型的圆桌对话：跨行业的经验交流"></a>五、企业数字化转型的圆桌对话：跨行业的经验交流</h1><p>大会的最后一环节是圆桌对谈，来自各行各业的数字化转型领袖共同探讨了企业在数字化转型中的挑战与机遇。嘉宾包括：</p>
+<ul>
+<li>张睿（茶百道首席数字官）</li>
+<li>曹奋泽（中国生物制药 正大天晴CIO）</li>
+<li>梅灯银（宁德新能源CIO）</li>
+<li>Zach（影石Insta360 CIO）</li>
+<li>刘湘明（钛媒体联合创始人 ITValue发起理事）</li>
+</ul>
+<p>这些嘉宾分享了他们在各自行业中通过飞书实现数字化转型的成功经验。</p>
+<p>例如，曹奋泽分享了中国生物制药如何通过飞书的协作平台，提升了药品研发中的跨部门协同效率，缩短了研发周期，并通过低代码平台实现了多个实验数据的自动化处理，大幅提升了药品研发的速度和准确性。</p>
+<p>梅灯银则强调了宁德新能源在新能源领域的复杂项目管理中，如何通过飞书实现项目的全生命周期管理，从设计、采购、生产到售后服务，飞书的多维表格和协作工具为每个环节的参与者提供了清晰的数据支持和高效的沟通渠道。</p>
+<h1 id="六、总结：飞书如何为企业数字化转型提供助力"><a href="#六、总结：飞书如何为企业数字化转型提供助力" class="headerlink" title="六、总结：飞书如何为企业数字化转型提供助力"></a>六、总结：飞书如何为企业数字化转型提供助力</h1><p>从本次飞书大会可以看到，飞书不仅通过其技术创新帮助企业提升协作效率，更在企业的数字化转型过程中起到了关键性的推动作用。</p>
+<p>无论是多维表格、低代码平台、飞书项目、出海方案，还是客户成功团队的深度支持，飞书都为企业提供了丰富的工具和解决方案。</p>
+<p>企业的数字化转型是一个复杂的过程，飞书通过其强大的功能和灵活的应用场景，帮助企业在这一过程中实现更高的生产力、优化内部流程，并增强市场竞争力。</p>
+<p>作为一名CSM，我深感飞书确实是那句solgan：<strong>先进企业，先用飞书。</strong></p>
+<hr>
+<p>整场<a class="link"   href="https://future.feishu.cn/"  title="2024 飞书未来无限大会">发布会 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>听下来，飞书做了很多能力上的提升和拥抱 AI ，像客户成功团队的企业效能顾问的大量实践也能证明，但是我有一个关注点很清奇：发布会中使用了大量的 <strong>“最”</strong> 这个字眼，这对广告法不太好吧。</p>
+<p>不过 who care，飞书值得。</p>
+<br>
+<br>
+<br>
+
+<hr>
+<div style="display: flex; align-items: center; justify-content: space-between;">
+    <div>
+<p style="margin: 0; color: #E62412; font-weight: bold;">段旭东（Anjou Duan）</p>
+        <p style="margin: 0;">找不到理想工作的前协作SaaS赛道CSM</p>
+    </div>
+    <figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://heycsm.com/images/anjouduan.png"
+                      alt="Anjou Duan" style="width: 80px; height: 80px; border-radius: 50%; margin-left: 15px;"
+                ><figcaption>Anjou Duan</figcaption></figure>
+</div>
+
+
+<p>不提<code>Teambition领航员（钉钉数字化专家）</code>、<code>宜搭行业解决方案共创PDSA</code>这些虚名以及有那么<code>一点好看的职业数据</code>，只不过一个平淡无奇的王者荣耀<code>荣耀王者</code>、和平精英<code>传奇王牌</code>的小天才罢了。</p>
+<hr>
+<p style="margin: 0; color: #1B9AEE; font-weight: bold;"> HeyCSM </p>
+
+<p>一个<code>有态度</code>、且<code>有趣</code>更<code>有料</code>的微信公众号和同名网站(<code>heycsm.com</code>)。</p>
+<p>由数字化协作 SaaS（曾服务<code>Teambition</code>、<code>Worktile</code>、<code>PingCode</code>等产品）的 CSM <code>段旭东</code></p>
+<p style="margin: 0; color: #1B9AEE; font-weight: bold;">用 <span style="color: #E62412;">♥️</span> 打造。</p>
+
+
+
+
+
+</div>
+				<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
+				<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+				<script>
+				var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
+				var isEncrypt = document.getElementById('hexo-blog-encrypt');
+				var allowMobile = false;
+				if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
+					try {
+						var plugin = new ReadmorePlugin();
+						plugin.init({
+							"type": "hexo",
+							"id": "readmore-container",
+							"name": "HeyCSM-你好客户成功经理",
+							"blogId": "85700-3670119654427-676",
+							"qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG",
+							"keyword": "heycsm",
+							"random": "1",
+							"height": "auto",
+							"expires": "365",
+							"lockToc": "yes",
+							"interval": "60",
+							"baseUrl": "",
+							"tocSelector": ""
+						});
+					} catch(e) {
+						console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
+					}
+				}
+				</script>
+			]]></content>
+      <categories>
+        <category>深度文章</category>
+      </categories>
+      <tags>
+        <tag>客户成功</tag>
+        <tag>飞书项目</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HeyCSM：一封撤回的情书</title>
     <url>/2024/08/31/heycsm-yi-feng-che-hui-de-qing-shu/</url>
     <content><![CDATA[<div id="readmore-container"><p><strong>aka.《HeyCSM: 来谈一场恋爱》废稿</strong></p>
@@ -345,6 +832,134 @@
       <tags>
         <tag>客户成功</tag>
         <tag>断想一束</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>从《黑神话：悟空》谈起，为什么协作SaaS做游戏客户正当其时</title>
+    <url>/2024/08/22/cong-hei-shen-hua-wu-kong-tan-qi-wei-shi-me-xie-zuo-saas-zuo-you-xi-ke-hu-zheng-dang-qi-shi/</url>
+    <content><![CDATA[<div id="readmore-container"><h1 id="游戏行业的“第二春”"><a href="#游戏行业的“第二春”" class="headerlink" title="游戏行业的“第二春”"></a>游戏行业的“第二春”</h1><p>去年，我在朋友圈发过一个预测，认为游戏行业将迎来 <strong>“第二春”</strong>。为什么会有这样的想法呢？这种洞察是基于多个因素的推测得出的。不管是否有 <strong>《黑神话：悟空》</strong> ，都会出现类似的内容，因为这是某种趋势的发展，所谓的 <strong>“天命”</strong>。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092131648.webp"
+                      alt="朋友圈截图"
+                ><figcaption>朋友圈截图</figcaption></figure></p>
+<h1 id="我的背景与观察"><a href="#我的背景与观察" class="headerlink" title="我的背景与观察"></a>我的背景与观察</h1><p>严格来说，我并不是专注于游戏赛道的 <strong>CSM</strong>，这一点相较于其他有行业分类的CSM而言可能明显一些。但为什么我仍敢对游戏行业做出一些观察和预测呢？原因在于我的工作经历大多集中在研发领域，而<strong>游戏行业本身就是一个特别重视研发的行业场景</strong>，尤其在<strong>3A项目</strong>中更是如此。策划团队负责让玩家玩得爽，但研发团队则承担着实现底层基础资源技术的重任。</p>
+<h2 id="3A项目的研发周期与复杂性"><a href="#3A项目的研发周期与复杂性" class="headerlink" title="3A项目的研发周期与复杂性"></a>3A项目的研发周期与复杂性</h2><p>简单来说，对于这种大型的3A项目，研发周期通常非常漫长。</p>
+<blockquote>
+<p>截至2024年，这款游戏的研发时间已经接近6年。</p>
+</blockquote>
+<p>在这个过程中，研发团队必然需要借助工具来管理海量的信息。在所有面向ToC的产品中，游戏可能是较为特殊的一类，因为它不仅是创意和技术的输出，更是一种纯文化属性的表现。</p>
+<p>面向游戏玩家的研发团队实际上是在构建一个世界。可以想象，<strong>组织一个世界的复杂性相较于其他特定产品要困难得多</strong>，因为游戏至少需要带给玩家沉浸感，而这也导致了信息的复杂性。</p>
+<p>值得一提的是，游戏中的策划角色是让虚拟世界变得更加真实的人，他们需要为这个世界赋予规律。因此，必须充分考虑真实世界和虚拟世界的双重属性，这使得他们面临的复杂性<strong>double</strong>。</p>
+<hr>
+<h1 id="日本游戏行业的历史借鉴"><a href="#日本游戏行业的历史借鉴" class="headerlink" title="日本游戏行业的历史借鉴"></a>日本游戏行业的历史借鉴</h1><p>除了游戏行业本身的特殊性之外，我们还可以从历史中汲取一些经验。在当前全球经济低迷的环境下，历史可以提供一些有益的借鉴。比如，我们常说日本的经济衰退时期通常被称为、<code>“失落的十年”（失われた10年）</code>，甚至有人称之为<code>“失落的三十年”</code>，但日本的游戏行业却在这一时期蓬勃发展，并取得了全球性的成功。</p>
+<p>在这个时代，许多耳熟能详的产品诞生了，比如任天堂的经典作品 <strong>《超级马里奥64》、《塞尔达传说：时之笛》</strong>，以及其他游戏主机厂商的 <strong>《街头霸王》、《合金装备》和《铁拳》</strong>。日本游戏行业在“失落的十年”期间逆势发展，甚至达到了前所未有的高度。</p>
+<p>从日本的经历中，我们可以归纳出几点启示。</p>
+<h2 id="消费者对虚拟娱乐的需求"><a href="#消费者对虚拟娱乐的需求" class="headerlink" title="消费者对虚拟娱乐的需求"></a>消费者对虚拟娱乐的需求</h2><p>首先，时代背景造就了消费者对虚拟娱乐的需求。游戏行业能够逆势发展，首先是因为经济压力与娱乐需求的驱动。在经济低迷的情况下，C端消费者往往会寻求相对便宜的娱乐方式来逃避现实。比如在《黑神话：悟空》中，工作时间的同时在线人数就已经达到了<strong>几百万</strong>，这反映出大量玩家拥有闲暇时间。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092132593.webp"
+                      alt="Steam在线人数"
+                ><figcaption>Steam在线人数</figcaption></figure><br>这种闲暇时间的出现，可以从多个角度理解。比如，<em>有些公司为了这款游戏的发售，专门给员工放假</em> 。当然，还有一个更大的原因是，<em>像我这样没有工作的人太多了</em> ，大家面临着就业困难、工作压力大以及经济的不确定性，因此寄希望于通过逃离现实世界，找到一个虚拟的精神世界来放松和寻找心理慰藉。</p>
+<h2 id="强大到可以“吃老本”的民族文化"><a href="#强大到可以“吃老本”的民族文化" class="headerlink" title="强大到可以“吃老本”的民族文化"></a>强大到可以“吃老本”的民族文化</h2><p>此外，游戏行业的逆势发展也与其文化影响力密切相关。网上有段子说 <strong>“猴子”拯救了几次中国的文化市场</strong>：影视作品中的杨洁导演的86年《西游记》、星爷的《大话西游》和《西游伏妖篇》、游戏中的《梦幻西游》、音乐中的《悟空》。以我个人为例，我热衷于阅读网络文学和出版物，现在依然能记得第一次看到今何在的《悟空传》时的震撼——<strong>猴子原来是这样的猴子:</strong></p>
+<blockquote>
+<p>因为 <strong>“猴子，他们说毁你花果山诛你不死心是天命”</strong> 从而 <strong>“我要这天，再遮不住我眼，要这地，再埋不了我心，要这众生，都明白我意，要那诸佛，都烟消云散！”</strong></p>
+</blockquote>
+<p>这种文化影响力实际上已经渗透到游戏中，变成了丰富的故事情节、角色设计和文化元素，不仅对本土玩家有吸引力，也让世界接受中国文化。<br>在《黑神话：悟空》中，有大量的翻译选择反映了这一点。例如，<code>悟空</code>这个名字直接翻译成<code>Wukong</code>，而不是<code>Monkey King</code>。类似地，<code>金箍棒</code>也直接翻译为<code>Jingu Bang</code>，而不是简单的<code>镀金的长棍子</code>之类的东西，甚至<code>龙</code>也被翻译成中国特色的<code>Loong</code>，而不是西方的<code>Dragon</code>。这些都充分体现了国家文化影响力的展现，在此感谢《黑神话：悟空》的制作人冯骥的坚持。</p>
+<h2 id="产业升级的必然性"><a href="#产业升级的必然性" class="headerlink" title="产业升级的必然性"></a>产业升级的必然性</h2><p>从产业升级的角度来看，虚幻引擎5的升级毋庸置疑，像Nanite虚拟化几何体技术、Lumen全动态全球光照系统、Metahuman角色创建工具、Chaos物理系统和同时国内在软件与游戏设计上的创新也在不断涌现–虚拟动点的OptiTrack光学动捕技术。</p>
+<p>这些技术显著提升了游戏的画面质量和性能表现，推动了国内游戏开发技术的升级，并为其他国产游戏树立了标杆。与此同时，上游的工具开发、引擎支持和下游的发行、推广等环节也得到了整合与升级，形成了更为完善的游戏开发产业链。</p>
+<h2 id="走出去的趋势"><a href="#走出去的趋势" class="headerlink" title="走出去的趋势"></a>走出去的趋势</h2><p>从全球市场扩展的高度来看，国际市场的成功是推动国内游戏行业发展的关键。</p>
+<p>不论是亚洲、美洲还是欧洲，玩家对游戏的需求非常大。当我们的游戏能够走出国门时，这实际上为国内产业提供了稳定的收入，也能有效缓解国内经济衰退的风险，推动整个行业的发展。</p>
+<p>举个例子，像近期推出的《王者荣耀》的国际版《Honor of Kings》，以及《黑神话：悟空》在发售时同步推出了多个语言版本，并选择了PS5、Steam、WeGame等多个平台，这些都是全球市场扩展的表现。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092133622.webp"
+                      alt="中华人民共和国国民经济和社会发展第十四个五年规划和2035年远景目标纲要"
+                ><figcaption>中华人民共和国国民经济和社会发展第十四个五年规划和2035年远景目标纲要</figcaption></figure></p>
+<h2 id="做到的政策支持"><a href="#做到的政策支持" class="headerlink" title="做到的政策支持"></a>做到的政策支持</h2><p>从经济复苏的角度来看，能够促进消费的一定是一些性价比高的产品。如果经济衰退，高端产品可能会受到影响，但要想刺激经济复苏，文化产业必然是一个发力点。通过各种渠道支持文化产业作为出口，这也成为文化输出的重要组成部分，政策上的支持必不可少。<br>例如，之前几年各类版号的限制现在已经有所放松。</p>
+<blockquote>
+<p>仅2024年7月，国家新闻出版署就批准了105款游戏的发行，单月过百。</p>
+</blockquote>
+<h2 id="单身的现实及“小确幸心理”"><a href="#单身的现实及“小确幸心理”" class="headerlink" title="单身的现实及“小确幸心理”"></a>单身的现实及“小确幸心理”</h2><p>还有社会结构的变化也对游戏行业产生了影响。随着 <strong>社会老龄化加剧和少子化趋势</strong> 的出现，家庭结构和消费习惯也在发生变化。人们更倾向于在家中寻找娱乐，电子游戏因此成为重要的选择。越来越多的人选择了不结婚，选择独居生活。这不仅在家庭结构上有所体现，也反映在社会习惯上，个人发展趋势更加明显。</p>
+<p>虽然引发男女对立是近年来的热点诀窍，但我不愿意这样做。不过，从整体上分析这些现象背后的心理因素与消费行为，可以发现，在不确定或困惑的环境下，每个人都会有 <strong>“小确幸心理”</strong>，人们更愿意通过小额消费或短暂的快乐来缓解压力，而游戏产品正好契合了这种消费心理。</p>
+<hr>
+<h1 id="《黑神话：悟空》成功的启示"><a href="#《黑神话：悟空》成功的启示" class="headerlink" title="《黑神话：悟空》成功的启示"></a>《黑神话：悟空》成功的启示</h1><h2 id="认真的人总会赢"><a href="#认真的人总会赢" class="headerlink" title="认真的人总会赢"></a>认真的人总会赢</h2><p>在中国游戏市场上，许多开发者往往更注重短期商业利益，推出大量快消型游戏，典型如《王者暖暖》和《和平暖暖》 （<em>作为一个月均氪金3000左右的社交手游玩家，我认为我可以这么说</em>）  。然而，《黑神话：悟空》开发团队Game Science（游戏科学）团队选择了一条更艰难但更具艺术性和创新性的道路，结合3A类目和中国文化经典IP《西游记》，这种选择本身就是理想主义的体现。</p>
+<h2 id="我不必成为谁"><a href="#我不必成为谁" class="headerlink" title="我不必成为谁"></a>我不必成为谁</h2><p>在遍地都是<strong>pay-to-win</strong>的环境下，单机RPG还能成功吗？我想《黑神话：悟空》已经给出了答案。技术有挑战吗？资金有挑战吗？市场有挑战吗？玩家期望有挑战吗？面对这些挑战，他们选择迎难而上，突破行业固有模式的创新精神，令人鼓舞。</p>
+<h2 id="理念正确会有人帮你赢"><a href="#理念正确会有人帮你赢" class="headerlink" title="理念正确会有人帮你赢"></a>理念正确会有人帮你赢</h2><p>从《黑神话：悟空》在社交平台上的舆论表现来看，男女对立的情况再一次出现。但不同的是，很多人第一次发现男生也是会消费的。这证明了男生的消费行为并不是不存在，只是缺少一个对的钥匙，而游戏很可能是撬动男生消费的一个支点。同时，这也充分证明了并不是随随便便一个游戏就能收割玩家，<strong>游戏团队的用心，玩家是可以感受到的。</strong></p>
+<hr>
+<h1 id="结论：游戏行业的机遇"><a href="#结论：游戏行业的机遇" class="headerlink" title="结论：游戏行业的机遇"></a>结论：游戏行业的机遇</h1><p>整体上来说，《黑神话：悟空》的成功是有原因的。游戏行业是一个<strong>相对独立的产业生态</strong>，因为它更多依赖创意、技术和文化消费。因此，<strong>即使在整体经济低迷的情况下，游戏行业仍然可以依靠全球化和科技创新实现增长。</strong></p>
+<p>之前我提到为什么选择协作SaaS，因为它面对的用户群体具有一定的复杂性，比如研发客户群体，他们的收入水平较高，因此我们能够<strong>赚到的是高收入群体的钱</strong>。现在我们可以判断，游戏行业正当其时，一些成功的发售会激起市场的信心，自然而然地也会激发VC的兴趣。对于我们来说，现在开始布局游戏行业是一个明智的选择。不敢说最终一定会成功，但至少目前赚钱是一个相对简单的事。</p>
+<p>写了这么多，其实我的观点很简单：<strong>希望大家关注游戏行业</strong>。像我们这种乙方协作SaaS从业者，去有钱的地方赚钱是绝对正确的事情。我知道有大厂已经在布局游戏行业，比如BOSS直聘经常给我推送游戏行业的企业效能顾问职位。</p>
+<p>另外，《黑神话：悟空》很可能会成为中国游戏行业的另一个里程碑，甚至引发行业投资热潮，催生更多优秀的国产游戏。所以，我认为《黑神话：悟空》的成功并非偶然，而是正当其时。在技术、文化和市场力量共同作用下，这样的成功是必然的结果。</p>
+<p>在这个基础上，<strong>单机漫长的研发周期、复杂的协作链条、趋利的资本关注、良性的付费玩家群体</strong>的客户画像对于客户成功经理意味着什么，我想无需多言。</p>
+<p>现在，绝对是时候拓展游戏行业客户了，不要只关注制造业了，告诉老板：<strong>众望所归，天命已至</strong>。（这里是为你写的）</p>
+<br>
+<br>
+<br>
+
+<hr>
+<div style="display: flex; align-items: center; justify-content: space-between;">
+    <div>
+<p style="margin: 0; color: #E62412; font-weight: bold;">段旭东（Anjou Duan）</p>
+        <p style="margin: 0;">找不到理想工作的前协作SaaS赛道CSM</p>
+    </div>
+    <figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://heycsm.com/images/anjouduan.png"
+                      alt="Anjou Duan" style="width: 80px; height: 80px; border-radius: 50%; margin-left: 15px;"
+                ><figcaption>Anjou Duan</figcaption></figure>
+</div>
+
+
+<p>不提<code>Teambition领航员（钉钉数字化专家）</code>、<code>宜搭行业解决方案共创PDSA</code>这些虚名以及有那么<code>一点好看的职业数据</code>，只不过一个平淡无奇的王者荣耀<code>荣耀王者</code>、和平精英<code>传奇王牌</code>的小天才罢了。</p>
+<hr>
+<p style="margin: 0; color: #1B9AEE; font-weight: bold;"> HeyCSM </p>
+
+<p>一个<code>有态度</code>、且<code>有趣</code>更<code>有料</code>的微信公众号和同名网站(<code>heycsm.com</code>)。</p>
+<p>由数字化协作 SaaS（曾服务<code>Teambition</code>、<code>Worktile</code>、<code>PingCode</code>等产品）的 CSM <code>段旭东</code></p>
+<p style="margin: 0; color: #1B9AEE; font-weight: bold;">用 <span style="color: #E62412;">♥️</span> 打造。</p>
+
+</div>
+				<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
+				<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+				<script>
+				var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
+				var isEncrypt = document.getElementById('hexo-blog-encrypt');
+				var allowMobile = false;
+				if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
+					try {
+						var plugin = new ReadmorePlugin();
+						plugin.init({
+							"type": "hexo",
+							"id": "readmore-container",
+							"name": "HeyCSM-你好客户成功经理",
+							"blogId": "85700-3670119654427-676",
+							"qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG",
+							"keyword": "heycsm",
+							"random": "1",
+							"height": "auto",
+							"expires": "365",
+							"lockToc": "yes",
+							"interval": "60",
+							"baseUrl": "",
+							"tocSelector": ""
+						});
+					} catch(e) {
+						console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
+					}
+				}
+				</script>
+			]]></content>
+      <categories>
+        <category>深度文章</category>
+      </categories>
+      <tags>
+        <tag>客户成功</tag>
+        <tag>《黑神话：悟空》</tag>
       </tags>
   </entry>
   <entry>
@@ -1046,665 +1661,10 @@
       </categories>
       <tags>
         <tag>客户成功</tag>
-        <tag>旧档备份</tag>
+        <tag>Teambition</tag>
         <tag>Worktile</tag>
         <tag>PingCode</tag>
-        <tag>Teambition</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HeyCSM：协作客户成功陪你看飞书发布会</title>
-    <url>/2024/09/05/heycsm-xie-zuo-ke-hu-cheng-gong-pei-ni-kan-fei-shu-fa-bu-hui/</url>
-    <content><![CDATA[<div id="readmore-container"><h1 id="零、影视飓风Tim云逛展：协作效率与企业数字化转型的动力引擎"><a href="#零、影视飓风Tim云逛展：协作效率与企业数字化转型的动力引擎" class="headerlink" title="零、影视飓风Tim云逛展：协作效率与企业数字化转型的动力引擎"></a>零、影视飓风Tim云逛展：协作效率与企业数字化转型的动力引擎</h1><p>当你关注的宝藏UP主跟你最喜欢的效率工具在一起是什么样的体验？</p>
-<p>我对Tim的喜欢还是他在他自己的创业故事中分享了一句话，我觉得真的是超经典：</p>
-<blockquote>
-<p><a class="link"   href="https://b23.tv/NFHHUXL"  title="【2023】一个百大UP主的创业故事（2）-哔哩哔哩">人最痛苦的，从来都不是累，而是累了，拼了以后，你会发现成果是一坨充满汗水还有鲜血的垃圾，但垃圾就是垃圾，你有什么好说的？ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-</blockquote>
-<p>作为一个对自己很苛刻，又有商业化成果产出的知名UP主，在发布会的一开始，Tim带着我们去看了各种各样的企业以及先进个人在使用飞书工具，帮助他们的工作和生活带来了一个效率的变化。</p>
-<p>从工具的角度，不光是先进企业可以用飞书来提升自己的运作效率，我们一些个人或者我们印象中的传统企业也可以使用飞书，让大家的工作变得更容易。</p>
-<p>而且呢，除了有共识的飞书的体验之外，谢欣在Tim的前采中说本次飞书的发布会的重点更多在于飞书性能中的提升，让飞书从丝滑的体验变得强大起来。</p>
-<p>一下就把我的期待感拉满了。</p>
-<p>当然，前采还有更多的有意思画面：比如<code>李斌回应金池长老</code>、<code>稚晖君的智元机器人</code>等，这里不展开讲了，感兴趣的话可以看文末的参考资料来源。</p>
-<p>话不多说，回到发布会。</p>
-<h1 id="一、飞书的愿景：协作效率与企业数字化转型的动力引擎"><a href="#一、飞书的愿景：协作效率与企业数字化转型的动力引擎" class="headerlink" title="一、飞书的愿景：协作效率与企业数字化转型的动力引擎"></a>一、飞书的愿景：协作效率与企业数字化转型的动力引擎</h1><p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092043381.png"
-                      alt="2024年飞书未来无限大会"
-                ><figcaption>2024年飞书未来无限大会</figcaption></figure></p>
-<p>2024年9月4日，飞书召开了一年一度<code>“2024年飞书未来无限大会”</code>的主题发布会，飞书CEO谢欣率先带来了主旨演讲。</p>
-<p>他强调，飞书一直致力于通过创新技术和协作工具提升企业效率，而这次大会则是飞书在企业数字化转型进程中的又一重要里程碑，不管是已有客户、还是业务、以及产品。</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092045854.png"
-                      alt="飞书客户"
-                ><figcaption>飞书客户</figcaption></figure></p>
-<p>在 SaaS 行业最重要的一个收入指标叫做<code>ARR</code>，它是衡量一个企业的年度订阅制收入。在 2022 年底的时候，飞书的 ARR 达到了<code>1亿美元</code>，对于 SaaS 行业而言，这是非常重要的一个里程碑。到了 2023 年年底，也就是去年年底的时候，飞书的 ARR 达到了<code>2亿美元</code>，并且成为了国内同行的第一名，这还是非常不容易的一个成绩，今年预计 ARR 将会超过<code>3亿美元</code>。</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092045236.png"
-                      alt="飞书ARR"
-                ><figcaption>飞书ARR</figcaption></figure></p>
-<p>谢欣的演讲集中在如何通过数字化协作平台应对现代企业在全球化竞争环境中面临的挑战。根据他分享的数据，全球有超过60%的企业正在经历某种形式的数字化转型，而这些转型背后都离不开高效的协作工具和平台。</p>
-<p>例如，某调研数据显示，已经数字化转型的企业，其员工生产力平均提升了15%-25%，而员工的沟通效率也提升了约20%。</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092046687.png"
-                      alt="飞书智能会议解决方案"
-                ><figcaption>飞书智能会议解决方案</figcaption></figure></p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092046453.png"
-                      alt="豆包大模型"
-                ><figcaption>豆包大模型</figcaption></figure></p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092046204.png"
-                      alt="业务工具"
-                ><figcaption>业务工具</figcaption></figure></p>
-<p>飞书在过去几年中，通过不断升级的产品组合和协作功能，助力企业应对远程办公、跨时区团队合作等复杂的工作场景。谢欣指出，未来的企业将越来越依赖数字化工具，而飞书则专注于提供一个高效、安全的生态系统，让企业能够应对迅速变化的市场环境。</p>
-<p>除此之外，在本节中，他还提出来一个有意思的观点：</p>
-<blockquote>
-<p>不是将日常工作融入 AI 中，而是将 AI 融入日常工作中</p>
-</blockquote>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092050591.png"
-                      alt="飞书对AI的态度"
-                ><figcaption>飞书对AI的态度</figcaption></figure></p>
-<h1 id="二、飞书最新产品发布：多维表格与低代码平台的创新之举"><a href="#二、飞书最新产品发布：多维表格与低代码平台的创新之举" class="headerlink" title="二、飞书最新产品发布：多维表格与低代码平台的创新之举"></a>二、飞书最新产品发布：多维表格与低代码平台的创新之举</h1><p>本次大会上，飞书发布了多个重磅产品，其中尤为引人关注的是<strong>多维表格</strong>和<strong>低代码平台</strong>。这些产品展示了飞书在提升企业工作效率和优化协作流程方面的最新技术成果。</p>
-<h2 id="1-多维表格：颠覆传统的表格工具"><a href="#1-多维表格：颠覆传统的表格工具" class="headerlink" title="1. 多维表格：颠覆传统的表格工具"></a>1. 多维表格：颠覆传统的表格工具</h2><p>飞书多维表格的负责人施凯文介绍了这一全新工具如何革新了传统表格的使用方式。</p>
-<p>传统的电子表格虽然功能强大，但在处理复杂数据和跨部门合作时往往显得力不从心。</p>
-<p>而飞书的多维表格则为用户提供了更多的灵活性，允许用户以更直观的方式处理多维度数据。</p>
-<p>例如，一个项目可能涉及多个部门和时间节点，传统的线性表格难以展示其复杂关系，而飞书的多维表格则能够通过多维度的交叉展示，让用户可以从不同角度审视和处理数据。</p>
-<p>多维表格的四项更新：</p>
-<ul>
-<li>多维表格数据库-Time Machine</li>
-<li>仪表盘</li>
-<li>高级权限</li>
-<li>工作流</li>
-</ul>
-<p>以及AI适配</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092050356.png"
-                      alt="多维表格AI"
-                ><figcaption>多维表格AI</figcaption></figure></p>
-<p>多维表格的全面集成AI，将一系列强大 AI 能力融入系统搭建的各个环节，从而让多维表格可以搭出更多的智能化的系统。</p>
-<h2 id="2-低代码平台：为非技术人员赋能"><a href="#2-低代码平台：为非技术人员赋能" class="headerlink" title="2. 低代码平台：为非技术人员赋能"></a>2. 低代码平台：为非技术人员赋能</h2><p>飞书低代码平台的发布同样引发了广泛关注，负责这一产品的周洲在大会上分享了低代码技术如何帮助非技术人员创建复杂的业务应用。</p>
-<p>根据调研数据，企业在内部开发业务应用时，约60%-70%的需求来自于非技术部门，而这些部门常常因缺乏技术能力而依赖IT部门。</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092050873.png"
-                      alt="飞书低代码平台"
-                ><figcaption>飞书低代码平台</figcaption></figure></p>
-<p>飞书的低代码平台通过直观的界面和简单的操作以及AI的引入，允许业务人员自主开发和调整应用，减少了对专业开发人员的依赖，并大幅提升了开发速度。</p>
-<h2 id="3-飞书项目：行业首创的可视化工作流引擎"><a href="#3-飞书项目：行业首创的可视化工作流引擎" class="headerlink" title="3. 飞书项目：行业首创的可视化工作流引擎"></a>3. 飞书项目：行业首创的可视化工作流引擎</h2><p>闪回在刚刚7月举办的<a class="link"   href="https://future.feishu.cn/7384341392918462465/city-summit"  title="飞书项目发布会-流程驱动新增长">飞书项目的发布会 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>上，飞书项目的平台能力，包括工作流、引擎、视图、基础平台和产品体验都做了全新的升级。</p>
-<p>IPD 行业解决方案对制造业是一个非常有价值的一套工具，飞书提供了全景的泳道图的能力、协同式的计划表，完整的评审管理解决方案。</p>
-<p>确实对于我们协作领域来说，<code>飞书项目</code>是一个特殊品类的存在。</p>
-<p>对于该论述，欢迎读者查阅之前发过的文章，<a class="link"   href="https://mp.weixin.qq.com/s/gQTq7fQURcr-reSwXCuCbg" >CWM:任务、项目、流程与白日梦 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><a id="jump_8"></a></p>
-<h2 id="4-出海合规方案：全球合规和出海支持"><a href="#4-出海合规方案：全球合规和出海支持" class="headerlink" title="4. 出海合规方案：全球合规和出海支持"></a>4. 出海合规方案：全球合规和出海支持</h2><p>谢欣特别强调了合规问题对企业出海的重要性，并介绍了飞书为全球客户提供的合规解决方案。</p>
-<p>飞书合规平台负责人陈满燕带来了飞书在出海合规以及安全能力上的最新介绍。</p>
-<p>我还记得他举了一个特别典型的例子，就是当你在跟海外同事在群里聊天时候，在这个群里有海外的员工，有国内的员工沟通聊天文档分享的时候，这些数据是存储在哪里？</p>
-<p>我国的网络安全法规定了数据必须存在中国不能随意送出去的，当然海外也会有这样的限制，所以当仅仅是一个简单的聊天行为，都已经存在着存储的问题。</p>
-<p>之后呢，然后如何去做聊天窗口里信息的这个传输呢？传输过来的数据如何驻留以及如何及时的删除等等。</p>
-<p>这些不但是一些数据上技术上的问题，甚至有可能是一些法律上的问题。</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092051776.png"
-                      alt="飞书安全功能"
-                ><figcaption>飞书安全功能</figcaption></figure></p>
-<p>飞书在多个国家设立了数据中心，确保数据传输与存储符合各地法律法规，保障企业的全球业务安全运营。同时，飞书支持多语言和跨境合规，让企业在全球范围内无缝协作。</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092051812.png"
-                      alt="业务工具回顾"
-                ><figcaption>业务工具回顾</figcaption></figure></p>
-<p>通过这些产品，飞书不仅仅是在工具层面为企业提供支持，更是在架构上为企业数字化转型的未来打下坚实基础。</p>
-<h1 id="三、蓝箭航天与蔚来的成功实践：复杂项目管理中的飞书应用"><a href="#三、蓝箭航天与蔚来的成功实践：复杂项目管理中的飞书应用" class="headerlink" title="三、蓝箭航天与蔚来的成功实践：复杂项目管理中的飞书应用"></a>三、蓝箭航天与蔚来的成功实践：复杂项目管理中的飞书应用</h1><p>在飞书最新产品发布之后，蓝箭航天创始人张昌武和蔚来创始人李斌分享了各自在企业管理中的实践经验，重点展示了飞书如何帮助这些复杂项目管理企业提升运营效率。</p>
-<h2 id="1-蓝箭航天的发展引擎"><a href="#1-蓝箭航天的发展引擎" class="headerlink" title="1. 蓝箭航天的发展引擎"></a>1. 蓝箭航天的发展引擎</h2><p>张昌武提到，蓝箭航天的项目管理涉及多个部门和供应链环节，传统的沟通工具和管理方式无法应对如此复杂的业务需求。蓝箭航天通过飞书的协作工具，尤其是多维表格和低代码平台，简化了内部的沟通流程。</p>
-<p>例如，蓝箭航天在一个卫星发射项目中，通过飞书的工具，将研发、采购、物流等多个部门的工作流程进行统一管理，使得各部门在同一平台上协同工作，极大缩短了项目周期。</p>
-<h2 id="2-蔚来的体系化效率"><a href="#2-蔚来的体系化效率" class="headerlink" title="2. 蔚来的体系化效率"></a>2. 蔚来的体系化效率</h2><p>蔚来汽车的李斌则分享了飞书在汽车制造流程中的应用。蔚来是一家依赖数据和自动化流程的企业，在生产制造、供应链管理、客户服务等方面都采用了大量的数字化工具。</p>
-<p>李斌提到，飞书的低代码平台帮助蔚来实现了多个内部流程的自动化，包括车辆生产进度的实时监控、供应链数据的自动更新等。这些自动化流程让蔚来得以在保持高品质生产的同时，提升整体效率并降低了人工成本。</p>
-<h1 id="四、飞书效率先锋发布：客户成功的战略角色"><a href="#四、飞书效率先锋发布：客户成功的战略角色" class="headerlink" title="四、飞书效率先锋发布：客户成功的战略角色"></a>四、飞书效率先锋发布：客户成功的战略角色</h1><p>飞书客户成功总经理武笑天的演讲成为本次大会的一个亮点。</p>
-<p>果然在到3亿美元的这个量级，产品发布会的主力就是客户成功了啊。另外，飞书<code>企业效能顾问</code>的这个title <del>B格</del>确实给人的感受高一点。</p>
-<p>对于该论述，欢迎读者查阅之前发过的文章，<a class="link"   href="https://mp.weixin.qq.com/s/zsCcpHNrU2AI5OE0nF3IiA" >客户成功离”Tony”老师还有多远？ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><a id="jump_8"></a></p>
-<p>武笑天详细阐述了飞书客户成功团队如何帮助企业充分利用飞书平台的功能，并通过深度的业务支持，帮助企业在数字化转型中取得成功。</p>
-<p>客户成功在SaaS行业扮演着越来越重要的角色，数据显示，企业在使用SaaS工具时，平均只有 <strong>30%-40%</strong> 的功能得到了充分利用，剩余的功能则往往因用户不了解或无法深入应用而被闲置。</p>
-<p>飞书的客户成功团队通过与客户深度合作，帮助客户发掘平台的潜力，定制适合客户业务场景的解决方案，从而显著提升了工具的使用效率。</p>
-<p>武笑天提到，某零售企业在使用飞书后，客户成功团队帮助其优化了库存管理流程，最终使得库存周转率提升了<strong>20%</strong> ，库存成本减少了 <strong>15%</strong>  。</p>
-<h1 id="五、企业数字化转型的圆桌对话：跨行业的经验交流"><a href="#五、企业数字化转型的圆桌对话：跨行业的经验交流" class="headerlink" title="五、企业数字化转型的圆桌对话：跨行业的经验交流"></a>五、企业数字化转型的圆桌对话：跨行业的经验交流</h1><p>大会的最后一环节是圆桌对谈，来自各行各业的数字化转型领袖共同探讨了企业在数字化转型中的挑战与机遇。嘉宾包括：</p>
-<ul>
-<li>张睿（茶百道首席数字官）</li>
-<li>曹奋泽（中国生物制药 正大天晴CIO）</li>
-<li>梅灯银（宁德新能源CIO）</li>
-<li>Zach（影石Insta360 CIO）</li>
-<li>刘湘明（钛媒体联合创始人 ITValue发起理事）</li>
-</ul>
-<p>这些嘉宾分享了他们在各自行业中通过飞书实现数字化转型的成功经验。</p>
-<p>例如，曹奋泽分享了中国生物制药如何通过飞书的协作平台，提升了药品研发中的跨部门协同效率，缩短了研发周期，并通过低代码平台实现了多个实验数据的自动化处理，大幅提升了药品研发的速度和准确性。</p>
-<p>梅灯银则强调了宁德新能源在新能源领域的复杂项目管理中，如何通过飞书实现项目的全生命周期管理，从设计、采购、生产到售后服务，飞书的多维表格和协作工具为每个环节的参与者提供了清晰的数据支持和高效的沟通渠道。</p>
-<h1 id="六、总结：飞书如何为企业数字化转型提供助力"><a href="#六、总结：飞书如何为企业数字化转型提供助力" class="headerlink" title="六、总结：飞书如何为企业数字化转型提供助力"></a>六、总结：飞书如何为企业数字化转型提供助力</h1><p>从本次飞书大会可以看到，飞书不仅通过其技术创新帮助企业提升协作效率，更在企业的数字化转型过程中起到了关键性的推动作用。</p>
-<p>无论是多维表格、低代码平台、飞书项目、出海方案，还是客户成功团队的深度支持，飞书都为企业提供了丰富的工具和解决方案。</p>
-<p>企业的数字化转型是一个复杂的过程，飞书通过其强大的功能和灵活的应用场景，帮助企业在这一过程中实现更高的生产力、优化内部流程，并增强市场竞争力。</p>
-<p>作为一名CSM，我深感飞书确实是那句solgan：<strong>先进企业，先用飞书。</strong></p>
-<hr>
-<p>整场<a class="link"   href="https://future.feishu.cn/"  title="2024 飞书未来无限大会">发布会 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>听下来，飞书做了很多能力上的提升和拥抱 AI ，像客户成功团队的企业效能顾问的大量实践也能证明，但是我有一个关注点很清奇：发布会中使用了大量的 <strong>“最”</strong> 这个字眼，这对广告法不太好吧。</p>
-<p>不过 who care，飞书值得。</p>
-<br>
-<br>
-<br>
-
-<hr>
-<div style="display: flex; align-items: center; justify-content: space-between;">
-    <div>
-<p style="margin: 0; color: #E62412; font-weight: bold;">段旭东（Anjou Duan）</p>
-        <p style="margin: 0;">找不到理想工作的前协作SaaS赛道CSM</p>
-    </div>
-    <figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://heycsm.com/images/anjouduan.png"
-                      alt="Anjou Duan" style="width: 80px; height: 80px; border-radius: 50%; margin-left: 15px;"
-                ><figcaption>Anjou Duan</figcaption></figure>
-</div>
-
-
-<p>不提<code>Teambition领航员（钉钉数字化专家）</code>、<code>宜搭行业解决方案共创PDSA</code>这些虚名以及有那么<code>一点好看的职业数据</code>，只不过一个平淡无奇的王者荣耀<code>荣耀王者</code>、和平精英<code>传奇王牌</code>的小天才罢了。</p>
-<hr>
-<p style="margin: 0; color: #1B9AEE; font-weight: bold;"> HeyCSM </p>
-
-<p>一个<code>有态度</code>、且<code>有趣</code>更<code>有料</code>的微信公众号和同名网站(<code>heycsm.com</code>)。</p>
-<p>由数字化协作 SaaS（曾服务<code>Teambition</code>、<code>Worktile</code>、<code>PingCode</code>等产品）的 CSM <code>段旭东</code></p>
-<p style="margin: 0; color: #1B9AEE; font-weight: bold;">用 <span style="color: #E62412;">♥️</span> 打造。</p>
-
-
-
-
-
-</div>
-				<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-				<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-				<script>
-				var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-				var isEncrypt = document.getElementById('hexo-blog-encrypt');
-				var allowMobile = false;
-				if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
-					try {
-						var plugin = new ReadmorePlugin();
-						plugin.init({
-							"type": "hexo",
-							"id": "readmore-container",
-							"name": "HeyCSM-你好客户成功经理",
-							"blogId": "85700-3670119654427-676",
-							"qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG",
-							"keyword": "heycsm",
-							"random": "1",
-							"height": "auto",
-							"expires": "365",
-							"lockToc": "yes",
-							"interval": "60",
-							"baseUrl": "",
-							"tocSelector": ""
-						});
-					} catch(e) {
-						console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
-					}
-				}
-				</script>
-			]]></content>
-      <categories>
-        <category>深度文章</category>
-      </categories>
-      <tags>
-        <tag>客户成功</tag>
-        <tag>飞书项目</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>协作 SaaS：从 Scrum 到混合，你真的认为仅仅是研发模式的变化吗？</title>
-    <url>/2024/09/12/xie-zuo-saas-cong-scrum-dao-hun-he-ni-zhen-de-ren-wei-jin-jin-shi-yan-fa-mo-shi-de-bian-hua-ma/</url>
-    <content><![CDATA[<div id="readmore-container"><section style="text-align: right;">  
-<p>HeyCSM | <span style="font-weight: bold; font-style: italic;">出品</span></p>
-<p>深度文章 | <span style="font-weight: bold; font-style: italic;">栏目</span></p>
-<p>旭东 | <span style="font-weight: bold; font-style: italic;">作者</span></p>
-<p>艺丹 | <span style="font-weight: bold; font-style: italic;">灵感</span></p>
-</section>
-
-<br>
-
-<p><span style="color: #E62412; font-weight: bold;">Hey</span><span style="color: #1B9AEE; font-weight: bold;">CSM</span></p>
-
-<p><strong>为什么说 Scrum、瀑布、混合、IPD 不仅是一套框架，更是一种理念的折射？</strong></p>
-<p>Scrum——作为敏捷开发领域的代表性框架，我相信我们现在做很多人在初次接触时可能只看到它的表面流程，就开始对于敏捷做理解的时候，都是一套框架以及框架背后的一些关键要素：比如说 Scrum 经典的<br><a class="link"   href="https://juejin.cn/post/6977287882704683016"  title="敏捷开发流程之Scrum：3355">3355 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<p>用 4 个数字直接概括了 Scrum 的工件、角色、活动、价值观。</p>
-<p>乍一看，这似乎只是研发团队高效交付的工具。</p>
-<p>然而当我做了很多实践，并且了解到更多方法论之后，发现 Scrum 不仅仅是一套管理流程，更是一种基于敏捷文化的深层理念，它深刻影响着组织的运营方式、文化演变，甚至推动企业整体向更敏捷、更高层的方向发展。</p>
-<p>作为在协作领域较为活跃的企业研发项目管理的主流模式，哪家协作软件没有个 Scrum 的解决方案，都不好意思说自己在这个领域里混。</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409121936106.svg"
-                      alt="例如PingCode Scrum 敏捷开发流程"
-                ><figcaption>例如PingCode Scrum 敏捷开发流程</figcaption></figure></p>
-<p>而 Scrum 从小众框架变身为企业研发项目管理主流背后的原因值得我们去把玩一下。</p>
-<section data-id="3073" class="v3editor">
-    <!--样式1978，更新于2019.09.21 -->
-    <section style="margin-top: 20px;margin-bottom: 10px;">
-        <section style="display: flex;justify-content:center;align-items:center;">
-            <section style="width: 12px; height: 12px; background-color: #E62412; border-radius: 50%;" data-width="12px"></section>
-            <section style="margin-left:5px;">
-                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
-                <section style="margin-top: 3px;margin-bottom: 3px;width: 80px;height: 1px;background-color: #a5a5a5;" data-width="80px"></section>
-                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
-            </section>
-            <section style="margin-left: 5px; width: 12px; height: 12px; border-style: solid; border-width: 1px; border-color: #1B9AEE; border-radius: 50%;" data-width="12px"></section>
-        </section>
-        <section style="margin-top: -30px;">
-            <p style="text-align: center;">
-                <span style="font-size: 30px; padding-left: 0em; color: #585858; ">
-                    <em><strong>1</strong></em>
-                </span>
-            </p>
-        </section>
-    </section>
-</section>
-
-
-<h2 id="从“老大哥”瀑布模型讲起"><a href="#从“老大哥”瀑布模型讲起" class="headerlink" title="从“老大哥”瀑布模型讲起"></a>从“老大哥”瀑布模型讲起</h2><p>像项目管理的<code>PMP</code>起源于建筑业一样，瀑布模型（<code>Waterfall model</code>）其实也借鉴了制造业和建筑行业的管理逻辑。</p>
-<blockquote>
-<p>The waterfall development model originated in the and industries,where the highly structured physical environments meant that design changes became prohibitively expensive much sooner in the development processWhen it was first adopted for software development, there were no recognized alternatives for knowledge-based creative work. <a class="link"   href="https://en.wikipedia.org/wiki/Front-end_web_development"  title="Wikipedia Waterfall model">–Wikipedia <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-</blockquote>
-<p>当时瀑布模型面临的市场环境是什么样子呢？</p>
-<p>在上个世纪的 60~70 年代，随着计算机技术的兴起，软件开发项目主要是是面向政府和军事领域的大型项目，这些性质的项目通常规模庞大需求明确，开发周期较长，而且因为项目本身存在的复杂性和长期性——<strong>严格的计划性和阶段性管理被视为是项目管理的成功的关键</strong>。</p>
-<p>所以，瀑布模型其实是诞生于需求较为稳定，变化不大的环境下且更多运用于复杂项目。</p>
-<p>在这个瀑布模型中借鉴了工程项目的管理思维，提出了将项目划分为一系列连续的阶段，类似于是建筑、制造等传统工程行业的流程，每个阶段有明确的输出，并且在进入下一个阶段前必须完成所有的前置工作，这种模式在当时的局面下为项目管理提供了可预测性和控制力，特别是在资源分配时间管理和质量控制方面。</p>
-<p>但随着技术的爆发式增长以及市场需求的快速变化，我们很容易的就发现了瀑布模型在面对不管是来自 C 端还是 B 端日益增长的市场客户需求，对于需求变化的响应能力是比较差的，而且反馈迟缓，更别说客户参与的程度也有限，另外长周期还意味着风险的增加。</p>
-<p>所以从市场这种无形大手的推动来看，瀑布模型被新的管理方法论所代替是一个必然的事情。</p>
-<section data-id="3073" class="v3editor">
-    <!--样式1978，更新于2019.09.21 -->
-    <section style="margin-top: 20px;margin-bottom: 10px;">
-        <section style="display: flex;justify-content:center;align-items:center;">
-            <section style="width: 12px; height: 12px; background-color: #E62412; border-radius: 50%;" data-width="12px"></section>
-            <section style="margin-left:5px;">
-                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
-                <section style="margin-top: 3px;margin-bottom: 3px;width: 80px;height: 1px;background-color: #a5a5a5;" data-width="80px"></section>
-                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
-            </section>
-            <section style="margin-left: 5px; width: 12px; height: 12px; border-style: solid; border-width: 1px; border-color: #1B9AEE; border-radius: 50%;" data-width="12px"></section>
-        </section>
-        <section style="margin-top: -30px;">
-            <p style="text-align: center;">
-                <span style="font-size: 30px; padding-left: 0em; color: #585858; ">
-                    <em><strong>2</strong></em>
-                </span>
-            </p>
-        </section>
-    </section>
-</section>
-
-
-<h2 id="瀑布模型到敏捷的急转弯"><a href="#瀑布模型到敏捷的急转弯" class="headerlink" title="瀑布模型到敏捷的急转弯"></a>瀑布模型到敏捷的急转弯</h2><p>以 Scrum 为例，我们经常能听到 Scrum 被形容为瀑布模型之后的急掉头。</p>
-<p>传统的瀑布是开发遵循严格的线性流程，项目是从需求分析到设计开发测试再到最终交付，每个阶段都是按顺序进行的，虽然对大型稳定的项目有所帮助，但在应对快速变化的市场的时候还是显得捉襟见肘。</p>
-<p>Scrum 呢更多是对这种僵化流程的一个否定，它通过迭代式的开发取代了线性的规划，是团队在每次短周期的 Sprint 中都能够交付可用的产品增量，确保能快速响应客户的需求。</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409121936397.png"
-                      alt="敏捷宣言"
-                ><figcaption>敏捷宣言</figcaption></figure></p>
-<p>在瀑布模型中的强调固定计划，而 Scrum 则把灵活应对作为核心价值，每次迭代都可以根据反馈调整方向，不管客户的需求怎么变化，它都有 100 种样子可以去迎合客户。</p>
-<blockquote>
-<p>Scrum 是一种轻量级框架，旨在帮助团队通过迭代交付，快速响应客户需求，强调透明、检视与适应。<a class="link"   href="https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Chinese-Simplified.pdf"  title="Scrum指南">–Scrum 指南（引用时有所改动） <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-</blockquote>
-<p>而敏捷本身所倡导的宣言也好，价值观也好，Scrum 中的相关定义也好，使得 Scrum 不仅在技术层面改变开发流程，也使得在项目管理和组织协作上实现了一次急掉头。</p>
-<p>换句话说，Scrum 不仅是一套开发流程，它更是一种<strong>以反馈为驱动、持续优化</strong>的理念。Scrum 通过<strong>透明</strong>（所有人都能了解项目状态）、<strong>检视</strong>（定期反思当前流程）、<strong>适应</strong>（根据反馈做出调整），确保团队能够在高速变化的市场中快速反应、灵活应对。</p>
-<p>Scrum 作为这种思维的“急掉头”，正是为了解决应对市场的这一矛盾。</p>
-<section data-id="3073" class="v3editor">
-    <!--样式1978，更新于2019.09.21 -->
-    <section style="margin-top: 20px;margin-bottom: 10px;">
-        <section style="display: flex;justify-content:center;align-items:center;">
-            <section style="width: 12px; height: 12px; background-color: #E62412; border-radius: 50%;" data-width="12px"></section>
-            <section style="margin-left:5px;">
-                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
-                <section style="margin-top: 3px;margin-bottom: 3px;width: 80px;height: 1px;background-color: #a5a5a5;" data-width="80px"></section>
-                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
-            </section>
-            <section style="margin-left: 5px; width: 12px; height: 12px; border-style: solid; border-width: 1px; border-color: #1B9AEE; border-radius: 50%;" data-width="12px"></section>
-        </section>
-        <section style="margin-top: -30px;">
-            <p style="text-align: center;">
-                <span style="font-size: 30px; padding-left: 0em; color: #585858; ">
-                    <em><strong>3</strong></em>
-                </span>
-            </p>
-        </section>
-    </section>
-</section>
-
-
-<h2 id="Scrum：从研发工具到组织文化"><a href="#Scrum：从研发工具到组织文化" class="headerlink" title="Scrum：从研发工具到组织文化"></a>Scrum：从研发工具到组织文化</h2><p>起初，Scrum 可能只是被视为一种研发工具，一种帮助软件团队提高效率的框架。然而，随着时间的推移，越来越多的企业发现，Scrum 背后的理念可以被应用到更广泛的领域——它不仅仅是一个研发框架，更是一种<strong>文化转型</strong>。</p>
-<h3 id="看敏捷带来的商业价值"><a href="#看敏捷带来的商业价值" class="headerlink" title="看敏捷带来的商业价值"></a>看敏捷带来的商业价值</h3><p>Scrum 不仅仅是在帮助企业提高研发效率，它更深层次的价值在于推动企业<strong>快速交付商业价值</strong>。</p>
-<blockquote>
-<p>在《2023 中国企业敏捷实践白皮书》中，63%的受访者认为交付的商业价值是衡量敏捷项目成功的首要因素。 <a class="link"   href="https://pingcode.com/solutions/white-paper-2023baipishu"  title="2023 中国企业敏捷实践白皮书">——《2023 中国企业敏捷实践白皮书》 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-</blockquote>
-<p>在以客户为中心的商业环境中，Scrum 通过快速的产品迭代和持续的客户反馈，帮助企业将产品价值最大化。这种快速交付与反馈的能力，不仅帮助企业避免了传统项目管理中后期存在的“大爆炸”式失败风险，还大幅提升了产品的市场适应性。</p>
-<hr>
-<h3 id="看敏捷带来的协作团队"><a href="#看敏捷带来的协作团队" class="headerlink" title="看敏捷带来的协作团队"></a>看敏捷带来的协作团队</h3><p>传统的瀑布式开发依赖于固定的计划和明确的分工，而 Scrum 强调团队成员的<strong>高效协作</strong>和<strong>持续沟通</strong>。这种模式不仅限于开发团队，它同样适用于市场、设计、运营等多个职能部门。</p>
-<p>例如，Spotify 就通过 Scrum 的<strong>自组织团队</strong>模式，推动了创新和产品体验的持续改进。通过跨职能、自我管理的团队，Spotify 能够在高度动态的市场中保持快速的响应和调整能力。</p>
-<blockquote>
-<p>Spotify 通过敏捷团队实现了高效的创新管理，使团队能够快速适应变化，并保持对市场需求的高度敏感性。 <a class="link"   href="https://www.mckinsey.com.cn/wp-content/uploads/2017/02/%E6%95%8F%E6%8D%B7%E7%BB%84%E7%BB%87%E5%BD%A2%E6%84%8F%E7%A5%9E.pdf"  title="敏捷组织形意神">——《敏捷组织形意神》 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-</blockquote>
-<p>这种自组织和高度协作的模式，也逐渐成为各大企业推动敏捷转型的关键。例如在一些高科技公司，产品和设计团队通过 Scrum 和敏捷实践打破了部门之间的壁垒，快速反馈与决策成为了团队创新的源泉。</p>
-<hr>
-<blockquote>
-<p>《敏捷组织形意神》指出，真正的敏捷组织不只是技术和流程的调整，它是整个组织的<strong>文化重塑</strong>。通过 Scrum，企业可以创建自组织团队，提升灵活性、协作和创新力。<a class="link"   href="https://www.mckinsey.com.cn/wp-content/uploads/2017/02/%E6%95%8F%E6%8D%B7%E7%BB%84%E7%BB%87%E5%BD%A2%E6%84%8F%E7%A5%9E.pdf"  title="敏捷组织形意神">——《敏捷组织形意神》 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-</blockquote>
-<p>企业在推动 Scrum 的过程中，往往需要打破传统的层级结构，转向更加扁平化、以团队为核心的运作方式。</p>
-<p>每个团队成员不仅仅是任务的执行者，他们通过<strong>自我管理</strong>，在项目的每个阶段都参与决策。</p>
-<p>这种转变，正是 Scrum 及其其他敏捷方法论带给组织的深远影响，而这种影响不仅仅是对内的对外上，也为企业带来了在复杂环境中的竞争力，在企业面对不确定时能够更从容地进行调整，推动创新，使组织能够快速适应技术变革和市场变化。</p>
-<p>所以每一套方法论框架背后的理念更值得我们思考。</p>
-<section data-id="3073" class="v3editor">
-    <!--样式1978，更新于2019.09.21 -->
-    <section style="margin-top: 20px;margin-bottom: 10px;">
-        <section style="display: flex;justify-content:center;align-items:center;">
-            <section style="width: 12px; height: 12px; background-color: #E62412; border-radius: 50%;" data-width="12px"></section>
-            <section style="margin-left:5px;">
-                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
-                <section style="margin-top: 3px;margin-bottom: 3px;width: 80px;height: 1px;background-color: #a5a5a5;" data-width="80px"></section>
-                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
-            </section>
-            <section style="margin-left: 5px; width: 12px; height: 12px; border-style: solid; border-width: 1px; border-color: #1B9AEE; border-radius: 50%;" data-width="12px"></section>
-        </section>
-        <section style="margin-top: -30px;">
-            <p style="text-align: center;">
-                <span style="font-size: 30px; padding-left: 0em; color: #585858; ">
-                    <em><strong>4</strong></em>
-                </span>
-            </p>
-        </section>
-    </section>
-</section>
-
-
-<h2 id="国内混合研发模式的崛起"><a href="#国内混合研发模式的崛起" class="headerlink" title="国内混合研发模式的崛起"></a>国内混合研发模式的崛起</h2><p>没有完美的框架这句话，我觉得也特别适合放在我们企业管理领域，因为每一家公司的商业站位都不尽相同，企业每一套方法论引入背后所体现出来的内容裁剪、演化才是我们更应该关注的点。</p>
-<p>我之前是一个不折不扣方法论的纯原教旨主义者，很强调它的原始性，但是后来在长期的实践中，已经在慢慢地改掉了这个臭毛病。</p>
-<p>举个例子，之前敏捷爆火的一个热点的关键词叫<code>中华田园式敏捷</code>，刚开始的我觉得一定是错的，后来慢慢发现是有其一定的合理性的。</p>
-<p>虽然 Scrum 在全球已经有了大量的应用实践，但在中国的市场落地的过程中的好像完全依赖敏捷原主张，面临着一些挑战，跟国内的一些管理文化、商业环境、客户画像都有无法调合的冲突，那我再强硬推行敏捷的原教旨不就一定会面临着水土不服的局面吗。</p>
-<p>尤其是党政国央、金融、制造等行业对于一些需要长期规划、固定目标和严格合规要求的大型项目，单纯的 Scrum 框架可能无法提供足够的结构和控制。</p>
-<p>因此，许多国内企业选择了一种<strong>混合研发模式</strong>，将敏捷与传统的瀑布式开发结合，形成了一种适应中国市场体质和企业需求的管理方式。</p>
-<ul>
-<li><strong>瀑布与敏捷的融合：</strong> 在大型项目中，企业通常会在项目初期使用瀑布模式进行整体规划，明确需求、设计和关键里程碑。在项目的后期开发和交付阶段，则引入 Scrum 的迭代开发模式，确保在具体的执行过程中能够灵活应对变化。</li>
-<li><strong>混合模式的优势：</strong> 这种模式结合了瀑布的稳定性与敏捷的灵活性，帮助企业既能应对大型项目的复杂性，又能在开发过程中保持足够的适应性。例如，某些国企和金融行业的企业在核心系统开发中需要长时间的严格规划和合规性审查，但在具体功能实现的开发中，又需要通过 Scrum 的迭代开发来提高交付效率。</li>
-<li><strong>中国特色的敏捷实践：</strong> 中国市场的特性要求企业在管理方式上具有更高的适应性。国有企业、大型制造业和金融机构，通常有非常复杂的层级和合规流程，单纯的敏捷在这些环境中难以发挥最大效果。通过混合模式，企业可以在保持计划性的同时，灵活应对变化，实现从项目规划到产品交付的高效管理。</li>
-</ul>
-<blockquote>
-<p>根据《2023 中国企业敏捷实践白皮书》，越来越多的中国企业选择采用混合模式，以适应不同项目的需求。特别是在制造业和金融行业中，混合模式逐渐成为主流。 <a class="link"   href="https://pingcode.com/solutions/white-paper-2023baipishu"  title="2023 中国企业敏捷实践白皮书">——《2023 中国企业敏捷实践白皮书》 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-</blockquote>
-<p>例如，一些大型国企在早期会使用瀑布模式规划产品的整体架构，而在产品开发的后期，则通过 Scrum 快速交付功能模块。这种“混合研发模式”让企业既能保持整体控制，又能享受 Scrum 带来的快速交付和反馈的好处。</p>
-<p><del>嘿嘿，真香。</del></p>
-<section data-id="3073" class="v3editor">
-    <!--样式1978，更新于2019.09.21 -->
-    <section style="margin-top: 20px;margin-bottom: 10px;">
-        <section style="display: flex;justify-content:center;align-items:center;">
-            <section style="width: 12px; height: 12px; background-color: #E62412; border-radius: 50%;" data-width="12px"></section>
-            <section style="margin-left:5px;">
-                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
-                <section style="margin-top: 3px;margin-bottom: 3px;width: 80px;height: 1px;background-color: #a5a5a5;" data-width="80px"></section>
-                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
-            </section>
-            <section style="margin-left: 5px; width: 12px; height: 12px; border-style: solid; border-width: 1px; border-color: #1B9AEE; border-radius: 50%;" data-width="12px"></section>
-        </section>
-        <section style="margin-top: -30px;">
-            <p style="text-align: center;">
-                <span style="font-size: 30px; padding-left: 0em; color: #585858; ">
-                    <em><strong>5</strong></em>
-                </span>
-            </p>
-        </section>
-    </section>
-</section>
-
-
-<h2 id="历史总是惊人的相似"><a href="#历史总是惊人的相似" class="headerlink" title="历史总是惊人的相似"></a>历史总是惊人的相似</h2><p>首先，<strong>瀑布模型</strong>在当时的时代局限下，尤其是技术和管理背景下，确保了复杂项目的可控性。</p>
-<p>接下来<strong>Scrum</strong>的引入可以被看作是对传统管理模式的一次“否定之否定”。瀑布模型以计划性和控制为核心，适合低变化的环境，但在面对快速变化的市场时暴露出明显不足。敏捷的出现，尤其是 Scrum 的实施，是对瀑布模型的反思与调整。</p>
-<p>尽管 Scrum 的敏捷特性在快速变化的环境中展现出来了巨大的优势，但是部分项目性质中要求的规划、里程碑、监管要求使得管理的关注点重新回到了瀑布模型的规划性和可控性这个特性上，<strong>混合模型</strong>通过整合 Scrum 和瀑布的优点，平衡了管理的计划性和灵活性，所以不难看到有很多企业客户关注此模型，协作产品也花大力气推出相应的解决方案（例如<a class="link"   href="https://mp.weixin.qq.com/s/Y7S7nt2OzNLsRQs-DDkq_A" >PingCode 混合模型重磅上线，解决“瀑布+敏捷”管理难题 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><a id="jump_8"></a>）。</p>
-<p>这种发展过程符合“螺旋上升”的历史规律。瀑布模式作为一次发展阶段，为传统项目管理提供了结构性框架。但随着市场变化的加剧，敏捷理念迅速崛起，Scrum 在否定瀑布模式僵化一面的同时，也保留了它的一些有价值的结构元素，如计划与流程的框架。通过这种“否定中的否定”，Scrum 带来了项目管理方法的螺旋式上升，帮助组织进入更高层次的灵活管理。再然后混合模式应运而生。企业在前期规划中采用瀑布模型的长周期计划性，在后期开发中引入 Scrum 的短周期迭代和灵活调整。混合模式在某种程度上既是对瀑布模型的否定，也是对其合理部分的继承，并通过结合 Scrum 的动态性，平衡了计划性和灵活性，推动了项目管理的螺旋上升。</p>
-<p>这里再提一下我最近比较关注的 IPD，之前也写过相关文章：<a class="link"   href="https://mp.weixin.qq.com/s/zdjWGjqpsrJ-Vt2vG-ijtw" >协作 SaaS：他们在说的 IPD 究竟是什么东西 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><a id="jump_8"></a>，如果说混合是在开发过程中做了融合与升华的话，那 IPD 相当于是更高纬度的一个全局整合，它从顶层视角不仅关注了产品的开发阶段，还把整个产品生命周期纳入了管理的范畴，而且我觉得 IPD 里边有一个比较巧妙的点是——它先是从<strong>管理思维</strong>上继承了传统的瀑布式流程，又在开发过程中融入了敏捷管理中的动态调整与创新，将项目管理提升到了<strong>战略</strong>层次。</p>
-<p>再来做一个总结：</p>
-<p>从瀑布模型到 Scrum，再到混合模式与 IPD，我们看到项目管理的方法论在批判和吸收中不断螺旋上升，适应时代的变化。而每一种模式的出现，都是对上一种模式局限性的反思，同时也是对前一阶段经验的继承与提升。</p>
-<p>这一过程与历史的演进惊人相似，呈现出否定之否定的辩证发展。</p>
-<section data-id="3073" class="v3editor">
-    <!--样式1978，更新于2019.09.21 -->
-    <section style="margin-top: 20px;margin-bottom: 10px;">
-        <section style="display: flex;justify-content:center;align-items:center;">
-            <section style="width: 12px; height: 12px; background-color: #E62412; border-radius: 50%;" data-width="12px"></section>
-            <section style="margin-left:5px;">
-                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
-                <section style="margin-top: 3px;margin-bottom: 3px;width: 80px;height: 1px;background-color: #a5a5a5;" data-width="80px"></section>
-                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
-            </section>
-            <section style="margin-left: 5px; width: 12px; height: 12px; border-style: solid; border-width: 1px; border-color: #1B9AEE; border-radius: 50%;" data-width="12px"></section>
-        </section>
-        <section style="margin-top: -30px;">
-            <p style="text-align: center;">
-                <span style="font-size: 30px; padding-left: 0em; color: #585858; ">
-                    <em><strong>6</strong></em>
-                </span>
-            </p>
-        </section>
-    </section>
-</section>
-
-
-<h2 id="从-Scrum-开始的进化趋势更值得关注"><a href="#从-Scrum-开始的进化趋势更值得关注" class="headerlink" title="从 Scrum 开始的进化趋势更值得关注"></a>从 Scrum 开始的进化趋势更值得关注</h2><p>在未来，随着技术的发展和市场的进一步复杂化，管理方法肯定会继续沿着这条螺旋上升的前进路径。</p>
-<p>这种螺旋式的演进不仅仅是项目管理方法的提升，更是企业组织文化与管理思维的一次次进化。</p>
-<p>正如历史的发展一样，项目管理的发展同样展现出螺旋上升的永恒规律（挺美妙的不是吗？一法通万法通）。</p>
-<p>何其有幸我们这些协作 SaaS 的客户成功经理是离专业方法论、商业环境进化最近的地方，不主动都可以被“螺旋上升”。</p>
-<p>而我们 CSM 在发展过程也要做的就是不断<strong>让进步发生</strong>。<br><br></p>
-<p><code>点亮</code><span style="margin: 0; color: #E62412; font-weight: bold;">赞</span>、<span style="margin: 0; color: #1B9AEE; font-weight: bold;">在看</span>，<code>离成功更近一</code><strong>点</strong>。</p>
-<br>
-<br>
-<br>
-
-<hr>
-<section style="display: flex; align-items: center; justify-content: space-between;">
-    <section>
-<p style="margin: 0; color: #E62412; font-weight: bold;">段旭东（Anjou Duan）</p>
-        <p style="margin: 0;">找不到理想工作的前协作SaaS赛道CSM</p>
-    </section>
-    <figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://heycsm.com/images/anjouduan.png"
-                      alt="Anjou Duan" style="width: 80px; height: 80px; border-radius: 50%; margin-left: 15px;"
-                ><figcaption>Anjou Duan</figcaption></figure>
-</section>
-
-<p>不提<code>Teambition领航员（钉钉数字化专家）</code>、<code>宜搭行业解决方案共创PDSA</code>这些虚名以及有那么<code>一点好看的职业数据</code>，只不过一个平淡无奇的王者荣耀<code>荣耀王者</code>、和平精英<code>传奇王牌</code>的小天才罢了。</p>
-<hr>
-<p style="margin: 0; color: #1B9AEE; font-weight: bold;"> HeyCSM </p>
-
-<p>一个<code>有态度</code>、且<code>有趣</code>更<code>有料</code>的微信公众号和同名网站(<code>heycsm.com</code>)。</p>
-<p>由数字化协作 SaaS（曾服务<code>Teambition</code>、<code>Worktile</code>、<code>PingCode</code>等产品）的 CSM <code>段旭东</code></p>
-<p style="margin: 0; color: #1B9AEE; font-weight: bold;">用 <span style="color: #E62412;"> ♥️ </span> 打造。</p>
-
-<hr>
-<p style="color: #E62412;">声明：本文所提及的产品名称、商标及相关介绍均为各自权利所有者的财产，仅用于信息分享和教育目的。本文不涉及任何形式的推广、推荐或商业合作。若涉及产品描述的内容有任何不准确或侵权行为，请与我联系，我将尽快处理。感谢您的理解与支持。 </p>
-</div>
-				<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-				<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-				<script>
-				var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-				var isEncrypt = document.getElementById('hexo-blog-encrypt');
-				var allowMobile = false;
-				if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
-					try {
-						var plugin = new ReadmorePlugin();
-						plugin.init({
-							"type": "hexo",
-							"id": "readmore-container",
-							"name": "HeyCSM-你好客户成功经理",
-							"blogId": "85700-3670119654427-676",
-							"qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG",
-							"keyword": "heycsm",
-							"random": "1",
-							"height": "auto",
-							"expires": "365",
-							"lockToc": "yes",
-							"interval": "60",
-							"baseUrl": "",
-							"tocSelector": ""
-						});
-					} catch(e) {
-						console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
-					}
-				}
-				</script>
-			]]></content>
-      <categories>
-        <category>深度文章</category>
-      </categories>
-      <tags>
-        <tag>客户成功</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>从《黑神话：悟空》谈起，为什么协作SaaS做游戏客户正当其时</title>
-    <url>/2024/08/22/cong-hei-shen-hua-wu-kong-tan-qi-wei-shi-me-xie-zuo-saas-zuo-you-xi-ke-hu-zheng-dang-qi-shi/</url>
-    <content><![CDATA[<div id="readmore-container"><h1 id="游戏行业的“第二春”"><a href="#游戏行业的“第二春”" class="headerlink" title="游戏行业的“第二春”"></a>游戏行业的“第二春”</h1><p>去年，我在朋友圈发过一个预测，认为游戏行业将迎来 <strong>“第二春”</strong>。为什么会有这样的想法呢？这种洞察是基于多个因素的推测得出的。不管是否有 <strong>《黑神话：悟空》</strong> ，都会出现类似的内容，因为这是某种趋势的发展，所谓的 <strong>“天命”</strong>。</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092131648.webp"
-                      alt="朋友圈截图"
-                ><figcaption>朋友圈截图</figcaption></figure></p>
-<h1 id="我的背景与观察"><a href="#我的背景与观察" class="headerlink" title="我的背景与观察"></a>我的背景与观察</h1><p>严格来说，我并不是专注于游戏赛道的 <strong>CSM</strong>，这一点相较于其他有行业分类的CSM而言可能明显一些。但为什么我仍敢对游戏行业做出一些观察和预测呢？原因在于我的工作经历大多集中在研发领域，而<strong>游戏行业本身就是一个特别重视研发的行业场景</strong>，尤其在<strong>3A项目</strong>中更是如此。策划团队负责让玩家玩得爽，但研发团队则承担着实现底层基础资源技术的重任。</p>
-<h2 id="3A项目的研发周期与复杂性"><a href="#3A项目的研发周期与复杂性" class="headerlink" title="3A项目的研发周期与复杂性"></a>3A项目的研发周期与复杂性</h2><p>简单来说，对于这种大型的3A项目，研发周期通常非常漫长。</p>
-<blockquote>
-<p>截至2024年，这款游戏的研发时间已经接近6年。</p>
-</blockquote>
-<p>在这个过程中，研发团队必然需要借助工具来管理海量的信息。在所有面向ToC的产品中，游戏可能是较为特殊的一类，因为它不仅是创意和技术的输出，更是一种纯文化属性的表现。</p>
-<p>面向游戏玩家的研发团队实际上是在构建一个世界。可以想象，<strong>组织一个世界的复杂性相较于其他特定产品要困难得多</strong>，因为游戏至少需要带给玩家沉浸感，而这也导致了信息的复杂性。</p>
-<p>值得一提的是，游戏中的策划角色是让虚拟世界变得更加真实的人，他们需要为这个世界赋予规律。因此，必须充分考虑真实世界和虚拟世界的双重属性，这使得他们面临的复杂性<strong>double</strong>。</p>
-<hr>
-<h1 id="日本游戏行业的历史借鉴"><a href="#日本游戏行业的历史借鉴" class="headerlink" title="日本游戏行业的历史借鉴"></a>日本游戏行业的历史借鉴</h1><p>除了游戏行业本身的特殊性之外，我们还可以从历史中汲取一些经验。在当前全球经济低迷的环境下，历史可以提供一些有益的借鉴。比如，我们常说日本的经济衰退时期通常被称为、<code>“失落的十年”（失われた10年）</code>，甚至有人称之为<code>“失落的三十年”</code>，但日本的游戏行业却在这一时期蓬勃发展，并取得了全球性的成功。</p>
-<p>在这个时代，许多耳熟能详的产品诞生了，比如任天堂的经典作品 <strong>《超级马里奥64》、《塞尔达传说：时之笛》</strong>，以及其他游戏主机厂商的 <strong>《街头霸王》、《合金装备》和《铁拳》</strong>。日本游戏行业在“失落的十年”期间逆势发展，甚至达到了前所未有的高度。</p>
-<p>从日本的经历中，我们可以归纳出几点启示。</p>
-<h2 id="消费者对虚拟娱乐的需求"><a href="#消费者对虚拟娱乐的需求" class="headerlink" title="消费者对虚拟娱乐的需求"></a>消费者对虚拟娱乐的需求</h2><p>首先，时代背景造就了消费者对虚拟娱乐的需求。游戏行业能够逆势发展，首先是因为经济压力与娱乐需求的驱动。在经济低迷的情况下，C端消费者往往会寻求相对便宜的娱乐方式来逃避现实。比如在《黑神话：悟空》中，工作时间的同时在线人数就已经达到了<strong>几百万</strong>，这反映出大量玩家拥有闲暇时间。</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092132593.webp"
-                      alt="Steam在线人数"
-                ><figcaption>Steam在线人数</figcaption></figure><br>这种闲暇时间的出现，可以从多个角度理解。比如，<em>有些公司为了这款游戏的发售，专门给员工放假</em> 。当然，还有一个更大的原因是，<em>像我这样没有工作的人太多了</em> ，大家面临着就业困难、工作压力大以及经济的不确定性，因此寄希望于通过逃离现实世界，找到一个虚拟的精神世界来放松和寻找心理慰藉。</p>
-<h2 id="强大到可以“吃老本”的民族文化"><a href="#强大到可以“吃老本”的民族文化" class="headerlink" title="强大到可以“吃老本”的民族文化"></a>强大到可以“吃老本”的民族文化</h2><p>此外，游戏行业的逆势发展也与其文化影响力密切相关。网上有段子说 <strong>“猴子”拯救了几次中国的文化市场</strong>：影视作品中的杨洁导演的86年《西游记》、星爷的《大话西游》和《西游伏妖篇》、游戏中的《梦幻西游》、音乐中的《悟空》。以我个人为例，我热衷于阅读网络文学和出版物，现在依然能记得第一次看到今何在的《悟空传》时的震撼——<strong>猴子原来是这样的猴子:</strong></p>
-<blockquote>
-<p>因为 <strong>“猴子，他们说毁你花果山诛你不死心是天命”</strong> 从而 <strong>“我要这天，再遮不住我眼，要这地，再埋不了我心，要这众生，都明白我意，要那诸佛，都烟消云散！”</strong></p>
-</blockquote>
-<p>这种文化影响力实际上已经渗透到游戏中，变成了丰富的故事情节、角色设计和文化元素，不仅对本土玩家有吸引力，也让世界接受中国文化。<br>在《黑神话：悟空》中，有大量的翻译选择反映了这一点。例如，<code>悟空</code>这个名字直接翻译成<code>Wukong</code>，而不是<code>Monkey King</code>。类似地，<code>金箍棒</code>也直接翻译为<code>Jingu Bang</code>，而不是简单的<code>镀金的长棍子</code>之类的东西，甚至<code>龙</code>也被翻译成中国特色的<code>Loong</code>，而不是西方的<code>Dragon</code>。这些都充分体现了国家文化影响力的展现，在此感谢《黑神话：悟空》的制作人冯骥的坚持。</p>
-<h2 id="产业升级的必然性"><a href="#产业升级的必然性" class="headerlink" title="产业升级的必然性"></a>产业升级的必然性</h2><p>从产业升级的角度来看，虚幻引擎5的升级毋庸置疑，像Nanite虚拟化几何体技术、Lumen全动态全球光照系统、Metahuman角色创建工具、Chaos物理系统和同时国内在软件与游戏设计上的创新也在不断涌现–虚拟动点的OptiTrack光学动捕技术。</p>
-<p>这些技术显著提升了游戏的画面质量和性能表现，推动了国内游戏开发技术的升级，并为其他国产游戏树立了标杆。与此同时，上游的工具开发、引擎支持和下游的发行、推广等环节也得到了整合与升级，形成了更为完善的游戏开发产业链。</p>
-<h2 id="走出去的趋势"><a href="#走出去的趋势" class="headerlink" title="走出去的趋势"></a>走出去的趋势</h2><p>从全球市场扩展的高度来看，国际市场的成功是推动国内游戏行业发展的关键。</p>
-<p>不论是亚洲、美洲还是欧洲，玩家对游戏的需求非常大。当我们的游戏能够走出国门时，这实际上为国内产业提供了稳定的收入，也能有效缓解国内经济衰退的风险，推动整个行业的发展。</p>
-<p>举个例子，像近期推出的《王者荣耀》的国际版《Honor of Kings》，以及《黑神话：悟空》在发售时同步推出了多个语言版本，并选择了PS5、Steam、WeGame等多个平台，这些都是全球市场扩展的表现。</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092133622.webp"
-                      alt="中华人民共和国国民经济和社会发展第十四个五年规划和2035年远景目标纲要"
-                ><figcaption>中华人民共和国国民经济和社会发展第十四个五年规划和2035年远景目标纲要</figcaption></figure></p>
-<h2 id="做到的政策支持"><a href="#做到的政策支持" class="headerlink" title="做到的政策支持"></a>做到的政策支持</h2><p>从经济复苏的角度来看，能够促进消费的一定是一些性价比高的产品。如果经济衰退，高端产品可能会受到影响，但要想刺激经济复苏，文化产业必然是一个发力点。通过各种渠道支持文化产业作为出口，这也成为文化输出的重要组成部分，政策上的支持必不可少。<br>例如，之前几年各类版号的限制现在已经有所放松。</p>
-<blockquote>
-<p>仅2024年7月，国家新闻出版署就批准了105款游戏的发行，单月过百。</p>
-</blockquote>
-<h2 id="单身的现实及“小确幸心理”"><a href="#单身的现实及“小确幸心理”" class="headerlink" title="单身的现实及“小确幸心理”"></a>单身的现实及“小确幸心理”</h2><p>还有社会结构的变化也对游戏行业产生了影响。随着 <strong>社会老龄化加剧和少子化趋势</strong> 的出现，家庭结构和消费习惯也在发生变化。人们更倾向于在家中寻找娱乐，电子游戏因此成为重要的选择。越来越多的人选择了不结婚，选择独居生活。这不仅在家庭结构上有所体现，也反映在社会习惯上，个人发展趋势更加明显。</p>
-<p>虽然引发男女对立是近年来的热点诀窍，但我不愿意这样做。不过，从整体上分析这些现象背后的心理因素与消费行为，可以发现，在不确定或困惑的环境下，每个人都会有 <strong>“小确幸心理”</strong>，人们更愿意通过小额消费或短暂的快乐来缓解压力，而游戏产品正好契合了这种消费心理。</p>
-<hr>
-<h1 id="《黑神话：悟空》成功的启示"><a href="#《黑神话：悟空》成功的启示" class="headerlink" title="《黑神话：悟空》成功的启示"></a>《黑神话：悟空》成功的启示</h1><h2 id="认真的人总会赢"><a href="#认真的人总会赢" class="headerlink" title="认真的人总会赢"></a>认真的人总会赢</h2><p>在中国游戏市场上，许多开发者往往更注重短期商业利益，推出大量快消型游戏，典型如《王者暖暖》和《和平暖暖》 （<em>作为一个月均氪金3000左右的社交手游玩家，我认为我可以这么说</em>）  。然而，《黑神话：悟空》开发团队Game Science（游戏科学）团队选择了一条更艰难但更具艺术性和创新性的道路，结合3A类目和中国文化经典IP《西游记》，这种选择本身就是理想主义的体现。</p>
-<h2 id="我不必成为谁"><a href="#我不必成为谁" class="headerlink" title="我不必成为谁"></a>我不必成为谁</h2><p>在遍地都是<strong>pay-to-win</strong>的环境下，单机RPG还能成功吗？我想《黑神话：悟空》已经给出了答案。技术有挑战吗？资金有挑战吗？市场有挑战吗？玩家期望有挑战吗？面对这些挑战，他们选择迎难而上，突破行业固有模式的创新精神，令人鼓舞。</p>
-<h2 id="理念正确会有人帮你赢"><a href="#理念正确会有人帮你赢" class="headerlink" title="理念正确会有人帮你赢"></a>理念正确会有人帮你赢</h2><p>从《黑神话：悟空》在社交平台上的舆论表现来看，男女对立的情况再一次出现。但不同的是，很多人第一次发现男生也是会消费的。这证明了男生的消费行为并不是不存在，只是缺少一个对的钥匙，而游戏很可能是撬动男生消费的一个支点。同时，这也充分证明了并不是随随便便一个游戏就能收割玩家，<strong>游戏团队的用心，玩家是可以感受到的。</strong></p>
-<hr>
-<h1 id="结论：游戏行业的机遇"><a href="#结论：游戏行业的机遇" class="headerlink" title="结论：游戏行业的机遇"></a>结论：游戏行业的机遇</h1><p>整体上来说，《黑神话：悟空》的成功是有原因的。游戏行业是一个<strong>相对独立的产业生态</strong>，因为它更多依赖创意、技术和文化消费。因此，<strong>即使在整体经济低迷的情况下，游戏行业仍然可以依靠全球化和科技创新实现增长。</strong></p>
-<p>之前我提到为什么选择协作SaaS，因为它面对的用户群体具有一定的复杂性，比如研发客户群体，他们的收入水平较高，因此我们能够<strong>赚到的是高收入群体的钱</strong>。现在我们可以判断，游戏行业正当其时，一些成功的发售会激起市场的信心，自然而然地也会激发VC的兴趣。对于我们来说，现在开始布局游戏行业是一个明智的选择。不敢说最终一定会成功，但至少目前赚钱是一个相对简单的事。</p>
-<p>写了这么多，其实我的观点很简单：<strong>希望大家关注游戏行业</strong>。像我们这种乙方协作SaaS从业者，去有钱的地方赚钱是绝对正确的事情。我知道有大厂已经在布局游戏行业，比如BOSS直聘经常给我推送游戏行业的企业效能顾问职位。</p>
-<p>另外，《黑神话：悟空》很可能会成为中国游戏行业的另一个里程碑，甚至引发行业投资热潮，催生更多优秀的国产游戏。所以，我认为《黑神话：悟空》的成功并非偶然，而是正当其时。在技术、文化和市场力量共同作用下，这样的成功是必然的结果。</p>
-<p>在这个基础上，<strong>单机漫长的研发周期、复杂的协作链条、趋利的资本关注、良性的付费玩家群体</strong>的客户画像对于客户成功经理意味着什么，我想无需多言。</p>
-<p>现在，绝对是时候拓展游戏行业客户了，不要只关注制造业了，告诉老板：<strong>众望所归，天命已至</strong>。（这里是为你写的）</p>
-<br>
-<br>
-<br>
-
-<hr>
-<div style="display: flex; align-items: center; justify-content: space-between;">
-    <div>
-<p style="margin: 0; color: #E62412; font-weight: bold;">段旭东（Anjou Duan）</p>
-        <p style="margin: 0;">找不到理想工作的前协作SaaS赛道CSM</p>
-    </div>
-    <figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://heycsm.com/images/anjouduan.png"
-                      alt="Anjou Duan" style="width: 80px; height: 80px; border-radius: 50%; margin-left: 15px;"
-                ><figcaption>Anjou Duan</figcaption></figure>
-</div>
-
-
-<p>不提<code>Teambition领航员（钉钉数字化专家）</code>、<code>宜搭行业解决方案共创PDSA</code>这些虚名以及有那么<code>一点好看的职业数据</code>，只不过一个平淡无奇的王者荣耀<code>荣耀王者</code>、和平精英<code>传奇王牌</code>的小天才罢了。</p>
-<hr>
-<p style="margin: 0; color: #1B9AEE; font-weight: bold;"> HeyCSM </p>
-
-<p>一个<code>有态度</code>、且<code>有趣</code>更<code>有料</code>的微信公众号和同名网站(<code>heycsm.com</code>)。</p>
-<p>由数字化协作 SaaS（曾服务<code>Teambition</code>、<code>Worktile</code>、<code>PingCode</code>等产品）的 CSM <code>段旭东</code></p>
-<p style="margin: 0; color: #1B9AEE; font-weight: bold;">用 <span style="color: #E62412;">♥️</span> 打造。</p>
-
-</div>
-				<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-				<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-				<script>
-				var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-				var isEncrypt = document.getElementById('hexo-blog-encrypt');
-				var allowMobile = false;
-				if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
-					try {
-						var plugin = new ReadmorePlugin();
-						plugin.init({
-							"type": "hexo",
-							"id": "readmore-container",
-							"name": "HeyCSM-你好客户成功经理",
-							"blogId": "85700-3670119654427-676",
-							"qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG",
-							"keyword": "heycsm",
-							"random": "1",
-							"height": "auto",
-							"expires": "365",
-							"lockToc": "yes",
-							"interval": "60",
-							"baseUrl": "",
-							"tocSelector": ""
-						});
-					} catch(e) {
-						console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
-					}
-				}
-				</script>
-			]]></content>
-      <categories>
-        <category>深度文章</category>
-      </categories>
-      <tags>
-        <tag>客户成功</tag>
-        <tag>《黑神话：悟空》</tag>
+        <tag>旧档备份</tag>
       </tags>
   </entry>
   <entry>
@@ -1891,751 +1851,6 @@
 			]]></content>
       <categories>
         <category>断想一束</category>
-      </categories>
-      <tags>
-        <tag>客户成功</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>客户成功离“Tony”老师还有多远？</title>
-    <url>/2024/08/27/ke-hu-cheng-gong-chi-tony-lao-shi-huan-you-duo-yuan/</url>
-    <content><![CDATA[<div id="readmore-container"><h1 id="关于“Title”的乱乱想"><a href="#关于“Title”的乱乱想" class="headerlink" title="关于“Title”的乱乱想"></a>关于“Title”的乱乱想</h1><p>很早以前，我从第一家业内公司离职后，加入了第二家SaaS公司。有一次，我跟我的直属leader一起去拜访客户，回程时我们在出租车上领导问我：“今天见完客户后，你对比前一家公司拜访客户的感受如何？”我当时脱口而出：<code>“Title”</code>——尤其是“头衔”，确实在客户现场挺重要的。</p>
-<p>在之前的那家公司，我是类似于“小主管”的角色。面对客户时，我可以很自信地说自己是客户成功这部分的负责人，这样客户会更愿意信任我说的话，也更愿意跟我一起把事情推进落实。但当我重新转回基础岗位时，特别是跟领导一起出面时，我的话语权明显弱了（这里可能说自己的气场更恰当）。即使我是在座各位中最了解产品应用的人，但缺少高头衔背书的情况下，客户对我的重视程度也打了折扣。这是我第一次真切地感受到头衔在客户沟通中的影响。</p>
-<p>一直以来，我觉得客户成功的未来一定是向咨询行业靠拢的，毕竟大家都是通过<code>“事实和感受”</code>混口饭吃。在咨询行业，高头衔是常见的现象，这背后有着深层次的原因。咨询行业早期，许多咨询公司直接从商学院或法学院招募精英，为了让这些初入职场的新鲜人类更好地开展业务，咨询公司赋予了他们起步就是“咨询顾问”的头衔。而且，咨询师的头衔和咨询的业务形式决定了在与客户互动时，遵循对等原则，往往是直接面对企业高层领导。这样，高头衔不仅帮助咨询师建立权威，也让他们在客户面前更有话语权。</p>
-<p>随着咨询行业全球化发展，许多公司为了在不同地区保持服务标准，内部建立了完善的晋升体系。这种体系既是市场竞争力的判断，也是员工清晰的职业发展路径，自然而然逐渐成为行业内的一种“规矩”。</p>
-<h1 id="头衔的意义不仅仅是身份"><a href="#头衔的意义不仅仅是身份" class="headerlink" title="头衔的意义不仅仅是身份"></a>头衔的意义不仅仅是身份</h1><p>不过，我觉得吧，头衔不仅仅是身份的象征，它更是一种<strong>责任以及可支配资源能力的体现</strong>。以美国SaaS行业为例，客户成功的职位体系早已建立，但这背后是因为美国SaaS市场比中国市场成熟得早，用我们的话说“美国SaaS市场比中国至少成熟10年”。这一点，在国内SaaS行业是大家心知肚明的。那么，美国SaaS行业为什么如此重视客户成功呢？其实是因为<strong>SaaS的业务特性决定了客户成功经理对公司持续、稳定收入的影响力</strong>。另外也是因为<strong>在美国市场，客户成功的概念已经被广泛接受和推广</strong>。</p>
-<p>我们再看看国内，在销售主导的阶段，尤其是在传统软件行业，销售经理的头衔通常都很高。即使他们可能只是普通销售经理，但对外名片上却印着“高级销售经理”或“销售总监”，内部也可能还会有“KA销售”的定义。这表明<strong>在国内市场，销售仍然是主力</strong>，因为他们直接决定了当前的收入，而客户成功的作用还不够明显。</p>
-<h1 id="客户成功何时拥有高头衔"><a href="#客户成功何时拥有高头衔" class="headerlink" title="客户成功何时拥有高头衔?"></a>客户成功何时拥有高头衔?</h1><blockquote>
-<p><a class="link"   href="https://www.gainsight.com/blog/3-ways-customer-success-will-evolve-as-a-growth-engine-in-2019/"  title="3 Ways Customer Success Will Evolve as a Growth Engine in 2019">“Customer Success Management is hitting the mainstream.”That’s what Forrester analyst TJ Keitt said in his September 2018 report, How to Build a Customer Success Progra. <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-</blockquote>
-<p>对于大多数美国SaaS公司而言，当他们的年收入达到约<code>五千万到一亿美元</code>之间时，企业往往会经历一个转折点，客户成功的角色从支持角色转变为战略角色。这是因为在这个收入级别，客户续约和扩展对企业的长期增长至关重要，而新增客户的获取成本（CAC）往往会变高，因此客户成功的战略地位大幅上升。那么，客户成功经理什么时候也能像销售经理一样，拥有高级头衔，并在公司内外都拥有更多的话语权呢？这其实要结合公司SaaS业务的发展情况来分析。美国SaaS行业的典型发展路径可以给我们一些参考：</p>
-<ol>
-<li><p><strong>初创期</strong>：</p>
-<ul>
-<li>目标：快速获得市场份额，吸引早期客户。</li>
-<li>资源分配：主要集中在销售获取新客户，客户成功角色可能只负责基础的客户支持和实施。</li>
-<li>代表案例：2000年代初的Salesforce，他们以销售为核心，迅速扩展了CRM市场。</li>
-</ul>
-</li>
-<li><p><strong>增长期</strong>：</p>
-<ul>
-<li>目标：提高市场渗透率，扩大客户基础。</li>
-<li>资源分配：销售仍是重点，但客户成功开始获得更多关注，尤其是在避免客户流失方面。</li>
-<li>代表案例：2010年代初的HubSpot，他们大力发展客户成功团队，逐渐意识到客户教育和长期关系的重要性。</li>
-</ul>
-</li>
-<li><p><strong>成熟期</strong>：</p>
-<ul>
-<li>目标：优化客户生命周期价值（LTV），降低客户流失率，增强客户忠诚度。</li>
-<li>资源分配：客户成功逐渐成为主导角色，特别是在推动续约和扩展销售方面。企业资源也开始更多地向客户成功倾斜。</li>
-<li>代表案例：2010年代中期的Zendesk和ServiceNow，他们的客户成功团队管理整个客户生命周期，从入职到续约和扩展。</li>
-</ul>
-</li>
-</ol>
-<p>虽然没有固定的公式，但一些行业建议的比例可以作为参考。例如：</p>
-<ul>
-<li><strong>初创期</strong>：资源分配通常是<code>70%</code>给销售，<code>30%</code>给客户成功。在这个阶段，客户获取是主要目标，但也不能忽视客户成功的基础设置。</li>
-<li><strong>增长期</strong>：随着企业进入增长期，比例可以调整为<code>60%</code>销售，<code>40%</code>客户成功，更多资源开始转向客户成功，以确保留住和扩展已有客户。</li>
-<li><strong>成熟期</strong>：在企业成熟期，建议将资源分配为<code>50%</code>销售，<code>50%</code>客户成功，甚至在一些情况下，客户成功的比例会更高，达到40%销售，60%客户成功，以最大化客户的生命周期价值。</li>
-</ul>
-<p>在SaaS行业的成熟阶段，业内常用的几个指标能帮助判断何时应将资源重心从销售转移到客户成功上：</p>
-<ol>
-<li><p><strong>LTV:CAC 比率</strong>：这是衡量客户生命周期价值（LTV）与客户获取成本（CAC）之间的比率。理想的比率应大于<code>3:1</code>，这意味着客户成功需要更多资源投入。</p>
-<p> <figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092209798.png"
-                      alt="LTV:CAC 比率"
-                ><figcaption>LTV:CAC 比率</figcaption></figure></p>
-<p> <strong>应用方法</strong>：</p>
-<ul>
-<li>如果你的公司发现LTV:CAC比率较低，比如低于<code>2:1</code>，这可能表明你的客户流失率较高或客户成功不足，资源应该更多地分配给客户成功团队以提高LTV。</li>
-<li>如果LTV:CAC比率较高，比如超过<code>4:1</code>，则表明客户的长期价值高，且获取成本较低，可能需要更多资源投入销售以扩大市场份额。</li>
-</ul>
-</li>
-<li><p><strong>客户流失率（Churn Rate）</strong>：这个指标衡量在一定时期内流失的客户比例。如果流失率过高，说明客户成功需要更多资源来提高客户留存率。</p>
-<p> <figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092209637.png"
-                      alt="客户流失率"
-                ><figcaption>客户流失率</figcaption></figure></p>
-<p> <strong>应用方法</strong>：</p>
-<ul>
-<li>如果公司的流失率较高（例如每月超过<code>5%</code>），这表明客户成功团队可能需要更多资源来更好地服务现有客户并减少流失。</li>
-<li>你可以设定一个目标流失率（例如低于<code>2%</code>），并建议公司将更多资源分配给客户成功，以帮助达到这一目标。</li>
-</ul>
-</li>
-<li><p><strong>客户成功贡献度</strong>：这个指标衡量客户成功对续约和扩展收入的贡献比例。如果客户成功的贡献超过50%，那么应该考虑给予他们更多资源。</p>
-<p> <figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092210970.png"
-                      alt="客户贡献度"
-                ><figcaption>客户贡献度</figcaption></figure></p>
-<p> <strong>应用方法</strong>：</p>
-<ul>
-<li>如果客户成功团队贡献了<code>50%</code>以上的续约和扩展收入，表明他们在维持和增加公司收入方面起着关键作用，公司应考虑将更多资源分配给客户成功团队。</li>
-<li>如果这个比例较低（如低于<code>30%</code>），可以作为争取更多资源的理由，来改善续约率和客户扩展。</li>
-</ul>
-</li>
-</ol>
-<p>这些指标再次揭露了我们一个残酷的职场真相：<strong>谁掌握了收入来源，谁就拥有更大的权力</strong>。</p>
-<h1 id="服务形式不等同于服务能力"><a href="#服务形式不等同于服务能力" class="headerlink" title="服务形式不等同于服务能力"></a>服务形式不等同于服务能力</h1><p>因为之前有跟朋友沟通过这个话题，说内部也有明确的职级体系，对外的服务售卖上也有不同的收费标准，那是不是相对是比较科学的。我觉得在国内SaaS市场中，很多公司都会提供类似于<code>“服务包”</code>或<code>“实施费用”</code>的服务，这些服务通常分为不同等级，比如基础版、标准版、高级版等。这种分级的服务形式在市场上十分常见，但需要注意的是，<strong>服务形式与服务能力之间存在显著区别</strong>。</p>
-<p><strong>服务形式</strong></p>
-<p>服务形式主要指的是企业如何将其服务打包和呈现给客户。这种形式通常根据服务内容的不同，划分出多个层次，比如提供不同数量的支持工单、不同响应时间的服务承诺，或是在产品上线初期提供的不同深度的培训与支持。这些层次实际上是企业根据市场需求和定价策略所设定的产品组合。</p>
-<p><strong>服务能力</strong></p>
-<p>相比之下，服务能力更关注的是客户成功经理能够在实际操作中为客户解决问题的深度和广度。这包括：</p>
-<ul>
-<li><strong>技术能力</strong>：企业是否具备足够的技术资源和经验来支持复杂的客户需求，比如定制化的落地方案或高度集成的系统配置。</li>
-<li><strong>人员能力</strong>：客户成功团队或实施团队的专业水平，包括他们的经验、知识储备以及应对突发问题的能力。</li>
-<li><strong>服务覆盖范围</strong>：服务能力也包括企业能够提供支持的地域范围和业务覆盖程度，特别是在人数较多复杂架构下，客户成功经理能否在客户组织内提供一致且高质量的服务。</li>
-<li><strong>问题解决能力</strong>：在遇到复杂或非常规问题时，客户成功是否有能力迅速响应并协调资源有效解决，而不仅仅是按照既定的流程处理问题。</li>
-</ul>
-<p><strong>形式与能力的错位</strong></p>
-<p>在很多情况下，国内SaaS企业通过售卖不同等级的服务包来实现差异化收入，但这种形式上的差异并不代表企业在实际能力上的提升。例如，某些企业可能提供了一个更高级别的服务包，增加了<code>响应时间</code>或<code>工单数量</code>，但其客户成功团队的核心能力并未相应提高。这种情况下，客户在选择更高级别的服务形式时，可能并未获得预期中更高的服务能力。</p>
-<p>这种形式与能力的错位，容易导致客户在体验中的落差，也可能影响客户对企业的信任度和续约意愿。因此，<strong>在设计服务产品时，企业应当明确区分形式与能力，确保每一层次的服务都能够有效反映企业实际具备的服务能力</strong>。</p>
-<h1 id="展望客户成功的高头衔时代"><a href="#展望客户成功的高头衔时代" class="headerlink" title="展望客户成功的高头衔时代"></a>展望客户成功的高头衔时代</h1><p>就像麦肯锡的精英文化与金字塔式的组织架构那样，我觉得客户成功经理未来也一定会走向<code>“高头衔、高责任、高期望”</code>的职业路径。在咨询行业中，高头衔不仅是身份的象征，更是维持客户期望、业务场景以及内部职业发展的文化。这种文化客户成功领域同样适用。</p>
-<p>有时候，我也思考为什么大家都热衷于追逐权力。其实，权力不仅意味着责任，它还能建立信任，无论是在客户面前还是在内部资源调配上，权力还会让我们在谈判中更有筹码。因此，<strong>追求高头衔并没有什么问题，关键是要在合适的时间去追逐它</strong>。</p>
-<p>由衷的希望未来客户成功经理能获得更多权限，承担更大的责任，成为公司战略决策中的关键角色，享有更高的资源配置优先级，并通过数据驱动实现真正的价值化。而不是简单的职位提升，因为客户成功经理好歹还带着<code>“经理”</code>两个字，想起来之前看过的一个招聘岗位上特别强调<strong>客户成功经理不是管理岗</strong>，笑Cry。怎么说呢，客户成功经理他不是管理体系的经理，但是对能力的要求一点都没有降低，尤其是我们的业务覆盖跟客户企业的发展战略紧密相关时。</p>
-<p>等到了那个时代，我们就可以兴高采烈地跟客户说：你是要这个99的学徒剪发，199的创意总监剪发、299的设计总监剪发、399的店长剪发、499的主理人剪发还是… 我们这里啊，总有一款会适合您。</p>
-<br>
-<br>
-<br>
-
-<hr>
-<div style="display: flex; align-items: center; justify-content: space-between;">
-    <div>
-<p style="margin: 0; color: #E62412; font-weight: bold;">段旭东（Anjou Duan）</p>
-        <p style="margin: 0;">找不到理想工作的前协作SaaS赛道CSM</p>
-    </div>
-    <figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://heycsm.com/images/anjouduan.png"
-                      alt="Anjou Duan" style="width: 80px; height: 80px; border-radius: 50%; margin-left: 15px;"
-                ><figcaption>Anjou Duan</figcaption></figure>
-</div>
-
-
-
-<p>不提<code>Teambition领航员（钉钉数字化专家）</code>、<code>宜搭行业解决方案共创PDSA</code>这些虚名以及有那么<code>一点好看的职业数据</code>，只不过一个平淡无奇的王者荣耀<code>荣耀王者</code>、和平精英<code>传奇王牌</code>的小天才罢了。</p>
-<hr>
-<p style="margin: 0; color: #1B9AEE; font-weight: bold;"> HeyCSM </p>
-
-<p>一个<code>有态度</code>、且<code>有趣</code>更<code>有料</code>的微信公众号和同名网站(<code>heycsm.com</code>)。</p>
-<p>由数字化协作 SaaS（曾服务<code>Teambition</code>、<code>Worktile</code>、<code>PingCode</code>等产品）的 CSM <code>段旭东</code></p>
-<p style="margin: 0; color: #1B9AEE; font-weight: bold;">用 <span style="color: #E62412;">♥️</span> 打造。</p>
-
-</div>
-				<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-				<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-				<script>
-				var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-				var isEncrypt = document.getElementById('hexo-blog-encrypt');
-				var allowMobile = false;
-				if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
-					try {
-						var plugin = new ReadmorePlugin();
-						plugin.init({
-							"type": "hexo",
-							"id": "readmore-container",
-							"name": "HeyCSM-你好客户成功经理",
-							"blogId": "85700-3670119654427-676",
-							"qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG",
-							"keyword": "heycsm",
-							"random": "1",
-							"height": "auto",
-							"expires": "365",
-							"lockToc": "yes",
-							"interval": "60",
-							"baseUrl": "",
-							"tocSelector": ""
-						});
-					} catch(e) {
-						console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
-					}
-				}
-				</script>
-			]]></content>
-      <categories>
-        <category>深度文章</category>
-      </categories>
-      <tags>
-        <tag>客户成功</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CWM：任务、项目、流程与白日梦</title>
-    <url>/2024/08/29/cwm-ren-wu-xiang-mu-liu-cheng-yu-bai-ri-meng/</url>
-    <content><![CDATA[<div id="readmore-container"><h1 id="0-CWM"><a href="#0-CWM" class="headerlink" title="0. CWM"></a>0. CWM</h1><p>Collaborative Work Management <code>(CWM)</code> 是指企业通过工具和方法，帮助团队有效地协调任务、项目和流程，以实现共同目标的管理方式。它是一种强调团队协作和信息共享的工作方式，旨在提高团队的生产力和效率，减少沟通障碍和资源浪费。</p>
-<blockquote>
-<p><a class="link"   href="https://infraon.io/blog/collaborative-work-management/"  title="Everything You Should Know About Collaborative Work Management In 2024">Collaborative work management (CWM) is a structured methodology aimed at optimizing tasks, projects, and processes within teams. It involves coordinating, tracking, and streamlining various activities. CWM ensures efficient communication, workflow, and collaboration among team members, fostering a cohesive approach to achieving common goals. <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><strong>引用时有所改动，原文见文末参考资料</strong></p>
-</blockquote>
-<p>另外值得一提的是：在 <a class="link"   href="https://www.gartner.com/en/documents/5019731"  title="Gartner Magic Quadrant for Collaborative Work Management">Gartner <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 中也有CWM的相关魔力象限，目前已经收录了一些国外厂商，如 <code>Atlassian</code>、<code>ClickUp</code>、<code>Notion</code> 等。</p>
-<hr>
-<h1 id="1-引言"><a href="#1-引言" class="headerlink" title="1. 引言"></a>1. 引言</h1><h2 id="为什么写此内容："><a href="#为什么写此内容：" class="headerlink" title="为什么写此内容："></a>为什么写此内容：</h2><p>主要原因是我在工作中为客户进行Onboarding时，面对复杂的事务性管理场景，得益于 <code>Teambition</code> 的搭建方法论，总能快速上手并取得不错的效果。另外，在内部培训或沟通时，我总是需要反复解释这些概念，并没有系统地将其形成文章。因此，特地撰写此文。</p>
-<h2 id="本次写作的目的："><a href="#本次写作的目的：" class="headerlink" title="本次写作的目的："></a>本次写作的目的：</h2><p>旨在补全搭建逻辑内容，并通过反推论解释其逻辑。从任务管理、项目执行和流程优化的角度探讨企业协作的演变和关键作用。同时提供一些主观的思考和联想，帮助你更好地驾驭这些概念，实现产品的顺利落地和客户组织协作效率的最大化。</p>
-<hr>
-<h1 id="2-企业协作的基本要素"><a href="#2-企业协作的基本要素" class="headerlink" title="2. 企业协作的基本要素"></a>2. 企业协作的基本要素</h1><h2 id="任务（Task）"><a href="#任务（Task）" class="headerlink" title="任务（Task）"></a>任务（Task）</h2><ul>
-<li>任务是企业协作的最小单元，是具体的行动项。任务可独立存在，也可以作为项目和流程的子项。</li>
-<li><strong>任务管理的关键在于确保这些小任务能够被有效地分解、分配并按时完成。</strong></li>
-</ul>
-<p>任务管理通常适用于部门任务池和重点任务督办等场景，尤其适合部门内管理和小型企业。</p>
-<p>其特点是能够随时触发并快速响应变化，协作的生命周期是一个任务的起止时间。</p>
-<p>常见的管理方法包括 PDCA、GTD 和时间四象限等，强调敏捷性、效率和团队合作。</p>
-<p>在这种环境中，快速响应和灵活调整是管理的核心，通常由创始人、业务负责人或团队领导负责。</p>
-<p>然而，由于任务的简单性，客户对这类工具的粘性较低，一个简单的 list 工具即可替代。</p>
-<p><del>PS：刚开始看钉钉快办的PR时，我理解并不是它要完全服务这部分客户，但实际的商业化路径似乎瞄准了SMB，有点尴尬。后续内容还会提及钉钉快办。</del></p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092146412.png"
-                      alt="团队任务管理"
-                ><figcaption>团队任务管理</figcaption></figure></p>
-<p><span style="color: rgb(46, 64, 91)">通过以上图例可以看出，任务管理其实是对离散信息做了一定的有序分类，任务之间并没有任何关联。如果任务完成后，它将被置灰，且在不同的任务列表下可以随时新增任务，这使得它相比项目或流程来说，约束力较小。</span></p>
-<h2 id="项目（Project）"><a href="#项目（Project）" class="headerlink" title="项目（Project）"></a>项目（Project）</h2><ul>
-<li>项目是一组相互关联的任务和活动的集合，通常有明确的目标、时间表和资源限制。</li>
-<li><strong>项目管理的目标是通过合理的资源配置、时间管理和风险控制，确保项目按时、按预算、高质量地完成。</strong></li>
-</ul>
-<p>项目管理通常适用于工程项目管理、软硬件研发项目管理以及定制研发项目等，特别适合跨部门合作和中型企业。</p>
-<p>项目管理的触发机制是计划驱动，需要进行结构化规划、跨部门协调和资源配置。项目的生命周期为项目的起止时间。</p>
-<p>相关方法论包括项目管理、项目集管理、项目组合管理以及瀑布研发模型。</p>
-<p>市场环境通常处于扩张期或结构调整期，管理重点在于提高效能和跨部门合作。典型的管理角色包括项目经理、产品经理和 PMO 部门。</p>
-<p>项目管理工具具有一定的客户粘性，项目结束后迁移成本较高。</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092146812.png"
-                      alt="项目管理"
-                ><figcaption>项目管理</figcaption></figure></p>
-<p><span style="color: rgb(46, 64, 91)">可以看到，项目的搭建逻辑在列表搭建上具有一定的时间渐进性，按照项目推进进行阶段划分。每个阶段下方堆积的卡片代表当前阶段下所有需要完成的任务，这些任务都完成后，才标志着该阶段的结束。任务之间可能存在明显的依赖关系。项目计划完成后，除非变更，通常不在已有阶段里新增任务。</span></p>
-<h2 id="流程（Process）"><a href="#流程（Process）" class="headerlink" title="流程（Process）"></a>流程（Process）</h2><ul>
-<li>流程是一个系统化、重复性的活动序列，用于实现特定的业务目标或输出。流程通常是标准化的，具有可预测的结果，通过明确的步骤和规则确保一致性和效率。</li>
-<li><strong>流程管理关注的是优化和持续改进，以确保资源的最佳利用和结果的高效交付。</strong></li>
-</ul>
-<p>流程管理适用于 <code>敏捷研发</code>、人员招聘、特定工作流管理和连锁建店管理等场景，尤其适合成熟商业模式或大型企业。</p>
-<p>流程长期存在并持续优化，生命周期为业务在制品的 1-N。流程管理方法论包括 Scrum、IPD、六西格玛、精益管理和 BPM 等，强调流程优化、标准化管理和长期战略规划。</p>
-<p>在成熟市场和全球化运作中，标准化流程和效率优化是管理的重点。高级管理层、流程优化专家和研发效能部门通常负责这类管理。</p>
-<p>由于流程管理的复杂性，客户对工具的依赖性较高，流程的上下游使用方及在制品的约束（<code>存量生产数据</code>）使得替换工具的难度较大。</p>
-<blockquote>
-<p><a class="link"   href="https://weread.qq.com/web/reader/18a32cc071e2832e18a75ee"  title="SaaS创业路线图：to B产品、营销、运营方法论及实战案例解读">规模化的背后藏着三个字：标准化。–吴昊 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-</blockquote>
-<p><span style="color:red">当更多的企业管理科学关注点从分工到协作、从静态到动态、从局部优化到整体优化，流程管理已经从简单的生产优化工具演变为企业整体管理的重要组成部分，鉴于目前的市场产品表现，可以总结为<strong>两种形式 三种表现</strong>。</span></p>
-<div style="background-color: #f0f0f0; padding: 15px; border-radius: 5px; border: 1px solid #ddd;margin-bottom: 20px;">
-   <span style="color:red">传统形式-狭义流程抽象</span>
-
-<p>狭义的流程概念指的是我们去抽象的是一个业务的流程框架，在这个流程中流转的是重复性质的在制品，流程框架是增值的，在制品是重复的，在制品的发起，往往需要在流程的前端控制输入，这是核心观念。</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092147078.png"
-                      alt="销售Pipeline管理"
-                ><figcaption>销售Pipeline管理</figcaption></figure></p>
-<p><span style="color: rgb(46, 64, 91)">这里我们看到的是在这个销售Pipeline的管理中，实际上是按照销售漏斗去做了流程节点的划分，然后每一个客户呢，是当作在制品，就是一个卡片去做流转，根据客户情况的推进会调整这个卡片的所处节点，而任务的完成状态，往往在特定的流程节点下，比如说赢单。</span></p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092148195.png"
-                      alt="PingCode Scrum解决方案"
-                ><figcaption>PingCode Scrum解决方案</figcaption></figure></p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092148197.png"
-                      alt="PingCode Kanban解决方案"
-                ><figcaption>PingCode Kanban解决方案</figcaption></figure></p>
-<p><span style="color: rgb(46, 64, 91)">我想研发管理里的Scrum和Kanban方案是标准流程框架这里无需过多解释了吧。</span></p>
-</div>
-
-<div style="background-color: #f0f0f0; padding: 15px; border-radius: 5px; border: 1px solid #ddd;margin-bottom: 20px;">
-   <span style="color:red">创新形式-广义流程抽象（一）</span>
-`表现流程任务之间:`
-
-<p>广义的流程概念怎么理解呀？其实从我的角度广义流程某种程度上更契合客户的使用，因为当客户他能抽象出来一个业务的完整的事项流程图的时候，实际上这个广义流程框架已经搭建完了。最早接触到这种表现形式还是<code>Taskheat</code>。</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092148009.png"
-                      alt="钉钉发布会项目"
-                ><figcaption>钉钉发布会项目</figcaption></figure></p>
-<p><span style="color: rgb(46, 64, 91)"><code>Teambition</code>的近期更新支持了流程图应用，然后这个流程图实际上是通过利用任务之间的依赖关系形成的，他能更好地帮我们去表达任务彼此之间和顺序（时间）可视化的关系。</span></p>
-</div>
-
-<div style="background-color: #f0f0f0; padding: 15px; border-radius: 5px; border: 1px solid #ddd;margin-bottom: 20px;">
-    <span style="color:red">创新形式-广义流程抽象（二）</span>
-
-<p><code>表现流程任务本身：</code></p>
-<p>其实在我早期关注流程产品的时候并没有考虑到<code>飞书项目</code>他所代表的这种流程和我之前关注的产品有所不同。也是近期研究的时候发现虽然他们都是在往流程方向发力，但是其核心是不一样的，所以我在广义的流程抽象里定义一个表现流程任务本身的内容。当然市面上还有类似工具的是<code>日事清的流程</code>应用。</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092155217.png"
-                      alt="日事清流程1"
-                ><figcaption>日事清流程1</figcaption></figure></p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092149933.png"
-                      alt="日事清流程2"
-                ><figcaption>日事清流程2</figcaption></figure></p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092149937.png"
-                      alt="飞书项目"
-                ><figcaption>飞书项目</figcaption></figure></p>
-<p><span style="color: rgb(46, 64, 91)">当我现在回过头看这两个产品，突然理解了——前前老板给过一个评价是他们有点像是审批，我现在分级之后觉得也确实是这样。他其实是在一个任务背后去嵌套了一套审批的流程，称之为节点或者步骤，配套的去做了字段、子任务、权限控制。流程建立于任务母体的存在。这是跟Teambition当前的思路不一样的地方。</span></p>
-<p>不过Teambition真的只有如此吗？</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092150351.png"
-                      alt="Teambition工作流"
-                ><figcaption>Teambition工作流</figcaption></figure></p>
-</div>
-
-<p>我估计按照现在各家都在 IPD 这一典型流程领域发力，流程管理的格局远不止当前的定义，期待好玩的发生。</p>
-<hr>
-<h1 id="3-任务、项目与流程的联动"><a href="#3-任务、项目与流程的联动" class="headerlink" title="3. 任务、项目与流程的联动"></a>3. 任务、项目与流程的联动</h1><h2 id="任务与流程的联动"><a href="#任务与流程的联动" class="headerlink" title="任务与流程的联动"></a>任务与流程的联动</h2><p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092151358.png"
-                      alt="固定资产管理（任务+流程）1"
-                ><figcaption>固定资产管理（任务+流程）1</figcaption></figure></p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092151360.png"
-                      alt="固定资产管理（任务+流程）2"
-                ><figcaption>固定资产管理（任务+流程）2</figcaption></figure></p>
-<p><span style="color: rgb(46, 64, 91)">在这个场景里，我们可以看到看板上的任务列表，他仅仅是对物品属性的一个分类，下方罗列的每个卡片实际上是具体的物品，物品之间是松散的，不存在相互关联。但是当切换到状态这种流程后呢？看板变成了按照物品领用状态展示的形式。</span></p>
-<h2 id="项目与流程的联动"><a href="#项目与流程的联动" class="headerlink" title="项目与流程的联动"></a>项目与流程的联动</h2><p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092152615.png"
-                      alt="连锁建店管理（项目+流程"
-                ><figcaption>连锁建店管理（项目+流程</figcaption></figure></p>
-<p><span style="color: rgb(46, 64, 91)">在这个场景中，可以看到整体的业务流程、具体的项目卡片以及连接的项目，这是 <strong>Teambition</strong> 经典的总分搭建方法。</span></p>
-<h2 id="任务与项目的联动"><a href="#任务与项目的联动" class="headerlink" title="任务与项目的联动"></a>任务与项目的联动</h2><p><span style="color: red"><del>略，详见PMP中WBS部分</del></span></p>
-<p>本来这对官方父子组合想偷个懒放链接的，自己看了下官方的内容，算了，我自己写。</p>
-<p>项目是一个临时的工作计划，旨在创造一个独特的产品、服务或成果。为了实现这一目标，项目通常需要完成多个相互关联的任务。</p>
-<p>任务是构成项目的基本单元。每个任务代表一个具体的工作活动，具有明确的开始和结束时间，并且通常由团队成员执行。</p>
-<p>项目通常从总体目标出发，逐层分解为多个阶段或子项目，每个阶段或子项目再进一步分解为任务。这种逐层分解的过程通常通过工作分解结构（WBS，Work Breakdown Structure）来实现。</p>
-<p>任务是项目分解的最低层次单位，每个任务都是一个可管理的工作项。</p>
-<h2 id="结合的重要性"><a href="#结合的重要性" class="headerlink" title="结合的重要性"></a>结合的重要性</h2><p>高效的企业协作离不开任务、项目与流程的完美结合。任务是项目的基础，项目是流程的载体，而流程则是确保任务和项目顺利完成的保障。通过合理管理这三者，企业可以实现协作效率的最大化，推动业务的持续发展。</p>
-<hr>
-<h1 id="4-白日梦"><a href="#4-白日梦" class="headerlink" title="4. 白日梦"></a>4. 白日梦</h1><h2 id="第四域的雏形"><a href="#第四域的雏形" class="headerlink" title="第四域的雏形"></a>第四域的雏形</h2><p>在企业的事务性协作中，除了内部管理之外，还应考虑来自外部的信息接收、反馈与处理，我称之为 <code>环境</code> 的管理。这一概念在一些现有产品中已有体现，例如 <code>PingCode</code> 的对外产品 <code>Ship</code> 的工单收集反馈功能。此外，还有一个对外的产品路线图功能尚不清楚是否已经实现。</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092152012.png"
-                      alt="PingCode产品路线图"
-                ><figcaption>PingCode产品路线图</figcaption></figure></p>
-<p>另一个相关例子是钉钉推出 <code>快办</code> 时，其应用市场的 PR 介绍中提到“会有人帮你管任务”。当时，仅从 PR 的角度，我可能高估了AI的作用以及这个产品的独特性。我以为会有一个AI结合的深化，能达到部分代替人作业的过程。太理想了。</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092153333.png"
-                      alt="钉钉快办"
-                ><figcaption>钉钉快办</figcaption></figure></p>
-<h2 id="信息的皇帝"><a href="#信息的皇帝" class="headerlink" title="信息的皇帝"></a>信息的皇帝</h2><p>目前，许多协作平台都在大力推广AI，但我认为这些AI功能的实际效果并未达到预期，没有带来特别显著的效率增值。有可能也是我对AI的期望较高，尤其是在信息推荐方面，但实际上它仍然只是以传统性的方式呈现与我相关的当前任务的进展。</p>
-<p>我一直觉得头条的推荐算法做得非常好，它基于 <strong>“人性懒惰”</strong> 这一特性，通过用户的喜好来主动推送内容，并根据交互行为不断优化推荐。这使我想到如果企业内的每个员工都能够专注于任务，而有一个AI可以帮助我们梳理外部信息，并精准地推送给我们，工作效率将得到大幅提高。</p>
-<p>这种AI功能类似于高德地图，它可以根据用户的当前路线结合外部路况主动推荐新的路线。类似的，还有那篇曾经广泛讨论的公众号文章 <a class="link"   href="https://mp.weixin.qq.com/s/Mes1RqIOdp48CMw4pXTwXw" >外卖骑手，困在系统里 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 。<strong>不是鼓吹算法和对人的压迫哈</strong>，只是我觉得算法进化到一定程度时，效率是自然而然的事情，像流水线一样减少人性，提高效率。毕竟“朕已阅”。</p>
-<p>这是我对未来的期待。我希望每个人都能成为信息的“皇帝”，无论是处理事务还是应对外部响应。</p>
-<p>同时，产品优化方面还有很多可以改进的地方。例如，iOS 18 中的待办事项与日历的合并，更精准地通过实时活动将信息传达给用户。</p>
-<p>另外，我最近发现了一款名为 <code>uCal</code> 的日历管理软件，它通过一种分层视图直观地展示当前日程的开始和结束时间，这种视图有点像洋葱圈，可以从不同层次观察日程的时间分配。</p>
-<p>更有趣的是，B站有UP发现了一种新用法，即在预定日程时间之后，创建日程实际完成时间记录。这种功能在我之前的客户需求中也有所体现。</p>
-<p>在此基础上，我一直思考协作管理工具是否可以引入一种类似的侵入性强的弹窗提醒功能：当任务预定时间开始时，右上角固定显示浮窗，点击确认后记录系统开始时间；当预定时间到达后，再次弹窗询问是否更新完成时间。这样的功能设计可以大大提高任务的执行效率（提醒和统计方面）。</p>
-<p>哎，反正止不住做白日梦。</p>
-<hr>
-<h1 id="5-结论"><a href="#5-结论" class="headerlink" title="5. 结论"></a>5. 结论</h1><ul>
-<li><strong>任务、项目与流程协作的核心原则</strong>：没有最好，只有更适合。在不同的管理场景下，客户成功经理或者企业需要根据自身的业务特点、团队规模和市场环境选择合适的管理工具和方法。</li>
-<li><strong>未来趋势与展望</strong>：看白日梦能实现几个。</li>
-</ul>
-<hr>
-<h1 id="6-产品致谢与声明"><a href="#6-产品致谢与声明" class="headerlink" title="6. 产品致谢与声明"></a>6. 产品致谢与声明</h1><h2 id="产品致谢"><a href="#产品致谢" class="headerlink" title="产品致谢"></a>产品致谢</h2><ul>
-<li><a class="link"   href="https://www.teambition.com/"  title="Teambition">Teambition <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://www.pingcode.com/"  title="PingCode">PingCode <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://project.feishu.cn/home"  title="飞书项目">飞书项目 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://www.rishiqing.com/"  title="日事清">日事清 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://eyen.fr/taskheat/"  title="Taskheat">Taskheat <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://apps.apple.com/us/app/ucal-calendar/id1615292683"  title="uCal">uCal <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-</ul>
-<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><p>本文所提及的产品名称、商标及相关介绍均为各自权利所有者的财产，仅用于信息分享和教育目的。本文不涉及任何形式的推广、推荐或商业合作。若涉及产品描述的内容有任何不准确或侵权行为，请与我联系，我将尽快处理。感谢您的理解与支持。</p>
-<br>
-<br>
-<br>
-
-<hr>
-<div style="display: flex; align-items: center; justify-content: space-between;">
-    <div>
-<p style="margin: 0; color: #E62412; font-weight: bold;">段旭东（Anjou Duan）</p>
-        <p style="margin: 0;">找不到理想工作的前协作SaaS赛道CSM</p>
-    </div>
-    <figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://heycsm.com/images/anjouduan.png"
-                      alt="Anjou Duan" style="width: 80px; height: 80px; border-radius: 50%; margin-left: 15px;"
-                ><figcaption>Anjou Duan</figcaption></figure>
-</div>
-
-
-<p>不提<code>Teambition领航员（钉钉数字化专家）</code>、<code>宜搭行业解决方案共创PDSA</code>这些虚名以及有那么<code>一点好看的职业数据</code>，只不过一个平淡无奇的王者荣耀<code>荣耀王者</code>、和平精英<code>传奇王牌</code>的小天才罢了。</p>
-<hr>
-<p style="margin: 0; color: #1B9AEE; font-weight: bold;"> HeyCSM </p>
-
-<p>一个<code>有态度</code>、且<code>有趣</code>更<code>有料</code>的微信公众号和同名网站(<code>heycsm.com</code>)。</p>
-<p>由数字化协作 SaaS（曾服务<code>Teambition</code>、<code>Worktile</code>、<code>PingCode</code>等产品）的 CSM <code>段旭东</code></p>
-<p style="margin: 0; color: #1B9AEE; font-weight: bold;">用 <span style="color: #E62412;">♥️</span> 打造。</p>
-
-</div>
-				<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-				<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-				<script>
-				var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-				var isEncrypt = document.getElementById('hexo-blog-encrypt');
-				var allowMobile = false;
-				if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
-					try {
-						var plugin = new ReadmorePlugin();
-						plugin.init({
-							"type": "hexo",
-							"id": "readmore-container",
-							"name": "HeyCSM-你好客户成功经理",
-							"blogId": "85700-3670119654427-676",
-							"qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG",
-							"keyword": "heycsm",
-							"random": "1",
-							"height": "auto",
-							"expires": "365",
-							"lockToc": "yes",
-							"interval": "60",
-							"baseUrl": "",
-							"tocSelector": ""
-						});
-					} catch(e) {
-						console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
-					}
-				}
-				</script>
-			]]></content>
-      <categories>
-        <category>深度文章</category>
-      </categories>
-      <tags>
-        <tag>客户成功</tag>
-        <tag>Worktile</tag>
-        <tag>PingCode</tag>
-        <tag>Teambition</tag>
-        <tag>飞书项目</tag>
-        <tag>日事清</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>协作SaaS：他们在说的IPD究竟是什么东西</title>
-    <url>/2024/09/03/xie-zuo-saas-ta-men-zai-shuo-de-ipd-jiu-jing-shi-shi-me-dong-xi/</url>
-    <content><![CDATA[<div id="readmore-container"><p>不知道大家有没有观察到最近职场、客户、友商频繁的方法论名词逐渐变成了<code>IPD</code>。</p>
-<p>不管是Teambition「IPD全景图」应用、飞书项目的「IPD解决方案」、禅道的「IPD版本」，我们能看到很多产品已经针对此方法论推出了自己的对应产品。</p>
-<p>好像一觉醒来一边的客户需求、一边的产品应对、漫天遍地都是IPD的红旗了。</p>
-<p>那什么是IPD啊？</p>
-<blockquote>
-<p>Integrated Product Development (IPD) is an advanced approach to R&amp;D management driven by market needs, emphasizing collaboration, lean principles, and risk-sharing.  –谷歌学术概括 2024年3月9日 </p>
-</blockquote>
-<p>说中文就是集成产品开发 (IPD) 是一种以市场需求为导向的高级研发管理方法，强调跨部门协作、精益原则和风险共担。</p>
-<p>不同于我们熟知的Scrum的框架是本着极简来的，IPD似乎从一诞生之初就是本着一揽子（整体管理）来的，其覆盖流程之长、角色之广、理念之深是我目前了解的专业方法论中最浩瀚的一个。</p>
-<p>你敢信–某种程度上在IPD的一揽子里可以完美的嵌入我们协作软件之前惯用的项目管理、需求管理、研发管理等专业范畴和其对应方法论。</p>
-<p>这就要从IPD的来源讲起了，IPD并不是石头里蹦出来的，它来源于美国PRTM公司出版的《产品及生命周期优化法》（简称PACE——Product And Cycle-time Excellence）一书，是总结的从事咨询多年后整理出的优秀实践和方法的合集。</p>
-<p>所以某种程度上确实“大而全”。</p>
-<p>再加上IBM和华为这两个典型的跨国企业案例，IPD爆火不难理解，只是为什么是这个时间，这个有可能得单独拉一个文章了，先按下不讲（不行，憋不住，读者朋友们可以回去问你们领导为什么现在要聚焦制造业，是“天命”）。</p>
-<blockquote>
-<p>任总经典的“先僵化 后优化 再固化”管理改革名言也出自华为引进IPD时期。</p>
-</blockquote>
-<p>总之好像是照顾到我们的企业经营者的掌控欲，IPD跟Scrum的产研群体的小范围（局部）优化不同，生来就是服务于战略层，对内通过跨部门协作优化整个产品生命周期的管理以对外确保产品符合市场需求并提高企业竞争力。</p>
-<h1 id="为什么IPD"><a href="#为什么IPD" class="headerlink" title="为什么IPD"></a>为什么IPD</h1><h2 id="协作"><a href="#协作" class="headerlink" title="协作"></a>协作</h2><p>说到IPD还是从我们CWM的小打小闹对企业团队协作的试探讲起，我们是不是总会跟客户讲项目管理、知识管理、在线协作的重要性？</p>
-<p>那我们有没有想过客户企业内部的这些项目、这些文档、存在的协作链条、以及上线我们产品之后的统计数据的来源和归口分别是在哪里？</p>
-<p>我试着做一个传递啊：</p>
-<blockquote>
-<p>不做商业化都是耍流氓</p>
-</blockquote>
-<p>这是昨天我老大哥白总吐槽我文章和定位的评价。</p>
-<p>虽然我可以直接回击：</p>
-<blockquote>
-<p>松下幸之助说过，企业不盈利就是罪恶，但企业的目的不是为了盈利。企业的目的，是创造价值，为社会，为股东。赚钱不是最终目的，赚钱只是必要手段。</p>
-</blockquote>
-<p>企业主们奉为圭臬的 <strong>“企业不盈利就是罪恶”</strong> 加上后面的内容这才是完整全文。</p>
-<p>扯远了，绕回来，由此我们可以得出一个的结论是不管动机如何：<strong>企业必须赚钱</strong>。</p>
-<p>是不是企业就是这样展开运营的，要服务于业务目标，就是钱，为了挣钱要做项目，为了更容易的挣钱要做知识的沉淀，为了高效的传递信息引入在线的协作平台？</p>
-<p>企业所做的一切决策都是为了<strong>赚钱</strong>以及<strong>更好的赚钱</strong>。</p>
-<p>协作只不过是赚钱过程中的必要组织形式和信息传递方式。</p>
-<p>而所有的协作表现的来源和归口都是–</p>
-<p><strong>业务目标</strong>。</p>
-<h2 id="协作的深水区"><a href="#协作的深水区" class="headerlink" title="协作的深水区"></a>协作的深水区</h2><p>既然前文我们有了业务目标，企业内部也开始协作了，也可以赚钱了，我们的业务目标初步达成。</p>
-<p>那我们的企业主思考的下一个问题是什么？</p>
-<p>试想一下带入我们的企业主资本逐利的运作逻辑：我们是不是在有效赚钱？我们能不能赚钱赚的再稳妥一点？再快一点？再多一点？</p>
-<p>有钱的地方就去、协作效率要更高、能省的地方就省、避免出现问题…无限循环下去。</p>
-<p>一个<del>Callback</del>：</p>
-<p><strong>集成产品开发 (IPD) 是一种以市场需求为导向的高级研发管理方法，强调跨部门协作、精益原则和风险共担。</strong></p>
-<p>所以我们的企业主就把目光投向了这里。</p>
-<p>当然局部的方法论里也存在着并行、精益、质量、风险、敏捷等知识领域，可不同的是：</p>
-<p>IPD第一次离业务目标靠的这么近。</p>
-<hr>
-<h1 id="什么是IPD"><a href="#什么是IPD" class="headerlink" title="什么是IPD"></a>什么是IPD</h1><p>IPD的第一个核心理念：</p>
-<p><strong>一、将产品开发当作是一项投资行为</strong>。</p>
-<p>既然是投资了，那企业肯定是期望在未来获得收益或利润才会进行资源投入的对吧。</p>
-<p>如何证明值得被投资呢？</p>
-<p>这就要从IPD的六大阶段开始讲起了：</p>
-<p>在IPD（集成产品开发）中，产品开发被视为一种战略性的投资行为。这一理念贯穿于整个开发流程，指导企业在每一个阶段都以实现最大化的投资回报为目标来进行资源投入和管理。企业在资源投入时，不仅是为了开发产品，更是为了在未来获得可观的收益。因此，IPD流程的设计围绕着如何在各个关键节点（商业和技术）上进行明智的投资决策，以降低风险并提高成功的概率。</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092139986.png"
-                      alt="为了更好的的说明我们先讲的是小IPD-产品开发流程"
-                ><figcaption>为了更好的的说明我们先讲的是小IPD-产品开发流程</figcaption></figure></p>
-<p>基于这一核心理念，IPD 过程被划分为几个关键的阶段，每个阶段都包含了特定的商业评审点和技术评审点，以确保企业的资源投入经过充分验证并得到有效管理。以下是这些阶段及其相关要素的详细描述：</p>
-<h2 id="1-概念阶段（Concept-Phase）"><a href="#1-概念阶段（Concept-Phase）" class="headerlink" title="1. 概念阶段（Concept Phase）"></a>1. 概念阶段（Concept Phase）</h2><p><strong>概念阶段</strong>是开发流程的起点，聚焦于市场机会的识别和客户需求的理解，以构思新的产品概念。此阶段的资源投入旨在筛选出最具潜力的产品方向。</p>
-<ul>
-<li><p><strong>商业评审点</strong>：</p>
-<ul>
-<li><strong>Charter</strong>：这是项目的初步商业评估，明确产品的愿景、目标市场及其业务潜力，以决定是否值得进一步投资。</li>
-<li><strong>Charter DCP</strong>：初步开发控制计划，概述资源配置和预算需求，为后续的详细规划提供商业框架。</li>
-</ul>
-</li>
-<li><p><strong>技术评审点</strong>：</p>
-<ul>
-<li><strong>TR1</strong>：初步技术可行性评估，确认产品概念的技术可行性，判断是否能够继续开发以支持市场需求。</li>
-</ul>
-</li>
-</ul>
-<h2 id="2-计划阶段（Planning-Phase）"><a href="#2-计划阶段（Planning-Phase）" class="headerlink" title="2. 计划阶段（Planning Phase）"></a>2. 计划阶段（Planning Phase）</h2><p><strong>计划阶段</strong>专注于制定详细的产品开发路线图和时间表，确保后续开发能够按计划进行。此阶段的资源投入集中于技术实现和资源配置的详细规划。</p>
-<ul>
-<li><p><strong>商业评审点</strong>：</p>
-<ul>
-<li>**PDCP (Product Development Control Plan)**：详细的开发控制计划，涵盖项目预算、市场目标、财务预期等，确保开发过程符合商业目标。</li>
-</ul>
-</li>
-<li><p><strong>技术评审点</strong>：</p>
-<ul>
-<li><strong>TR2</strong>：技术计划的完整性评估，确保技术方案能够实现并支持商业目标。</li>
-<li><strong>TR3</strong>：系统设计技术审查，确保设计方案能够满足技术要求和商业需求，决定是否进入下一个开发阶段。</li>
-</ul>
-</li>
-</ul>
-<h2 id="3-开发阶段（Development-Phase）"><a href="#3-开发阶段（Development-Phase）" class="headerlink" title="3. 开发阶段（Development Phase）"></a>3. 开发阶段（Development Phase）</h2><p><strong>开发阶段</strong>是产品设计和技术实现的核心过程，将概念转化为实际产品。此阶段的资源投入主要集中于技术实现和产品设计，以确保产品满足预期功能。</p>
-<ul>
-<li><p><strong>商业评审点</strong>：</p>
-<ul>
-<li>这一阶段通常不设明确的商业评审点，重点在于技术开发和设计的实施。</li>
-</ul>
-</li>
-<li><p><strong>技术评审点</strong>：</p>
-<ul>
-<li><strong>TR4</strong>：详细设计评审，确保所有技术设计符合预定规范。</li>
-<li><strong>TR4A</strong>：初步功能验证，确保产品在核心功能上达到设计要求，为进入验证阶段做准备。</li>
-</ul>
-</li>
-</ul>
-<h2 id="4-验证阶段（Verification-Phase）"><a href="#4-验证阶段（Verification-Phase）" class="headerlink" title="4. 验证阶段（Verification Phase）"></a>4. 验证阶段（Verification Phase）</h2><p><strong>验证阶段</strong>通过测试和验证确保产品质量和性能，减少未来市场风险，保证产品能够稳定运行。此阶段的资源投入用于技术验证，确保产品达到市场要求。</p>
-<ul>
-<li><p><strong>商业评审点</strong>：</p>
-<ul>
-<li>**ADCP (Advanced Development Control Plan)**：针对测试和试产的高级开发控制计划，确保验证过程符合商业目标。</li>
-</ul>
-</li>
-<li><p><strong>技术评审点</strong>：</p>
-<ul>
-<li><strong>TR5</strong>：全面技术验证，确认产品在技术层面上完全符合设计要求，具备市场发布的条件。</li>
-</ul>
-</li>
-</ul>
-<h2 id="5-发布阶段（Release-Phase）"><a href="#5-发布阶段（Release-Phase）" class="headerlink" title="5. 发布阶段（Release Phase）"></a>5. 发布阶段（Release Phase）</h2><p><strong>发布阶段</strong>标志着产品准备上市。此阶段的资源投入集中于生产准备和市场推广，确保产品成功推向市场。</p>
-<ul>
-<li><p><strong>商业评审点</strong>：</p>
-<ul>
-<li>**GA (General Availability)**：正式上市的商业评估，确保产品准备好迎接市场，满足商业预期。</li>
-</ul>
-</li>
-<li><p><strong>技术评审点</strong>：</p>
-<ul>
-<li><strong>TR6</strong>：发布前的技术检查，确认所有技术和生产准备工作已完成，产品可以正式发布。</li>
-</ul>
-</li>
-</ul>
-<h2 id="6-生命周期管理阶段（Lifecycle-Management-Phase）"><a href="#6-生命周期管理阶段（Lifecycle-Management-Phase）" class="headerlink" title="6. 生命周期管理阶段（Lifecycle Management Phase）"></a>6. 生命周期管理阶段（Lifecycle Management Phase）</h2><p><strong>生命周期管理阶段</strong>关注产品的长期市场表现，包括维护、支持、更新及退市，以确保产品在其生命周期内持续带来回报。</p>
-<ul>
-<li><p><strong>商业评审点</strong>：</p>
-<ul>
-<li>**EOX (End of Life)**：标志产品生命周期结束的商业决策，确保资源合理退出市场。</li>
-</ul>
-</li>
-<li><p><strong>技术评审点</strong>：</p>
-<ul>
-<li>这一阶段没有特定的技术评审点，但EOX标志着技术支持和维护的结束。</li>
-</ul>
-</li>
-</ul>
-<p>通过这种方式，IPD过程将产品开发的各个环节视为投资行为的一部分。通过严格的商业评审和技术评审，企业能够确保每一笔资源投入都是经过充分考量的，最大化未来的投资回报。这种系统化管理方式帮助企业在复杂的产品开发过程中实现商业目标与技术可行性的双重保障。</p>
-<p>OK，我们理解了IPD是一个投资行为之后，我可以看他们的表现随时叫停之外，那作为老板，我在刚刚的一些阶段中，我还需要关注什么？</p>
-<p>开发过程中有没有什么能降本增效的方式呢？</p>
-<p>当然有了，答案是：</p>
-<p>IPD的第二个核心理念：</p>
-<p><strong>二、并行模式和重用策略。</strong></p>
-<p>在研发过程中为了降本增效以及降低风险，在纵向上分为不同的层次，如技术层、子系统层、平台层等。不同层次工作由不同的团队<strong>并行地异步开发</strong>完成，从而减少下层对上层工作的制约，每个层次都直接面向市场。</p>
-<p><strong>共用基础模块(Common Building Blocks, CBB）</strong>，建立CBB数据库，实现技术、模块、子系统、零部件在不同产品之间的重用和共享，可以缩短产品开发周期、降低产品成本。CBB策略的实施需要组织结构和衡量标准的保证。</p>
-<p>其实这里是我看很多资料中没有提及的一个点–<strong>TDT团队（Technology Development Team）</strong>，TDT 负责在产品开发过程中，处理与技术相关的任务和挑战。这个团队专注于新技术的研究和开发，以确保在产品开发过程中，技术需求能够被满足，同时也可能负责解决技术难题、验证技术可行性以及支持设计和测试阶段的工作。</p>
-<p>单独介绍下是因为我觉得在IPD核心理念中体现到的一个角色团队，基础设施的建设我觉得尤为关键，哪怕是跟PDT的功能有所重合也值得去做一个虚拟团队啊。</p>
-<p>我感觉一般的PDT团队成员都不一定能够胜任TDT的工作。</p>
-<blockquote>
-<p>IPD运作过程需要建立在流程型组织基础之上，才能发挥其应有作用。</p>
-</blockquote>
-<p>除了这些，我们是不是还经常听到一个老生常谈的概念：</p>
-<blockquote>
-<p>做正确的事、把事做正确</p>
-</blockquote>
-<p>这里其实是IPD的第三大核心理念：</p>
-<p><strong>三、基于市场的开发。</strong></p>
-<p>IPD产品开发的出发点是什么？</p>
-<blockquote>
-<p>华为的“以客户为中心”。</p>
-</blockquote>
-<p>–市场需求。</p>
-<p>其实华为的IPD不仅仅是我上文所提及的把事做正确，他在产品开发流程框架前置还有<strong>MM</strong>方法论（Market Management，市场管理流程），是关于市场管理–IPD体系的业务规划和产品规划部分，即“做正确的事”部分。</p>
-<p>市场管理是从客户、投资、市场等外部环境考察影响产品特性与生命周期的诸多因素。主要包括客户需求分析、投资组合分析和衡量指标。</p>
-<p>华为实际上在使用一种<code>“$APPEALS”</code>的需求分析工具以确保接收到的是来自正确市场的正确反馈。通过市场管理中的需求管理，确保开发的产品能够真正解决市场中的实际问题，满足客户的需求。</p>
-<p>OK，关于外部的响应部分，我们有了对应的处理方式了，那内部怎么应答呢？</p>
-<p>这里出现了一个内部支持流程，<strong>RM</strong>（Requirements Management，需求管理流程）：</p>
-<p>需求管理流程（RM）是 IPD 方法中的一个重要环节，负责识别、记录、分析和管理产品开发中的所有需求。RM 流程确保所有客户需求和市场需求都被清晰定义，并在产品开发过程中得到充分考虑和满足。</p>
-<p>通过RM的支持MM的欲瞄靶心得以澄清和被追踪、同时也对小IPD（又称“PDP”）的流程目标做了输入，完整构成了IPD三大流程。</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092140109.png"
-                      alt="IPD三大流程"
-                ><figcaption>IPD三大流程</figcaption></figure></p>
-<p>OK，关于外部的响应、转化和内部技术实现部分，我们都有了对应的处理方式了，那对于内部协作的组织形式呢？</p>
-<p>IPD强调什么？</p>
-<p><strong>四、协作，尤其是跨部门协作。</strong></p>
-<p>（终于回到我们主场了，泪目）</p>
-<p>IPD认为，成功的产品开发依赖于多个部门的协同努力。研发、市场、销售、供应链、财务等部门都需要从各自的专业领域出发，参与到产品开发的不同阶段。每个部门的输入和意见，都是为了确保产品开发过程中的每个决策都经过充分论证，从而实现最优的结果。</p>
-<p>具体怎么做？</p>
-<p>IPD下建立了大量的虚拟团队，如：</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092140299.png"
-                      alt="公司级产品管理组织模型"
-                ><figcaption>公司级产品管理组织模型</figcaption></figure></p>
-<p>为什么会有这样的设置？</p>
-<p>我认为传统的组织管理形式带来的是这种局部的职能型的团队，就是不同的职能部门实际上是按照自己的业绩要求各自为战，反而忽视掉了整体对于市场反映的正确处理 <del>（PS：游戏里有一个术语叫管C不管赢说的就是这种现象）</del> 。而流程及流程型组织，它之所以被称为是端到端的是因为：</p>
-<blockquote>
-<p>主业务流程是直接为客户创造价值的流程，所有组织必须工作在主流程中，或者作为主业务流的支撑，为客户创造价值，否则这样的组织就是多余的组织。各职能组织都需要参与到执行主业务流的跨职能部门项目中，为客户创造价值。–徐直军《谈业务、流程、IT、质量、运营的关系》</p>
-</blockquote>
-<p>这种团队的建立以及流程型组织的形式，让我们整个企业所有的核心主线又回到了以客户为中心的出发点，并服务于企业盈利目标的落脚点，其余所有的行为全部都是不被原谅且可以优化的。</p>
-<p>除了以上四大核心之外还有什么IPD中的核心理念吗？</p>
-<p>有的，但是市面上的资料真是各说各的，但是我相信即使我没有强调也在过程中体现出来了，我权且写个列表提及一下吧：</p>
-<ul>
-<li>端到端的产品生命周期管理</li>
-<li>持续创新和迭代改进</li>
-<li>技术开发与产品开发要分离</li>
-<li>职业化人才梯队建设</li>
-<li>建立矩阵式的绩效管理机制</li>
-<li>质量前置与风险管理</li>
-<li>客户参与</li>
-<li>…</li>
-</ul>
-<hr>
-<h1 id="怎么做IPD"><a href="#怎么做IPD" class="headerlink" title="怎么做IPD"></a>怎么做IPD</h1><p>我相信协作领域的诸位都有自己的解法，比如巧妙的将CWM产品只做为产品流程开发（小IPD）部分，少量或避免涉及MM、RM部分、通过集成已有的PLM做完整控制、又或者在CWM上做二开以实现完整功能的管理。</p>
-<p>那对于标品，对于客户我们可以有哪些着力点呢？</p>
-<h2 id="一、卷积"><a href="#一、卷积" class="headerlink" title="一、卷积"></a>一、卷积</h2><p>因为IPD的流程繁杂，且自下而上的反映到IPMT、PMT等做决策控制，那数据自下而上的卷积是必要的，毕竟要给投资人看么。</p>
-<h2 id="二、基线"><a href="#二、基线" class="headerlink" title="二、基线"></a>二、基线</h2><p>在过程中，我们实际产生了大量的计划及承诺性质的成果物，为了更好的决策下一步行动，基线是必不可少的能力。</p>
-<h2 id="三、流程（子流程）"><a href="#三、流程（子流程）" class="headerlink" title="三、流程（子流程）"></a>三、流程（子流程）</h2><p>都说了IPD是个筐，我们要有灵活的方式去装相关的内容，你但凡涉及到组织伤筋动骨的这种改革，而且时间周期跨度很长的，那他一定会覆盖到企业经营的方方面面，包括但不限于研发、市场、销售、供应链、财务、质量等。而在产品的应用中，照顾到更多群体的使用场景是必要的。</p>
-<h2 id="四、视图"><a href="#四、视图" class="headerlink" title="四、视图"></a>四、视图</h2><p>提供基础的IPD泳道视图能力（阶段、角色）、提供不同角色的工作台和驾驶舱（统计）能力、提供任务之间的关联关系能力（依赖和追踪）。</p>
-<h2 id="五、审批"><a href="#五、审批" class="headerlink" title="五、审批"></a>五、审批</h2><p>不说别的了，最起码得保证商业评审点和技术评审点有一个表现的形式吧。</p>
-<h2 id="六、工时"><a href="#六、工时" class="headerlink" title="六、工时"></a>六、工时</h2><p>就算CWM不做财务相关，我们也需要提供成员基础协作成本的基础数据–员工的工时以便商业上的成本核算。</p>
-<h2 id="七、字段控制"><a href="#七、字段控制" class="headerlink" title="七、字段控制"></a>七、字段控制</h2><p>IPD流程相对来说还是一系列的准入准出构成的，数据的原始性需要关注。</p>
-<p>总之，即使我们不是PLM，<strong>我们也是可以支撑一部分IPD流程的</strong>，甚至如果客户有对IPD进行裁剪，那我们完全可以通过产品的现有能力去满足。</p>
-<p>当然长久来看，<strong>CWM如果能有插件、应用、开放能力支持完整的IPD流程最佳</strong>，毕竟如果能完整的实现IPD，我相信什么场景都可以做了。</p>
-<p>且学习且实践吧。</p>
-<p>让我们借用华为总裁任正非的一段话作为本次文章的结语:</p>
-<p>任正非说：“为什么我们要认真推IPD？我们就是在摆脱企业对个人的依赖，使要做的事，从输入到输出，直接端到端，简洁并控制有效地连通，尽可能地减少层级，使成本最低，效率最高。就这么简单一句话。要把可以规范化的管理都变成扳铁道道岔，使岗位操作标准化、制度化。就像一条龙一样，不管如何舞动，其身躯内部的所有关节的相互关系都不会改变，龙头就如Marketing，它不断地追寻客户需求，身体就随龙头不断摆动，因为身体内部所有的相互关系都不变化，使得管理简单，成本低。</p>
-<p>我们一定要坚持IPD的流程化组织建设，活学活用好，坚决按流程来确定责任、权利，以及角色设计，逐步淡化功能组织的权威，这就是我们说的微观的商业模型。”</p>
-<hr>
-<p>怎么样，整体来说是不是很复杂，但是从老板的角度考量–我要是老板我也用IPD啊。</p>
-<p><strong>–这种掌控感太美妙了。</strong></p>
-<h1 id="参考资料及声明："><a href="#参考资料及声明：" class="headerlink" title="参考资料及声明："></a>参考资料及声明：</h1><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ol>
-<li><a class="link"   href="https://scrm-wx.weiling.cn/h5/monitorFile/index.html?corp_id=wpW2WmDAAApBUQzcL5iTawL9rOLpF4ZA&event_id=1822128233060270080&share_type=2&material_id=1822115007409184769&source_type=user#/"  title="Teambition 中国制造业IPD白皮书">Teambition 中国制造业IPD白皮书 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://alidocs.dingtalk.com/i/p/nb9XJlxV4RlvLGyA/docs/YMyQA2dXW7gYo6MzcrybeeojWzlwrZgb"  title="Teambition IPD全景图">Teambition IPD全景图 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://project.feishu.cn/home/ipd"  title="飞书项目IPD解决方案">飞书项目IPD解决方案 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://www.zentao.net/zentao-ipd.html"  title="禅道项目管理软件IPD版本">禅道项目管理软件IPD版本 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://weread.qq.com/web/reader/c0d321507202539cc0d1508kc81322c012c81e728d9d180"  title="华为能，你也能：IPD产品管理实践">华为能，你也能：IPD产品管理实践 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://support.huaweicloud.com/projectman/index.html"  title="华为CodeArts Req 用户指南">华为CodeArts Req 用户指南 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://www.woshipm.com/share/5906387.html"  title="大家都在聊IPD（集成产品开发）？全面解析来啦，看IBM、华为的研发管理之道！">大家都在聊IPD（集成产品开发）？全面解析来啦，看IBM、华为的研发管理之道！ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://www.ipdwiki.com/?zljm/2224.html"  title="华为7大核心管理思想">华为7大核心管理思想 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-</ol>
-<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><p>本文所提及的产品名称、商标及相关介绍均为各自权利所有者的财产，仅用于信息分享和教育目的。本文不涉及任何形式的推广、推荐或商业合作。若涉及产品描述的内容有任何不准确或侵权行为，请与我联系，我将尽快处理。感谢您的理解与支持。</p>
-<br>
-<br>
-<br>
-
-<hr>
-<div style="display: flex; align-items: center; justify-content: space-between;">
-    <div>
-<p style="margin: 0; color: #E62412; font-weight: bold;">段旭东（Anjou Duan）</p>
-        <p style="margin: 0;">找不到理想工作的前协作SaaS赛道CSM</p>
-    </div>
-    <figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://heycsm.com/images/anjouduan.png"
-                      alt="Anjou Duan" style="width: 80px; height: 80px; border-radius: 50%; margin-left: 15px;"
-                ><figcaption>Anjou Duan</figcaption></figure>
-</div>
-
-
-<p>不提<code>Teambition领航员（钉钉数字化专家）</code>、<code>宜搭行业解决方案共创PDSA</code>这些虚名以及有那么<code>一点好看的职业数据</code>，只不过一个平淡无奇的王者荣耀<code>荣耀王者</code>、和平精英<code>传奇王牌</code>的小天才罢了。</p>
-<hr>
-<p style="margin: 0; color: #1B9AEE; font-weight: bold;"> HeyCSM </p>
-
-<p>一个<code>有态度</code>、且<code>有趣</code>更<code>有料</code>的微信公众号和同名网站(<code>heycsm.com</code>)。</p>
-<p>由数字化协作 SaaS（曾服务<code>Teambition</code>、<code>Worktile</code>、<code>PingCode</code>等产品）的 CSM <code>段旭东</code></p>
-<p style="margin: 0; color: #1B9AEE; font-weight: bold;">用 <span style="color: #E62412;">♥️</span> 打造。</p>
-
-
-
-</div>
-				<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-				<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-				<script>
-				var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-				var isEncrypt = document.getElementById('hexo-blog-encrypt');
-				var allowMobile = false;
-				if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
-					try {
-						var plugin = new ReadmorePlugin();
-						plugin.init({
-							"type": "hexo",
-							"id": "readmore-container",
-							"name": "HeyCSM-你好客户成功经理",
-							"blogId": "85700-3670119654427-676",
-							"qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG",
-							"keyword": "heycsm",
-							"random": "1",
-							"height": "auto",
-							"expires": "365",
-							"lockToc": "yes",
-							"interval": "60",
-							"baseUrl": "",
-							"tocSelector": ""
-						});
-					} catch(e) {
-						console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
-					}
-				}
-				</script>
-			]]></content>
-      <categories>
-        <category>深度文章</category>
       </categories>
       <tags>
         <tag>客户成功</tag>
@@ -2972,6 +2187,791 @@
 			]]></content>
       <categories>
         <category>断想一束</category>
+      </categories>
+      <tags>
+        <tag>客户成功</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>客户成功离“Tony”老师还有多远？</title>
+    <url>/2024/08/27/ke-hu-cheng-gong-chi-tony-lao-shi-huan-you-duo-yuan/</url>
+    <content><![CDATA[<div id="readmore-container"><h1 id="关于“Title”的乱乱想"><a href="#关于“Title”的乱乱想" class="headerlink" title="关于“Title”的乱乱想"></a>关于“Title”的乱乱想</h1><p>很早以前，我从第一家业内公司离职后，加入了第二家SaaS公司。有一次，我跟我的直属leader一起去拜访客户，回程时我们在出租车上领导问我：“今天见完客户后，你对比前一家公司拜访客户的感受如何？”我当时脱口而出：<code>“Title”</code>——尤其是“头衔”，确实在客户现场挺重要的。</p>
+<p>在之前的那家公司，我是类似于“小主管”的角色。面对客户时，我可以很自信地说自己是客户成功这部分的负责人，这样客户会更愿意信任我说的话，也更愿意跟我一起把事情推进落实。但当我重新转回基础岗位时，特别是跟领导一起出面时，我的话语权明显弱了（这里可能说自己的气场更恰当）。即使我是在座各位中最了解产品应用的人，但缺少高头衔背书的情况下，客户对我的重视程度也打了折扣。这是我第一次真切地感受到头衔在客户沟通中的影响。</p>
+<p>一直以来，我觉得客户成功的未来一定是向咨询行业靠拢的，毕竟大家都是通过<code>“事实和感受”</code>混口饭吃。在咨询行业，高头衔是常见的现象，这背后有着深层次的原因。咨询行业早期，许多咨询公司直接从商学院或法学院招募精英，为了让这些初入职场的新鲜人类更好地开展业务，咨询公司赋予了他们起步就是“咨询顾问”的头衔。而且，咨询师的头衔和咨询的业务形式决定了在与客户互动时，遵循对等原则，往往是直接面对企业高层领导。这样，高头衔不仅帮助咨询师建立权威，也让他们在客户面前更有话语权。</p>
+<p>随着咨询行业全球化发展，许多公司为了在不同地区保持服务标准，内部建立了完善的晋升体系。这种体系既是市场竞争力的判断，也是员工清晰的职业发展路径，自然而然逐渐成为行业内的一种“规矩”。</p>
+<h1 id="头衔的意义不仅仅是身份"><a href="#头衔的意义不仅仅是身份" class="headerlink" title="头衔的意义不仅仅是身份"></a>头衔的意义不仅仅是身份</h1><p>不过，我觉得吧，头衔不仅仅是身份的象征，它更是一种<strong>责任以及可支配资源能力的体现</strong>。以美国SaaS行业为例，客户成功的职位体系早已建立，但这背后是因为美国SaaS市场比中国市场成熟得早，用我们的话说“美国SaaS市场比中国至少成熟10年”。这一点，在国内SaaS行业是大家心知肚明的。那么，美国SaaS行业为什么如此重视客户成功呢？其实是因为<strong>SaaS的业务特性决定了客户成功经理对公司持续、稳定收入的影响力</strong>。另外也是因为<strong>在美国市场，客户成功的概念已经被广泛接受和推广</strong>。</p>
+<p>我们再看看国内，在销售主导的阶段，尤其是在传统软件行业，销售经理的头衔通常都很高。即使他们可能只是普通销售经理，但对外名片上却印着“高级销售经理”或“销售总监”，内部也可能还会有“KA销售”的定义。这表明<strong>在国内市场，销售仍然是主力</strong>，因为他们直接决定了当前的收入，而客户成功的作用还不够明显。</p>
+<h1 id="客户成功何时拥有高头衔"><a href="#客户成功何时拥有高头衔" class="headerlink" title="客户成功何时拥有高头衔?"></a>客户成功何时拥有高头衔?</h1><blockquote>
+<p><a class="link"   href="https://www.gainsight.com/blog/3-ways-customer-success-will-evolve-as-a-growth-engine-in-2019/"  title="3 Ways Customer Success Will Evolve as a Growth Engine in 2019">“Customer Success Management is hitting the mainstream.”That’s what Forrester analyst TJ Keitt said in his September 2018 report, How to Build a Customer Success Progra. <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</blockquote>
+<p>对于大多数美国SaaS公司而言，当他们的年收入达到约<code>五千万到一亿美元</code>之间时，企业往往会经历一个转折点，客户成功的角色从支持角色转变为战略角色。这是因为在这个收入级别，客户续约和扩展对企业的长期增长至关重要，而新增客户的获取成本（CAC）往往会变高，因此客户成功的战略地位大幅上升。那么，客户成功经理什么时候也能像销售经理一样，拥有高级头衔，并在公司内外都拥有更多的话语权呢？这其实要结合公司SaaS业务的发展情况来分析。美国SaaS行业的典型发展路径可以给我们一些参考：</p>
+<ol>
+<li><p><strong>初创期</strong>：</p>
+<ul>
+<li>目标：快速获得市场份额，吸引早期客户。</li>
+<li>资源分配：主要集中在销售获取新客户，客户成功角色可能只负责基础的客户支持和实施。</li>
+<li>代表案例：2000年代初的Salesforce，他们以销售为核心，迅速扩展了CRM市场。</li>
+</ul>
+</li>
+<li><p><strong>增长期</strong>：</p>
+<ul>
+<li>目标：提高市场渗透率，扩大客户基础。</li>
+<li>资源分配：销售仍是重点，但客户成功开始获得更多关注，尤其是在避免客户流失方面。</li>
+<li>代表案例：2010年代初的HubSpot，他们大力发展客户成功团队，逐渐意识到客户教育和长期关系的重要性。</li>
+</ul>
+</li>
+<li><p><strong>成熟期</strong>：</p>
+<ul>
+<li>目标：优化客户生命周期价值（LTV），降低客户流失率，增强客户忠诚度。</li>
+<li>资源分配：客户成功逐渐成为主导角色，特别是在推动续约和扩展销售方面。企业资源也开始更多地向客户成功倾斜。</li>
+<li>代表案例：2010年代中期的Zendesk和ServiceNow，他们的客户成功团队管理整个客户生命周期，从入职到续约和扩展。</li>
+</ul>
+</li>
+</ol>
+<p>虽然没有固定的公式，但一些行业建议的比例可以作为参考。例如：</p>
+<ul>
+<li><strong>初创期</strong>：资源分配通常是<code>70%</code>给销售，<code>30%</code>给客户成功。在这个阶段，客户获取是主要目标，但也不能忽视客户成功的基础设置。</li>
+<li><strong>增长期</strong>：随着企业进入增长期，比例可以调整为<code>60%</code>销售，<code>40%</code>客户成功，更多资源开始转向客户成功，以确保留住和扩展已有客户。</li>
+<li><strong>成熟期</strong>：在企业成熟期，建议将资源分配为<code>50%</code>销售，<code>50%</code>客户成功，甚至在一些情况下，客户成功的比例会更高，达到40%销售，60%客户成功，以最大化客户的生命周期价值。</li>
+</ul>
+<p>在SaaS行业的成熟阶段，业内常用的几个指标能帮助判断何时应将资源重心从销售转移到客户成功上：</p>
+<ol>
+<li><p><strong>LTV:CAC 比率</strong>：这是衡量客户生命周期价值（LTV）与客户获取成本（CAC）之间的比率。理想的比率应大于<code>3:1</code>，这意味着客户成功需要更多资源投入。</p>
+<p> <figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092209798.png"
+                      alt="LTV:CAC 比率"
+                ><figcaption>LTV:CAC 比率</figcaption></figure></p>
+<p> <strong>应用方法</strong>：</p>
+<ul>
+<li>如果你的公司发现LTV:CAC比率较低，比如低于<code>2:1</code>，这可能表明你的客户流失率较高或客户成功不足，资源应该更多地分配给客户成功团队以提高LTV。</li>
+<li>如果LTV:CAC比率较高，比如超过<code>4:1</code>，则表明客户的长期价值高，且获取成本较低，可能需要更多资源投入销售以扩大市场份额。</li>
+</ul>
+</li>
+<li><p><strong>客户流失率（Churn Rate）</strong>：这个指标衡量在一定时期内流失的客户比例。如果流失率过高，说明客户成功需要更多资源来提高客户留存率。</p>
+<p> <figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092209637.png"
+                      alt="客户流失率"
+                ><figcaption>客户流失率</figcaption></figure></p>
+<p> <strong>应用方法</strong>：</p>
+<ul>
+<li>如果公司的流失率较高（例如每月超过<code>5%</code>），这表明客户成功团队可能需要更多资源来更好地服务现有客户并减少流失。</li>
+<li>你可以设定一个目标流失率（例如低于<code>2%</code>），并建议公司将更多资源分配给客户成功，以帮助达到这一目标。</li>
+</ul>
+</li>
+<li><p><strong>客户成功贡献度</strong>：这个指标衡量客户成功对续约和扩展收入的贡献比例。如果客户成功的贡献超过50%，那么应该考虑给予他们更多资源。</p>
+<p> <figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092210970.png"
+                      alt="客户贡献度"
+                ><figcaption>客户贡献度</figcaption></figure></p>
+<p> <strong>应用方法</strong>：</p>
+<ul>
+<li>如果客户成功团队贡献了<code>50%</code>以上的续约和扩展收入，表明他们在维持和增加公司收入方面起着关键作用，公司应考虑将更多资源分配给客户成功团队。</li>
+<li>如果这个比例较低（如低于<code>30%</code>），可以作为争取更多资源的理由，来改善续约率和客户扩展。</li>
+</ul>
+</li>
+</ol>
+<p>这些指标再次揭露了我们一个残酷的职场真相：<strong>谁掌握了收入来源，谁就拥有更大的权力</strong>。</p>
+<h1 id="服务形式不等同于服务能力"><a href="#服务形式不等同于服务能力" class="headerlink" title="服务形式不等同于服务能力"></a>服务形式不等同于服务能力</h1><p>因为之前有跟朋友沟通过这个话题，说内部也有明确的职级体系，对外的服务售卖上也有不同的收费标准，那是不是相对是比较科学的。我觉得在国内SaaS市场中，很多公司都会提供类似于<code>“服务包”</code>或<code>“实施费用”</code>的服务，这些服务通常分为不同等级，比如基础版、标准版、高级版等。这种分级的服务形式在市场上十分常见，但需要注意的是，<strong>服务形式与服务能力之间存在显著区别</strong>。</p>
+<p><strong>服务形式</strong></p>
+<p>服务形式主要指的是企业如何将其服务打包和呈现给客户。这种形式通常根据服务内容的不同，划分出多个层次，比如提供不同数量的支持工单、不同响应时间的服务承诺，或是在产品上线初期提供的不同深度的培训与支持。这些层次实际上是企业根据市场需求和定价策略所设定的产品组合。</p>
+<p><strong>服务能力</strong></p>
+<p>相比之下，服务能力更关注的是客户成功经理能够在实际操作中为客户解决问题的深度和广度。这包括：</p>
+<ul>
+<li><strong>技术能力</strong>：企业是否具备足够的技术资源和经验来支持复杂的客户需求，比如定制化的落地方案或高度集成的系统配置。</li>
+<li><strong>人员能力</strong>：客户成功团队或实施团队的专业水平，包括他们的经验、知识储备以及应对突发问题的能力。</li>
+<li><strong>服务覆盖范围</strong>：服务能力也包括企业能够提供支持的地域范围和业务覆盖程度，特别是在人数较多复杂架构下，客户成功经理能否在客户组织内提供一致且高质量的服务。</li>
+<li><strong>问题解决能力</strong>：在遇到复杂或非常规问题时，客户成功是否有能力迅速响应并协调资源有效解决，而不仅仅是按照既定的流程处理问题。</li>
+</ul>
+<p><strong>形式与能力的错位</strong></p>
+<p>在很多情况下，国内SaaS企业通过售卖不同等级的服务包来实现差异化收入，但这种形式上的差异并不代表企业在实际能力上的提升。例如，某些企业可能提供了一个更高级别的服务包，增加了<code>响应时间</code>或<code>工单数量</code>，但其客户成功团队的核心能力并未相应提高。这种情况下，客户在选择更高级别的服务形式时，可能并未获得预期中更高的服务能力。</p>
+<p>这种形式与能力的错位，容易导致客户在体验中的落差，也可能影响客户对企业的信任度和续约意愿。因此，<strong>在设计服务产品时，企业应当明确区分形式与能力，确保每一层次的服务都能够有效反映企业实际具备的服务能力</strong>。</p>
+<h1 id="展望客户成功的高头衔时代"><a href="#展望客户成功的高头衔时代" class="headerlink" title="展望客户成功的高头衔时代"></a>展望客户成功的高头衔时代</h1><p>就像麦肯锡的精英文化与金字塔式的组织架构那样，我觉得客户成功经理未来也一定会走向<code>“高头衔、高责任、高期望”</code>的职业路径。在咨询行业中，高头衔不仅是身份的象征，更是维持客户期望、业务场景以及内部职业发展的文化。这种文化客户成功领域同样适用。</p>
+<p>有时候，我也思考为什么大家都热衷于追逐权力。其实，权力不仅意味着责任，它还能建立信任，无论是在客户面前还是在内部资源调配上，权力还会让我们在谈判中更有筹码。因此，<strong>追求高头衔并没有什么问题，关键是要在合适的时间去追逐它</strong>。</p>
+<p>由衷的希望未来客户成功经理能获得更多权限，承担更大的责任，成为公司战略决策中的关键角色，享有更高的资源配置优先级，并通过数据驱动实现真正的价值化。而不是简单的职位提升，因为客户成功经理好歹还带着<code>“经理”</code>两个字，想起来之前看过的一个招聘岗位上特别强调<strong>客户成功经理不是管理岗</strong>，笑Cry。怎么说呢，客户成功经理他不是管理体系的经理，但是对能力的要求一点都没有降低，尤其是我们的业务覆盖跟客户企业的发展战略紧密相关时。</p>
+<p>等到了那个时代，我们就可以兴高采烈地跟客户说：你是要这个99的学徒剪发，199的创意总监剪发、299的设计总监剪发、399的店长剪发、499的主理人剪发还是… 我们这里啊，总有一款会适合您。</p>
+<br>
+<br>
+<br>
+
+<hr>
+<div style="display: flex; align-items: center; justify-content: space-between;">
+    <div>
+<p style="margin: 0; color: #E62412; font-weight: bold;">段旭东（Anjou Duan）</p>
+        <p style="margin: 0;">找不到理想工作的前协作SaaS赛道CSM</p>
+    </div>
+    <figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://heycsm.com/images/anjouduan.png"
+                      alt="Anjou Duan" style="width: 80px; height: 80px; border-radius: 50%; margin-left: 15px;"
+                ><figcaption>Anjou Duan</figcaption></figure>
+</div>
+
+
+
+<p>不提<code>Teambition领航员（钉钉数字化专家）</code>、<code>宜搭行业解决方案共创PDSA</code>这些虚名以及有那么<code>一点好看的职业数据</code>，只不过一个平淡无奇的王者荣耀<code>荣耀王者</code>、和平精英<code>传奇王牌</code>的小天才罢了。</p>
+<hr>
+<p style="margin: 0; color: #1B9AEE; font-weight: bold;"> HeyCSM </p>
+
+<p>一个<code>有态度</code>、且<code>有趣</code>更<code>有料</code>的微信公众号和同名网站(<code>heycsm.com</code>)。</p>
+<p>由数字化协作 SaaS（曾服务<code>Teambition</code>、<code>Worktile</code>、<code>PingCode</code>等产品）的 CSM <code>段旭东</code></p>
+<p style="margin: 0; color: #1B9AEE; font-weight: bold;">用 <span style="color: #E62412;">♥️</span> 打造。</p>
+
+</div>
+				<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
+				<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+				<script>
+				var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
+				var isEncrypt = document.getElementById('hexo-blog-encrypt');
+				var allowMobile = false;
+				if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
+					try {
+						var plugin = new ReadmorePlugin();
+						plugin.init({
+							"type": "hexo",
+							"id": "readmore-container",
+							"name": "HeyCSM-你好客户成功经理",
+							"blogId": "85700-3670119654427-676",
+							"qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG",
+							"keyword": "heycsm",
+							"random": "1",
+							"height": "auto",
+							"expires": "365",
+							"lockToc": "yes",
+							"interval": "60",
+							"baseUrl": "",
+							"tocSelector": ""
+						});
+					} catch(e) {
+						console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
+					}
+				}
+				</script>
+			]]></content>
+      <categories>
+        <category>深度文章</category>
+      </categories>
+      <tags>
+        <tag>客户成功</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>协作 SaaS：从 Scrum 到混合，你真的认为仅仅是研发模式的变化吗？</title>
+    <url>/2024/09/12/xie-zuo-saas-cong-scrum-dao-hun-he-ni-zhen-de-ren-wei-jin-jin-shi-yan-fa-mo-shi-de-bian-hua-ma/</url>
+    <content><![CDATA[<div id="readmore-container"><section style="text-align: right;">  
+<p>HeyCSM | <span style="font-weight: bold; font-style: italic;">出品</span></p>
+<p>深度文章 | <span style="font-weight: bold; font-style: italic;">栏目</span></p>
+<p>旭东 | <span style="font-weight: bold; font-style: italic;">作者</span></p>
+<p>艺丹 | <span style="font-weight: bold; font-style: italic;">灵感</span></p>
+</section>
+
+<br>
+
+<p><span style="color: #E62412; font-weight: bold;">Hey</span><span style="color: #1B9AEE; font-weight: bold;">CSM</span></p>
+
+<p><strong>为什么说 Scrum、瀑布、混合、IPD 不仅是一套框架，更是一种理念的折射？</strong></p>
+<p>Scrum——作为敏捷开发领域的代表性框架，我相信我们现在做很多人在初次接触时可能只看到它的表面流程，就开始对于敏捷做理解的时候，都是一套框架以及框架背后的一些关键要素：比如说 Scrum 经典的<br><a class="link"   href="https://juejin.cn/post/6977287882704683016"  title="敏捷开发流程之Scrum：3355">3355 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>用 4 个数字直接概括了 Scrum 的工件、角色、活动、价值观。</p>
+<p>乍一看，这似乎只是研发团队高效交付的工具。</p>
+<p>然而当我做了很多实践，并且了解到更多方法论之后，发现 Scrum 不仅仅是一套管理流程，更是一种基于敏捷文化的深层理念，它深刻影响着组织的运营方式、文化演变，甚至推动企业整体向更敏捷、更高层的方向发展。</p>
+<p>作为在协作领域较为活跃的企业研发项目管理的主流模式，哪家协作软件没有个 Scrum 的解决方案，都不好意思说自己在这个领域里混。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409121936106.svg"
+                      alt="例如PingCode Scrum 敏捷开发流程"
+                ><figcaption>例如PingCode Scrum 敏捷开发流程</figcaption></figure></p>
+<p>而 Scrum 从小众框架变身为企业研发项目管理主流背后的原因值得我们去把玩一下。</p>
+<section data-id="3073" class="v3editor">
+    <!--样式1978，更新于2019.09.21 -->
+    <section style="margin-top: 20px;margin-bottom: 10px;">
+        <section style="display: flex;justify-content:center;align-items:center;">
+            <section style="width: 12px; height: 12px; background-color: #E62412; border-radius: 50%;" data-width="12px"></section>
+            <section style="margin-left:5px;">
+                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
+                <section style="margin-top: 3px;margin-bottom: 3px;width: 80px;height: 1px;background-color: #a5a5a5;" data-width="80px"></section>
+                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
+            </section>
+            <section style="margin-left: 5px; width: 12px; height: 12px; border-style: solid; border-width: 1px; border-color: #1B9AEE; border-radius: 50%;" data-width="12px"></section>
+        </section>
+        <section style="margin-top: -30px;">
+            <p style="text-align: center;">
+                <span style="font-size: 30px; padding-left: 0em; color: #585858; ">
+                    <em><strong>1</strong></em>
+                </span>
+            </p>
+        </section>
+    </section>
+</section>
+
+
+<h2 id="从“老大哥”瀑布模型讲起"><a href="#从“老大哥”瀑布模型讲起" class="headerlink" title="从“老大哥”瀑布模型讲起"></a>从“老大哥”瀑布模型讲起</h2><p>像项目管理的<code>PMP</code>起源于建筑业一样，瀑布模型（<code>Waterfall model</code>）其实也借鉴了制造业和建筑行业的管理逻辑。</p>
+<blockquote>
+<p>The waterfall development model originated in the and industries,where the highly structured physical environments meant that design changes became prohibitively expensive much sooner in the development processWhen it was first adopted for software development, there were no recognized alternatives for knowledge-based creative work. <a class="link"   href="https://en.wikipedia.org/wiki/Front-end_web_development"  title="Wikipedia Waterfall model">–Wikipedia <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</blockquote>
+<p>当时瀑布模型面临的市场环境是什么样子呢？</p>
+<p>在上个世纪的 60~70 年代，随着计算机技术的兴起，软件开发项目主要是是面向政府和军事领域的大型项目，这些性质的项目通常规模庞大需求明确，开发周期较长，而且因为项目本身存在的复杂性和长期性——<strong>严格的计划性和阶段性管理被视为是项目管理的成功的关键</strong>。</p>
+<p>所以，瀑布模型其实是诞生于需求较为稳定，变化不大的环境下且更多运用于复杂项目。</p>
+<p>在这个瀑布模型中借鉴了工程项目的管理思维，提出了将项目划分为一系列连续的阶段，类似于是建筑、制造等传统工程行业的流程，每个阶段有明确的输出，并且在进入下一个阶段前必须完成所有的前置工作，这种模式在当时的局面下为项目管理提供了可预测性和控制力，特别是在资源分配时间管理和质量控制方面。</p>
+<p>但随着技术的爆发式增长以及市场需求的快速变化，我们很容易的就发现了瀑布模型在面对不管是来自 C 端还是 B 端日益增长的市场客户需求，对于需求变化的响应能力是比较差的，而且反馈迟缓，更别说客户参与的程度也有限，另外长周期还意味着风险的增加。</p>
+<p>所以从市场这种无形大手的推动来看，瀑布模型被新的管理方法论所代替是一个必然的事情。</p>
+<section data-id="3073" class="v3editor">
+    <!--样式1978，更新于2019.09.21 -->
+    <section style="margin-top: 20px;margin-bottom: 10px;">
+        <section style="display: flex;justify-content:center;align-items:center;">
+            <section style="width: 12px; height: 12px; background-color: #E62412; border-radius: 50%;" data-width="12px"></section>
+            <section style="margin-left:5px;">
+                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
+                <section style="margin-top: 3px;margin-bottom: 3px;width: 80px;height: 1px;background-color: #a5a5a5;" data-width="80px"></section>
+                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
+            </section>
+            <section style="margin-left: 5px; width: 12px; height: 12px; border-style: solid; border-width: 1px; border-color: #1B9AEE; border-radius: 50%;" data-width="12px"></section>
+        </section>
+        <section style="margin-top: -30px;">
+            <p style="text-align: center;">
+                <span style="font-size: 30px; padding-left: 0em; color: #585858; ">
+                    <em><strong>2</strong></em>
+                </span>
+            </p>
+        </section>
+    </section>
+</section>
+
+
+<h2 id="瀑布模型到敏捷的急转弯"><a href="#瀑布模型到敏捷的急转弯" class="headerlink" title="瀑布模型到敏捷的急转弯"></a>瀑布模型到敏捷的急转弯</h2><p>以 Scrum 为例，我们经常能听到 Scrum 被形容为瀑布模型之后的急掉头。</p>
+<p>传统的瀑布是开发遵循严格的线性流程，项目是从需求分析到设计开发测试再到最终交付，每个阶段都是按顺序进行的，虽然对大型稳定的项目有所帮助，但在应对快速变化的市场的时候还是显得捉襟见肘。</p>
+<p>Scrum 呢更多是对这种僵化流程的一个否定，它通过迭代式的开发取代了线性的规划，是团队在每次短周期的 Sprint 中都能够交付可用的产品增量，确保能快速响应客户的需求。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409121936397.png"
+                      alt="敏捷宣言"
+                ><figcaption>敏捷宣言</figcaption></figure></p>
+<p>在瀑布模型中的强调固定计划，而 Scrum 则把灵活应对作为核心价值，每次迭代都可以根据反馈调整方向，不管客户的需求怎么变化，它都有 100 种样子可以去迎合客户。</p>
+<blockquote>
+<p>Scrum 是一种轻量级框架，旨在帮助团队通过迭代交付，快速响应客户需求，强调透明、检视与适应。<a class="link"   href="https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Chinese-Simplified.pdf"  title="Scrum指南">–Scrum 指南（引用时有所改动） <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</blockquote>
+<p>而敏捷本身所倡导的宣言也好，价值观也好，Scrum 中的相关定义也好，使得 Scrum 不仅在技术层面改变开发流程，也使得在项目管理和组织协作上实现了一次急掉头。</p>
+<p>换句话说，Scrum 不仅是一套开发流程，它更是一种<strong>以反馈为驱动、持续优化</strong>的理念。Scrum 通过<strong>透明</strong>（所有人都能了解项目状态）、<strong>检视</strong>（定期反思当前流程）、<strong>适应</strong>（根据反馈做出调整），确保团队能够在高速变化的市场中快速反应、灵活应对。</p>
+<p>Scrum 作为这种思维的“急掉头”，正是为了解决应对市场的这一矛盾。</p>
+<section data-id="3073" class="v3editor">
+    <!--样式1978，更新于2019.09.21 -->
+    <section style="margin-top: 20px;margin-bottom: 10px;">
+        <section style="display: flex;justify-content:center;align-items:center;">
+            <section style="width: 12px; height: 12px; background-color: #E62412; border-radius: 50%;" data-width="12px"></section>
+            <section style="margin-left:5px;">
+                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
+                <section style="margin-top: 3px;margin-bottom: 3px;width: 80px;height: 1px;background-color: #a5a5a5;" data-width="80px"></section>
+                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
+            </section>
+            <section style="margin-left: 5px; width: 12px; height: 12px; border-style: solid; border-width: 1px; border-color: #1B9AEE; border-radius: 50%;" data-width="12px"></section>
+        </section>
+        <section style="margin-top: -30px;">
+            <p style="text-align: center;">
+                <span style="font-size: 30px; padding-left: 0em; color: #585858; ">
+                    <em><strong>3</strong></em>
+                </span>
+            </p>
+        </section>
+    </section>
+</section>
+
+
+<h2 id="Scrum：从研发工具到组织文化"><a href="#Scrum：从研发工具到组织文化" class="headerlink" title="Scrum：从研发工具到组织文化"></a>Scrum：从研发工具到组织文化</h2><p>起初，Scrum 可能只是被视为一种研发工具，一种帮助软件团队提高效率的框架。然而，随着时间的推移，越来越多的企业发现，Scrum 背后的理念可以被应用到更广泛的领域——它不仅仅是一个研发框架，更是一种<strong>文化转型</strong>。</p>
+<h3 id="看敏捷带来的商业价值"><a href="#看敏捷带来的商业价值" class="headerlink" title="看敏捷带来的商业价值"></a>看敏捷带来的商业价值</h3><p>Scrum 不仅仅是在帮助企业提高研发效率，它更深层次的价值在于推动企业<strong>快速交付商业价值</strong>。</p>
+<blockquote>
+<p>在《2023 中国企业敏捷实践白皮书》中，63%的受访者认为交付的商业价值是衡量敏捷项目成功的首要因素。 <a class="link"   href="https://pingcode.com/solutions/white-paper-2023baipishu"  title="2023 中国企业敏捷实践白皮书">——《2023 中国企业敏捷实践白皮书》 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</blockquote>
+<p>在以客户为中心的商业环境中，Scrum 通过快速的产品迭代和持续的客户反馈，帮助企业将产品价值最大化。这种快速交付与反馈的能力，不仅帮助企业避免了传统项目管理中后期存在的“大爆炸”式失败风险，还大幅提升了产品的市场适应性。</p>
+<hr>
+<h3 id="看敏捷带来的协作团队"><a href="#看敏捷带来的协作团队" class="headerlink" title="看敏捷带来的协作团队"></a>看敏捷带来的协作团队</h3><p>传统的瀑布式开发依赖于固定的计划和明确的分工，而 Scrum 强调团队成员的<strong>高效协作</strong>和<strong>持续沟通</strong>。这种模式不仅限于开发团队，它同样适用于市场、设计、运营等多个职能部门。</p>
+<p>例如，Spotify 就通过 Scrum 的<strong>自组织团队</strong>模式，推动了创新和产品体验的持续改进。通过跨职能、自我管理的团队，Spotify 能够在高度动态的市场中保持快速的响应和调整能力。</p>
+<blockquote>
+<p>Spotify 通过敏捷团队实现了高效的创新管理，使团队能够快速适应变化，并保持对市场需求的高度敏感性。 <a class="link"   href="https://www.mckinsey.com.cn/wp-content/uploads/2017/02/%E6%95%8F%E6%8D%B7%E7%BB%84%E7%BB%87%E5%BD%A2%E6%84%8F%E7%A5%9E.pdf"  title="敏捷组织形意神">——《敏捷组织形意神》 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</blockquote>
+<p>这种自组织和高度协作的模式，也逐渐成为各大企业推动敏捷转型的关键。例如在一些高科技公司，产品和设计团队通过 Scrum 和敏捷实践打破了部门之间的壁垒，快速反馈与决策成为了团队创新的源泉。</p>
+<hr>
+<blockquote>
+<p>《敏捷组织形意神》指出，真正的敏捷组织不只是技术和流程的调整，它是整个组织的<strong>文化重塑</strong>。通过 Scrum，企业可以创建自组织团队，提升灵活性、协作和创新力。<a class="link"   href="https://www.mckinsey.com.cn/wp-content/uploads/2017/02/%E6%95%8F%E6%8D%B7%E7%BB%84%E7%BB%87%E5%BD%A2%E6%84%8F%E7%A5%9E.pdf"  title="敏捷组织形意神">——《敏捷组织形意神》 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</blockquote>
+<p>企业在推动 Scrum 的过程中，往往需要打破传统的层级结构，转向更加扁平化、以团队为核心的运作方式。</p>
+<p>每个团队成员不仅仅是任务的执行者，他们通过<strong>自我管理</strong>，在项目的每个阶段都参与决策。</p>
+<p>这种转变，正是 Scrum 及其其他敏捷方法论带给组织的深远影响，而这种影响不仅仅是对内的对外上，也为企业带来了在复杂环境中的竞争力，在企业面对不确定时能够更从容地进行调整，推动创新，使组织能够快速适应技术变革和市场变化。</p>
+<p>所以每一套方法论框架背后的理念更值得我们思考。</p>
+<section data-id="3073" class="v3editor">
+    <!--样式1978，更新于2019.09.21 -->
+    <section style="margin-top: 20px;margin-bottom: 10px;">
+        <section style="display: flex;justify-content:center;align-items:center;">
+            <section style="width: 12px; height: 12px; background-color: #E62412; border-radius: 50%;" data-width="12px"></section>
+            <section style="margin-left:5px;">
+                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
+                <section style="margin-top: 3px;margin-bottom: 3px;width: 80px;height: 1px;background-color: #a5a5a5;" data-width="80px"></section>
+                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
+            </section>
+            <section style="margin-left: 5px; width: 12px; height: 12px; border-style: solid; border-width: 1px; border-color: #1B9AEE; border-radius: 50%;" data-width="12px"></section>
+        </section>
+        <section style="margin-top: -30px;">
+            <p style="text-align: center;">
+                <span style="font-size: 30px; padding-left: 0em; color: #585858; ">
+                    <em><strong>4</strong></em>
+                </span>
+            </p>
+        </section>
+    </section>
+</section>
+
+
+<h2 id="国内混合研发模式的崛起"><a href="#国内混合研发模式的崛起" class="headerlink" title="国内混合研发模式的崛起"></a>国内混合研发模式的崛起</h2><p>没有完美的框架这句话，我觉得也特别适合放在我们企业管理领域，因为每一家公司的商业站位都不尽相同，企业每一套方法论引入背后所体现出来的内容裁剪、演化才是我们更应该关注的点。</p>
+<p>我之前是一个不折不扣方法论的纯原教旨主义者，很强调它的原始性，但是后来在长期的实践中，已经在慢慢地改掉了这个臭毛病。</p>
+<p>举个例子，之前敏捷爆火的一个热点的关键词叫<code>中华田园式敏捷</code>，刚开始的我觉得一定是错的，后来慢慢发现是有其一定的合理性的。</p>
+<p>虽然 Scrum 在全球已经有了大量的应用实践，但在中国的市场落地的过程中的好像完全依赖敏捷原主张，面临着一些挑战，跟国内的一些管理文化、商业环境、客户画像都有无法调合的冲突，那我再强硬推行敏捷的原教旨不就一定会面临着水土不服的局面吗。</p>
+<p>尤其是党政国央、金融、制造等行业对于一些需要长期规划、固定目标和严格合规要求的大型项目，单纯的 Scrum 框架可能无法提供足够的结构和控制。</p>
+<p>因此，许多国内企业选择了一种<strong>混合研发模式</strong>，将敏捷与传统的瀑布式开发结合，形成了一种适应中国市场体质和企业需求的管理方式。</p>
+<ul>
+<li><strong>瀑布与敏捷的融合：</strong> 在大型项目中，企业通常会在项目初期使用瀑布模式进行整体规划，明确需求、设计和关键里程碑。在项目的后期开发和交付阶段，则引入 Scrum 的迭代开发模式，确保在具体的执行过程中能够灵活应对变化。</li>
+<li><strong>混合模式的优势：</strong> 这种模式结合了瀑布的稳定性与敏捷的灵活性，帮助企业既能应对大型项目的复杂性，又能在开发过程中保持足够的适应性。例如，某些国企和金融行业的企业在核心系统开发中需要长时间的严格规划和合规性审查，但在具体功能实现的开发中，又需要通过 Scrum 的迭代开发来提高交付效率。</li>
+<li><strong>中国特色的敏捷实践：</strong> 中国市场的特性要求企业在管理方式上具有更高的适应性。国有企业、大型制造业和金融机构，通常有非常复杂的层级和合规流程，单纯的敏捷在这些环境中难以发挥最大效果。通过混合模式，企业可以在保持计划性的同时，灵活应对变化，实现从项目规划到产品交付的高效管理。</li>
+</ul>
+<blockquote>
+<p>根据《2023 中国企业敏捷实践白皮书》，越来越多的中国企业选择采用混合模式，以适应不同项目的需求。特别是在制造业和金融行业中，混合模式逐渐成为主流。 <a class="link"   href="https://pingcode.com/solutions/white-paper-2023baipishu"  title="2023 中国企业敏捷实践白皮书">——《2023 中国企业敏捷实践白皮书》 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</blockquote>
+<p>例如，一些大型国企在早期会使用瀑布模式规划产品的整体架构，而在产品开发的后期，则通过 Scrum 快速交付功能模块。这种“混合研发模式”让企业既能保持整体控制，又能享受 Scrum 带来的快速交付和反馈的好处。</p>
+<p><del>嘿嘿，真香。</del></p>
+<section data-id="3073" class="v3editor">
+    <!--样式1978，更新于2019.09.21 -->
+    <section style="margin-top: 20px;margin-bottom: 10px;">
+        <section style="display: flex;justify-content:center;align-items:center;">
+            <section style="width: 12px; height: 12px; background-color: #E62412; border-radius: 50%;" data-width="12px"></section>
+            <section style="margin-left:5px;">
+                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
+                <section style="margin-top: 3px;margin-bottom: 3px;width: 80px;height: 1px;background-color: #a5a5a5;" data-width="80px"></section>
+                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
+            </section>
+            <section style="margin-left: 5px; width: 12px; height: 12px; border-style: solid; border-width: 1px; border-color: #1B9AEE; border-radius: 50%;" data-width="12px"></section>
+        </section>
+        <section style="margin-top: -30px;">
+            <p style="text-align: center;">
+                <span style="font-size: 30px; padding-left: 0em; color: #585858; ">
+                    <em><strong>5</strong></em>
+                </span>
+            </p>
+        </section>
+    </section>
+</section>
+
+
+<h2 id="历史总是惊人的相似"><a href="#历史总是惊人的相似" class="headerlink" title="历史总是惊人的相似"></a>历史总是惊人的相似</h2><p>首先，<strong>瀑布模型</strong>在当时的时代局限下，尤其是技术和管理背景下，确保了复杂项目的可控性。</p>
+<p>接下来<strong>Scrum</strong>的引入可以被看作是对传统管理模式的一次“否定之否定”。瀑布模型以计划性和控制为核心，适合低变化的环境，但在面对快速变化的市场时暴露出明显不足。敏捷的出现，尤其是 Scrum 的实施，是对瀑布模型的反思与调整。</p>
+<p>尽管 Scrum 的敏捷特性在快速变化的环境中展现出来了巨大的优势，但是部分项目性质中要求的规划、里程碑、监管要求使得管理的关注点重新回到了瀑布模型的规划性和可控性这个特性上，<strong>混合模型</strong>通过整合 Scrum 和瀑布的优点，平衡了管理的计划性和灵活性，所以不难看到有很多企业客户关注此模型，协作产品也花大力气推出相应的解决方案（例如<a class="link"   href="https://mp.weixin.qq.com/s/Y7S7nt2OzNLsRQs-DDkq_A" >PingCode 混合模型重磅上线，解决“瀑布+敏捷”管理难题 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><a id="jump_8"></a>）。</p>
+<p>这种发展过程符合“螺旋上升”的历史规律。瀑布模式作为一次发展阶段，为传统项目管理提供了结构性框架。但随着市场变化的加剧，敏捷理念迅速崛起，Scrum 在否定瀑布模式僵化一面的同时，也保留了它的一些有价值的结构元素，如计划与流程的框架。通过这种“否定中的否定”，Scrum 带来了项目管理方法的螺旋式上升，帮助组织进入更高层次的灵活管理。再然后混合模式应运而生。企业在前期规划中采用瀑布模型的长周期计划性，在后期开发中引入 Scrum 的短周期迭代和灵活调整。混合模式在某种程度上既是对瀑布模型的否定，也是对其合理部分的继承，并通过结合 Scrum 的动态性，平衡了计划性和灵活性，推动了项目管理的螺旋上升。</p>
+<p>这里再提一下我最近比较关注的 IPD，之前也写过相关文章：<a class="link"   href="https://mp.weixin.qq.com/s/zdjWGjqpsrJ-Vt2vG-ijtw" >协作 SaaS：他们在说的 IPD 究竟是什么东西 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><a id="jump_8"></a>，如果说混合是在开发过程中做了融合与升华的话，那 IPD 相当于是更高纬度的一个全局整合，它从顶层视角不仅关注了产品的开发阶段，还把整个产品生命周期纳入了管理的范畴，而且我觉得 IPD 里边有一个比较巧妙的点是——它先是从<strong>管理思维</strong>上继承了传统的瀑布式流程，又在开发过程中融入了敏捷管理中的动态调整与创新，将项目管理提升到了<strong>战略</strong>层次。</p>
+<p>再来做一个总结：</p>
+<p>从瀑布模型到 Scrum，再到混合模式与 IPD，我们看到项目管理的方法论在批判和吸收中不断螺旋上升，适应时代的变化。而每一种模式的出现，都是对上一种模式局限性的反思，同时也是对前一阶段经验的继承与提升。</p>
+<p>这一过程与历史的演进惊人相似，呈现出否定之否定的辩证发展。</p>
+<section data-id="3073" class="v3editor">
+    <!--样式1978，更新于2019.09.21 -->
+    <section style="margin-top: 20px;margin-bottom: 10px;">
+        <section style="display: flex;justify-content:center;align-items:center;">
+            <section style="width: 12px; height: 12px; background-color: #E62412; border-radius: 50%;" data-width="12px"></section>
+            <section style="margin-left:5px;">
+                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
+                <section style="margin-top: 3px;margin-bottom: 3px;width: 80px;height: 1px;background-color: #a5a5a5;" data-width="80px"></section>
+                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
+            </section>
+            <section style="margin-left: 5px; width: 12px; height: 12px; border-style: solid; border-width: 1px; border-color: #1B9AEE; border-radius: 50%;" data-width="12px"></section>
+        </section>
+        <section style="margin-top: -30px;">
+            <p style="text-align: center;">
+                <span style="font-size: 30px; padding-left: 0em; color: #585858; ">
+                    <em><strong>6</strong></em>
+                </span>
+            </p>
+        </section>
+    </section>
+</section>
+
+
+<h2 id="从-Scrum-开始的进化趋势更值得关注"><a href="#从-Scrum-开始的进化趋势更值得关注" class="headerlink" title="从 Scrum 开始的进化趋势更值得关注"></a>从 Scrum 开始的进化趋势更值得关注</h2><p>在未来，随着技术的发展和市场的进一步复杂化，管理方法肯定会继续沿着这条螺旋上升的前进路径。</p>
+<p>这种螺旋式的演进不仅仅是项目管理方法的提升，更是企业组织文化与管理思维的一次次进化。</p>
+<p>正如历史的发展一样，项目管理的发展同样展现出螺旋上升的永恒规律（挺美妙的不是吗？一法通万法通）。</p>
+<p>何其有幸我们这些协作 SaaS 的客户成功经理是离专业方法论、商业环境进化最近的地方，不主动都可以被“螺旋上升”。</p>
+<p>而我们 CSM 在发展过程也要做的就是不断<strong>让进步发生</strong>。<br><br></p>
+<p><code>点亮</code><span style="margin: 0; color: #E62412; font-weight: bold;">赞</span>、<span style="margin: 0; color: #1B9AEE; font-weight: bold;">在看</span>，<code>离成功更近一</code><strong>点</strong>。</p>
+<br>
+<br>
+<br>
+
+<hr>
+<section style="display: flex; align-items: center; justify-content: space-between;">
+    <section>
+<p style="margin: 0; color: #E62412; font-weight: bold;">段旭东（Anjou Duan）</p>
+        <p style="margin: 0;">找不到理想工作的前协作SaaS赛道CSM</p>
+    </section>
+    <figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://heycsm.com/images/anjouduan.png"
+                      alt="Anjou Duan" style="width: 80px; height: 80px; border-radius: 50%; margin-left: 15px;"
+                ><figcaption>Anjou Duan</figcaption></figure>
+</section>
+
+<p>不提<code>Teambition领航员（钉钉数字化专家）</code>、<code>宜搭行业解决方案共创PDSA</code>这些虚名以及有那么<code>一点好看的职业数据</code>，只不过一个平淡无奇的王者荣耀<code>荣耀王者</code>、和平精英<code>传奇王牌</code>的小天才罢了。</p>
+<hr>
+<p style="margin: 0; color: #1B9AEE; font-weight: bold;"> HeyCSM </p>
+
+<p>一个<code>有态度</code>、且<code>有趣</code>更<code>有料</code>的微信公众号和同名网站(<code>heycsm.com</code>)。</p>
+<p>由数字化协作 SaaS（曾服务<code>Teambition</code>、<code>Worktile</code>、<code>PingCode</code>等产品）的 CSM <code>段旭东</code></p>
+<p style="margin: 0; color: #1B9AEE; font-weight: bold;">用 <span style="color: #E62412;"> ♥️ </span> 打造。</p>
+
+<hr>
+<p style="color: #E62412;">声明：本文所提及的产品名称、商标及相关介绍均为各自权利所有者的财产，仅用于信息分享和教育目的。本文不涉及任何形式的推广、推荐或商业合作。若涉及产品描述的内容有任何不准确或侵权行为，请与我联系，我将尽快处理。感谢您的理解与支持。 </p>
+</div>
+				<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
+				<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+				<script>
+				var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
+				var isEncrypt = document.getElementById('hexo-blog-encrypt');
+				var allowMobile = false;
+				if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
+					try {
+						var plugin = new ReadmorePlugin();
+						plugin.init({
+							"type": "hexo",
+							"id": "readmore-container",
+							"name": "HeyCSM-你好客户成功经理",
+							"blogId": "85700-3670119654427-676",
+							"qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG",
+							"keyword": "heycsm",
+							"random": "1",
+							"height": "auto",
+							"expires": "365",
+							"lockToc": "yes",
+							"interval": "60",
+							"baseUrl": "",
+							"tocSelector": ""
+						});
+					} catch(e) {
+						console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
+					}
+				}
+				</script>
+			]]></content>
+      <categories>
+        <category>深度文章</category>
+      </categories>
+      <tags>
+        <tag>客户成功</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>协作SaaS：他们在说的IPD究竟是什么东西</title>
+    <url>/2024/09/03/xie-zuo-saas-ta-men-zai-shuo-de-ipd-jiu-jing-shi-shi-me-dong-xi/</url>
+    <content><![CDATA[<div id="readmore-container"><p>不知道大家有没有观察到最近职场、客户、友商频繁的方法论名词逐渐变成了<code>IPD</code>。</p>
+<p>不管是Teambition「IPD全景图」应用、飞书项目的「IPD解决方案」、禅道的「IPD版本」，我们能看到很多产品已经针对此方法论推出了自己的对应产品。</p>
+<p>好像一觉醒来一边的客户需求、一边的产品应对、漫天遍地都是IPD的红旗了。</p>
+<p>那什么是IPD啊？</p>
+<blockquote>
+<p>Integrated Product Development (IPD) is an advanced approach to R&amp;D management driven by market needs, emphasizing collaboration, lean principles, and risk-sharing.  –谷歌学术概括 2024年3月9日 </p>
+</blockquote>
+<p>说中文就是集成产品开发 (IPD) 是一种以市场需求为导向的高级研发管理方法，强调跨部门协作、精益原则和风险共担。</p>
+<p>不同于我们熟知的Scrum的框架是本着极简来的，IPD似乎从一诞生之初就是本着一揽子（整体管理）来的，其覆盖流程之长、角色之广、理念之深是我目前了解的专业方法论中最浩瀚的一个。</p>
+<p>你敢信–某种程度上在IPD的一揽子里可以完美的嵌入我们协作软件之前惯用的项目管理、需求管理、研发管理等专业范畴和其对应方法论。</p>
+<p>这就要从IPD的来源讲起了，IPD并不是石头里蹦出来的，它来源于美国PRTM公司出版的《产品及生命周期优化法》（简称PACE——Product And Cycle-time Excellence）一书，是总结的从事咨询多年后整理出的优秀实践和方法的合集。</p>
+<p>所以某种程度上确实“大而全”。</p>
+<p>再加上IBM和华为这两个典型的跨国企业案例，IPD爆火不难理解，只是为什么是这个时间，这个有可能得单独拉一个文章了，先按下不讲（不行，憋不住，读者朋友们可以回去问你们领导为什么现在要聚焦制造业，是“天命”）。</p>
+<blockquote>
+<p>任总经典的“先僵化 后优化 再固化”管理改革名言也出自华为引进IPD时期。</p>
+</blockquote>
+<p>总之好像是照顾到我们的企业经营者的掌控欲，IPD跟Scrum的产研群体的小范围（局部）优化不同，生来就是服务于战略层，对内通过跨部门协作优化整个产品生命周期的管理以对外确保产品符合市场需求并提高企业竞争力。</p>
+<h1 id="为什么IPD"><a href="#为什么IPD" class="headerlink" title="为什么IPD"></a>为什么IPD</h1><h2 id="协作"><a href="#协作" class="headerlink" title="协作"></a>协作</h2><p>说到IPD还是从我们CWM的小打小闹对企业团队协作的试探讲起，我们是不是总会跟客户讲项目管理、知识管理、在线协作的重要性？</p>
+<p>那我们有没有想过客户企业内部的这些项目、这些文档、存在的协作链条、以及上线我们产品之后的统计数据的来源和归口分别是在哪里？</p>
+<p>我试着做一个传递啊：</p>
+<blockquote>
+<p>不做商业化都是耍流氓</p>
+</blockquote>
+<p>这是昨天我老大哥白总吐槽我文章和定位的评价。</p>
+<p>虽然我可以直接回击：</p>
+<blockquote>
+<p>松下幸之助说过，企业不盈利就是罪恶，但企业的目的不是为了盈利。企业的目的，是创造价值，为社会，为股东。赚钱不是最终目的，赚钱只是必要手段。</p>
+</blockquote>
+<p>企业主们奉为圭臬的 <strong>“企业不盈利就是罪恶”</strong> 加上后面的内容这才是完整全文。</p>
+<p>扯远了，绕回来，由此我们可以得出一个的结论是不管动机如何：<strong>企业必须赚钱</strong>。</p>
+<p>是不是企业就是这样展开运营的，要服务于业务目标，就是钱，为了挣钱要做项目，为了更容易的挣钱要做知识的沉淀，为了高效的传递信息引入在线的协作平台？</p>
+<p>企业所做的一切决策都是为了<strong>赚钱</strong>以及<strong>更好的赚钱</strong>。</p>
+<p>协作只不过是赚钱过程中的必要组织形式和信息传递方式。</p>
+<p>而所有的协作表现的来源和归口都是–</p>
+<p><strong>业务目标</strong>。</p>
+<h2 id="协作的深水区"><a href="#协作的深水区" class="headerlink" title="协作的深水区"></a>协作的深水区</h2><p>既然前文我们有了业务目标，企业内部也开始协作了，也可以赚钱了，我们的业务目标初步达成。</p>
+<p>那我们的企业主思考的下一个问题是什么？</p>
+<p>试想一下带入我们的企业主资本逐利的运作逻辑：我们是不是在有效赚钱？我们能不能赚钱赚的再稳妥一点？再快一点？再多一点？</p>
+<p>有钱的地方就去、协作效率要更高、能省的地方就省、避免出现问题…无限循环下去。</p>
+<p>一个<del>Callback</del>：</p>
+<p><strong>集成产品开发 (IPD) 是一种以市场需求为导向的高级研发管理方法，强调跨部门协作、精益原则和风险共担。</strong></p>
+<p>所以我们的企业主就把目光投向了这里。</p>
+<p>当然局部的方法论里也存在着并行、精益、质量、风险、敏捷等知识领域，可不同的是：</p>
+<p>IPD第一次离业务目标靠的这么近。</p>
+<hr>
+<h1 id="什么是IPD"><a href="#什么是IPD" class="headerlink" title="什么是IPD"></a>什么是IPD</h1><p>IPD的第一个核心理念：</p>
+<p><strong>一、将产品开发当作是一项投资行为</strong>。</p>
+<p>既然是投资了，那企业肯定是期望在未来获得收益或利润才会进行资源投入的对吧。</p>
+<p>如何证明值得被投资呢？</p>
+<p>这就要从IPD的六大阶段开始讲起了：</p>
+<p>在IPD（集成产品开发）中，产品开发被视为一种战略性的投资行为。这一理念贯穿于整个开发流程，指导企业在每一个阶段都以实现最大化的投资回报为目标来进行资源投入和管理。企业在资源投入时，不仅是为了开发产品，更是为了在未来获得可观的收益。因此，IPD流程的设计围绕着如何在各个关键节点（商业和技术）上进行明智的投资决策，以降低风险并提高成功的概率。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092139986.png"
+                      alt="为了更好的的说明我们先讲的是小IPD-产品开发流程"
+                ><figcaption>为了更好的的说明我们先讲的是小IPD-产品开发流程</figcaption></figure></p>
+<p>基于这一核心理念，IPD 过程被划分为几个关键的阶段，每个阶段都包含了特定的商业评审点和技术评审点，以确保企业的资源投入经过充分验证并得到有效管理。以下是这些阶段及其相关要素的详细描述：</p>
+<h2 id="1-概念阶段（Concept-Phase）"><a href="#1-概念阶段（Concept-Phase）" class="headerlink" title="1. 概念阶段（Concept Phase）"></a>1. 概念阶段（Concept Phase）</h2><p><strong>概念阶段</strong>是开发流程的起点，聚焦于市场机会的识别和客户需求的理解，以构思新的产品概念。此阶段的资源投入旨在筛选出最具潜力的产品方向。</p>
+<ul>
+<li><p><strong>商业评审点</strong>：</p>
+<ul>
+<li><strong>Charter</strong>：这是项目的初步商业评估，明确产品的愿景、目标市场及其业务潜力，以决定是否值得进一步投资。</li>
+<li><strong>Charter DCP</strong>：初步开发控制计划，概述资源配置和预算需求，为后续的详细规划提供商业框架。</li>
+</ul>
+</li>
+<li><p><strong>技术评审点</strong>：</p>
+<ul>
+<li><strong>TR1</strong>：初步技术可行性评估，确认产品概念的技术可行性，判断是否能够继续开发以支持市场需求。</li>
+</ul>
+</li>
+</ul>
+<h2 id="2-计划阶段（Planning-Phase）"><a href="#2-计划阶段（Planning-Phase）" class="headerlink" title="2. 计划阶段（Planning Phase）"></a>2. 计划阶段（Planning Phase）</h2><p><strong>计划阶段</strong>专注于制定详细的产品开发路线图和时间表，确保后续开发能够按计划进行。此阶段的资源投入集中于技术实现和资源配置的详细规划。</p>
+<ul>
+<li><p><strong>商业评审点</strong>：</p>
+<ul>
+<li>**PDCP (Product Development Control Plan)**：详细的开发控制计划，涵盖项目预算、市场目标、财务预期等，确保开发过程符合商业目标。</li>
+</ul>
+</li>
+<li><p><strong>技术评审点</strong>：</p>
+<ul>
+<li><strong>TR2</strong>：技术计划的完整性评估，确保技术方案能够实现并支持商业目标。</li>
+<li><strong>TR3</strong>：系统设计技术审查，确保设计方案能够满足技术要求和商业需求，决定是否进入下一个开发阶段。</li>
+</ul>
+</li>
+</ul>
+<h2 id="3-开发阶段（Development-Phase）"><a href="#3-开发阶段（Development-Phase）" class="headerlink" title="3. 开发阶段（Development Phase）"></a>3. 开发阶段（Development Phase）</h2><p><strong>开发阶段</strong>是产品设计和技术实现的核心过程，将概念转化为实际产品。此阶段的资源投入主要集中于技术实现和产品设计，以确保产品满足预期功能。</p>
+<ul>
+<li><p><strong>商业评审点</strong>：</p>
+<ul>
+<li>这一阶段通常不设明确的商业评审点，重点在于技术开发和设计的实施。</li>
+</ul>
+</li>
+<li><p><strong>技术评审点</strong>：</p>
+<ul>
+<li><strong>TR4</strong>：详细设计评审，确保所有技术设计符合预定规范。</li>
+<li><strong>TR4A</strong>：初步功能验证，确保产品在核心功能上达到设计要求，为进入验证阶段做准备。</li>
+</ul>
+</li>
+</ul>
+<h2 id="4-验证阶段（Verification-Phase）"><a href="#4-验证阶段（Verification-Phase）" class="headerlink" title="4. 验证阶段（Verification Phase）"></a>4. 验证阶段（Verification Phase）</h2><p><strong>验证阶段</strong>通过测试和验证确保产品质量和性能，减少未来市场风险，保证产品能够稳定运行。此阶段的资源投入用于技术验证，确保产品达到市场要求。</p>
+<ul>
+<li><p><strong>商业评审点</strong>：</p>
+<ul>
+<li>**ADCP (Advanced Development Control Plan)**：针对测试和试产的高级开发控制计划，确保验证过程符合商业目标。</li>
+</ul>
+</li>
+<li><p><strong>技术评审点</strong>：</p>
+<ul>
+<li><strong>TR5</strong>：全面技术验证，确认产品在技术层面上完全符合设计要求，具备市场发布的条件。</li>
+</ul>
+</li>
+</ul>
+<h2 id="5-发布阶段（Release-Phase）"><a href="#5-发布阶段（Release-Phase）" class="headerlink" title="5. 发布阶段（Release Phase）"></a>5. 发布阶段（Release Phase）</h2><p><strong>发布阶段</strong>标志着产品准备上市。此阶段的资源投入集中于生产准备和市场推广，确保产品成功推向市场。</p>
+<ul>
+<li><p><strong>商业评审点</strong>：</p>
+<ul>
+<li>**GA (General Availability)**：正式上市的商业评估，确保产品准备好迎接市场，满足商业预期。</li>
+</ul>
+</li>
+<li><p><strong>技术评审点</strong>：</p>
+<ul>
+<li><strong>TR6</strong>：发布前的技术检查，确认所有技术和生产准备工作已完成，产品可以正式发布。</li>
+</ul>
+</li>
+</ul>
+<h2 id="6-生命周期管理阶段（Lifecycle-Management-Phase）"><a href="#6-生命周期管理阶段（Lifecycle-Management-Phase）" class="headerlink" title="6. 生命周期管理阶段（Lifecycle Management Phase）"></a>6. 生命周期管理阶段（Lifecycle Management Phase）</h2><p><strong>生命周期管理阶段</strong>关注产品的长期市场表现，包括维护、支持、更新及退市，以确保产品在其生命周期内持续带来回报。</p>
+<ul>
+<li><p><strong>商业评审点</strong>：</p>
+<ul>
+<li>**EOX (End of Life)**：标志产品生命周期结束的商业决策，确保资源合理退出市场。</li>
+</ul>
+</li>
+<li><p><strong>技术评审点</strong>：</p>
+<ul>
+<li>这一阶段没有特定的技术评审点，但EOX标志着技术支持和维护的结束。</li>
+</ul>
+</li>
+</ul>
+<p>通过这种方式，IPD过程将产品开发的各个环节视为投资行为的一部分。通过严格的商业评审和技术评审，企业能够确保每一笔资源投入都是经过充分考量的，最大化未来的投资回报。这种系统化管理方式帮助企业在复杂的产品开发过程中实现商业目标与技术可行性的双重保障。</p>
+<p>OK，我们理解了IPD是一个投资行为之后，我可以看他们的表现随时叫停之外，那作为老板，我在刚刚的一些阶段中，我还需要关注什么？</p>
+<p>开发过程中有没有什么能降本增效的方式呢？</p>
+<p>当然有了，答案是：</p>
+<p>IPD的第二个核心理念：</p>
+<p><strong>二、并行模式和重用策略。</strong></p>
+<p>在研发过程中为了降本增效以及降低风险，在纵向上分为不同的层次，如技术层、子系统层、平台层等。不同层次工作由不同的团队<strong>并行地异步开发</strong>完成，从而减少下层对上层工作的制约，每个层次都直接面向市场。</p>
+<p><strong>共用基础模块(Common Building Blocks, CBB）</strong>，建立CBB数据库，实现技术、模块、子系统、零部件在不同产品之间的重用和共享，可以缩短产品开发周期、降低产品成本。CBB策略的实施需要组织结构和衡量标准的保证。</p>
+<p>其实这里是我看很多资料中没有提及的一个点–<strong>TDT团队（Technology Development Team）</strong>，TDT 负责在产品开发过程中，处理与技术相关的任务和挑战。这个团队专注于新技术的研究和开发，以确保在产品开发过程中，技术需求能够被满足，同时也可能负责解决技术难题、验证技术可行性以及支持设计和测试阶段的工作。</p>
+<p>单独介绍下是因为我觉得在IPD核心理念中体现到的一个角色团队，基础设施的建设我觉得尤为关键，哪怕是跟PDT的功能有所重合也值得去做一个虚拟团队啊。</p>
+<p>我感觉一般的PDT团队成员都不一定能够胜任TDT的工作。</p>
+<blockquote>
+<p>IPD运作过程需要建立在流程型组织基础之上，才能发挥其应有作用。</p>
+</blockquote>
+<p>除了这些，我们是不是还经常听到一个老生常谈的概念：</p>
+<blockquote>
+<p>做正确的事、把事做正确</p>
+</blockquote>
+<p>这里其实是IPD的第三大核心理念：</p>
+<p><strong>三、基于市场的开发。</strong></p>
+<p>IPD产品开发的出发点是什么？</p>
+<blockquote>
+<p>华为的“以客户为中心”。</p>
+</blockquote>
+<p>–市场需求。</p>
+<p>其实华为的IPD不仅仅是我上文所提及的把事做正确，他在产品开发流程框架前置还有<strong>MM</strong>方法论（Market Management，市场管理流程），是关于市场管理–IPD体系的业务规划和产品规划部分，即“做正确的事”部分。</p>
+<p>市场管理是从客户、投资、市场等外部环境考察影响产品特性与生命周期的诸多因素。主要包括客户需求分析、投资组合分析和衡量指标。</p>
+<p>华为实际上在使用一种<code>“$APPEALS”</code>的需求分析工具以确保接收到的是来自正确市场的正确反馈。通过市场管理中的需求管理，确保开发的产品能够真正解决市场中的实际问题，满足客户的需求。</p>
+<p>OK，关于外部的响应部分，我们有了对应的处理方式了，那内部怎么应答呢？</p>
+<p>这里出现了一个内部支持流程，<strong>RM</strong>（Requirements Management，需求管理流程）：</p>
+<p>需求管理流程（RM）是 IPD 方法中的一个重要环节，负责识别、记录、分析和管理产品开发中的所有需求。RM 流程确保所有客户需求和市场需求都被清晰定义，并在产品开发过程中得到充分考虑和满足。</p>
+<p>通过RM的支持MM的欲瞄靶心得以澄清和被追踪、同时也对小IPD（又称“PDP”）的流程目标做了输入，完整构成了IPD三大流程。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092140109.png"
+                      alt="IPD三大流程"
+                ><figcaption>IPD三大流程</figcaption></figure></p>
+<p>OK，关于外部的响应、转化和内部技术实现部分，我们都有了对应的处理方式了，那对于内部协作的组织形式呢？</p>
+<p>IPD强调什么？</p>
+<p><strong>四、协作，尤其是跨部门协作。</strong></p>
+<p>（终于回到我们主场了，泪目）</p>
+<p>IPD认为，成功的产品开发依赖于多个部门的协同努力。研发、市场、销售、供应链、财务等部门都需要从各自的专业领域出发，参与到产品开发的不同阶段。每个部门的输入和意见，都是为了确保产品开发过程中的每个决策都经过充分论证，从而实现最优的结果。</p>
+<p>具体怎么做？</p>
+<p>IPD下建立了大量的虚拟团队，如：</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092140299.png"
+                      alt="公司级产品管理组织模型"
+                ><figcaption>公司级产品管理组织模型</figcaption></figure></p>
+<p>为什么会有这样的设置？</p>
+<p>我认为传统的组织管理形式带来的是这种局部的职能型的团队，就是不同的职能部门实际上是按照自己的业绩要求各自为战，反而忽视掉了整体对于市场反映的正确处理 <del>（PS：游戏里有一个术语叫管C不管赢说的就是这种现象）</del> 。而流程及流程型组织，它之所以被称为是端到端的是因为：</p>
+<blockquote>
+<p>主业务流程是直接为客户创造价值的流程，所有组织必须工作在主流程中，或者作为主业务流的支撑，为客户创造价值，否则这样的组织就是多余的组织。各职能组织都需要参与到执行主业务流的跨职能部门项目中，为客户创造价值。–徐直军《谈业务、流程、IT、质量、运营的关系》</p>
+</blockquote>
+<p>这种团队的建立以及流程型组织的形式，让我们整个企业所有的核心主线又回到了以客户为中心的出发点，并服务于企业盈利目标的落脚点，其余所有的行为全部都是不被原谅且可以优化的。</p>
+<p>除了以上四大核心之外还有什么IPD中的核心理念吗？</p>
+<p>有的，但是市面上的资料真是各说各的，但是我相信即使我没有强调也在过程中体现出来了，我权且写个列表提及一下吧：</p>
+<ul>
+<li>端到端的产品生命周期管理</li>
+<li>持续创新和迭代改进</li>
+<li>技术开发与产品开发要分离</li>
+<li>职业化人才梯队建设</li>
+<li>建立矩阵式的绩效管理机制</li>
+<li>质量前置与风险管理</li>
+<li>客户参与</li>
+<li>…</li>
+</ul>
+<hr>
+<h1 id="怎么做IPD"><a href="#怎么做IPD" class="headerlink" title="怎么做IPD"></a>怎么做IPD</h1><p>我相信协作领域的诸位都有自己的解法，比如巧妙的将CWM产品只做为产品流程开发（小IPD）部分，少量或避免涉及MM、RM部分、通过集成已有的PLM做完整控制、又或者在CWM上做二开以实现完整功能的管理。</p>
+<p>那对于标品，对于客户我们可以有哪些着力点呢？</p>
+<h2 id="一、卷积"><a href="#一、卷积" class="headerlink" title="一、卷积"></a>一、卷积</h2><p>因为IPD的流程繁杂，且自下而上的反映到IPMT、PMT等做决策控制，那数据自下而上的卷积是必要的，毕竟要给投资人看么。</p>
+<h2 id="二、基线"><a href="#二、基线" class="headerlink" title="二、基线"></a>二、基线</h2><p>在过程中，我们实际产生了大量的计划及承诺性质的成果物，为了更好的决策下一步行动，基线是必不可少的能力。</p>
+<h2 id="三、流程（子流程）"><a href="#三、流程（子流程）" class="headerlink" title="三、流程（子流程）"></a>三、流程（子流程）</h2><p>都说了IPD是个筐，我们要有灵活的方式去装相关的内容，你但凡涉及到组织伤筋动骨的这种改革，而且时间周期跨度很长的，那他一定会覆盖到企业经营的方方面面，包括但不限于研发、市场、销售、供应链、财务、质量等。而在产品的应用中，照顾到更多群体的使用场景是必要的。</p>
+<h2 id="四、视图"><a href="#四、视图" class="headerlink" title="四、视图"></a>四、视图</h2><p>提供基础的IPD泳道视图能力（阶段、角色）、提供不同角色的工作台和驾驶舱（统计）能力、提供任务之间的关联关系能力（依赖和追踪）。</p>
+<h2 id="五、审批"><a href="#五、审批" class="headerlink" title="五、审批"></a>五、审批</h2><p>不说别的了，最起码得保证商业评审点和技术评审点有一个表现的形式吧。</p>
+<h2 id="六、工时"><a href="#六、工时" class="headerlink" title="六、工时"></a>六、工时</h2><p>就算CWM不做财务相关，我们也需要提供成员基础协作成本的基础数据–员工的工时以便商业上的成本核算。</p>
+<h2 id="七、字段控制"><a href="#七、字段控制" class="headerlink" title="七、字段控制"></a>七、字段控制</h2><p>IPD流程相对来说还是一系列的准入准出构成的，数据的原始性需要关注。</p>
+<p>总之，即使我们不是PLM，<strong>我们也是可以支撑一部分IPD流程的</strong>，甚至如果客户有对IPD进行裁剪，那我们完全可以通过产品的现有能力去满足。</p>
+<p>当然长久来看，<strong>CWM如果能有插件、应用、开放能力支持完整的IPD流程最佳</strong>，毕竟如果能完整的实现IPD，我相信什么场景都可以做了。</p>
+<p>且学习且实践吧。</p>
+<p>让我们借用华为总裁任正非的一段话作为本次文章的结语:</p>
+<p>任正非说：“为什么我们要认真推IPD？我们就是在摆脱企业对个人的依赖，使要做的事，从输入到输出，直接端到端，简洁并控制有效地连通，尽可能地减少层级，使成本最低，效率最高。就这么简单一句话。要把可以规范化的管理都变成扳铁道道岔，使岗位操作标准化、制度化。就像一条龙一样，不管如何舞动，其身躯内部的所有关节的相互关系都不会改变，龙头就如Marketing，它不断地追寻客户需求，身体就随龙头不断摆动，因为身体内部所有的相互关系都不变化，使得管理简单，成本低。</p>
+<p>我们一定要坚持IPD的流程化组织建设，活学活用好，坚决按流程来确定责任、权利，以及角色设计，逐步淡化功能组织的权威，这就是我们说的微观的商业模型。”</p>
+<hr>
+<p>怎么样，整体来说是不是很复杂，但是从老板的角度考量–我要是老板我也用IPD啊。</p>
+<p><strong>–这种掌控感太美妙了。</strong></p>
+<h1 id="参考资料及声明："><a href="#参考资料及声明：" class="headerlink" title="参考资料及声明："></a>参考资料及声明：</h1><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ol>
+<li><a class="link"   href="https://scrm-wx.weiling.cn/h5/monitorFile/index.html?corp_id=wpW2WmDAAApBUQzcL5iTawL9rOLpF4ZA&event_id=1822128233060270080&share_type=2&material_id=1822115007409184769&source_type=user#/"  title="Teambition 中国制造业IPD白皮书">Teambition 中国制造业IPD白皮书 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://alidocs.dingtalk.com/i/p/nb9XJlxV4RlvLGyA/docs/YMyQA2dXW7gYo6MzcrybeeojWzlwrZgb"  title="Teambition IPD全景图">Teambition IPD全景图 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://project.feishu.cn/home/ipd"  title="飞书项目IPD解决方案">飞书项目IPD解决方案 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://www.zentao.net/zentao-ipd.html"  title="禅道项目管理软件IPD版本">禅道项目管理软件IPD版本 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://weread.qq.com/web/reader/c0d321507202539cc0d1508kc81322c012c81e728d9d180"  title="华为能，你也能：IPD产品管理实践">华为能，你也能：IPD产品管理实践 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://support.huaweicloud.com/projectman/index.html"  title="华为CodeArts Req 用户指南">华为CodeArts Req 用户指南 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://www.woshipm.com/share/5906387.html"  title="大家都在聊IPD（集成产品开发）？全面解析来啦，看IBM、华为的研发管理之道！">大家都在聊IPD（集成产品开发）？全面解析来啦，看IBM、华为的研发管理之道！ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://www.ipdwiki.com/?zljm/2224.html"  title="华为7大核心管理思想">华为7大核心管理思想 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ol>
+<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><p>本文所提及的产品名称、商标及相关介绍均为各自权利所有者的财产，仅用于信息分享和教育目的。本文不涉及任何形式的推广、推荐或商业合作。若涉及产品描述的内容有任何不准确或侵权行为，请与我联系，我将尽快处理。感谢您的理解与支持。</p>
+<br>
+<br>
+<br>
+
+<hr>
+<div style="display: flex; align-items: center; justify-content: space-between;">
+    <div>
+<p style="margin: 0; color: #E62412; font-weight: bold;">段旭东（Anjou Duan）</p>
+        <p style="margin: 0;">找不到理想工作的前协作SaaS赛道CSM</p>
+    </div>
+    <figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://heycsm.com/images/anjouduan.png"
+                      alt="Anjou Duan" style="width: 80px; height: 80px; border-radius: 50%; margin-left: 15px;"
+                ><figcaption>Anjou Duan</figcaption></figure>
+</div>
+
+
+<p>不提<code>Teambition领航员（钉钉数字化专家）</code>、<code>宜搭行业解决方案共创PDSA</code>这些虚名以及有那么<code>一点好看的职业数据</code>，只不过一个平淡无奇的王者荣耀<code>荣耀王者</code>、和平精英<code>传奇王牌</code>的小天才罢了。</p>
+<hr>
+<p style="margin: 0; color: #1B9AEE; font-weight: bold;"> HeyCSM </p>
+
+<p>一个<code>有态度</code>、且<code>有趣</code>更<code>有料</code>的微信公众号和同名网站(<code>heycsm.com</code>)。</p>
+<p>由数字化协作 SaaS（曾服务<code>Teambition</code>、<code>Worktile</code>、<code>PingCode</code>等产品）的 CSM <code>段旭东</code></p>
+<p style="margin: 0; color: #1B9AEE; font-weight: bold;">用 <span style="color: #E62412;">♥️</span> 打造。</p>
+
+
+
+</div>
+				<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
+				<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+				<script>
+				var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
+				var isEncrypt = document.getElementById('hexo-blog-encrypt');
+				var allowMobile = false;
+				if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
+					try {
+						var plugin = new ReadmorePlugin();
+						plugin.init({
+							"type": "hexo",
+							"id": "readmore-container",
+							"name": "HeyCSM-你好客户成功经理",
+							"blogId": "85700-3670119654427-676",
+							"qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG",
+							"keyword": "heycsm",
+							"random": "1",
+							"height": "auto",
+							"expires": "365",
+							"lockToc": "yes",
+							"interval": "60",
+							"baseUrl": "",
+							"tocSelector": ""
+						});
+					} catch(e) {
+						console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
+					}
+				}
+				</script>
+			]]></content>
+      <categories>
+        <category>深度文章</category>
       </categories>
       <tags>
         <tag>客户成功</tag>
