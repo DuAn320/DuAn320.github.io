@@ -1,0 +1,13 @@
+/* 钉钉进步体 */
+@font-face {
+    font-family: 'DingTalk JinBuTi';
+    src:local('DingTalk JinBuTi'),
+        local('DingTalk Sans'),
+        url('DingTalk JinBuTi.ttf') format('truetype'),
+        url('DingTalk Sans.ttf') format('truetype'),
+    font-weight: 200 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+

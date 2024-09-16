@@ -1,0 +1,1522 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="csm, Customer Success Manager, 客户成功经理, SaaS, 段旭东, Anjou_Duan, Teambition, Worktile, PingCode, ">
+    
+    <meta name="author" content="Anjou Duan">
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+        
+        
+        
+            <link rel="preconnect" href="https://evan.beee.top" crossorigin>
+        
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="https://heycsm.com/2024/09/03/协作saas：他们在说的ipd究竟是什么东西/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+        <meta name="description" content="文章深入解析了集成产品开发（IPD）的概念、流程和核心理念，阐述了IPD如何通过跨部门协作、市场导向和阶段评审，优化产品开发流程，提高企业竞争力，强调IPD的战略重要性及其在现代企业中的应用价值。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="协作SaaS：他们在说的IPD究竟是什么东西">
+<meta property="og:url" content="https://heycsm.com/2024/09/03/%E5%8D%8F%E4%BD%9CSaaS%EF%BC%9A%E4%BB%96%E4%BB%AC%E5%9C%A8%E8%AF%B4%E7%9A%84IPD%E7%A9%B6%E7%AB%9F%E6%98%AF%E4%BB%80%E4%B9%88%E4%B8%9C%E8%A5%BF/">
+<meta property="og:site_name" content="HeyCSM">
+<meta property="og:description" content="文章深入解析了集成产品开发（IPD）的概念、流程和核心理念，阐述了IPD如何通过跨部门协作、市场导向和阶段评审，优化产品开发流程，提高企业竞争力，强调IPD的战略重要性及其在现代企业中的应用价值。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092139986.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092140109.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092140299.png">
+<meta property="og:image" content="https://heycsm.com/images/anjouduan.png">
+<meta property="article:published_time" content="2024-09-03T11:43:15.000Z">
+<meta property="article:modified_time" content="2024-09-09T13:44:22.142Z">
+<meta property="article:author" content="Anjou Duan">
+<meta property="article:tag" content="客户成功">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092139986.png">
+    
+    
+        <!-- Google tag (gtag.js) -->
+        <script src="https://www.googletagmanager.com/gtag/js?id=G-DSCEBEZQ6K"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-DSCEBEZQ6K');
+        </script>
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="/images/heycsm-favicon.svg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/heycsm-favicon.svg">
+    <meta name="theme-color" content="#3F90FF">
+    <link rel="shortcut icon" href="/images/heycsm-favicon.svg">
+    <!--- Page Info-->
+    
+    <title>
+        
+            协作SaaS：他们在说的IPD究竟是什么东西 -
+        
+        HeyCSM
+    </title>
+
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/fonts/Chillax/chillax.css">
+
+    <!--- Inject Part-->
+    
+        
+            
+    
+            
+    
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        
+<link rel="stylesheet" href="/assets/build/styles.css">
+
+    
+
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/fonts/GeistMono/geist-mono.css">
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/fonts/Geist/geist.css">
+    <!--- Font Part-->
+    
+        <link href="/fonts/DingTalk/dingtalk.css" rel="stylesheet">
+    
+    
+    
+    
+    
+        <link href="/fonts/DingTalk/dingtalk.css" rel="stylesheet">
+    
+    
+        <script src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/libs/anime.min.js"></script>
+    
+
+    <script id="hexo-configurations">
+    window.config = {"hostname":"heycsm.com","root":"/","language":"zh-CN","path":"search.xml"};
+    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"0px","image_alignment":"center","image_caption":true,"link_icon":true,"title_alignment":"left","headings_top_spacing":{"h1":"3.2rem","h2":"2.4rem","h3":"1.9rem","h4":"1.6rem","h5":"1.4rem","h6":"1.3rem"}},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":["我与我周旋久，宁作我"]},"code_block":{"copy":true,"style":"mac","highlight_theme":{"light":"github","dark":"vs2015"},"font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":6,"number":true,"expand":true,"init_open":true},"copyright":{"enable":true,"default":"cc_by_sa"},"lazyload":true,"recommendation":{"enable":true,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery7-light.webp","skip_dirs":[]}},"colors":{"primary":"#3F90FF","secondary":null,"default_mode":"light"},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null},"title":{"enable":true,"family":"DingTalk JinBuTi","url":"/fonts/DingTalk/dingtalk.css"}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":true},"scroll_progress":{"bar":false,"percentage":true},"website_counter":{"url":"https://cn.vercount.one/js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"preloader":{"enable":true,"custom_message":"你好，客户成功经理"},"open_graph":true,"google_analytics":{"enable":true,"id":"G-DSCEBEZQ6K"}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"/images/wallhaven-wqery8-light.svg","dark":"/images/wallhaven-wqery8-dark.svg"},"title":"HeyCSM","subtitle":{"text":["你的到来，我们喜不自胜","并肩让进步发生，与有荣焉"],"hitokoto":{"enable":false,"show_author":false,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#000000","dark":"#FFFFFF"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":true,"family":"DingTalk JinBuTi","url":"/fonts/DingTalk/dingtalk.css"},"social_links":{"enable":true,"style":"default","links":{"github":"https://github.com/DuAn320","instagram":null,"zhihu":"https://www.zhihu.com/people/a-dong-15-71","twitter":null,"email":"anjou_duan@qq.com"},"qrs":{"weixin":"https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","fa-solid fa-user-plus":"https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091633309.JPG","fa-solid fa-mug-hot":"https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091644205.JPG"}}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null,"lrc":null}]},"mermaid":{"enable":false,"version":"9.3.0"}},"version":"2.7.1","navbar":{"auto_hide":false,"color":{"left":"#D1D5DB","right":"#D1D5DB","transparency":80},"width":{"home":"1200px","pages":"1000px"},"links":{"Home":{"path":"none","icon":"fa-regular fa-house"},"锐评":{"path":"/review","icon":"fa-solid fa-star-half-stroke"},"资讯":{"path":"/shuoshuo","icon":"fa-solid fa-newspaper"},"职位":{"path":"/jobs","icon":"fa-solid fa-briefcase"},"牛人":{"path":"/experts","icon":"fa-solid fa-user-tie"},"百科":{"path":"/wiki","icon":"fa-solid fa-book"},"更多":{"icon":"fa-solid fa-circle-info","submenus":{"关于我":"/about","关于Heycsm":"/aboutheycsm","关于朋友们":"/aboutfriends","友情链接":"/links"}}},"search":{"enable":true,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","first_item":"menu","announcement":"愉悦此间","show_on_mobile":true,"links":{"文章":{"path":"/archives","icon":"fa-regular fa-archive"},"标签":{"path":"/tags","icon":"fa-regular fa-tags"},"分类":{"path":"/categories","icon":"fa-regular fa-folder"}}},"article_date_format":"auto","excerpt_length":200,"categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footerStart":"2024/7/25 13:46:00"};
+    window.lang_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+    window.data = {"masonry":true};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/fontawesome/fontawesome.min.css">
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/fontawesome/brands.min.css">
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/fontawesome/solid.min.css">
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/fontawesome/regular.min.css">
+    
+    
+    
+    
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+<!--        <span class="swup-progress-icon">-->
+<!--            <i class="fa-solid fa-circle-notch fa-spin"></i>-->
+<!--        </span>-->
+    
+</div>
+
+
+
+    <style>
+    :root {
+        --preloader-background-color: #fff;
+        --preloader-text-color: #000;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --preloader-background-color: #202124;
+            --preloader-text-color: #fff;
+        }
+    }
+
+    @media (prefers-color-scheme: light) {
+        :root {
+            --preloader-background-color: #fff;
+            --preloader-text-color: #000;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .ml13 {
+            font-size: 2.6rem !important; /* Adjust this value as needed */
+        }
+    }
+
+    .preloader {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem; /* Tailwind 'gap-4' is 1rem */
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        padding: 12px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh; /* 'h-screen' is 100% of the viewport height */
+        background-color: var(--preloader-background-color);
+        z-index: 1100; /* 'z-[1100]' sets the z-index */
+        transition: opacity 0.2s ease-in-out;
+    }
+
+    .ml13 {
+        font-size: 3.2rem;
+        /* text-transform: uppercase; */
+        color: var(--preloader-text-color);
+        letter-spacing: -1px;
+        font-weight: 500;
+        font-family: 'Chillax-Variable', sans-serif;
+        text-align: center;
+    }
+
+    .ml13 .word {
+        display: inline-flex;
+        flex-wrap: wrap;
+        white-space: nowrap;
+    }
+
+    .ml13 .letter {
+        display: inline-block;
+        line-height: 1em;
+    }
+</style>
+
+<div class="preloader">
+    <h2 class="ml13">
+        你好，客户成功经理
+    </h2>
+    <script>
+        var textWrapper = document.querySelector('.ml13');
+        // Split text into words
+        var words = textWrapper.textContent.trim().split(' ');
+
+        // Clear the existing content
+        textWrapper.innerHTML = '';
+
+        // Wrap each word and its letters in spans
+        words.forEach(function(word) {
+            var wordSpan = document.createElement('span');
+            wordSpan.classList.add('word');
+            wordSpan.innerHTML = word.replace(/\S/g, "<span class='letter'>$&</span>");
+            textWrapper.appendChild(wordSpan);
+            textWrapper.appendChild(document.createTextNode(' ')); // Add space between words
+        });
+
+        var animation = anime.timeline({loop: true})
+            .add({
+                targets: '.ml13 .letter',
+                translateY: [40,0],
+                translateZ: 0,
+                opacity: [0,1],
+                filter: ['blur(5px)', 'blur(0px)'], // Starting from blurred to unblurred
+                easing: "easeOutExpo",
+                duration: 1400,
+                delay: (el, i) => 300 + 30 * i,
+            }).add({
+                targets: '.ml13 .letter',
+                translateY: [0,-40],
+                opacity: [1,0],
+                filter: ['blur(0px)', 'blur(5px)'], // Ending from unblurred to blurred
+                easing: "easeInExpo",
+                duration: 1200,
+                delay: (el, i) => 100 + 30 * i,
+                complete: function() {
+                    hidePreloader(); // Call hidePreloader after the animation completes
+                }
+            });
+
+        let themeStatus = JSON.parse(localStorage.getItem('REDEFINE-THEME-STATUS'))?.isDark;
+
+        // If the theme status is not found in local storage, check the preferred color scheme
+        if (themeStatus === undefined || themeStatus === null) {
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                themeStatus = 'dark';
+            } else {
+                themeStatus = 'light';
+            }
+        }
+
+        // Now you can use the themeStatus variable in your code
+        if (themeStatus) {
+            document.documentElement.style.setProperty('--preloader-background-color', '#202124');
+            document.documentElement.style.setProperty('--preloader-text-color', '#fff');
+        } else {
+            document.documentElement.style.setProperty('--preloader-background-color', '#fff');
+            document.documentElement.style.setProperty('--preloader-text-color', '#000');
+        }
+
+        window.addEventListener('load', function () {
+            setTimeout(hidePreloader, 5000); // Call hidePreloader after 5000 milliseconds if not already called by animation
+        });
+
+        function hidePreloader() {
+            var preloader = document.querySelector('.preloader');
+            preloader.style.opacity = '0';
+            setTimeout(function () {
+                preloader.style.display = 'none';
+            }, 200);
+        }
+    </script>
+</div>
+
+<main class="page-container" id="swup">
+
+    
+
+    <div class="main-content-container">
+
+
+        <div class="main-content-header">
+            <header class="navbar-container px-6 md:px-12">
+
+    <div class="navbar-content ">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="/images/heycsm-logo.png">
+                </a>
+            
+            <a class="logo-title" href="/">
+                
+                HeyCSM
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/review"
+                                        >
+                                    <i class="fa-solid fa-star-half-stroke fa-fw"></i>
+                                    锐评
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/shuoshuo"
+                                        >
+                                    <i class="fa-solid fa-newspaper fa-fw"></i>
+                                    资讯
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/jobs"
+                                        >
+                                    <i class="fa-solid fa-briefcase fa-fw"></i>
+                                    职位
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/experts"
+                                        >
+                                    <i class="fa-solid fa-user-tie fa-fw"></i>
+                                    牛人
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/wiki"
+                                        >
+                                    <i class="fa-solid fa-book fa-fw"></i>
+                                    百科
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="has-dropdown"
+                                   href="#"
+                                        onClick=&#34;return false;&#34;>
+                                    <i class="fa-solid fa-circle-info fa-fw"></i>
+                                    更多
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a href="/about">
+                                                    关于我
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/aboutheycsm">
+                                                    关于HEYCSM
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/aboutfriends">
+                                                    关于朋友们
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/links">
+                                                    友情链接
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile sheet -->
+    <div class="navbar-drawer h-screen w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
+            
+                
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/review"
+                        >
+                            <span>
+                                锐评
+                            </span>
+                            
+                                <i class="fa-solid fa-star-half-stroke fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/shuoshuo"
+                        >
+                            <span>
+                                资讯
+                            </span>
+                            
+                                <i class="fa-solid fa-newspaper fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/jobs"
+                        >
+                            <span>
+                                职位
+                            </span>
+                            
+                                <i class="fa-solid fa-briefcase fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/experts"
+                        >
+                            <span>
+                                牛人
+                            </span>
+                            
+                                <i class="fa-solid fa-user-tie fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/wiki"
+                        >
+                            <span>
+                                百科
+                            </span>
+                            
+                                <i class="fa-solid fa-book fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                             navbar-data-toggle="submenu-更多"
+                        >
+                            <span>
+                                更多
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
+
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-更多">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/about">关于我</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/aboutheycsm">关于HEYCSM</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/aboutfriends">关于朋友们</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/links">友情链接</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
+
+            
+            
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/archives"
+                        >
+                            <span>文章</span>
+                            <i class="fa-regular fa-archive fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/tags"
+                        >
+                            <span>标签</span>
+                            <i class="fa-regular fa-tags fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/categories"
+                        >
+                            <span>分类</span>
+                            <i class="fa-regular fa-folder fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+            
+        </ul>
+
+        <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">9</div>
+        <div class="label text-third-text-color text-sm">标签</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">2</div>
+        <div class="label text-third-text-color text-sm">分类</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">11</div>
+        <div class="label text-third-text-color text-sm">文章</div>
+    </a>
+</div>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="main-content-body">
+
+            
+
+            <div class="main-content">
+
+                
+                    <div class="post-page-container flex relative justify-between box-border w-full h-full">
+    <div class="article-content-container">
+
+        <div class="article-title relative w-full">
+            
+                
+                
+                <img src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092139861.png" alt="协作SaaS：他们在说的IPD究竟是什么东西" class="w-full h-60 sm:h-72 md:h-80 object-cover sm:rounded-t-large dark:brightness-75"/>
+                
+                <div class="w-full flex items-center absolute bottom-0 justify-start">
+                    <h1 class="article-title-cover text-center mx-6 my-6 text-second-text-color bg-background-color-transparent px-4 py-3 text-3xl sm:text-4xl md:text-5xl font-semibold backdrop-blur-lg rounded-xl border border-border-color ">协作SaaS：他们在说的IPD究竟是什么东西</h1>
+                </div>
+            
+            </div>
+
+        
+            <div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+                <div class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+                    <img src="/images/heycsm-avatar.svg">
+                </div>
+                <div class="info flex flex-col justify-between">
+                    <div class="author flex items-center">
+                        <span class="name text-default-text-color text-lg font-semibold">Anjou Duan</span>
+                        
+                            <span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">我与我周旋久，宁作我</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2024-09-03 19:43:15</span>
+        <span class="mobile">2024-09-03 19:43:15</span>
+        <span class="hover-info">创建</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2024-09-09 21:44:22</span>
+            <span class="mobile">2024-09-09 21:44:22</span>
+            <span class="hover-info">更新</span>
+        </span>
+    
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/">深度文章</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/">客户成功</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>5.8k 字</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>20 分钟</span>
+        </span>
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        
+
+
+        <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+            <div id="readmore-container"><p>不知道大家有没有观察到最近职场、客户、友商频繁的方法论名词逐渐变成了<code>IPD</code>。</p>
+<p>不管是Teambition「IPD全景图」应用、飞书项目的「IPD解决方案」、禅道的「IPD版本」，我们能看到很多产品已经针对此方法论推出了自己的对应产品。</p>
+<p>好像一觉醒来一边的客户需求、一边的产品应对、漫天遍地都是IPD的红旗了。</p>
+<p>那什么是IPD啊？</p>
+<blockquote>
+<p>Integrated Product Development (IPD) is an advanced approach to R&amp;D management driven by market needs, emphasizing collaboration, lean principles, and risk-sharing.  –谷歌学术概括 2024年3月9日 </p>
+</blockquote>
+<p>说中文就是集成产品开发 (IPD) 是一种以市场需求为导向的高级研发管理方法，强调跨部门协作、精益原则和风险共担。</p>
+<p>不同于我们熟知的Scrum的框架是本着极简来的，IPD似乎从一诞生之初就是本着一揽子（整体管理）来的，其覆盖流程之长、角色之广、理念之深是我目前了解的专业方法论中最浩瀚的一个。</p>
+<p>你敢信–某种程度上在IPD的一揽子里可以完美的嵌入我们协作软件之前惯用的项目管理、需求管理、研发管理等专业范畴和其对应方法论。</p>
+<p>这就要从IPD的来源讲起了，IPD并不是石头里蹦出来的，它来源于美国PRTM公司出版的《产品及生命周期优化法》（简称PACE——Product And Cycle-time Excellence）一书，是总结的从事咨询多年后整理出的优秀实践和方法的合集。</p>
+<p>所以某种程度上确实“大而全”。</p>
+<p>再加上IBM和华为这两个典型的跨国企业案例，IPD爆火不难理解，只是为什么是这个时间，这个有可能得单独拉一个文章了，先按下不讲（不行，憋不住，读者朋友们可以回去问你们领导为什么现在要聚焦制造业，是“天命”）。</p>
+<blockquote>
+<p>任总经典的“先僵化 后优化 再固化”管理改革名言也出自华为引进IPD时期。</p>
+</blockquote>
+<p>总之好像是照顾到我们的企业经营者的掌控欲，IPD跟Scrum的产研群体的小范围（局部）优化不同，生来就是服务于战略层，对内通过跨部门协作优化整个产品生命周期的管理以对外确保产品符合市场需求并提高企业竞争力。</p>
+<h1 id="为什么IPD"><a href="#为什么IPD" class="headerlink" title="为什么IPD"></a>为什么IPD</h1><h2 id="协作"><a href="#协作" class="headerlink" title="协作"></a>协作</h2><p>说到IPD还是从我们CWM的小打小闹对企业团队协作的试探讲起，我们是不是总会跟客户讲项目管理、知识管理、在线协作的重要性？</p>
+<p>那我们有没有想过客户企业内部的这些项目、这些文档、存在的协作链条、以及上线我们产品之后的统计数据的来源和归口分别是在哪里？</p>
+<p>我试着做一个传递啊：</p>
+<blockquote>
+<p>不做商业化都是耍流氓</p>
+</blockquote>
+<p>这是昨天我老大哥白总吐槽我文章和定位的评价。</p>
+<p>虽然我可以直接回击：</p>
+<blockquote>
+<p>松下幸之助说过，企业不盈利就是罪恶，但企业的目的不是为了盈利。企业的目的，是创造价值，为社会，为股东。赚钱不是最终目的，赚钱只是必要手段。</p>
+</blockquote>
+<p>企业主们奉为圭臬的 <strong>“企业不盈利就是罪恶”</strong> 加上后面的内容这才是完整全文。</p>
+<p>扯远了，绕回来，由此我们可以得出一个的结论是不管动机如何：<strong>企业必须赚钱</strong>。</p>
+<p>是不是企业就是这样展开运营的，要服务于业务目标，就是钱，为了挣钱要做项目，为了更容易的挣钱要做知识的沉淀，为了高效的传递信息引入在线的协作平台？</p>
+<p>企业所做的一切决策都是为了<strong>赚钱</strong>以及<strong>更好的赚钱</strong>。</p>
+<p>协作只不过是赚钱过程中的必要组织形式和信息传递方式。</p>
+<p>而所有的协作表现的来源和归口都是–</p>
+<p><strong>业务目标</strong>。</p>
+<h2 id="协作的深水区"><a href="#协作的深水区" class="headerlink" title="协作的深水区"></a>协作的深水区</h2><p>既然前文我们有了业务目标，企业内部也开始协作了，也可以赚钱了，我们的业务目标初步达成。</p>
+<p>那我们的企业主思考的下一个问题是什么？</p>
+<p>试想一下带入我们的企业主资本逐利的运作逻辑：我们是不是在有效赚钱？我们能不能赚钱赚的再稳妥一点？再快一点？再多一点？</p>
+<p>有钱的地方就去、协作效率要更高、能省的地方就省、避免出现问题…无限循环下去。</p>
+<p>一个<del>Callback</del>：</p>
+<p><strong>集成产品开发 (IPD) 是一种以市场需求为导向的高级研发管理方法，强调跨部门协作、精益原则和风险共担。</strong></p>
+<p>所以我们的企业主就把目光投向了这里。</p>
+<p>当然局部的方法论里也存在着并行、精益、质量、风险、敏捷等知识领域，可不同的是：</p>
+<p>IPD第一次离业务目标靠的这么近。</p>
+<hr>
+<h1 id="什么是IPD"><a href="#什么是IPD" class="headerlink" title="什么是IPD"></a>什么是IPD</h1><p>IPD的第一个核心理念：</p>
+<p><strong>一、将产品开发当作是一项投资行为</strong>。</p>
+<p>既然是投资了，那企业肯定是期望在未来获得收益或利润才会进行资源投入的对吧。</p>
+<p>如何证明值得被投资呢？</p>
+<p>这就要从IPD的六大阶段开始讲起了：</p>
+<p>在IPD（集成产品开发）中，产品开发被视为一种战略性的投资行为。这一理念贯穿于整个开发流程，指导企业在每一个阶段都以实现最大化的投资回报为目标来进行资源投入和管理。企业在资源投入时，不仅是为了开发产品，更是为了在未来获得可观的收益。因此，IPD流程的设计围绕着如何在各个关键节点（商业和技术）上进行明智的投资决策，以降低风险并提高成功的概率。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092139986.png"
+                      alt="为了更好的的说明我们先讲的是小IPD-产品开发流程"
+                ><figcaption>为了更好的的说明我们先讲的是小IPD-产品开发流程</figcaption></figure></p>
+<p>基于这一核心理念，IPD 过程被划分为几个关键的阶段，每个阶段都包含了特定的商业评审点和技术评审点，以确保企业的资源投入经过充分验证并得到有效管理。以下是这些阶段及其相关要素的详细描述：</p>
+<h2 id="1-概念阶段（Concept-Phase）"><a href="#1-概念阶段（Concept-Phase）" class="headerlink" title="1. 概念阶段（Concept Phase）"></a>1. 概念阶段（Concept Phase）</h2><p><strong>概念阶段</strong>是开发流程的起点，聚焦于市场机会的识别和客户需求的理解，以构思新的产品概念。此阶段的资源投入旨在筛选出最具潜力的产品方向。</p>
+<ul>
+<li><p><strong>商业评审点</strong>：</p>
+<ul>
+<li><strong>Charter</strong>：这是项目的初步商业评估，明确产品的愿景、目标市场及其业务潜力，以决定是否值得进一步投资。</li>
+<li><strong>Charter DCP</strong>：初步开发控制计划，概述资源配置和预算需求，为后续的详细规划提供商业框架。</li>
+</ul>
+</li>
+<li><p><strong>技术评审点</strong>：</p>
+<ul>
+<li><strong>TR1</strong>：初步技术可行性评估，确认产品概念的技术可行性，判断是否能够继续开发以支持市场需求。</li>
+</ul>
+</li>
+</ul>
+<h2 id="2-计划阶段（Planning-Phase）"><a href="#2-计划阶段（Planning-Phase）" class="headerlink" title="2. 计划阶段（Planning Phase）"></a>2. 计划阶段（Planning Phase）</h2><p><strong>计划阶段</strong>专注于制定详细的产品开发路线图和时间表，确保后续开发能够按计划进行。此阶段的资源投入集中于技术实现和资源配置的详细规划。</p>
+<ul>
+<li><p><strong>商业评审点</strong>：</p>
+<ul>
+<li>**PDCP (Product Development Control Plan)**：详细的开发控制计划，涵盖项目预算、市场目标、财务预期等，确保开发过程符合商业目标。</li>
+</ul>
+</li>
+<li><p><strong>技术评审点</strong>：</p>
+<ul>
+<li><strong>TR2</strong>：技术计划的完整性评估，确保技术方案能够实现并支持商业目标。</li>
+<li><strong>TR3</strong>：系统设计技术审查，确保设计方案能够满足技术要求和商业需求，决定是否进入下一个开发阶段。</li>
+</ul>
+</li>
+</ul>
+<h2 id="3-开发阶段（Development-Phase）"><a href="#3-开发阶段（Development-Phase）" class="headerlink" title="3. 开发阶段（Development Phase）"></a>3. 开发阶段（Development Phase）</h2><p><strong>开发阶段</strong>是产品设计和技术实现的核心过程，将概念转化为实际产品。此阶段的资源投入主要集中于技术实现和产品设计，以确保产品满足预期功能。</p>
+<ul>
+<li><p><strong>商业评审点</strong>：</p>
+<ul>
+<li>这一阶段通常不设明确的商业评审点，重点在于技术开发和设计的实施。</li>
+</ul>
+</li>
+<li><p><strong>技术评审点</strong>：</p>
+<ul>
+<li><strong>TR4</strong>：详细设计评审，确保所有技术设计符合预定规范。</li>
+<li><strong>TR4A</strong>：初步功能验证，确保产品在核心功能上达到设计要求，为进入验证阶段做准备。</li>
+</ul>
+</li>
+</ul>
+<h2 id="4-验证阶段（Verification-Phase）"><a href="#4-验证阶段（Verification-Phase）" class="headerlink" title="4. 验证阶段（Verification Phase）"></a>4. 验证阶段（Verification Phase）</h2><p><strong>验证阶段</strong>通过测试和验证确保产品质量和性能，减少未来市场风险，保证产品能够稳定运行。此阶段的资源投入用于技术验证，确保产品达到市场要求。</p>
+<ul>
+<li><p><strong>商业评审点</strong>：</p>
+<ul>
+<li>**ADCP (Advanced Development Control Plan)**：针对测试和试产的高级开发控制计划，确保验证过程符合商业目标。</li>
+</ul>
+</li>
+<li><p><strong>技术评审点</strong>：</p>
+<ul>
+<li><strong>TR5</strong>：全面技术验证，确认产品在技术层面上完全符合设计要求，具备市场发布的条件。</li>
+</ul>
+</li>
+</ul>
+<h2 id="5-发布阶段（Release-Phase）"><a href="#5-发布阶段（Release-Phase）" class="headerlink" title="5. 发布阶段（Release Phase）"></a>5. 发布阶段（Release Phase）</h2><p><strong>发布阶段</strong>标志着产品准备上市。此阶段的资源投入集中于生产准备和市场推广，确保产品成功推向市场。</p>
+<ul>
+<li><p><strong>商业评审点</strong>：</p>
+<ul>
+<li>**GA (General Availability)**：正式上市的商业评估，确保产品准备好迎接市场，满足商业预期。</li>
+</ul>
+</li>
+<li><p><strong>技术评审点</strong>：</p>
+<ul>
+<li><strong>TR6</strong>：发布前的技术检查，确认所有技术和生产准备工作已完成，产品可以正式发布。</li>
+</ul>
+</li>
+</ul>
+<h2 id="6-生命周期管理阶段（Lifecycle-Management-Phase）"><a href="#6-生命周期管理阶段（Lifecycle-Management-Phase）" class="headerlink" title="6. 生命周期管理阶段（Lifecycle Management Phase）"></a>6. 生命周期管理阶段（Lifecycle Management Phase）</h2><p><strong>生命周期管理阶段</strong>关注产品的长期市场表现，包括维护、支持、更新及退市，以确保产品在其生命周期内持续带来回报。</p>
+<ul>
+<li><p><strong>商业评审点</strong>：</p>
+<ul>
+<li>**EOX (End of Life)**：标志产品生命周期结束的商业决策，确保资源合理退出市场。</li>
+</ul>
+</li>
+<li><p><strong>技术评审点</strong>：</p>
+<ul>
+<li>这一阶段没有特定的技术评审点，但EOX标志着技术支持和维护的结束。</li>
+</ul>
+</li>
+</ul>
+<p>通过这种方式，IPD过程将产品开发的各个环节视为投资行为的一部分。通过严格的商业评审和技术评审，企业能够确保每一笔资源投入都是经过充分考量的，最大化未来的投资回报。这种系统化管理方式帮助企业在复杂的产品开发过程中实现商业目标与技术可行性的双重保障。</p>
+<p>OK，我们理解了IPD是一个投资行为之后，我可以看他们的表现随时叫停之外，那作为老板，我在刚刚的一些阶段中，我还需要关注什么？</p>
+<p>开发过程中有没有什么能降本增效的方式呢？</p>
+<p>当然有了，答案是：</p>
+<p>IPD的第二个核心理念：</p>
+<p><strong>二、并行模式和重用策略。</strong></p>
+<p>在研发过程中为了降本增效以及降低风险，在纵向上分为不同的层次，如技术层、子系统层、平台层等。不同层次工作由不同的团队<strong>并行地异步开发</strong>完成，从而减少下层对上层工作的制约，每个层次都直接面向市场。</p>
+<p><strong>共用基础模块(Common Building Blocks, CBB）</strong>，建立CBB数据库，实现技术、模块、子系统、零部件在不同产品之间的重用和共享，可以缩短产品开发周期、降低产品成本。CBB策略的实施需要组织结构和衡量标准的保证。</p>
+<p>其实这里是我看很多资料中没有提及的一个点–<strong>TDT团队（Technology Development Team）</strong>，TDT 负责在产品开发过程中，处理与技术相关的任务和挑战。这个团队专注于新技术的研究和开发，以确保在产品开发过程中，技术需求能够被满足，同时也可能负责解决技术难题、验证技术可行性以及支持设计和测试阶段的工作。</p>
+<p>单独介绍下是因为我觉得在IPD核心理念中体现到的一个角色团队，基础设施的建设我觉得尤为关键，哪怕是跟PDT的功能有所重合也值得去做一个虚拟团队啊。</p>
+<p>我感觉一般的PDT团队成员都不一定能够胜任TDT的工作。</p>
+<blockquote>
+<p>IPD运作过程需要建立在流程型组织基础之上，才能发挥其应有作用。</p>
+</blockquote>
+<p>除了这些，我们是不是还经常听到一个老生常谈的概念：</p>
+<blockquote>
+<p>做正确的事、把事做正确</p>
+</blockquote>
+<p>这里其实是IPD的第三大核心理念：</p>
+<p><strong>三、基于市场的开发。</strong></p>
+<p>IPD产品开发的出发点是什么？</p>
+<blockquote>
+<p>华为的“以客户为中心”。</p>
+</blockquote>
+<p>–市场需求。</p>
+<p>其实华为的IPD不仅仅是我上文所提及的把事做正确，他在产品开发流程框架前置还有<strong>MM</strong>方法论（Market Management，市场管理流程），是关于市场管理–IPD体系的业务规划和产品规划部分，即“做正确的事”部分。</p>
+<p>市场管理是从客户、投资、市场等外部环境考察影响产品特性与生命周期的诸多因素。主要包括客户需求分析、投资组合分析和衡量指标。</p>
+<p>华为实际上在使用一种<code>“$APPEALS”</code>的需求分析工具以确保接收到的是来自正确市场的正确反馈。通过市场管理中的需求管理，确保开发的产品能够真正解决市场中的实际问题，满足客户的需求。</p>
+<p>OK，关于外部的响应部分，我们有了对应的处理方式了，那内部怎么应答呢？</p>
+<p>这里出现了一个内部支持流程，<strong>RM</strong>（Requirements Management，需求管理流程）：</p>
+<p>需求管理流程（RM）是 IPD 方法中的一个重要环节，负责识别、记录、分析和管理产品开发中的所有需求。RM 流程确保所有客户需求和市场需求都被清晰定义，并在产品开发过程中得到充分考虑和满足。</p>
+<p>通过RM的支持MM的欲瞄靶心得以澄清和被追踪、同时也对小IPD（又称“PDP”）的流程目标做了输入，完整构成了IPD三大流程。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092140109.png"
+                      alt="IPD三大流程"
+                ><figcaption>IPD三大流程</figcaption></figure></p>
+<p>OK，关于外部的响应、转化和内部技术实现部分，我们都有了对应的处理方式了，那对于内部协作的组织形式呢？</p>
+<p>IPD强调什么？</p>
+<p><strong>四、协作，尤其是跨部门协作。</strong></p>
+<p>（终于回到我们主场了，泪目）</p>
+<p>IPD认为，成功的产品开发依赖于多个部门的协同努力。研发、市场、销售、供应链、财务等部门都需要从各自的专业领域出发，参与到产品开发的不同阶段。每个部门的输入和意见，都是为了确保产品开发过程中的每个决策都经过充分论证，从而实现最优的结果。</p>
+<p>具体怎么做？</p>
+<p>IPD下建立了大量的虚拟团队，如：</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092140299.png"
+                      alt="公司级产品管理组织模型"
+                ><figcaption>公司级产品管理组织模型</figcaption></figure></p>
+<p>为什么会有这样的设置？</p>
+<p>我认为传统的组织管理形式带来的是这种局部的职能型的团队，就是不同的职能部门实际上是按照自己的业绩要求各自为战，反而忽视掉了整体对于市场反映的正确处理 <del>（PS：游戏里有一个术语叫管C不管赢说的就是这种现象）</del> 。而流程及流程型组织，它之所以被称为是端到端的是因为：</p>
+<blockquote>
+<p>主业务流程是直接为客户创造价值的流程，所有组织必须工作在主流程中，或者作为主业务流的支撑，为客户创造价值，否则这样的组织就是多余的组织。各职能组织都需要参与到执行主业务流的跨职能部门项目中，为客户创造价值。–徐直军《谈业务、流程、IT、质量、运营的关系》</p>
+</blockquote>
+<p>这种团队的建立以及流程型组织的形式，让我们整个企业所有的核心主线又回到了以客户为中心的出发点，并服务于企业盈利目标的落脚点，其余所有的行为全部都是不被原谅且可以优化的。</p>
+<p>除了以上四大核心之外还有什么IPD中的核心理念吗？</p>
+<p>有的，但是市面上的资料真是各说各的，但是我相信即使我没有强调也在过程中体现出来了，我权且写个列表提及一下吧：</p>
+<ul>
+<li>端到端的产品生命周期管理</li>
+<li>持续创新和迭代改进</li>
+<li>技术开发与产品开发要分离</li>
+<li>职业化人才梯队建设</li>
+<li>建立矩阵式的绩效管理机制</li>
+<li>质量前置与风险管理</li>
+<li>客户参与</li>
+<li>…</li>
+</ul>
+<hr>
+<h1 id="怎么做IPD"><a href="#怎么做IPD" class="headerlink" title="怎么做IPD"></a>怎么做IPD</h1><p>我相信协作领域的诸位都有自己的解法，比如巧妙的将CWM产品只做为产品流程开发（小IPD）部分，少量或避免涉及MM、RM部分、通过集成已有的PLM做完整控制、又或者在CWM上做二开以实现完整功能的管理。</p>
+<p>那对于标品，对于客户我们可以有哪些着力点呢？</p>
+<h2 id="一、卷积"><a href="#一、卷积" class="headerlink" title="一、卷积"></a>一、卷积</h2><p>因为IPD的流程繁杂，且自下而上的反映到IPMT、PMT等做决策控制，那数据自下而上的卷积是必要的，毕竟要给投资人看么。</p>
+<h2 id="二、基线"><a href="#二、基线" class="headerlink" title="二、基线"></a>二、基线</h2><p>在过程中，我们实际产生了大量的计划及承诺性质的成果物，为了更好的决策下一步行动，基线是必不可少的能力。</p>
+<h2 id="三、流程（子流程）"><a href="#三、流程（子流程）" class="headerlink" title="三、流程（子流程）"></a>三、流程（子流程）</h2><p>都说了IPD是个筐，我们要有灵活的方式去装相关的内容，你但凡涉及到组织伤筋动骨的这种改革，而且时间周期跨度很长的，那他一定会覆盖到企业经营的方方面面，包括但不限于研发、市场、销售、供应链、财务、质量等。而在产品的应用中，照顾到更多群体的使用场景是必要的。</p>
+<h2 id="四、视图"><a href="#四、视图" class="headerlink" title="四、视图"></a>四、视图</h2><p>提供基础的IPD泳道视图能力（阶段、角色）、提供不同角色的工作台和驾驶舱（统计）能力、提供任务之间的关联关系能力（依赖和追踪）。</p>
+<h2 id="五、审批"><a href="#五、审批" class="headerlink" title="五、审批"></a>五、审批</h2><p>不说别的了，最起码得保证商业评审点和技术评审点有一个表现的形式吧。</p>
+<h2 id="六、工时"><a href="#六、工时" class="headerlink" title="六、工时"></a>六、工时</h2><p>就算CWM不做财务相关，我们也需要提供成员基础协作成本的基础数据–员工的工时以便商业上的成本核算。</p>
+<h2 id="七、字段控制"><a href="#七、字段控制" class="headerlink" title="七、字段控制"></a>七、字段控制</h2><p>IPD流程相对来说还是一系列的准入准出构成的，数据的原始性需要关注。</p>
+<p>总之，即使我们不是PLM，<strong>我们也是可以支撑一部分IPD流程的</strong>，甚至如果客户有对IPD进行裁剪，那我们完全可以通过产品的现有能力去满足。</p>
+<p>当然长久来看，<strong>CWM如果能有插件、应用、开放能力支持完整的IPD流程最佳</strong>，毕竟如果能完整的实现IPD，我相信什么场景都可以做了。</p>
+<p>且学习且实践吧。</p>
+<p>让我们借用华为总裁任正非的一段话作为本次文章的结语:</p>
+<p>任正非说：“为什么我们要认真推IPD？我们就是在摆脱企业对个人的依赖，使要做的事，从输入到输出，直接端到端，简洁并控制有效地连通，尽可能地减少层级，使成本最低，效率最高。就这么简单一句话。要把可以规范化的管理都变成扳铁道道岔，使岗位操作标准化、制度化。就像一条龙一样，不管如何舞动，其身躯内部的所有关节的相互关系都不会改变，龙头就如Marketing，它不断地追寻客户需求，身体就随龙头不断摆动，因为身体内部所有的相互关系都不变化，使得管理简单，成本低。</p>
+<p>我们一定要坚持IPD的流程化组织建设，活学活用好，坚决按流程来确定责任、权利，以及角色设计，逐步淡化功能组织的权威，这就是我们说的微观的商业模型。”</p>
+<hr>
+<p>怎么样，整体来说是不是很复杂，但是从老板的角度考量–我要是老板我也用IPD啊。</p>
+<p><strong>–这种掌控感太美妙了。</strong></p>
+<h1 id="参考资料及声明："><a href="#参考资料及声明：" class="headerlink" title="参考资料及声明："></a>参考资料及声明：</h1><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ol>
+<li><a class="link"   target="_blank" rel="noopener" href="https://scrm-wx.weiling.cn/h5/monitorFile/index.html?corp_id=wpW2WmDAAApBUQzcL5iTawL9rOLpF4ZA&event_id=1822128233060270080&share_type=2&material_id=1822115007409184769&source_type=user#/"  title="Teambition 中国制造业IPD白皮书">Teambition 中国制造业IPD白皮书 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://alidocs.dingtalk.com/i/p/nb9XJlxV4RlvLGyA/docs/YMyQA2dXW7gYo6MzcrybeeojWzlwrZgb"  title="Teambition IPD全景图">Teambition IPD全景图 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://project.feishu.cn/home/ipd"  title="飞书项目IPD解决方案">飞书项目IPD解决方案 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://www.zentao.net/zentao-ipd.html"  title="禅道项目管理软件IPD版本">禅道项目管理软件IPD版本 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://weread.qq.com/web/reader/c0d321507202539cc0d1508kc81322c012c81e728d9d180"  title="华为能，你也能：IPD产品管理实践">华为能，你也能：IPD产品管理实践 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://support.huaweicloud.com/projectman/index.html"  title="华为CodeArts Req 用户指南">华为CodeArts Req 用户指南 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://www.woshipm.com/share/5906387.html"  title="大家都在聊IPD（集成产品开发）？全面解析来啦，看IBM、华为的研发管理之道！">大家都在聊IPD（集成产品开发）？全面解析来啦，看IBM、华为的研发管理之道！ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   target="_blank" rel="noopener" href="https://www.ipdwiki.com/?zljm/2224.html"  title="华为7大核心管理思想">华为7大核心管理思想 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ol>
+<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><p>本文所提及的产品名称、商标及相关介绍均为各自权利所有者的财产，仅用于信息分享和教育目的。本文不涉及任何形式的推广、推荐或商业合作。若涉及产品描述的内容有任何不准确或侵权行为，请与我联系，我将尽快处理。感谢您的理解与支持。</p>
+<br>
+<br>
+<br>
+
+<hr>
+<div style="display: flex; align-items: center; justify-content: space-between;">
+    <div>
+<p style="margin: 0; color: #E62412; font-weight: bold;">段旭东（Anjou Duan）</p>
+        <p style="margin: 0;">找不到理想工作的前协作SaaS赛道CSM</p>
+    </div>
+    <figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://heycsm.com/images/anjouduan.png"
+                      alt="Anjou Duan" style="width: 80px; height: 80px; border-radius: 50%; margin-left: 15px;"
+                ><figcaption>Anjou Duan</figcaption></figure>
+</div>
+
+
+<p>不提<code>Teambition领航员（钉钉数字化专家）</code>、<code>宜搭行业解决方案共创PDSA</code>这些虚名以及有那么<code>一点好看的职业数据</code>，只不过一个平淡无奇的王者荣耀<code>荣耀王者</code>、和平精英<code>传奇王牌</code>的小天才罢了。</p>
+<hr>
+<p style="margin: 0; color: #1B9AEE; font-weight: bold;"> HeyCSM </p>
+
+<p>一个<code>有态度</code>、且<code>有趣</code>更<code>有料</code>的微信公众号和同名网站(<code>heycsm.com</code>)。</p>
+<p>由数字化协作 SaaS（曾服务<code>Teambition</code>、<code>Worktile</code>、<code>PingCode</code>等产品）的 CSM <code>段旭东</code></p>
+<p style="margin: 0; color: #1B9AEE; font-weight: bold;">用 <span style="color: #E62412;">♥️</span> 打造。</p>
+
+
+
+</div>
+				<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
+				<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+				<script>
+				var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
+				var isEncrypt = document.getElementById('hexo-blog-encrypt');
+				var allowMobile = false;
+				if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
+					try {
+						var plugin = new ReadmorePlugin();
+						plugin.init({
+							"type": "hexo",
+							"id": "readmore-container",
+							"name": "HeyCSM-你好客户成功经理",
+							"blogId": "85700-3670119654427-676",
+							"qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG",
+							"keyword": "heycsm",
+							"random": "1",
+							"height": "auto",
+							"expires": "365",
+							"lockToc": "yes",
+							"interval": "60",
+							"baseUrl": "",
+							"tocSelector": ""
+						});
+					} catch(e) {
+						console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
+					}
+				}
+				</script>
+			
+        </div>
+
+        
+            <div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li><strong>标题:</strong> 协作SaaS：他们在说的IPD究竟是什么东西</li>
+        <li><strong>作者:</strong> Anjou Duan</li>
+        <li><strong>创建于
+                :</strong> 2024-09-03 19:43:15</li>
+        
+            <li>
+                <strong>更新于
+                    :</strong> 2024-09-09 21:44:22
+            </li>
+        
+        <li>
+            <strong>链接:</strong> https://heycsm.com/2024/09/03/协作SaaS：他们在说的IPD究竟是什么东西/
+        </li>
+        <li>
+            <strong>
+                版权声明:
+            </strong>
+            
+
+            
+                本文章采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a> 进行许可。
+            
+        </li>
+    </ul>
+</div>
+
+            </div>
+        
+
+        
+            <ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
+                
+                    <li class="tag-item mx-0.5">
+                        <a href="/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/">#客户成功</a>&nbsp;
+                    </li>
+                
+            </ul>
+        
+
+        
+  <div class="recommended-article px-2 sm:px-6 md:px-8">
+   <div class="recommended-desktop">
+    <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
+     <i aria-hidden="true"></i><span>推荐阅读</span>
+    </div>
+    <div class="recommended-article-group"><a class="recommended-article-item" href="/2024/08/20/95后协作SaaS客户成功刺头的探索：只配赚钱不配开心/" title="95后协作SaaS客户成功刺头的探索：只配赚钱不配开心" rel="bookmark">
+  <img src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091940882.jpeg" alt="95后协作SaaS客户成功刺头的探索：只配赚钱不配开心" class="!max-w-none">
+  <span class="title">95后协作SaaS客户成功刺头的探索：只配赚钱不配开心</span>
+</a><a class="recommended-article-item" href="/2024/08/29/CWM：任务、项目、流程与白日梦/" title="CWM：任务、项目、流程与白日梦" rel="bookmark">
+  <img src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092147328.png" alt="CWM：任务、项目、流程与白日梦" class="!max-w-none">
+  <span class="title">CWM：任务、项目、流程与白日梦</span>
+</a><a class="recommended-article-item" href="/2024/09/05/HeyCSM：协作客户成功陪你看飞书发布会/" title="HeyCSM：协作客户成功陪你看飞书发布会" rel="bookmark">
+  <img src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092043381.png" alt="HeyCSM：协作客户成功陪你看飞书发布会" class="!max-w-none">
+  <span class="title">HeyCSM：协作客户成功陪你看飞书发布会</span>
+</a></div>
+   </div>
+   <div class="recommended-mobile">
+   <div class="recommended-article-header text-xl md:text-3xl font-bold mt-10">
+     <i aria-hidden="true"></i><span>推荐阅读</span>
+   </div>
+   <div class="recommended-article-group"><a class="recommended-article-item" href="/2024/08/20/95后协作SaaS客户成功刺头的探索：只配赚钱不配开心/" title="95后协作SaaS客户成功刺头的探索：只配赚钱不配开心" rel="bookmark">
+  <img src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091940882.jpeg" alt="95后协作SaaS客户成功刺头的探索：只配赚钱不配开心" class="!max-w-none">
+  <span class="title">95后协作SaaS客户成功刺头的探索：只配赚钱不配开心</span>
+</a><a class="recommended-article-item" href="/2024/08/29/CWM：任务、项目、流程与白日梦/" title="CWM：任务、项目、流程与白日梦" rel="bookmark">
+  <img src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092147328.png" alt="CWM：任务、项目、流程与白日梦" class="!max-w-none">
+  <span class="title">CWM：任务、项目、流程与白日梦</span>
+</a></div>
+   </div>
+  </div>
+
+        
+            <div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+                
+                    <div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+                        <a class="prev"
+                        rel="prev"
+                        href="/2024/09/05/HeyCSM%EF%BC%9A%E5%8D%8F%E4%BD%9C%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E9%99%AA%E4%BD%A0%E7%9C%8B%E9%A3%9E%E4%B9%A6%E5%8F%91%E5%B8%83%E4%BC%9A/"
+                        >
+                            <span class="left arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </span>
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">HeyCSM：协作客户成功陪你看飞书发布会</span>
+                                <span class="post-nav-item">上一篇</span>
+                            </span>
+                        </a>
+                    </div>
+                
+                
+                    <div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+                        <a class="next"
+                        rel="next"
+                        href="/2024/08/31/HeyCSM%EF%BC%9A%E4%B8%80%E5%B0%81%E6%92%A4%E5%9B%9E%E7%9A%84%E6%83%85%E4%B9%A6/"
+                        >
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">HeyCSM：一封撤回的情书</span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                            <span class="right arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+
+        
+            <div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
+                <div class="comments-container mt-10 w-full ">
+    <div id="comment-anchor" class="w-full h-2.5"></div>
+    <div class="comment-area-title w-full my-1.5 md:my-2.5 text-xl md:text-3xl font-bold">
+        评论
+    </div>
+    
+
+        
+            
+    <div id="waline"></div>
+    <script type="module" data-swup-reload-script>
+      import { init } from '/js/libs/waline.mjs';
+
+      function loadWaline() {
+        init({
+          el: '#waline',
+          serverURL: 'https://example.heycsm.com',
+          lang: 'zh-CN',
+          dark: 'body[class~="dark-mode"]',
+          reaction: false,
+          requiredMeta: ['nick', 'mail'],
+          emoji: [],
+          recaptchaV3Key: "wasd",
+          
+        });
+      }
+
+      if (typeof swup !== 'undefined') {
+        loadWaline();
+      } else {
+        window.addEventListener('DOMContentLoaded', loadWaline);
+      }
+    </script>
+
+
+
+        
+    
+</div>
+
+            </div>
+        
+    </div>
+
+    
+        <div class="toc-content-container">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div class="toc-title">目录</div>
+        <div class="page-title">协作SaaS：他们在说的IPD究竟是什么东西</div>
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88IPD"><span class="nav-number">1.</span> <span class="nav-text">为什么IPD</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%8F%E4%BD%9C"><span class="nav-number">1.1.</span> <span class="nav-text">协作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%8F%E4%BD%9C%E7%9A%84%E6%B7%B1%E6%B0%B4%E5%8C%BA"><span class="nav-number">1.2.</span> <span class="nav-text">协作的深水区</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AFIPD"><span class="nav-number">2.</span> <span class="nav-text">什么是IPD</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E6%A6%82%E5%BF%B5%E9%98%B6%E6%AE%B5%EF%BC%88Concept-Phase%EF%BC%89"><span class="nav-number">2.1.</span> <span class="nav-text">1. 概念阶段（Concept Phase）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E8%AE%A1%E5%88%92%E9%98%B6%E6%AE%B5%EF%BC%88Planning-Phase%EF%BC%89"><span class="nav-number">2.2.</span> <span class="nav-text">2. 计划阶段（Planning Phase）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E5%BC%80%E5%8F%91%E9%98%B6%E6%AE%B5%EF%BC%88Development-Phase%EF%BC%89"><span class="nav-number">2.3.</span> <span class="nav-text">3. 开发阶段（Development Phase）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E9%AA%8C%E8%AF%81%E9%98%B6%E6%AE%B5%EF%BC%88Verification-Phase%EF%BC%89"><span class="nav-number">2.4.</span> <span class="nav-text">4. 验证阶段（Verification Phase）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E5%8F%91%E5%B8%83%E9%98%B6%E6%AE%B5%EF%BC%88Release-Phase%EF%BC%89"><span class="nav-number">2.5.</span> <span class="nav-text">5. 发布阶段（Release Phase）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E7%AE%A1%E7%90%86%E9%98%B6%E6%AE%B5%EF%BC%88Lifecycle-Management-Phase%EF%BC%89"><span class="nav-number">2.6.</span> <span class="nav-text">6. 生命周期管理阶段（Lifecycle Management Phase）</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%80%8E%E4%B9%88%E5%81%9AIPD"><span class="nav-number">3.</span> <span class="nav-text">怎么做IPD</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E5%8D%B7%E7%A7%AF"><span class="nav-number">3.1.</span> <span class="nav-text">一、卷积</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E5%9F%BA%E7%BA%BF"><span class="nav-number">3.2.</span> <span class="nav-text">二、基线</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E6%B5%81%E7%A8%8B%EF%BC%88%E5%AD%90%E6%B5%81%E7%A8%8B%EF%BC%89"><span class="nav-number">3.3.</span> <span class="nav-text">三、流程（子流程）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E8%A7%86%E5%9B%BE"><span class="nav-number">3.4.</span> <span class="nav-text">四、视图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%94%E3%80%81%E5%AE%A1%E6%89%B9"><span class="nav-number">3.5.</span> <span class="nav-text">五、审批</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%AD%E3%80%81%E5%B7%A5%E6%97%B6"><span class="nav-number">3.6.</span> <span class="nav-text">六、工时</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%83%E3%80%81%E5%AD%97%E6%AE%B5%E6%8E%A7%E5%88%B6"><span class="nav-number">3.7.</span> <span class="nav-text">七、字段控制</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99%E5%8F%8A%E5%A3%B0%E6%98%8E%EF%BC%9A"><span class="nav-number">4.</span> <span class="nav-text">参考资料及声明：</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"><span class="nav-number">4.1.</span> <span class="nav-text">参考资料</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A3%B0%E6%98%8E"><span class="nav-number">4.2.</span> <span class="nav-text">声明</span></a></li></ol></li></ol>
+
+    </div>
+</div>
+        </div>
+    
+</div>
+
+
+
+                
+
+            </div>
+
+            
+
+        </div>
+
+        <div class="main-content-footer">
+            <footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+            <div class="customize-info my-1"><span style="color:#E62412;font-weight:bold;">heycsm.com</span> - <span style="color:#1B9AEE;font-weight:bold;">成功，从这里开始</span></p></div>
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2024</span>
+              -
+            
+            2024&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">Anjou Duan</a>
+            
+                
+                <p class="post-count space-x-0.5">
+                    <span>
+                        共撰写了 11 篇文章
+                    </span>
+                    
+                        <span>
+                            共 67.3k 字
+                        </span>
+                    
+                </p>
+            
+        </div>
+        
+            <script data-swup-reload-script src="https://cn.vercount.one/js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">访问人数</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">总访问量</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a> 驱动</span>
+            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.7.1</a></span>
+        </div>
+        
+            <div class="icp-info my-1"><a target="_blank" rel="nofollow" href="
+                
+                    mailto:anjou_duan@qq.com
+                
+                ">免责声明：本站所提及的产品名称和商标均属各权利人所有，仅供信息分享，不涉及推广或商业合作，如有侵权请联系处理。</a></div>
+        
+        
+            <div>
+                博客已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
+            </div>
+        
+        
+            <script data-swup-reload-script>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+            
+                
+        
+                
+        
+        
+    </div>  
+</footer>
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="article-tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="right-bottom-tools page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="go-comment">
+                <i class="fa-regular fa-comments"></i>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-side-tools-container">
+        <div class="side-tools-container">
+    <ul class="hidden-tools-list">
+        <li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-plus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-minus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+            <i class="fa-regular fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+            <i class="fa-regular fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="visible-tools-list">
+        <li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+            <i class="fa-regular fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fa-solid fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="站内搜索您需要的内容..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="popup-btn-close">
+                <i class="fa-solid fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+    <script src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/libs/Swup.min.js"></script><script src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/libs/SwupSlideTheme.min.js"></script><script src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/libs/SwupScriptsPlugin.min.js"></script><script src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/libs/SwupProgressPlugin.min.js"></script><script src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/libs/SwupScrollPlugin.min.js"></script><script src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/libs/SwupPreloadPlugin.min.js"></script>
+<script>
+    const swup = new Swup({
+        plugins: [
+            new SwupScriptsPlugin({
+                optin: true,
+            }),
+            new SwupProgressPlugin(),
+            new SwupScrollPlugin({
+                offset: 80,
+            }),
+            new SwupSlideTheme({
+                mainElement: ".main-content-body",
+            }),
+            new SwupPreloadPlugin(),
+        ],
+        containers: ["#swup"],
+    });
+</script>
+
+
+
+
+
+
+<script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/tools/imageViewer.js"></script><script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/utils.js"></script><script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/main.js"></script><script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/layouts/navbarShrink.js"></script><script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/tools/scrollTopBottom.js"></script><script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/tools/lightDarkSwitch.js"></script><script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/layouts/categoryList.js"></script>
+
+
+    <script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/tools/localSearch.js"></script>
+
+
+
+    <script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/tools/codeBlock.js"></script>
+
+
+
+    <script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/layouts/lazyload.js"></script>
+
+
+
+    <script src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/tools/runtime.js"></script>
+    <script src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/libs/odometer.min.js"></script>
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/assets/odometer-theme-minimal.css">
+
+
+
+  <script src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/libs/Typed.min.js"></script>
+  <script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/plugins/typed.js"></script>
+
+
+
+
+
+    <script src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/libs/minimasonry.min.js"></script>
+    <script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/plugins/masonry.js"></script>
+
+
+
+
+<div class="post-scripts" data-swup-reload-script>
+    
+        <script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/tools/tocToggle.js"></script><script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/layouts/toc.js"></script><script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.7.1/source/js/plugins/tabs.js"></script>
+    
+</div>
+
+
+</body>
+</html>
