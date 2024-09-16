@@ -1,6 +1,274 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>CWM：任务、项目、流程与白日梦</title>
+    <url>/2024/08/29/cwm-ren-wu-xiang-mu-liu-cheng-yu-bai-ri-meng/</url>
+    <content><![CDATA[<div id="readmore-container"><h1 id="0-CWM"><a href="#0-CWM" class="headerlink" title="0. CWM"></a>0. CWM</h1><p>Collaborative Work Management <code>(CWM)</code> 是指企业通过工具和方法，帮助团队有效地协调任务、项目和流程，以实现共同目标的管理方式。它是一种强调团队协作和信息共享的工作方式，旨在提高团队的生产力和效率，减少沟通障碍和资源浪费。</p>
+<blockquote>
+<p><a class="link"   href="https://infraon.io/blog/collaborative-work-management/"  title="Everything You Should Know About Collaborative Work Management In 2024">Collaborative work management (CWM) is a structured methodology aimed at optimizing tasks, projects, and processes within teams. It involves coordinating, tracking, and streamlining various activities. CWM ensures efficient communication, workflow, and collaboration among team members, fostering a cohesive approach to achieving common goals. <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><strong>引用时有所改动，原文见文末参考资料</strong></p>
+</blockquote>
+<p>另外值得一提的是：在 <a class="link"   href="https://www.gartner.com/en/documents/5019731"  title="Gartner Magic Quadrant for Collaborative Work Management">Gartner <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 中也有CWM的相关魔力象限，目前已经收录了一些国外厂商，如 <code>Atlassian</code>、<code>ClickUp</code>、<code>Notion</code> 等。</p>
+<hr>
+<h1 id="1-引言"><a href="#1-引言" class="headerlink" title="1. 引言"></a>1. 引言</h1><h2 id="为什么写此内容："><a href="#为什么写此内容：" class="headerlink" title="为什么写此内容："></a>为什么写此内容：</h2><p>主要原因是我在工作中为客户进行Onboarding时，面对复杂的事务性管理场景，得益于 <code>Teambition</code> 的搭建方法论，总能快速上手并取得不错的效果。另外，在内部培训或沟通时，我总是需要反复解释这些概念，并没有系统地将其形成文章。因此，特地撰写此文。</p>
+<h2 id="本次写作的目的："><a href="#本次写作的目的：" class="headerlink" title="本次写作的目的："></a>本次写作的目的：</h2><p>旨在补全搭建逻辑内容，并通过反推论解释其逻辑。从任务管理、项目执行和流程优化的角度探讨企业协作的演变和关键作用。同时提供一些主观的思考和联想，帮助你更好地驾驭这些概念，实现产品的顺利落地和客户组织协作效率的最大化。</p>
+<hr>
+<h1 id="2-企业协作的基本要素"><a href="#2-企业协作的基本要素" class="headerlink" title="2. 企业协作的基本要素"></a>2. 企业协作的基本要素</h1><h2 id="任务（Task）"><a href="#任务（Task）" class="headerlink" title="任务（Task）"></a>任务（Task）</h2><ul>
+<li>任务是企业协作的最小单元，是具体的行动项。任务可独立存在，也可以作为项目和流程的子项。</li>
+<li><strong>任务管理的关键在于确保这些小任务能够被有效地分解、分配并按时完成。</strong></li>
+</ul>
+<p>任务管理通常适用于部门任务池和重点任务督办等场景，尤其适合部门内管理和小型企业。</p>
+<p>其特点是能够随时触发并快速响应变化，协作的生命周期是一个任务的起止时间。</p>
+<p>常见的管理方法包括 PDCA、GTD 和时间四象限等，强调敏捷性、效率和团队合作。</p>
+<p>在这种环境中，快速响应和灵活调整是管理的核心，通常由创始人、业务负责人或团队领导负责。</p>
+<p>然而，由于任务的简单性，客户对这类工具的粘性较低，一个简单的 list 工具即可替代。</p>
+<p><del>PS：刚开始看钉钉快办的PR时，我理解并不是它要完全服务这部分客户，但实际的商业化路径似乎瞄准了SMB，有点尴尬。后续内容还会提及钉钉快办。</del></p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092146412.png"
+                      alt="团队任务管理"
+                ><figcaption>团队任务管理</figcaption></figure></p>
+<p><span style="color: rgb(46, 64, 91)">通过以上图例可以看出，任务管理其实是对离散信息做了一定的有序分类，任务之间并没有任何关联。如果任务完成后，它将被置灰，且在不同的任务列表下可以随时新增任务，这使得它相比项目或流程来说，约束力较小。</span></p>
+<h2 id="项目（Project）"><a href="#项目（Project）" class="headerlink" title="项目（Project）"></a>项目（Project）</h2><ul>
+<li>项目是一组相互关联的任务和活动的集合，通常有明确的目标、时间表和资源限制。</li>
+<li><strong>项目管理的目标是通过合理的资源配置、时间管理和风险控制，确保项目按时、按预算、高质量地完成。</strong></li>
+</ul>
+<p>项目管理通常适用于工程项目管理、软硬件研发项目管理以及定制研发项目等，特别适合跨部门合作和中型企业。</p>
+<p>项目管理的触发机制是计划驱动，需要进行结构化规划、跨部门协调和资源配置。项目的生命周期为项目的起止时间。</p>
+<p>相关方法论包括项目管理、项目集管理、项目组合管理以及瀑布研发模型。</p>
+<p>市场环境通常处于扩张期或结构调整期，管理重点在于提高效能和跨部门合作。典型的管理角色包括项目经理、产品经理和 PMO 部门。</p>
+<p>项目管理工具具有一定的客户粘性，项目结束后迁移成本较高。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092146812.png"
+                      alt="项目管理"
+                ><figcaption>项目管理</figcaption></figure></p>
+<p><span style="color: rgb(46, 64, 91)">可以看到，项目的搭建逻辑在列表搭建上具有一定的时间渐进性，按照项目推进进行阶段划分。每个阶段下方堆积的卡片代表当前阶段下所有需要完成的任务，这些任务都完成后，才标志着该阶段的结束。任务之间可能存在明显的依赖关系。项目计划完成后，除非变更，通常不在已有阶段里新增任务。</span></p>
+<h2 id="流程（Process）"><a href="#流程（Process）" class="headerlink" title="流程（Process）"></a>流程（Process）</h2><ul>
+<li>流程是一个系统化、重复性的活动序列，用于实现特定的业务目标或输出。流程通常是标准化的，具有可预测的结果，通过明确的步骤和规则确保一致性和效率。</li>
+<li><strong>流程管理关注的是优化和持续改进，以确保资源的最佳利用和结果的高效交付。</strong></li>
+</ul>
+<p>流程管理适用于 <code>敏捷研发</code>、人员招聘、特定工作流管理和连锁建店管理等场景，尤其适合成熟商业模式或大型企业。</p>
+<p>流程长期存在并持续优化，生命周期为业务在制品的 1-N。流程管理方法论包括 Scrum、IPD、六西格玛、精益管理和 BPM 等，强调流程优化、标准化管理和长期战略规划。</p>
+<p>在成熟市场和全球化运作中，标准化流程和效率优化是管理的重点。高级管理层、流程优化专家和研发效能部门通常负责这类管理。</p>
+<p>由于流程管理的复杂性，客户对工具的依赖性较高，流程的上下游使用方及在制品的约束（<code>存量生产数据</code>）使得替换工具的难度较大。</p>
+<blockquote>
+<p><a class="link"   href="https://weread.qq.com/web/reader/18a32cc071e2832e18a75ee"  title="SaaS创业路线图：to B产品、营销、运营方法论及实战案例解读">规模化的背后藏着三个字：标准化。–吴昊 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</blockquote>
+<p><span style="color:red">当更多的企业管理科学关注点从分工到协作、从静态到动态、从局部优化到整体优化，流程管理已经从简单的生产优化工具演变为企业整体管理的重要组成部分，鉴于目前的市场产品表现，可以总结为<strong>两种形式 三种表现</strong>。</span></p>
+<div style="background-color: #f0f0f0; padding: 15px; border-radius: 5px; border: 1px solid #ddd;margin-bottom: 20px;">
+   <span style="color:red">传统形式-狭义流程抽象</span>
+
+<p>狭义的流程概念指的是我们去抽象的是一个业务的流程框架，在这个流程中流转的是重复性质的在制品，流程框架是增值的，在制品是重复的，在制品的发起，往往需要在流程的前端控制输入，这是核心观念。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092147078.png"
+                      alt="销售Pipeline管理"
+                ><figcaption>销售Pipeline管理</figcaption></figure></p>
+<p><span style="color: rgb(46, 64, 91)">这里我们看到的是在这个销售Pipeline的管理中，实际上是按照销售漏斗去做了流程节点的划分，然后每一个客户呢，是当作在制品，就是一个卡片去做流转，根据客户情况的推进会调整这个卡片的所处节点，而任务的完成状态，往往在特定的流程节点下，比如说赢单。</span></p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092148195.png"
+                      alt="PingCode Scrum解决方案"
+                ><figcaption>PingCode Scrum解决方案</figcaption></figure></p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092148197.png"
+                      alt="PingCode Kanban解决方案"
+                ><figcaption>PingCode Kanban解决方案</figcaption></figure></p>
+<p><span style="color: rgb(46, 64, 91)">我想研发管理里的Scrum和Kanban方案是标准流程框架这里无需过多解释了吧。</span></p>
+</div>
+
+<div style="background-color: #f0f0f0; padding: 15px; border-radius: 5px; border: 1px solid #ddd;margin-bottom: 20px;">
+   <span style="color:red">创新形式-广义流程抽象（一）</span>
+`表现流程任务之间:`
+
+<p>广义的流程概念怎么理解呀？其实从我的角度广义流程某种程度上更契合客户的使用，因为当客户他能抽象出来一个业务的完整的事项流程图的时候，实际上这个广义流程框架已经搭建完了。最早接触到这种表现形式还是<code>Taskheat</code>。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092148009.png"
+                      alt="钉钉发布会项目"
+                ><figcaption>钉钉发布会项目</figcaption></figure></p>
+<p><span style="color: rgb(46, 64, 91)"><code>Teambition</code>的近期更新支持了流程图应用，然后这个流程图实际上是通过利用任务之间的依赖关系形成的，他能更好地帮我们去表达任务彼此之间和顺序（时间）可视化的关系。</span></p>
+</div>
+
+<div style="background-color: #f0f0f0; padding: 15px; border-radius: 5px; border: 1px solid #ddd;margin-bottom: 20px;">
+    <span style="color:red">创新形式-广义流程抽象（二）</span>
+
+<p><code>表现流程任务本身：</code></p>
+<p>其实在我早期关注流程产品的时候并没有考虑到<code>飞书项目</code>他所代表的这种流程和我之前关注的产品有所不同。也是近期研究的时候发现虽然他们都是在往流程方向发力，但是其核心是不一样的，所以我在广义的流程抽象里定义一个表现流程任务本身的内容。当然市面上还有类似工具的是<code>日事清的流程</code>应用。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092155217.png"
+                      alt="日事清流程1"
+                ><figcaption>日事清流程1</figcaption></figure></p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092149933.png"
+                      alt="日事清流程2"
+                ><figcaption>日事清流程2</figcaption></figure></p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092149937.png"
+                      alt="飞书项目"
+                ><figcaption>飞书项目</figcaption></figure></p>
+<p><span style="color: rgb(46, 64, 91)">当我现在回过头看这两个产品，突然理解了——前前老板给过一个评价是他们有点像是审批，我现在分级之后觉得也确实是这样。他其实是在一个任务背后去嵌套了一套审批的流程，称之为节点或者步骤，配套的去做了字段、子任务、权限控制。流程建立于任务母体的存在。这是跟Teambition当前的思路不一样的地方。</span></p>
+<p>不过Teambition真的只有如此吗？</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092150351.png"
+                      alt="Teambition工作流"
+                ><figcaption>Teambition工作流</figcaption></figure></p>
+</div>
+
+<p>我估计按照现在各家都在 IPD 这一典型流程领域发力，流程管理的格局远不止当前的定义，期待好玩的发生。</p>
+<hr>
+<h1 id="3-任务、项目与流程的联动"><a href="#3-任务、项目与流程的联动" class="headerlink" title="3. 任务、项目与流程的联动"></a>3. 任务、项目与流程的联动</h1><h2 id="任务与流程的联动"><a href="#任务与流程的联动" class="headerlink" title="任务与流程的联动"></a>任务与流程的联动</h2><p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092151358.png"
+                      alt="固定资产管理（任务+流程）1"
+                ><figcaption>固定资产管理（任务+流程）1</figcaption></figure></p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092151360.png"
+                      alt="固定资产管理（任务+流程）2"
+                ><figcaption>固定资产管理（任务+流程）2</figcaption></figure></p>
+<p><span style="color: rgb(46, 64, 91)">在这个场景里，我们可以看到看板上的任务列表，他仅仅是对物品属性的一个分类，下方罗列的每个卡片实际上是具体的物品，物品之间是松散的，不存在相互关联。但是当切换到状态这种流程后呢？看板变成了按照物品领用状态展示的形式。</span></p>
+<h2 id="项目与流程的联动"><a href="#项目与流程的联动" class="headerlink" title="项目与流程的联动"></a>项目与流程的联动</h2><p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092152615.png"
+                      alt="连锁建店管理（项目+流程"
+                ><figcaption>连锁建店管理（项目+流程</figcaption></figure></p>
+<p><span style="color: rgb(46, 64, 91)">在这个场景中，可以看到整体的业务流程、具体的项目卡片以及连接的项目，这是 <strong>Teambition</strong> 经典的总分搭建方法。</span></p>
+<h2 id="任务与项目的联动"><a href="#任务与项目的联动" class="headerlink" title="任务与项目的联动"></a>任务与项目的联动</h2><p><span style="color: red"><del>略，详见PMP中WBS部分</del></span></p>
+<p>本来这对官方父子组合想偷个懒放链接的，自己看了下官方的内容，算了，我自己写。</p>
+<p>项目是一个临时的工作计划，旨在创造一个独特的产品、服务或成果。为了实现这一目标，项目通常需要完成多个相互关联的任务。</p>
+<p>任务是构成项目的基本单元。每个任务代表一个具体的工作活动，具有明确的开始和结束时间，并且通常由团队成员执行。</p>
+<p>项目通常从总体目标出发，逐层分解为多个阶段或子项目，每个阶段或子项目再进一步分解为任务。这种逐层分解的过程通常通过工作分解结构（WBS，Work Breakdown Structure）来实现。</p>
+<p>任务是项目分解的最低层次单位，每个任务都是一个可管理的工作项。</p>
+<h2 id="结合的重要性"><a href="#结合的重要性" class="headerlink" title="结合的重要性"></a>结合的重要性</h2><p>高效的企业协作离不开任务、项目与流程的完美结合。任务是项目的基础，项目是流程的载体，而流程则是确保任务和项目顺利完成的保障。通过合理管理这三者，企业可以实现协作效率的最大化，推动业务的持续发展。</p>
+<hr>
+<h1 id="4-白日梦"><a href="#4-白日梦" class="headerlink" title="4. 白日梦"></a>4. 白日梦</h1><h2 id="第四域的雏形"><a href="#第四域的雏形" class="headerlink" title="第四域的雏形"></a>第四域的雏形</h2><p>在企业的事务性协作中，除了内部管理之外，还应考虑来自外部的信息接收、反馈与处理，我称之为 <code>环境</code> 的管理。这一概念在一些现有产品中已有体现，例如 <code>PingCode</code> 的对外产品 <code>Ship</code> 的工单收集反馈功能。此外，还有一个对外的产品路线图功能尚不清楚是否已经实现。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092152012.png"
+                      alt="PingCode产品路线图"
+                ><figcaption>PingCode产品路线图</figcaption></figure></p>
+<p>另一个相关例子是钉钉推出 <code>快办</code> 时，其应用市场的 PR 介绍中提到“会有人帮你管任务”。当时，仅从 PR 的角度，我可能高估了AI的作用以及这个产品的独特性。我以为会有一个AI结合的深化，能达到部分代替人作业的过程。太理想了。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092153333.png"
+                      alt="钉钉快办"
+                ><figcaption>钉钉快办</figcaption></figure></p>
+<h2 id="信息的皇帝"><a href="#信息的皇帝" class="headerlink" title="信息的皇帝"></a>信息的皇帝</h2><p>目前，许多协作平台都在大力推广AI，但我认为这些AI功能的实际效果并未达到预期，没有带来特别显著的效率增值。有可能也是我对AI的期望较高，尤其是在信息推荐方面，但实际上它仍然只是以传统性的方式呈现与我相关的当前任务的进展。</p>
+<p>我一直觉得头条的推荐算法做得非常好，它基于 <strong>“人性懒惰”</strong> 这一特性，通过用户的喜好来主动推送内容，并根据交互行为不断优化推荐。这使我想到如果企业内的每个员工都能够专注于任务，而有一个AI可以帮助我们梳理外部信息，并精准地推送给我们，工作效率将得到大幅提高。</p>
+<p>这种AI功能类似于高德地图，它可以根据用户的当前路线结合外部路况主动推荐新的路线。类似的，还有那篇曾经广泛讨论的公众号文章 <a class="link"   href="https://mp.weixin.qq.com/s/Mes1RqIOdp48CMw4pXTwXw" >外卖骑手，困在系统里 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 。<strong>不是鼓吹算法和对人的压迫哈</strong>，只是我觉得算法进化到一定程度时，效率是自然而然的事情，像流水线一样减少人性，提高效率。毕竟“朕已阅”。</p>
+<p>这是我对未来的期待。我希望每个人都能成为信息的“皇帝”，无论是处理事务还是应对外部响应。</p>
+<p>同时，产品优化方面还有很多可以改进的地方。例如，iOS 18 中的待办事项与日历的合并，更精准地通过实时活动将信息传达给用户。</p>
+<p>另外，我最近发现了一款名为 <code>uCal</code> 的日历管理软件，它通过一种分层视图直观地展示当前日程的开始和结束时间，这种视图有点像洋葱圈，可以从不同层次观察日程的时间分配。</p>
+<p>更有趣的是，B站有UP发现了一种新用法，即在预定日程时间之后，创建日程实际完成时间记录。这种功能在我之前的客户需求中也有所体现。</p>
+<p>在此基础上，我一直思考协作管理工具是否可以引入一种类似的侵入性强的弹窗提醒功能：当任务预定时间开始时，右上角固定显示浮窗，点击确认后记录系统开始时间；当预定时间到达后，再次弹窗询问是否更新完成时间。这样的功能设计可以大大提高任务的执行效率（提醒和统计方面）。</p>
+<p>哎，反正止不住做白日梦。</p>
+<hr>
+<h1 id="5-结论"><a href="#5-结论" class="headerlink" title="5. 结论"></a>5. 结论</h1><ul>
+<li><strong>任务、项目与流程协作的核心原则</strong>：没有最好，只有更适合。在不同的管理场景下，客户成功经理或者企业需要根据自身的业务特点、团队规模和市场环境选择合适的管理工具和方法。</li>
+<li><strong>未来趋势与展望</strong>：看白日梦能实现几个。</li>
+</ul>
+<hr>
+<h1 id="6-产品致谢与声明"><a href="#6-产品致谢与声明" class="headerlink" title="6. 产品致谢与声明"></a>6. 产品致谢与声明</h1><h2 id="产品致谢"><a href="#产品致谢" class="headerlink" title="产品致谢"></a>产品致谢</h2><ul>
+<li><a class="link"   href="https://www.teambition.com/"  title="Teambition">Teambition <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://www.pingcode.com/"  title="PingCode">PingCode <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://project.feishu.cn/home"  title="飞书项目">飞书项目 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://www.rishiqing.com/"  title="日事清">日事清 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://eyen.fr/taskheat/"  title="Taskheat">Taskheat <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+<li><a class="link"   href="https://apps.apple.com/us/app/ucal-calendar/id1615292683"  title="uCal">uCal <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
+</ul>
+<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><p>本文所提及的产品名称、商标及相关介绍均为各自权利所有者的财产，仅用于信息分享和教育目的。本文不涉及任何形式的推广、推荐或商业合作。若涉及产品描述的内容有任何不准确或侵权行为，请与我联系，我将尽快处理。感谢您的理解与支持。</p>
+<br>
+<br>
+<br>
+
+<hr>
+<div style="display: flex; align-items: center; justify-content: space-between;">
+    <div>
+<p style="margin: 0; color: #E62412; font-weight: bold;">段旭东（Anjou Duan）</p>
+        <p style="margin: 0;">找不到理想工作的前协作SaaS赛道CSM</p>
+    </div>
+    <figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://heycsm.com/images/anjouduan.png"
+                      alt="Anjou Duan" style="width: 80px; height: 80px; border-radius: 50%; margin-left: 15px;"
+                ><figcaption>Anjou Duan</figcaption></figure>
+</div>
+
+
+<p>不提<code>Teambition领航员（钉钉数字化专家）</code>、<code>宜搭行业解决方案共创PDSA</code>这些虚名以及有那么<code>一点好看的职业数据</code>，只不过一个平淡无奇的王者荣耀<code>荣耀王者</code>、和平精英<code>传奇王牌</code>的小天才罢了。</p>
+<hr>
+<p style="margin: 0; color: #1B9AEE; font-weight: bold;"> HeyCSM </p>
+
+<p>一个<code>有态度</code>、且<code>有趣</code>更<code>有料</code>的微信公众号和同名网站(<code>heycsm.com</code>)。</p>
+<p>由数字化协作 SaaS（曾服务<code>Teambition</code>、<code>Worktile</code>、<code>PingCode</code>等产品）的 CSM <code>段旭东</code></p>
+<p style="margin: 0; color: #1B9AEE; font-weight: bold;">用 <span style="color: #E62412;">♥️</span> 打造。</p>
+
+</div>
+				<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
+				<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+				<script>
+				var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
+				var isEncrypt = document.getElementById('hexo-blog-encrypt');
+				var allowMobile = false;
+				if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
+					try {
+						var plugin = new ReadmorePlugin();
+						plugin.init({
+							"type": "hexo",
+							"id": "readmore-container",
+							"name": "HeyCSM-你好客户成功经理",
+							"blogId": "85700-3670119654427-676",
+							"qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG",
+							"keyword": "heycsm",
+							"random": "1",
+							"height": "auto",
+							"expires": "365",
+							"lockToc": "yes",
+							"interval": "60",
+							"baseUrl": "",
+							"tocSelector": ""
+						});
+					} catch(e) {
+						console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
+					}
+				}
+				</script>
+			]]></content>
+      <categories>
+        <category>深度文章</category>
+      </categories>
+      <tags>
+        <tag>客户成功</tag>
+        <tag>Teambition</tag>
+        <tag>Worktile</tag>
+        <tag>PingCode</tag>
+        <tag>飞书项目</tag>
+        <tag>日事清</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>95后协作SaaS客户成功刺头的探索：只配赚钱不配开心</title>
     <url>/2024/08/20/95-hou-xie-zuo-saas-ke-hu-cheng-gong-ci-tou-de-tan-suo-zhi-pei-zhuan-qian-bu-pei-kai-xin/</url>
     <content><![CDATA[<div id="readmore-container"><p> <strong>aka.《禅与协作SaaS客户成功指东》</strong></p>
@@ -699,278 +967,10 @@
       </categories>
       <tags>
         <tag>客户成功</tag>
+        <tag>Teambition</tag>
+        <tag>Worktile</tag>
+        <tag>PingCode</tag>
         <tag>旧档备份</tag>
-        <tag>Worktile</tag>
-        <tag>PingCode</tag>
-        <tag>Teambition</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CWM：任务、项目、流程与白日梦</title>
-    <url>/2024/08/29/cwm-ren-wu-xiang-mu-liu-cheng-yu-bai-ri-meng/</url>
-    <content><![CDATA[<div id="readmore-container"><h1 id="0-CWM"><a href="#0-CWM" class="headerlink" title="0. CWM"></a>0. CWM</h1><p>Collaborative Work Management <code>(CWM)</code> 是指企业通过工具和方法，帮助团队有效地协调任务、项目和流程，以实现共同目标的管理方式。它是一种强调团队协作和信息共享的工作方式，旨在提高团队的生产力和效率，减少沟通障碍和资源浪费。</p>
-<blockquote>
-<p><a class="link"   href="https://infraon.io/blog/collaborative-work-management/"  title="Everything You Should Know About Collaborative Work Management In 2024">Collaborative work management (CWM) is a structured methodology aimed at optimizing tasks, projects, and processes within teams. It involves coordinating, tracking, and streamlining various activities. CWM ensures efficient communication, workflow, and collaboration among team members, fostering a cohesive approach to achieving common goals. <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><strong>引用时有所改动，原文见文末参考资料</strong></p>
-</blockquote>
-<p>另外值得一提的是：在 <a class="link"   href="https://www.gartner.com/en/documents/5019731"  title="Gartner Magic Quadrant for Collaborative Work Management">Gartner <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 中也有CWM的相关魔力象限，目前已经收录了一些国外厂商，如 <code>Atlassian</code>、<code>ClickUp</code>、<code>Notion</code> 等。</p>
-<hr>
-<h1 id="1-引言"><a href="#1-引言" class="headerlink" title="1. 引言"></a>1. 引言</h1><h2 id="为什么写此内容："><a href="#为什么写此内容：" class="headerlink" title="为什么写此内容："></a>为什么写此内容：</h2><p>主要原因是我在工作中为客户进行Onboarding时，面对复杂的事务性管理场景，得益于 <code>Teambition</code> 的搭建方法论，总能快速上手并取得不错的效果。另外，在内部培训或沟通时，我总是需要反复解释这些概念，并没有系统地将其形成文章。因此，特地撰写此文。</p>
-<h2 id="本次写作的目的："><a href="#本次写作的目的：" class="headerlink" title="本次写作的目的："></a>本次写作的目的：</h2><p>旨在补全搭建逻辑内容，并通过反推论解释其逻辑。从任务管理、项目执行和流程优化的角度探讨企业协作的演变和关键作用。同时提供一些主观的思考和联想，帮助你更好地驾驭这些概念，实现产品的顺利落地和客户组织协作效率的最大化。</p>
-<hr>
-<h1 id="2-企业协作的基本要素"><a href="#2-企业协作的基本要素" class="headerlink" title="2. 企业协作的基本要素"></a>2. 企业协作的基本要素</h1><h2 id="任务（Task）"><a href="#任务（Task）" class="headerlink" title="任务（Task）"></a>任务（Task）</h2><ul>
-<li>任务是企业协作的最小单元，是具体的行动项。任务可独立存在，也可以作为项目和流程的子项。</li>
-<li><strong>任务管理的关键在于确保这些小任务能够被有效地分解、分配并按时完成。</strong></li>
-</ul>
-<p>任务管理通常适用于部门任务池和重点任务督办等场景，尤其适合部门内管理和小型企业。</p>
-<p>其特点是能够随时触发并快速响应变化，协作的生命周期是一个任务的起止时间。</p>
-<p>常见的管理方法包括 PDCA、GTD 和时间四象限等，强调敏捷性、效率和团队合作。</p>
-<p>在这种环境中，快速响应和灵活调整是管理的核心，通常由创始人、业务负责人或团队领导负责。</p>
-<p>然而，由于任务的简单性，客户对这类工具的粘性较低，一个简单的 list 工具即可替代。</p>
-<p><del>PS：刚开始看钉钉快办的PR时，我理解并不是它要完全服务这部分客户，但实际的商业化路径似乎瞄准了SMB，有点尴尬。后续内容还会提及钉钉快办。</del></p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092146412.png"
-                      alt="团队任务管理"
-                ><figcaption>团队任务管理</figcaption></figure></p>
-<p><span style="color: rgb(46, 64, 91)">通过以上图例可以看出，任务管理其实是对离散信息做了一定的有序分类，任务之间并没有任何关联。如果任务完成后，它将被置灰，且在不同的任务列表下可以随时新增任务，这使得它相比项目或流程来说，约束力较小。</span></p>
-<h2 id="项目（Project）"><a href="#项目（Project）" class="headerlink" title="项目（Project）"></a>项目（Project）</h2><ul>
-<li>项目是一组相互关联的任务和活动的集合，通常有明确的目标、时间表和资源限制。</li>
-<li><strong>项目管理的目标是通过合理的资源配置、时间管理和风险控制，确保项目按时、按预算、高质量地完成。</strong></li>
-</ul>
-<p>项目管理通常适用于工程项目管理、软硬件研发项目管理以及定制研发项目等，特别适合跨部门合作和中型企业。</p>
-<p>项目管理的触发机制是计划驱动，需要进行结构化规划、跨部门协调和资源配置。项目的生命周期为项目的起止时间。</p>
-<p>相关方法论包括项目管理、项目集管理、项目组合管理以及瀑布研发模型。</p>
-<p>市场环境通常处于扩张期或结构调整期，管理重点在于提高效能和跨部门合作。典型的管理角色包括项目经理、产品经理和 PMO 部门。</p>
-<p>项目管理工具具有一定的客户粘性，项目结束后迁移成本较高。</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092146812.png"
-                      alt="项目管理"
-                ><figcaption>项目管理</figcaption></figure></p>
-<p><span style="color: rgb(46, 64, 91)">可以看到，项目的搭建逻辑在列表搭建上具有一定的时间渐进性，按照项目推进进行阶段划分。每个阶段下方堆积的卡片代表当前阶段下所有需要完成的任务，这些任务都完成后，才标志着该阶段的结束。任务之间可能存在明显的依赖关系。项目计划完成后，除非变更，通常不在已有阶段里新增任务。</span></p>
-<h2 id="流程（Process）"><a href="#流程（Process）" class="headerlink" title="流程（Process）"></a>流程（Process）</h2><ul>
-<li>流程是一个系统化、重复性的活动序列，用于实现特定的业务目标或输出。流程通常是标准化的，具有可预测的结果，通过明确的步骤和规则确保一致性和效率。</li>
-<li><strong>流程管理关注的是优化和持续改进，以确保资源的最佳利用和结果的高效交付。</strong></li>
-</ul>
-<p>流程管理适用于 <code>敏捷研发</code>、人员招聘、特定工作流管理和连锁建店管理等场景，尤其适合成熟商业模式或大型企业。</p>
-<p>流程长期存在并持续优化，生命周期为业务在制品的 1-N。流程管理方法论包括 Scrum、IPD、六西格玛、精益管理和 BPM 等，强调流程优化、标准化管理和长期战略规划。</p>
-<p>在成熟市场和全球化运作中，标准化流程和效率优化是管理的重点。高级管理层、流程优化专家和研发效能部门通常负责这类管理。</p>
-<p>由于流程管理的复杂性，客户对工具的依赖性较高，流程的上下游使用方及在制品的约束（<code>存量生产数据</code>）使得替换工具的难度较大。</p>
-<blockquote>
-<p><a class="link"   href="https://weread.qq.com/web/reader/18a32cc071e2832e18a75ee"  title="SaaS创业路线图：to B产品、营销、运营方法论及实战案例解读">规模化的背后藏着三个字：标准化。–吴昊 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-</blockquote>
-<p><span style="color:red">当更多的企业管理科学关注点从分工到协作、从静态到动态、从局部优化到整体优化，流程管理已经从简单的生产优化工具演变为企业整体管理的重要组成部分，鉴于目前的市场产品表现，可以总结为<strong>两种形式 三种表现</strong>。</span></p>
-<div style="background-color: #f0f0f0; padding: 15px; border-radius: 5px; border: 1px solid #ddd;margin-bottom: 20px;">
-   <span style="color:red">传统形式-狭义流程抽象</span>
-
-<p>狭义的流程概念指的是我们去抽象的是一个业务的流程框架，在这个流程中流转的是重复性质的在制品，流程框架是增值的，在制品是重复的，在制品的发起，往往需要在流程的前端控制输入，这是核心观念。</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092147078.png"
-                      alt="销售Pipeline管理"
-                ><figcaption>销售Pipeline管理</figcaption></figure></p>
-<p><span style="color: rgb(46, 64, 91)">这里我们看到的是在这个销售Pipeline的管理中，实际上是按照销售漏斗去做了流程节点的划分，然后每一个客户呢，是当作在制品，就是一个卡片去做流转，根据客户情况的推进会调整这个卡片的所处节点，而任务的完成状态，往往在特定的流程节点下，比如说赢单。</span></p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092148195.png"
-                      alt="PingCode Scrum解决方案"
-                ><figcaption>PingCode Scrum解决方案</figcaption></figure></p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092148197.png"
-                      alt="PingCode Kanban解决方案"
-                ><figcaption>PingCode Kanban解决方案</figcaption></figure></p>
-<p><span style="color: rgb(46, 64, 91)">我想研发管理里的Scrum和Kanban方案是标准流程框架这里无需过多解释了吧。</span></p>
-</div>
-
-<div style="background-color: #f0f0f0; padding: 15px; border-radius: 5px; border: 1px solid #ddd;margin-bottom: 20px;">
-   <span style="color:red">创新形式-广义流程抽象（一）</span>
-`表现流程任务之间:`
-
-<p>广义的流程概念怎么理解呀？其实从我的角度广义流程某种程度上更契合客户的使用，因为当客户他能抽象出来一个业务的完整的事项流程图的时候，实际上这个广义流程框架已经搭建完了。最早接触到这种表现形式还是<code>Taskheat</code>。</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092148009.png"
-                      alt="钉钉发布会项目"
-                ><figcaption>钉钉发布会项目</figcaption></figure></p>
-<p><span style="color: rgb(46, 64, 91)"><code>Teambition</code>的近期更新支持了流程图应用，然后这个流程图实际上是通过利用任务之间的依赖关系形成的，他能更好地帮我们去表达任务彼此之间和顺序（时间）可视化的关系。</span></p>
-</div>
-
-<div style="background-color: #f0f0f0; padding: 15px; border-radius: 5px; border: 1px solid #ddd;margin-bottom: 20px;">
-    <span style="color:red">创新形式-广义流程抽象（二）</span>
-
-<p><code>表现流程任务本身：</code></p>
-<p>其实在我早期关注流程产品的时候并没有考虑到<code>飞书项目</code>他所代表的这种流程和我之前关注的产品有所不同。也是近期研究的时候发现虽然他们都是在往流程方向发力，但是其核心是不一样的，所以我在广义的流程抽象里定义一个表现流程任务本身的内容。当然市面上还有类似工具的是<code>日事清的流程</code>应用。</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092155217.png"
-                      alt="日事清流程1"
-                ><figcaption>日事清流程1</figcaption></figure></p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092149933.png"
-                      alt="日事清流程2"
-                ><figcaption>日事清流程2</figcaption></figure></p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092149937.png"
-                      alt="飞书项目"
-                ><figcaption>飞书项目</figcaption></figure></p>
-<p><span style="color: rgb(46, 64, 91)">当我现在回过头看这两个产品，突然理解了——前前老板给过一个评价是他们有点像是审批，我现在分级之后觉得也确实是这样。他其实是在一个任务背后去嵌套了一套审批的流程，称之为节点或者步骤，配套的去做了字段、子任务、权限控制。流程建立于任务母体的存在。这是跟Teambition当前的思路不一样的地方。</span></p>
-<p>不过Teambition真的只有如此吗？</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092150351.png"
-                      alt="Teambition工作流"
-                ><figcaption>Teambition工作流</figcaption></figure></p>
-</div>
-
-<p>我估计按照现在各家都在 IPD 这一典型流程领域发力，流程管理的格局远不止当前的定义，期待好玩的发生。</p>
-<hr>
-<h1 id="3-任务、项目与流程的联动"><a href="#3-任务、项目与流程的联动" class="headerlink" title="3. 任务、项目与流程的联动"></a>3. 任务、项目与流程的联动</h1><h2 id="任务与流程的联动"><a href="#任务与流程的联动" class="headerlink" title="任务与流程的联动"></a>任务与流程的联动</h2><p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092151358.png"
-                      alt="固定资产管理（任务+流程）1"
-                ><figcaption>固定资产管理（任务+流程）1</figcaption></figure></p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092151360.png"
-                      alt="固定资产管理（任务+流程）2"
-                ><figcaption>固定资产管理（任务+流程）2</figcaption></figure></p>
-<p><span style="color: rgb(46, 64, 91)">在这个场景里，我们可以看到看板上的任务列表，他仅仅是对物品属性的一个分类，下方罗列的每个卡片实际上是具体的物品，物品之间是松散的，不存在相互关联。但是当切换到状态这种流程后呢？看板变成了按照物品领用状态展示的形式。</span></p>
-<h2 id="项目与流程的联动"><a href="#项目与流程的联动" class="headerlink" title="项目与流程的联动"></a>项目与流程的联动</h2><p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092152615.png"
-                      alt="连锁建店管理（项目+流程"
-                ><figcaption>连锁建店管理（项目+流程</figcaption></figure></p>
-<p><span style="color: rgb(46, 64, 91)">在这个场景中，可以看到整体的业务流程、具体的项目卡片以及连接的项目，这是 <strong>Teambition</strong> 经典的总分搭建方法。</span></p>
-<h2 id="任务与项目的联动"><a href="#任务与项目的联动" class="headerlink" title="任务与项目的联动"></a>任务与项目的联动</h2><p><span style="color: red"><del>略，详见PMP中WBS部分</del></span></p>
-<p>本来这对官方父子组合想偷个懒放链接的，自己看了下官方的内容，算了，我自己写。</p>
-<p>项目是一个临时的工作计划，旨在创造一个独特的产品、服务或成果。为了实现这一目标，项目通常需要完成多个相互关联的任务。</p>
-<p>任务是构成项目的基本单元。每个任务代表一个具体的工作活动，具有明确的开始和结束时间，并且通常由团队成员执行。</p>
-<p>项目通常从总体目标出发，逐层分解为多个阶段或子项目，每个阶段或子项目再进一步分解为任务。这种逐层分解的过程通常通过工作分解结构（WBS，Work Breakdown Structure）来实现。</p>
-<p>任务是项目分解的最低层次单位，每个任务都是一个可管理的工作项。</p>
-<h2 id="结合的重要性"><a href="#结合的重要性" class="headerlink" title="结合的重要性"></a>结合的重要性</h2><p>高效的企业协作离不开任务、项目与流程的完美结合。任务是项目的基础，项目是流程的载体，而流程则是确保任务和项目顺利完成的保障。通过合理管理这三者，企业可以实现协作效率的最大化，推动业务的持续发展。</p>
-<hr>
-<h1 id="4-白日梦"><a href="#4-白日梦" class="headerlink" title="4. 白日梦"></a>4. 白日梦</h1><h2 id="第四域的雏形"><a href="#第四域的雏形" class="headerlink" title="第四域的雏形"></a>第四域的雏形</h2><p>在企业的事务性协作中，除了内部管理之外，还应考虑来自外部的信息接收、反馈与处理，我称之为 <code>环境</code> 的管理。这一概念在一些现有产品中已有体现，例如 <code>PingCode</code> 的对外产品 <code>Ship</code> 的工单收集反馈功能。此外，还有一个对外的产品路线图功能尚不清楚是否已经实现。</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092152012.png"
-                      alt="PingCode产品路线图"
-                ><figcaption>PingCode产品路线图</figcaption></figure></p>
-<p>另一个相关例子是钉钉推出 <code>快办</code> 时，其应用市场的 PR 介绍中提到“会有人帮你管任务”。当时，仅从 PR 的角度，我可能高估了AI的作用以及这个产品的独特性。我以为会有一个AI结合的深化，能达到部分代替人作业的过程。太理想了。</p>
-<p><figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092153333.png"
-                      alt="钉钉快办"
-                ><figcaption>钉钉快办</figcaption></figure></p>
-<h2 id="信息的皇帝"><a href="#信息的皇帝" class="headerlink" title="信息的皇帝"></a>信息的皇帝</h2><p>目前，许多协作平台都在大力推广AI，但我认为这些AI功能的实际效果并未达到预期，没有带来特别显著的效率增值。有可能也是我对AI的期望较高，尤其是在信息推荐方面，但实际上它仍然只是以传统性的方式呈现与我相关的当前任务的进展。</p>
-<p>我一直觉得头条的推荐算法做得非常好，它基于 <strong>“人性懒惰”</strong> 这一特性，通过用户的喜好来主动推送内容，并根据交互行为不断优化推荐。这使我想到如果企业内的每个员工都能够专注于任务，而有一个AI可以帮助我们梳理外部信息，并精准地推送给我们，工作效率将得到大幅提高。</p>
-<p>这种AI功能类似于高德地图，它可以根据用户的当前路线结合外部路况主动推荐新的路线。类似的，还有那篇曾经广泛讨论的公众号文章 <a class="link"   href="https://mp.weixin.qq.com/s/Mes1RqIOdp48CMw4pXTwXw" >外卖骑手，困在系统里 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 。<strong>不是鼓吹算法和对人的压迫哈</strong>，只是我觉得算法进化到一定程度时，效率是自然而然的事情，像流水线一样减少人性，提高效率。毕竟“朕已阅”。</p>
-<p>这是我对未来的期待。我希望每个人都能成为信息的“皇帝”，无论是处理事务还是应对外部响应。</p>
-<p>同时，产品优化方面还有很多可以改进的地方。例如，iOS 18 中的待办事项与日历的合并，更精准地通过实时活动将信息传达给用户。</p>
-<p>另外，我最近发现了一款名为 <code>uCal</code> 的日历管理软件，它通过一种分层视图直观地展示当前日程的开始和结束时间，这种视图有点像洋葱圈，可以从不同层次观察日程的时间分配。</p>
-<p>更有趣的是，B站有UP发现了一种新用法，即在预定日程时间之后，创建日程实际完成时间记录。这种功能在我之前的客户需求中也有所体现。</p>
-<p>在此基础上，我一直思考协作管理工具是否可以引入一种类似的侵入性强的弹窗提醒功能：当任务预定时间开始时，右上角固定显示浮窗，点击确认后记录系统开始时间；当预定时间到达后，再次弹窗询问是否更新完成时间。这样的功能设计可以大大提高任务的执行效率（提醒和统计方面）。</p>
-<p>哎，反正止不住做白日梦。</p>
-<hr>
-<h1 id="5-结论"><a href="#5-结论" class="headerlink" title="5. 结论"></a>5. 结论</h1><ul>
-<li><strong>任务、项目与流程协作的核心原则</strong>：没有最好，只有更适合。在不同的管理场景下，客户成功经理或者企业需要根据自身的业务特点、团队规模和市场环境选择合适的管理工具和方法。</li>
-<li><strong>未来趋势与展望</strong>：看白日梦能实现几个。</li>
-</ul>
-<hr>
-<h1 id="6-产品致谢与声明"><a href="#6-产品致谢与声明" class="headerlink" title="6. 产品致谢与声明"></a>6. 产品致谢与声明</h1><h2 id="产品致谢"><a href="#产品致谢" class="headerlink" title="产品致谢"></a>产品致谢</h2><ul>
-<li><a class="link"   href="https://www.teambition.com/"  title="Teambition">Teambition <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://www.pingcode.com/"  title="PingCode">PingCode <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://project.feishu.cn/home"  title="飞书项目">飞书项目 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://www.rishiqing.com/"  title="日事清">日事清 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://eyen.fr/taskheat/"  title="Taskheat">Taskheat <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-<li><a class="link"   href="https://apps.apple.com/us/app/ucal-calendar/id1615292683"  title="uCal">uCal <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></li>
-</ul>
-<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><p>本文所提及的产品名称、商标及相关介绍均为各自权利所有者的财产，仅用于信息分享和教育目的。本文不涉及任何形式的推广、推荐或商业合作。若涉及产品描述的内容有任何不准确或侵权行为，请与我联系，我将尽快处理。感谢您的理解与支持。</p>
-<br>
-<br>
-<br>
-
-<hr>
-<div style="display: flex; align-items: center; justify-content: space-between;">
-    <div>
-<p style="margin: 0; color: #E62412; font-weight: bold;">段旭东（Anjou Duan）</p>
-        <p style="margin: 0;">找不到理想工作的前协作SaaS赛道CSM</p>
-    </div>
-    <figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://heycsm.com/images/anjouduan.png"
-                      alt="Anjou Duan" style="width: 80px; height: 80px; border-radius: 50%; margin-left: 15px;"
-                ><figcaption>Anjou Duan</figcaption></figure>
-</div>
-
-
-<p>不提<code>Teambition领航员（钉钉数字化专家）</code>、<code>宜搭行业解决方案共创PDSA</code>这些虚名以及有那么<code>一点好看的职业数据</code>，只不过一个平淡无奇的王者荣耀<code>荣耀王者</code>、和平精英<code>传奇王牌</code>的小天才罢了。</p>
-<hr>
-<p style="margin: 0; color: #1B9AEE; font-weight: bold;"> HeyCSM </p>
-
-<p>一个<code>有态度</code>、且<code>有趣</code>更<code>有料</code>的微信公众号和同名网站(<code>heycsm.com</code>)。</p>
-<p>由数字化协作 SaaS（曾服务<code>Teambition</code>、<code>Worktile</code>、<code>PingCode</code>等产品）的 CSM <code>段旭东</code></p>
-<p style="margin: 0; color: #1B9AEE; font-weight: bold;">用 <span style="color: #E62412;">♥️</span> 打造。</p>
-
-</div>
-				<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-				<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-				<script>
-				var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-				var isEncrypt = document.getElementById('hexo-blog-encrypt');
-				var allowMobile = false;
-				if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
-					try {
-						var plugin = new ReadmorePlugin();
-						plugin.init({
-							"type": "hexo",
-							"id": "readmore-container",
-							"name": "HeyCSM-你好客户成功经理",
-							"blogId": "85700-3670119654427-676",
-							"qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG",
-							"keyword": "heycsm",
-							"random": "1",
-							"height": "auto",
-							"expires": "365",
-							"lockToc": "yes",
-							"interval": "60",
-							"baseUrl": "",
-							"tocSelector": ""
-						});
-					} catch(e) {
-						console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
-					}
-				}
-				</script>
-			]]></content>
-      <categories>
-        <category>深度文章</category>
-      </categories>
-      <tags>
-        <tag>客户成功</tag>
-        <tag>Worktile</tag>
-        <tag>PingCode</tag>
-        <tag>Teambition</tag>
-        <tag>飞书项目</tag>
-        <tag>日事清</tag>
       </tags>
   </entry>
   <entry>
@@ -1668,6 +1668,342 @@
       </tags>
   </entry>
   <entry>
+    <title>加班，不正是你默许领导的吗？（下）</title>
+    <url>/2024/09/10/jia-ban-bu-zheng-shi-ni-mo-xu-ling-dao-de-ma-xia/</url>
+    <content><![CDATA[<div id="readmore-container"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>为什么我一直对加班这件事儿感到反感？这要追溯到我实习的时候，那时我在一家外企实习。让我印象最深的是我的领导，他为了避免员工加班，居然会在下班后直接拉掉工区的电闸。</p>
+<p>那段短暂的实习经历让我明白，<strong>领导如果真的关心员工的工作与生活平衡，是可以做到的。</strong></p>
+<p>许多资讯提到，我们如今的8小时工作制，是几百年前的人们通过艰苦斗争争取来的，而现在的我们似乎并不珍惜。虽然在国内互联网的工作环境下，加班仿佛成了常态，但放眼人类历史，这种现象其实是不正常的。</p>
+<p>最近，我除了忙于搭建网站、写文章之外，也通过看影视作品来放松。最近看了<code>《异形：夺命舰》</code>和<code>《凡人歌》</code>(我不会承认是冲着章若楠的颜去看的) 。</p>
+<p>在《异形：夺命舰》里有一个场景让我记忆深刻：女主角去兑换某物时，管理处人员告诉她，她还需要工作多少多少年。这个庞大的数字让人感到窒息，仿佛女主角还要承受无尽的压迫。豆瓣上有热心网友仔细计算，发现女主角即使被处罚每天的工作时间也不过8小时，而这8小时如今在职场中竟成了稀有的“福利”。</p>
+<p>只能说是外国人在工作时间的想象上还是太<strong>贫瘠</strong>了。</p>
+<p>在<code>《凡人歌》</code>中，我非常欣赏章若楠的<code>李晓悦</code>这个角色。她既能认真对待工作，同时又有一种洒脱的态度，领导让加班说不干就不干了，这种矛盾性格在新一代职场人身上表现得淋漓尽致。我们一方面希望认真工作，另一方面却又洒脱拒绝无理的要求。对于员工本身，这其实并不是问题，问题出在现实的职场环境–像<code>李晓悦</code>这样的人，你在现实中遇到的可能并不多，因为都已经被在职场中干掉了(but我感觉章若楠在演我，不愧是我喜欢的姐姐呀)。</p>
+<p>谈到加班，这个现象已经越来越常见了。由于曾经几次离职的原因都与加班有关，我对这个现象深有感触，也因此写了上一篇文章<a class="link"   href="https://mp.weixin.qq.com/s/NF0eOrIeCr4DzTP7Dez6Ew" >加班，不正是管理出了问题吗？（上） <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><a id="jump_8"></a>。我记得曾经对某位公司高层表达过企业的价值感应该让员工自驱加班的态度加班的态度，如果是出于自己喜欢的事情，企业文化应该培养出员工自主加班的主人翁精神。</p>
+<p>然而，现实中这个观点却被曲解了，变成了强迫员工加班。<strong>对某一公司的同事们深感抱歉。</strong></p>
+<p>这让我意识到，加班并不是一件单纯的事情。领导或许经过了多轮思考和决策，但最终仍然选择了加班这一条路。如果上篇文章冒犯了某些人，我想说的是，这并非无端指责，而是事实。在一些企业，领导只需要一句话：“大家加班努力一下，任务要赶紧完成！” 似乎所有人都无法拒绝。你可能是主动接受，也可能是被动妥协，但加班已经成了一种常态。</p>
+<p>但是，你有没有想过，加班文化的盛行，真的只是领导的问题吗？<strong>加班，不正是你自己默许的结果吗？</strong></p>
+<p>很多人可能不愿承认这一点，但每当你默默接受加班、顺从领导的要求时，你其实是在默认这套不合理的加班制度，并为它的延续提供了支持。今天我们就来聊聊，为什么加班文化不仅是管理层的问题，也与你的默许行为息息相关。</p>
+<hr>
+<section data-id="3073" class="v3editor">
+    <!--样式1978，更新于2019.09.21 -->
+    <section style="margin-top: 20px;margin-bottom: 10px;">
+        <section style="display: flex;justify-content:center;align-items:center;">
+            <section style="width: 12px; height: 12px; background-color: #E62412; border-radius: 50%;" data-width="12px"></section>
+            <section style="margin-left:5px;">
+                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
+                <section style="margin-top: 3px;margin-bottom: 3px;width: 80px;height: 1px;background-color: #a5a5a5;" data-width="80px"></section>
+                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
+            </section>
+            <section style="margin-left: 5px; width: 12px; height: 12px; border-style: solid; border-width: 1px; border-color: #1B9AEE; border-radius: 50%;" data-width="12px"></section>
+        </section>
+        <section style="margin-top: -30px;">
+            <p style="text-align: center;">
+                <span style="font-size: 30px; padding-left: 0em; color: #585858; ">
+                    <em><strong>1</strong></em>
+                </span>
+            </p>
+        </section>
+    </section>
+</section>
+
+
+<h2 id="加班文化：你真的在反抗吗？"><a href="#加班文化：你真的在反抗吗？" class="headerlink" title="加班文化：你真的在反抗吗？"></a>加班文化：你真的在反抗吗？</h2><p>在职场中，有一种默认的规则——当领导提出加班要求时，员工必须照做。如果你不加班，可能会被视为“不配合”或者“没有责任心”。于是，即便内心再不情愿，你还是默默接受了加班，有时甚至主动加班，试图通过这种方式表现自己在工作上的勤奋和奉献精神。</p>
+<p><figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409101429514.png"
+                      alt="中华人民共和国劳动法第41条"
+                ><figcaption>中华人民共和国劳动法第41条</figcaption></figure></p>
+<p>其实，我们需要关注的并不是加班的时间长度，而是劳动者是否有权与企业协商加班。这是法律赋予的权利——加班应该是一个可以自主决定的行为，而不是被迫的选择。然而，很多人往往会主动放弃这个权利。</p>
+<p>另外，我不是说加班本身有什么错，每个员工的情况和需求都不同，但默许加班而不索取相应的报酬是不合理的。如果你默默接受加班而不争取应有的权益，那么被评价为“工贼”或者被称为“内卷”的一份子，也未必是过分的说法。</p>
+<h3 id="默许加班：你在为加班文化背书"><a href="#默许加班：你在为加班文化背书" class="headerlink" title="默许加班：你在为加班文化背书"></a>默许加班：你在为加班文化背书</h3><p>每当你顺从地接受加班，实际上你是在为这套不合理的制度“背书”。<strong>当你不说“不”的时候，领导自然会认为你能够接受加班，甚至可能认为这是你的“责任感”在驱使你做出这种选择</strong>。</p>
+<p>随着时间推移，领导对加班的期待会越来越高，甚至会将加班作为衡量员工忠诚度的标准。</p>
+<p>或许你觉得自己别无选择，但事实上，<strong>正是你的默认和顺从，让加班文化在职场中愈演愈烈</strong>。</p>
+<p>如果没人反抗，大家都默默接受，那么企业自然不会改变现行的制度，因为加班看似已经被所有人默许和接受。</p>
+<h3 id="加班是为了升职加薪？你被套路了"><a href="#加班是为了升职加薪？你被套路了" class="headerlink" title="加班是为了升职加薪？你被套路了"></a>加班是为了升职加薪？你被套路了</h3><p>有些人认为，加班是一种展示工作态度的方式，试图通过加班来赢得领导的好感，以此争取升职加薪的机会。然而，现实往往很残酷——<strong>领导不会因为你加班就给你升职加薪</strong>。在他们看来，<strong>加班只是你履行工作职责的一部分，并不值得额外奖励。</strong></p>
+<p>你可能通过加班塑造了一个“奋斗者”的形象，但从长远来看，<strong>你只是在消耗自己的时间和精力，而领导并不会因此给你更多回报</strong>。那些真正能升职加薪的人，通常是在规定时间内高效完成工作拿到领导想要结果的员工，而不是每天都熬夜加班的“拼命三郎”。</p>
+<section data-id="3073" class="v3editor">
+    <!--样式1978，更新于2019.09.21 -->
+    <section style="margin-top: 20px;margin-bottom: 10px;">
+        <section style="display: flex;justify-content:center;align-items:center;">
+            <section style="width: 12px; height: 12px; background-color: #E62412; border-radius: 50%;" data-width="12px"></section>
+            <section style="margin-left:5px;">
+                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
+                <section style="margin-top: 3px;margin-bottom: 3px;width: 80px;height: 1px;background-color: #a5a5a5;" data-width="80px"></section>
+                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
+            </section>
+            <section style="margin-left: 5px; width: 12px; height: 12px; border-style: solid; border-width: 1px; border-color: #1B9AEE; border-radius: 50%;" data-width="12px"></section>
+        </section>
+        <section style="margin-top: -30px;">
+            <p style="text-align: center;">
+                <span style="font-size: 30px; padding-left: 0em; color: #585858; ">
+                    <em><strong>2</strong></em>
+                </span>
+            </p>
+        </section>
+    </section>
+</section>
+
+
+<h2 id="加班文化中的“工贼”：你在压榨自己和同事"><a href="#加班文化中的“工贼”：你在压榨自己和同事" class="headerlink" title="加班文化中的“工贼”：你在压榨自己和同事"></a>加班文化中的“工贼”：你在压榨自己和同事</h2><p>过去，“工贼”一词用来形容那些为了个人利益，损害工人集体利益的人。如今，<strong>在加班文化中，某些员工的行为俨然成为了现代版的“工贼”行为</strong>。他们顺从加班制度，不仅在无意中压榨自己，还给同事的工作和生活带来了负面影响。</p>
+<h3 id="主动加班是在剥削自己"><a href="#主动加班是在剥削自己" class="headerlink" title="主动加班是在剥削自己"></a>主动加班是在剥削自己</h3><p>你可能认为，通过加班能表现出对公司的忠诚和拼劲，甚至期望通过这种方式赢得升职加薪的机会。然而，事实是，<strong>你其实是在剥削自己的时间和生活，牺牲了本该属于你的休息和自我提升的机会</strong>。</p>
+<p><strong>你为了工作，放弃了家庭和健康，但最后得到的回报却少得可怜</strong>。</p>
+<p>即便你加班加得再辛苦，领导或许会把你贴上“努力员工”的标签，但这个标签并不会让你在职业生涯中走得更远。</p>
+<p><strong>剥削自己，只不过是一种看似“积极”的自我欺骗</strong>，最终，你可能失去的不是职业机会，而是宝贵的生活和健康。</p>
+<h3 id="加班给同事带来的无形压力"><a href="#加班给同事带来的无形压力" class="headerlink" title="加班给同事带来的无形压力"></a>加班给同事带来的无形压力</h3><p>更糟糕的是，当你主动加班时，<strong>你无意中也在给你的同事施加无形的压力</strong>。领导看到你加班，可能会认为其他员工也应该加班，甚至将加班常态化。那些不愿意加班或追求工作与生活平衡的员工，由于无法违背领导的意愿，也不得不被迫加入加班的行列。</p>
+<p>你可能以为自己是在为公司奉献，但事实上，<strong>你是在打破职场的平衡，逼迫其他同事也接受不合理的加班要求</strong>。时间久了，整个团队的工作环境变得压抑，生活质量下降，工作满意度也随之下滑。</p>
+<section data-id="3073" class="v3editor">
+    <!--样式1978，更新于2019.09.21 -->
+    <section style="margin-top: 20px;margin-bottom: 10px;">
+        <section style="display: flex;justify-content:center;align-items:center;">
+            <section style="width: 12px; height: 12px; background-color: #E62412; border-radius: 50%;" data-width="12px"></section>
+            <section style="margin-left:5px;">
+                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
+                <section style="margin-top: 3px;margin-bottom: 3px;width: 80px;height: 1px;background-color: #a5a5a5;" data-width="80px"></section>
+                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
+            </section>
+            <section style="margin-left: 5px; width: 12px; height: 12px; border-style: solid; border-width: 1px; border-color: #1B9AEE; border-radius: 50%;" data-width="12px"></section>
+        </section>
+        <section style="margin-top: -30px;">
+            <p style="text-align: center;">
+                <span style="font-size: 30px; padding-left: 0em; color: #585858; ">
+                    <em><strong>3</strong></em>
+                </span>
+            </p>
+        </section>
+    </section>
+</section>
+
+
+<h2 id="加班并不能掩盖效率低下的问题"><a href="#加班并不能掩盖效率低下的问题" class="headerlink" title="加班并不能掩盖效率低下的问题"></a>加班并不能掩盖效率低下的问题</h2><p>很多加班的员工，并不是因为工作量太大或任务太难，而是因为他们没有合理安排好自己的工作时间。<strong>加班成了一种掩盖工作效率低下的手段</strong>。</p>
+<h3 id="工作时间管理不当，导致加班"><a href="#工作时间管理不当，导致加班" class="headerlink" title="工作时间管理不当，导致加班"></a>工作时间管理不当，导致加班</h3><p>有些人总是通过加班来完成任务，<strong>这是因为他们在正常工作时间内没有高效利用时间</strong>。可能是因为拖延，也可能是时间管理不当，导致他们在规定的工作时间内无法完成工作。加班成了他们弥补效率低下的方式，而非工作量真正过多。</p>
+<p>这种做法不仅没有提高效率，反而让问题更加恶化。<strong>加班掩盖了低效率的真相，让员工误以为延长工作时间就能解决问题</strong>，但实际上，他们只是在通过增加工作时间来弥补，根源问题并没有得到解决。</p>
+<p>我之前也曾被一些“求职宝典”的观念影响，当被问到对加班的看法时，我通常会回答：“如果是因为我自己的问题，我会愿意加班来完成工作；但如果是因为任务量过多，我会与领导沟通。”然而，后来我发现，这种思路并不能解决问题。无论我的工作能力多强，总有一些任务会超出正常工作时间。</p>
+<p>我是个喜欢做短期规划的人，经常通过日程安排和会议来规划我第二天工作。但我发现，客户成功，特别是在面对客户的岗位上，时间总是会被各种突发事件打乱，计划往往难以执行。</p>
+<p>在当下的工作环境中，<strong>想要预先计划每一件事本身就是一种错误</strong>。与其关注时间，不如提升自己的效率，让自己不断进步，才能更好地应对现在的职场局面。</p>
+<p>举个例子，领导要求我写一篇文章，为什么不能通过AI工具来生成呢？如果领导想了解客户产品的使用情况，为什么还要靠我与客户沟通？这些信息完全可以通过客户成功监控系统直接呈现。这些才是我们应该用来提升效率的手段。</p>
+<p>如果有人质疑，认为系统里的数据和客户口头反馈有差异，也对，但是我认为系统数据往往比口头沟通更能反映真实情况。</p>
+<p><strong>而这也是我坚持帮助企业实现数字化的信念。</strong></p>
+<h3 id="加班带来的疲劳，进一步降低工作效率"><a href="#加班带来的疲劳，进一步降低工作效率" class="headerlink" title="加班带来的疲劳，进一步降低工作效率"></a>加班带来的疲劳，进一步降低工作效率</h3><p>加班不仅无法提高工作效率，反而会导致员工的身心疲惫，从而进一步降低工作表现。<strong>长期加班让员工陷入疲劳状态，思维变得迟钝，工作错误也大幅增加</strong>。这些错误需要花费更多时间来修复，最终加班变得愈加频繁，形成恶性循环。</p>
+<p>加班不仅没有提高工作效率，反而制造了更多错误和问题。<strong>你为了加班而加班，却忽视了加班带来的疲劳已经严重影响了你的工作表现</strong>。</p>
+<p>对此，我深有体会。我的同事们应该都知道，我在开会的情景下一直很积极主动，分享自己的观点，热衷于表达，可是当我的精力被耗尽时，我就会陷入一种呆滞的状态。</p>
+<p><strong>整个人都会down掉。</strong></p>
+<p>这不是心理反应，而是生理上的疲惫。我记得有一次，领导在晚上拉着我们加班到凌晨，为客户做售前的PPT讨论。当时间到了凌晨一点，我已经完全无法集中精力，尽管那场会议直到凌晨三点才结束，但那段时间我几乎什么也没做，只是坐在那里发呆。</p>
+<p>还有一次加班的经历也是类似的：我们原本在会议上讨论一个问题，持续了好几个小时，会议本来用于解决问题的时间被讨论所消耗，但实际上，会议并没有取得预期的结果，反而因为过度讨论拖延了后续的行动。</p>
+<p>每当我回想这些时刻时，我总是在思考：坐在会议桌旁，面如死灰的我，当时应该在思考什么人生的哲学问题吧？</p>
+<p>我是谁？</p>
+<p>我从哪里来？</p>
+<p>我要到哪里去？</p>
+<p>我发现，这些漫无边际的思绪，全都是被我无力支配的时间所“催生”出来的。正因为对时间的无能为力，所以才陷入了这种无尽的思索。</p>
+<p>因为对<strong>时间的支配无能为力</strong>，所以<strong>狂怒</strong>，所以<strong>放纵</strong>。</p>
+<p>这种时间的无能为力还体现在另一个现象中——</p>
+<p>为什么现在很多年轻人熬夜？因为深夜才是他们唯一可以自由支配的时间。而当我们没有足够的睡眠，或者没有足够的时间去放空自己时，情绪就会陷入<code>emo</code>的状态。</p>
+<p>在这样的情况下，<strong>我们如何能够用一个健康的身体和心理状态去完成第二天的工作呢？</strong></p>
+<section data-id="3073" class="v3editor">
+    <!--样式1978，更新于2019.09.21 -->
+    <section style="margin-top: 20px;margin-bottom: 10px;">
+        <section style="display: flex;justify-content:center;align-items:center;">
+            <section style="width: 12px; height: 12px; background-color: #E62412; border-radius: 50%;" data-width="12px"></section>
+            <section style="margin-left:5px;">
+                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
+                <section style="margin-top: 3px;margin-bottom: 3px;width: 80px;height: 1px;background-color: #a5a5a5;" data-width="80px"></section>
+                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
+            </section>
+            <section style="margin-left: 5px; width: 12px; height: 12px; border-style: solid; border-width: 1px; border-color: #1B9AEE; border-radius: 50%;" data-width="12px"></section>
+        </section>
+        <section style="margin-top: -30px;">
+            <p style="text-align: center;">
+                <span style="font-size: 30px; padding-left: 0em; color: #585858; ">
+                    <em><strong>4</strong></em>
+                </span>
+            </p>
+        </section>
+    </section>
+</section>
+
+
+<h2 id="加班文化的恶性循环：你不说“不”，问题永远不会改变"><a href="#加班文化的恶性循环：你不说“不”，问题永远不会改变" class="headerlink" title="加班文化的恶性循环：你不说“不”，问题永远不会改变"></a>加班文化的恶性循环：你不说“不”，问题永远不会改变</h2><p>加班文化之所以持续存在，正是因为员工从未真正站出来反对。<strong>如果你一直默许加班，甚至主动加班，那么加班文化只会越来越严重</strong>。领导看到员工都在加班，会认为这是员工的“工作态度”，并逐渐把加班视为公司文化中的合理组成部分。</p>
+<h3 id="不拒绝加班，问题永远不会得到解决"><a href="#不拒绝加班，问题永远不会得到解决" class="headerlink" title="不拒绝加班，问题永远不会得到解决"></a>不拒绝加班，问题永远不会得到解决</h3><p>当你面对加班选择沉默，或心中有怨言却不敢表达时，领导根本不会意识到这是一个问题。<strong>在他们看来，员工并没有表现出反对，加班被默认成了工作的常态</strong>。他们会认为你接受并愿意为公司牺牲更多时间，而不是意识到这是一个需要解决的问题。</p>
+<p>如果你不站出来反抗，事情永远不会改变。<strong>公司不会主动去改善加班文化，因为在他们眼中，加班似乎是提升业绩的“捷径”</strong>。如果你不说“不”，加班文化就会一直延续，成为职场的常态。</p>
+<p>虽然不必过分探讨加班背后的管理责任，但我希望你的<strong>每一次加班，都是为了将来减少不必要的加班。</strong></p>
+<p><strong>更早解决问题，总比在问题恶化后采取补救措施要有效和经济得多</strong>。</p>
+<h3 id="想要改变，就要学会说“不”"><a href="#想要改变，就要学会说“不”" class="headerlink" title="想要改变，就要学会说“不”"></a>想要改变，就要学会说“不”</h3><p>如果你想打破加班文化，首先要学会勇敢地说“不”。拒绝不合理的加班要求，并且提出合理的工作安排建议。<strong>当越来越多的人勇敢表达自己的立场时，企业才会意识到加班文化的弊端，并开始反思自己的管理方式</strong>。</p>
+<p>有时，一次小小的反抗可能会带来巨大的改变。你不必过于担心领导会因此对你产生负面看法，<strong>如果你的工作表现足够出色，拒绝加班只会让你更有底气</strong>。领导看重的是工作成果，而不是你为完成任务在办公室待了多久。</p>
+<p>我很佩服身边一些敢于对加班说“不”的人，尤其是那些职场新手。虽然他们可能没有经历过职场中的层层压力，但他们的勇气让我感到敬佩。我常想如果我能回到过去，我也会像他们一样做出类似的选择。事实上，我已经这么做了，<strong>我不后悔</strong>。即便现状可能依然面临挑战，但我明白，<strong>默许并不代表正确，每个人都有权利表达自己的意愿</strong>。你应该清楚地告诉别人你愿意做什么、不愿意做什么。</p>
+<p>当越来越多的人站出来时，众志成城，积少成多，不合理的行为终将从这个世界消失。</p>
+<p>用老罗的话说：</p>
+<blockquote>
+<p>每一个生命来到世间，都注定改变世界，这是你的宿命，你别无选择。你要么把世界变得好一点，要么把世界变得坏一点。</p>
+</blockquote>
+<p>当你梗着脖子低声说出“不”字时：</p>
+<blockquote>
+<p>你还是改变了世界，你让这个世界变得美好了一点点。</p>
+</blockquote>
+<section data-id="3073" class="v3editor">
+    <!--样式1978，更新于2019.09.21 -->
+    <section style="margin-top: 20px;margin-bottom: 10px;">
+        <section style="display: flex;justify-content:center;align-items:center;">
+            <section style="width: 12px; height: 12px; background-color: #E62412; border-radius: 50%;" data-width="12px"></section>
+            <section style="margin-left:5px;">
+                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
+                <section style="margin-top: 3px;margin-bottom: 3px;width: 80px;height: 1px;background-color: #a5a5a5;" data-width="80px"></section>
+                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
+            </section>
+            <section style="margin-left: 5px; width: 12px; height: 12px; border-style: solid; border-width: 1px; border-color: #1B9AEE; border-radius: 50%;" data-width="12px"></section>
+        </section>
+        <section style="margin-top: -30px;">
+            <p style="text-align: center;">
+                <span style="font-size: 30px; padding-left: 0em; color: #585858; ">
+                    <em><strong>5</strong></em>
+                </span>
+            </p>
+        </section>
+    </section>
+</section>
+
+
+<h2 id="加班文化的未来：需要改变的，是我们每一个人"><a href="#加班文化的未来：需要改变的，是我们每一个人" class="headerlink" title="加班文化的未来：需要改变的，是我们每一个人"></a>加班文化的未来：需要改变的，是我们每一个人</h2><p>如果每个人都默许加班文化的存在，它就永远不会消失。我们必须意识到，<strong>加班并不是努力工作的证明，真正的工作表现体现在效率和成果上，而不是工作时间的长度</strong>。</p>
+<h3 id="员工的选择，决定职场文化的走向"><a href="#员工的选择，决定职场文化的走向" class="headerlink" title="员工的选择，决定职场文化的走向"></a>员工的选择，决定职场文化的走向</h3><p>每一种职场文化，都是由员工和管理者共同塑造的。<strong>当员工选择顺从不合理的制度时，这种制度就会越来越强大，最终成为职场中的“潜规则”</strong>。相反，当员工勇敢地站出来反对时，制度才有可能发生改变。</p>
+<p>加班文化的存在，不能单单怪罪于管理层，员工的默认同样是问题的根源之一。要改变这种文化，需要每个员工学会捍卫自己的权益，拒绝不合理的工作安排。</p>
+<blockquote>
+<p>“人人向往的地方，不是天堂，也是食堂；人人逃离的地方，不是地狱，也是监狱。现实世界如果允许自由迁徙，那么人流的方向就是文明的方向。”<br>–（假托哈耶克之名，实为非正本《通往奴役之路》语句）</p>
+</blockquote>
+<p>在本书中比较类似的观点出现在《通往奴役之路》的中文版序言中：</p>
+<blockquote>
+<p>哈耶克坚信，中央计划经济限制个人自由、摧毁责任感和社会的道德基础，阻碍财富的生产并导致贫困，甚至最终导致极权主义的兴起。他曾指出，“用通往天堂的美好愿望，铺设国家通向地狱之路”，计划经济的道路必将通向奴役。</p>
+</blockquote>
+<p>这段话深深影响了我对加班的看法。</p>
+<p>曾经，我简单地把加班视为一种负担和压迫，但后来我发现，当我做自己热爱的事情时，即便是给老板做事的打工人，我也愿意加班。比如当我的目标与领导一致时，我会自愿加班去完成任务。但与此同时，我也开始理解那些有家有业的人，比如刚结婚、买房、生子的同事。<strong>他们对稳定性的需求更高，背负的责任也更重</strong>，即便他们的加班带有无奈性质，但这背后却有着现实的原因。</p>
+<p>职场上还存在着“老油条”现象，这些人深谙职场规则，尽管内心没有动力，外界也没有压力，却依然选择表演式加班。这种现象虽值得讨论，但同样也能理解。</p>
+<p>从企业的角度来看，理想状态下，企业文化应该默默影响员工的心理，让加班自然而然地发生。虽然愿景、使命、价值观听起来很虚，但接触过许多客户和公司之后，我意识到这些因素确实有规则般的作用，能够有效影响员工，而这种作用往往难以量化。</p>
+<h3 id="健康的职场文化需要合理的工作与生活平衡"><a href="#健康的职场文化需要合理的工作与生活平衡" class="headerlink" title="健康的职场文化需要合理的工作与生活平衡"></a>健康的职场文化需要合理的工作与生活平衡</h3><p>一个健康的职场文化，应该是<strong>工作与生活之间有合理的平衡</strong>。员工在工作时间内全力以赴，但下班后可以享有自己的生活。这种平衡不仅有助于员工的身心健康，也能提高工作效率和团队士气。</p>
+<p>Work–life balance（工作与生活的平衡）是一个健康职场的重要组成部分。<strong>如果每个人都能拒绝不必要的加班，公司也能在合理的工作时间内完成任务，企业的长期发展才会更加稳定和健康</strong>。</p>
+<p>我一直将自己定位为奋斗逼和三和大神的结合体。对于我来说，理想的生活状态或许是开滴滴，因为它提供了赚钱的机会，也让我拥有生活的自主权。在这过程中，我可以接触各种各样的乘客，了解他们的故事。<strong>每个乘客背后都有独特的人生</strong>，而我可以在短短的时间内感受到这些人生的片段，这是极具吸引力的。</p>
+<p>然而，为什么我也会说自己是奋斗逼呢？因为我有想要达成的目标。<strong>在目标实现之前，我会为此持续努力</strong>。这也是我身上所谓责任感的体现。我不轻易许诺，但一旦承诺，我就必须做到。对我来说，不仅仅是对自己的责任，更是对他人期待的回应。婚姻、事业都是如此。</p>
+<p>至于三和大神的心态，我认为所有工具的发明，都是为了让人们从繁重的劳动中解放出来。科技的发展，<strong>最终目的是让生活更简单</strong>。我多次提到，未来的生活可能就像《机器人总动员》中的场景，人们通过科技轻松地完成各种任务，只需享受当下的快乐。</p>
+<p>正如《三体》中的那句台词：</p>
+<blockquote>
+<p>给岁月以文明，而不是给文明以岁月。</p>
+</blockquote>
+<p>当我们利用科技掌控更多的资源和力量时，人类文明的进步将达到前所未有的高度。而这一切，归根结底，<strong>就是对我们自身能力的掌控和实现</strong>。</p>
+<p>我想工作时就工作，我想生活时就生活。</p>
+<section data-id="3073" class="v3editor">
+    <!--样式1978，更新于2019.09.21 -->
+    <section style="margin-top: 20px;margin-bottom: 10px;">
+        <section style="display: flex;justify-content:center;align-items:center;">
+            <section style="width: 12px; height: 12px; background-color: #E62412; border-radius: 50%;" data-width="12px"></section>
+            <section style="margin-left:5px;">
+                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
+                <section style="margin-top: 3px;margin-bottom: 3px;width: 80px;height: 1px;background-color: #a5a5a5;" data-width="80px"></section>
+                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
+            </section>
+            <section style="margin-left: 5px; width: 12px; height: 12px; border-style: solid; border-width: 1px; border-color: #1B9AEE; border-radius: 50%;" data-width="12px"></section>
+        </section>
+        <section style="margin-top: -30px;">
+            <p style="text-align: center;">
+                <span style="font-size: 30px; padding-left: 0em; color: #585858; ">
+                    <em><strong>6</strong></em>
+                </span>
+            </p>
+        </section>
+    </section>
+</section>
+
+
+<h2 id="给老板们的建议：总不能光提出问题吧"><a href="#给老板们的建议：总不能光提出问题吧" class="headerlink" title="给老板们的建议：总不能光提出问题吧"></a>给老板们的建议：总不能光提出问题吧</h2><p>在上一篇文章中，主要是对管理层的加班文化提出了一些吐槽，随后有读者反馈，说文章激起了情绪，这点我倒是承认的，至少这个话题引起了讨论和争论。但对老板这样的读者来说，文章似乎没有提供有效的解决方案，反而更像是在情绪上的挑拨。尽管如此，我的阅读量和转发量还是在没有主动推动的情况下有所增长，微信平台也给了一些推荐流量。</p>
+<p>于是，在这篇文章中，我想尝试提出一些无论是从员工还是从老板的角度，都能够应对加班问题的解决方案。</p>
+<p>或许我的建议看起来有些笨拙，但对于我们这一代员工的心态而言，确实如此。</p>
+<h3 id="优化管理方向"><a href="#优化管理方向" class="headerlink" title="优化管理方向"></a>优化管理方向</h3><p>其实，我也曾和我姥爷（经历过红色信仰的年代，从军人变成援青干部）一样，觉得自己不应该做管理者，毕竟那会儿是以劳工为荣，领导是要真的给人民服务的。当你要站在一个更高位的时候，意味着你要更多的工作。</p>
+<p>在一次面试中，我甚至和面试官聊起这个话题。原因是，早期的管理经验让我发现，每天我需要汇总大量的数据，进行各种汇报和分析。然而，在我看来，<strong>这并不是核心的工作内容</strong>。核心价值在于拿到数据后如何分析，以及制定接下来的策略。那才是我该专注的地方，而不是做那些花费大量时间却看似漂亮的表格。</p>
+<p><strong>我不希望自己成为“给表格打工，面向老板做表”</strong>，因为太多的加班根本是低效的。有效的工具可以大幅减少员工的工作时间，避免无谓的加班。</p>
+<h3 id="建立企业文化"><a href="#建立企业文化" class="headerlink" title="建立企业文化"></a>建立企业文化</h3><p>企业文化这个话题常常被讨论。在互联网公司里，工牌和花名不仅是象征荣誉，更多的是一种身份认同感和归属感。<strong>员工带着工牌、用着花名，这些细节能够无形中让员工对企业产生归属感</strong>。我相信，真正的企业文化建设能渗透到员工行为的方方面面，因此忽视企业文化的管理者，确实让人难以理解。</p>
+<h3 id="管理的出发点是激发善意和潜能"><a href="#管理的出发点是激发善意和潜能" class="headerlink" title="管理的出发点是激发善意和潜能"></a>管理的出发点是激发善意和潜能</h3><p>管理的目的不是单纯地“管人”或“管事”，而是<strong>激发善意和潜能</strong>。德鲁克曾经说过，管理的本质是通过尊重来激发员工的善意。我相信，<strong>当管理措施基于对员工的尊重，管理的每一个决策和制度都能够被合理解释</strong>。当管理出于对员工的尊重，甚至能让员工在外部环境的压力下团结一心，形成合力。类似于胖东来或者华为的企业，很多人觉得他们成功的原因不止于经济回报，而是因为员工的利益和企业的命运紧密绑定，这两家都有着全员持股的相关规定。</p>
+<h3 id="重视榜样的力量"><a href="#重视榜样的力量" class="headerlink" title="重视榜样的力量"></a>重视榜样的力量</h3><p>在职场中，一个明星员工的存在能够影响整个团队的氛围。在某次离职访谈中，我和领导讨论过这个话题。<strong>每个岗位的明星员工，都是其他员工的标杆</strong>。当一个员工在严格的制度和规则下，依然能超额完成任务时，他对周围人的影响力是巨大的。这不仅让其他人感受到榜样的力量，也激励了团队形成健康的竞争环境。</p>
+<p>感谢洪博兄在上篇文章中的探讨，他提到：“老板之所以会加班，是因为他在为自己挣钱。”在这个角度上，我倒觉得<strong>销售和老板一样，都是在为自己打工</strong>。明星员工在销售中，像老板一样为自己创造价值，这就是明星员工带来的光环效应。其他员工会因为这种榜样效应，自然而然地模仿和学习他们的行为。而加班也是如此，员工为额外付出的工作时间，应该得到相应的奖励，不论是口头表扬、物质奖励，还是调休（但调休本质上只是一种时间的转移，并不能真正调动员工的积极性，甚至有可能会打乱员工的安排，但是作为一个借口还是不错的）。</p>
+<p>更多想说的不是明星员工这个人，而是他不断获得的 <strong>“正反馈。”</strong></p>
+<h3 id="保持向上的趋势"><a href="#保持向上的趋势" class="headerlink" title="保持向上的趋势"></a>保持向上的趋势</h3><p>如果一家企业能够让员工看到前景并充满希望，员工自然愿意为企业多做一点。<strong>永远不要让员工觉得公司在走下坡路</strong>，这种感觉会导致员工产生消极情绪，进而在工作中表现出不满甚至抗争。为什么互联网大厂的员工甘愿“卷”起来？因为他们看到公司在不断进步，为了更宏大的目标，他们愿意付出额外的努力。</p>
+<p>创业公司给员工期权也是这个道理，资本投资创业公司是因为相信未来的回报。如果公司能让员工相信企业有前景，那他们愿意为公司奋斗。<strong>管理者要学会“画饼”，但这个饼必须让员工看到</strong>，不是空谈，而是实实在在的希望。</p>
+<p>我一直认为，一个企业如果能够让员工保持向上的态度，看到光明的未来，那这个企业一定在走上升的路。而管理者如何让员工看到未来的美好，这正是管理者需要深入思考的问题。</p>
+<hr>
+<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>加班，不仅仅是管理层的问题，它同样与你的默许息息相关。<strong>每当你一次次顺从加班要求时，实际上是在帮助加班文化延续</strong>。改变从你自己开始，你有权利拒绝加班，选择为自己的生活和健康负责。</p>
+<p>加班文化的终结，不是等待管理层的改变，而是<strong>每一个员工敢于站出来说“不”</strong>。如果你不说不，问题就永远不会消失。</p>
+<p>当然，今天的这篇文章已经不是单纯地批评加班了，所以最后，我还是想送上一个美好的祝愿：</p>
+<p><strong>希望你永远不加班</strong>。希望当你真的加班时，是因为你<strong>自己愿意</strong>；也希望在你不得不加班的时候，你能<strong>得到你应得的回报和尊重</strong>。</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409101827853.png"
+                     
+                ></p>
+<p>你应该有你的<strong>时间</strong>和<strong>自由</strong>，</p>
+<p><strong>–去跑、去跳、去漂亮的倒挂金钩。</strong></p>
+<br>
+
+<p><code>点亮</code><span style="margin: 0; color: #E62412; font-weight: bold;">赞</span>、<span style="margin: 0; color: #1B9AEE; font-weight: bold;">在看</span>，<code>离成功更近一</code><strong>点</strong>。</p>
+<br>
+<br>
+<br>
+
+<hr>
+<div style="display: flex; align-items: center; justify-content: space-between;">
+    <div>
+<p style="margin: 0; color: #E62412; font-weight: bold;">段旭东（Anjou Duan）</p>
+        <p style="margin: 0;">找不到理想工作的前协作SaaS赛道CSM</p>
+    </div>
+    <figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://heycsm.com/images/anjouduan.png"
+                      alt="Anjou Duan" style="width: 80px; height: 80px; border-radius: 50%; margin-left: 15px;"
+                ><figcaption>Anjou Duan</figcaption></figure>
+</div>
+不提`Teambition领航员（钉钉数字化专家）`、`宜搭行业解决方案共创PDSA`这些虚名以及有那么`一点好看的职业数据`，只不过一个平淡无奇的王者荣耀`荣耀王者`、和平精英`传奇王牌`的小天才罢了。
+
+<hr>
+<p style="margin: 0; color: #1B9AEE; font-weight: bold;"> HeyCSM </p>
+
+<p>一个<code>有态度</code>、且<code>有趣</code>更<code>有料</code>的微信公众号和同名网站(<code>heycsm.com</code>)。</p>
+<p>由数字化协作 SaaS（曾服务<code>Teambition</code>、<code>Worktile</code>、<code>PingCode</code>等产品）的 CSM <code>段旭东</code></p>
+<p style="margin: 0; color: #1B9AEE; font-weight: bold;">用 <span style="color: #E62412;">♥️</span> 打造。</p>
+
+</div>
+				<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
+				<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
+				<script>
+				var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
+				var isEncrypt = document.getElementById('hexo-blog-encrypt');
+				var allowMobile = false;
+				if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
+					try {
+						var plugin = new ReadmorePlugin();
+						plugin.init({
+							"type": "hexo",
+							"id": "readmore-container",
+							"name": "HeyCSM-你好客户成功经理",
+							"blogId": "85700-3670119654427-676",
+							"qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG",
+							"keyword": "heycsm",
+							"random": "1",
+							"height": "auto",
+							"expires": "365",
+							"lockToc": "yes",
+							"interval": "60",
+							"baseUrl": "",
+							"tocSelector": ""
+						});
+					} catch(e) {
+						console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
+					}
+				}
+				</script>
+			]]></content>
+      <categories>
+        <category>断想一束</category>
+      </categories>
+      <tags>
+        <tag>客户成功</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>加班，不正是管理出了问题吗？（上）</title>
     <url>/2024/09/09/jia-ban-bu-zheng-shi-guan-li-chu-liao-wen-ti-ma-shang/</url>
     <content><![CDATA[<div id="readmore-container"><p>一直犹豫要不要做加班内容的文章，因为我觉得很有可能会冒犯在座的各位，毕竟现在不加班的公司真的是凤毛麟角，尤其是我们互联网行业。</p>
@@ -2165,175 +2501,6 @@
       </tags>
   </entry>
   <entry>
-    <title>客户成功离“Tony”老师还有多远？</title>
-    <url>/2024/08/27/ke-hu-cheng-gong-chi-tony-lao-shi-huan-you-duo-yuan/</url>
-    <content><![CDATA[<div id="readmore-container"><h1 id="关于“Title”的乱乱想"><a href="#关于“Title”的乱乱想" class="headerlink" title="关于“Title”的乱乱想"></a>关于“Title”的乱乱想</h1><p>很早以前，我从第一家业内公司离职后，加入了第二家SaaS公司。有一次，我跟我的直属leader一起去拜访客户，回程时我们在出租车上领导问我：“今天见完客户后，你对比前一家公司拜访客户的感受如何？”我当时脱口而出：<code>“Title”</code>——尤其是“头衔”，确实在客户现场挺重要的。</p>
-<p>在之前的那家公司，我是类似于“小主管”的角色。面对客户时，我可以很自信地说自己是客户成功这部分的负责人，这样客户会更愿意信任我说的话，也更愿意跟我一起把事情推进落实。但当我重新转回基础岗位时，特别是跟领导一起出面时，我的话语权明显弱了（这里可能说自己的气场更恰当）。即使我是在座各位中最了解产品应用的人，但缺少高头衔背书的情况下，客户对我的重视程度也打了折扣。这是我第一次真切地感受到头衔在客户沟通中的影响。</p>
-<p>一直以来，我觉得客户成功的未来一定是向咨询行业靠拢的，毕竟大家都是通过<code>“事实和感受”</code>混口饭吃。在咨询行业，高头衔是常见的现象，这背后有着深层次的原因。咨询行业早期，许多咨询公司直接从商学院或法学院招募精英，为了让这些初入职场的新鲜人类更好地开展业务，咨询公司赋予了他们起步就是“咨询顾问”的头衔。而且，咨询师的头衔和咨询的业务形式决定了在与客户互动时，遵循对等原则，往往是直接面对企业高层领导。这样，高头衔不仅帮助咨询师建立权威，也让他们在客户面前更有话语权。</p>
-<p>随着咨询行业全球化发展，许多公司为了在不同地区保持服务标准，内部建立了完善的晋升体系。这种体系既是市场竞争力的判断，也是员工清晰的职业发展路径，自然而然逐渐成为行业内的一种“规矩”。</p>
-<h1 id="头衔的意义不仅仅是身份"><a href="#头衔的意义不仅仅是身份" class="headerlink" title="头衔的意义不仅仅是身份"></a>头衔的意义不仅仅是身份</h1><p>不过，我觉得吧，头衔不仅仅是身份的象征，它更是一种<strong>责任以及可支配资源能力的体现</strong>。以美国SaaS行业为例，客户成功的职位体系早已建立，但这背后是因为美国SaaS市场比中国市场成熟得早，用我们的话说“美国SaaS市场比中国至少成熟10年”。这一点，在国内SaaS行业是大家心知肚明的。那么，美国SaaS行业为什么如此重视客户成功呢？其实是因为<strong>SaaS的业务特性决定了客户成功经理对公司持续、稳定收入的影响力</strong>。另外也是因为<strong>在美国市场，客户成功的概念已经被广泛接受和推广</strong>。</p>
-<p>我们再看看国内，在销售主导的阶段，尤其是在传统软件行业，销售经理的头衔通常都很高。即使他们可能只是普通销售经理，但对外名片上却印着“高级销售经理”或“销售总监”，内部也可能还会有“KA销售”的定义。这表明<strong>在国内市场，销售仍然是主力</strong>，因为他们直接决定了当前的收入，而客户成功的作用还不够明显。</p>
-<h1 id="客户成功何时拥有高头衔"><a href="#客户成功何时拥有高头衔" class="headerlink" title="客户成功何时拥有高头衔?"></a>客户成功何时拥有高头衔?</h1><blockquote>
-<p><a class="link"   href="https://www.gainsight.com/blog/3-ways-customer-success-will-evolve-as-a-growth-engine-in-2019/"  title="3 Ways Customer Success Will Evolve as a Growth Engine in 2019">“Customer Success Management is hitting the mainstream.”That’s what Forrester analyst TJ Keitt said in his September 2018 report, How to Build a Customer Success Progra. <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-</blockquote>
-<p>对于大多数美国SaaS公司而言，当他们的年收入达到约<code>五千万到一亿美元</code>之间时，企业往往会经历一个转折点，客户成功的角色从支持角色转变为战略角色。这是因为在这个收入级别，客户续约和扩展对企业的长期增长至关重要，而新增客户的获取成本（CAC）往往会变高，因此客户成功的战略地位大幅上升。那么，客户成功经理什么时候也能像销售经理一样，拥有高级头衔，并在公司内外都拥有更多的话语权呢？这其实要结合公司SaaS业务的发展情况来分析。美国SaaS行业的典型发展路径可以给我们一些参考：</p>
-<ol>
-<li><p><strong>初创期</strong>：</p>
-<ul>
-<li>目标：快速获得市场份额，吸引早期客户。</li>
-<li>资源分配：主要集中在销售获取新客户，客户成功角色可能只负责基础的客户支持和实施。</li>
-<li>代表案例：2000年代初的Salesforce，他们以销售为核心，迅速扩展了CRM市场。</li>
-</ul>
-</li>
-<li><p><strong>增长期</strong>：</p>
-<ul>
-<li>目标：提高市场渗透率，扩大客户基础。</li>
-<li>资源分配：销售仍是重点，但客户成功开始获得更多关注，尤其是在避免客户流失方面。</li>
-<li>代表案例：2010年代初的HubSpot，他们大力发展客户成功团队，逐渐意识到客户教育和长期关系的重要性。</li>
-</ul>
-</li>
-<li><p><strong>成熟期</strong>：</p>
-<ul>
-<li>目标：优化客户生命周期价值（LTV），降低客户流失率，增强客户忠诚度。</li>
-<li>资源分配：客户成功逐渐成为主导角色，特别是在推动续约和扩展销售方面。企业资源也开始更多地向客户成功倾斜。</li>
-<li>代表案例：2010年代中期的Zendesk和ServiceNow，他们的客户成功团队管理整个客户生命周期，从入职到续约和扩展。</li>
-</ul>
-</li>
-</ol>
-<p>虽然没有固定的公式，但一些行业建议的比例可以作为参考。例如：</p>
-<ul>
-<li><strong>初创期</strong>：资源分配通常是<code>70%</code>给销售，<code>30%</code>给客户成功。在这个阶段，客户获取是主要目标，但也不能忽视客户成功的基础设置。</li>
-<li><strong>增长期</strong>：随着企业进入增长期，比例可以调整为<code>60%</code>销售，<code>40%</code>客户成功，更多资源开始转向客户成功，以确保留住和扩展已有客户。</li>
-<li><strong>成熟期</strong>：在企业成熟期，建议将资源分配为<code>50%</code>销售，<code>50%</code>客户成功，甚至在一些情况下，客户成功的比例会更高，达到40%销售，60%客户成功，以最大化客户的生命周期价值。</li>
-</ul>
-<p>在SaaS行业的成熟阶段，业内常用的几个指标能帮助判断何时应将资源重心从销售转移到客户成功上：</p>
-<ol>
-<li><p><strong>LTV:CAC 比率</strong>：这是衡量客户生命周期价值（LTV）与客户获取成本（CAC）之间的比率。理想的比率应大于<code>3:1</code>，这意味着客户成功需要更多资源投入。</p>
-<p> <figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092209798.png"
-                      alt="LTV:CAC 比率"
-                ><figcaption>LTV:CAC 比率</figcaption></figure></p>
-<p> <strong>应用方法</strong>：</p>
-<ul>
-<li>如果你的公司发现LTV:CAC比率较低，比如低于<code>2:1</code>，这可能表明你的客户流失率较高或客户成功不足，资源应该更多地分配给客户成功团队以提高LTV。</li>
-<li>如果LTV:CAC比率较高，比如超过<code>4:1</code>，则表明客户的长期价值高，且获取成本较低，可能需要更多资源投入销售以扩大市场份额。</li>
-</ul>
-</li>
-<li><p><strong>客户流失率（Churn Rate）</strong>：这个指标衡量在一定时期内流失的客户比例。如果流失率过高，说明客户成功需要更多资源来提高客户留存率。</p>
-<p> <figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092209637.png"
-                      alt="客户流失率"
-                ><figcaption>客户流失率</figcaption></figure></p>
-<p> <strong>应用方法</strong>：</p>
-<ul>
-<li>如果公司的流失率较高（例如每月超过<code>5%</code>），这表明客户成功团队可能需要更多资源来更好地服务现有客户并减少流失。</li>
-<li>你可以设定一个目标流失率（例如低于<code>2%</code>），并建议公司将更多资源分配给客户成功，以帮助达到这一目标。</li>
-</ul>
-</li>
-<li><p><strong>客户成功贡献度</strong>：这个指标衡量客户成功对续约和扩展收入的贡献比例。如果客户成功的贡献超过50%，那么应该考虑给予他们更多资源。</p>
-<p> <figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092210970.png"
-                      alt="客户贡献度"
-                ><figcaption>客户贡献度</figcaption></figure></p>
-<p> <strong>应用方法</strong>：</p>
-<ul>
-<li>如果客户成功团队贡献了<code>50%</code>以上的续约和扩展收入，表明他们在维持和增加公司收入方面起着关键作用，公司应考虑将更多资源分配给客户成功团队。</li>
-<li>如果这个比例较低（如低于<code>30%</code>），可以作为争取更多资源的理由，来改善续约率和客户扩展。</li>
-</ul>
-</li>
-</ol>
-<p>这些指标再次揭露了我们一个残酷的职场真相：<strong>谁掌握了收入来源，谁就拥有更大的权力</strong>。</p>
-<h1 id="服务形式不等同于服务能力"><a href="#服务形式不等同于服务能力" class="headerlink" title="服务形式不等同于服务能力"></a>服务形式不等同于服务能力</h1><p>因为之前有跟朋友沟通过这个话题，说内部也有明确的职级体系，对外的服务售卖上也有不同的收费标准，那是不是相对是比较科学的。我觉得在国内SaaS市场中，很多公司都会提供类似于<code>“服务包”</code>或<code>“实施费用”</code>的服务，这些服务通常分为不同等级，比如基础版、标准版、高级版等。这种分级的服务形式在市场上十分常见，但需要注意的是，<strong>服务形式与服务能力之间存在显著区别</strong>。</p>
-<p><strong>服务形式</strong></p>
-<p>服务形式主要指的是企业如何将其服务打包和呈现给客户。这种形式通常根据服务内容的不同，划分出多个层次，比如提供不同数量的支持工单、不同响应时间的服务承诺，或是在产品上线初期提供的不同深度的培训与支持。这些层次实际上是企业根据市场需求和定价策略所设定的产品组合。</p>
-<p><strong>服务能力</strong></p>
-<p>相比之下，服务能力更关注的是客户成功经理能够在实际操作中为客户解决问题的深度和广度。这包括：</p>
-<ul>
-<li><strong>技术能力</strong>：企业是否具备足够的技术资源和经验来支持复杂的客户需求，比如定制化的落地方案或高度集成的系统配置。</li>
-<li><strong>人员能力</strong>：客户成功团队或实施团队的专业水平，包括他们的经验、知识储备以及应对突发问题的能力。</li>
-<li><strong>服务覆盖范围</strong>：服务能力也包括企业能够提供支持的地域范围和业务覆盖程度，特别是在人数较多复杂架构下，客户成功经理能否在客户组织内提供一致且高质量的服务。</li>
-<li><strong>问题解决能力</strong>：在遇到复杂或非常规问题时，客户成功是否有能力迅速响应并协调资源有效解决，而不仅仅是按照既定的流程处理问题。</li>
-</ul>
-<p><strong>形式与能力的错位</strong></p>
-<p>在很多情况下，国内SaaS企业通过售卖不同等级的服务包来实现差异化收入，但这种形式上的差异并不代表企业在实际能力上的提升。例如，某些企业可能提供了一个更高级别的服务包，增加了<code>响应时间</code>或<code>工单数量</code>，但其客户成功团队的核心能力并未相应提高。这种情况下，客户在选择更高级别的服务形式时，可能并未获得预期中更高的服务能力。</p>
-<p>这种形式与能力的错位，容易导致客户在体验中的落差，也可能影响客户对企业的信任度和续约意愿。因此，<strong>在设计服务产品时，企业应当明确区分形式与能力，确保每一层次的服务都能够有效反映企业实际具备的服务能力</strong>。</p>
-<h1 id="展望客户成功的高头衔时代"><a href="#展望客户成功的高头衔时代" class="headerlink" title="展望客户成功的高头衔时代"></a>展望客户成功的高头衔时代</h1><p>就像麦肯锡的精英文化与金字塔式的组织架构那样，我觉得客户成功经理未来也一定会走向<code>“高头衔、高责任、高期望”</code>的职业路径。在咨询行业中，高头衔不仅是身份的象征，更是维持客户期望、业务场景以及内部职业发展的文化。这种文化客户成功领域同样适用。</p>
-<p>有时候，我也思考为什么大家都热衷于追逐权力。其实，权力不仅意味着责任，它还能建立信任，无论是在客户面前还是在内部资源调配上，权力还会让我们在谈判中更有筹码。因此，<strong>追求高头衔并没有什么问题，关键是要在合适的时间去追逐它</strong>。</p>
-<p>由衷的希望未来客户成功经理能获得更多权限，承担更大的责任，成为公司战略决策中的关键角色，享有更高的资源配置优先级，并通过数据驱动实现真正的价值化。而不是简单的职位提升，因为客户成功经理好歹还带着<code>“经理”</code>两个字，想起来之前看过的一个招聘岗位上特别强调<strong>客户成功经理不是管理岗</strong>，笑Cry。怎么说呢，客户成功经理他不是管理体系的经理，但是对能力的要求一点都没有降低，尤其是我们的业务覆盖跟客户企业的发展战略紧密相关时。</p>
-<p>等到了那个时代，我们就可以兴高采烈地跟客户说：你是要这个99的学徒剪发，199的创意总监剪发、299的设计总监剪发、399的店长剪发、499的主理人剪发还是… 我们这里啊，总有一款会适合您。</p>
-<br>
-<br>
-<br>
-
-<hr>
-<div style="display: flex; align-items: center; justify-content: space-between;">
-    <div>
-<p style="margin: 0; color: #E62412; font-weight: bold;">段旭东（Anjou Duan）</p>
-        <p style="margin: 0;">找不到理想工作的前协作SaaS赛道CSM</p>
-    </div>
-    <figure class="image-caption"><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://heycsm.com/images/anjouduan.png"
-                      alt="Anjou Duan" style="width: 80px; height: 80px; border-radius: 50%; margin-left: 15px;"
-                ><figcaption>Anjou Duan</figcaption></figure>
-</div>
-
-
-
-<p>不提<code>Teambition领航员（钉钉数字化专家）</code>、<code>宜搭行业解决方案共创PDSA</code>这些虚名以及有那么<code>一点好看的职业数据</code>，只不过一个平淡无奇的王者荣耀<code>荣耀王者</code>、和平精英<code>传奇王牌</code>的小天才罢了。</p>
-<hr>
-<p style="margin: 0; color: #1B9AEE; font-weight: bold;"> HeyCSM </p>
-
-<p>一个<code>有态度</code>、且<code>有趣</code>更<code>有料</code>的微信公众号和同名网站(<code>heycsm.com</code>)。</p>
-<p>由数字化协作 SaaS（曾服务<code>Teambition</code>、<code>Worktile</code>、<code>PingCode</code>等产品）的 CSM <code>段旭东</code></p>
-<p style="margin: 0; color: #1B9AEE; font-weight: bold;">用 <span style="color: #E62412;">♥️</span> 打造。</p>
-
-</div>
-				<link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css">
-				<script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script>
-				<script>
-				var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-				var isEncrypt = document.getElementById('hexo-blog-encrypt');
-				var allowMobile = false;
-				if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {
-					try {
-						var plugin = new ReadmorePlugin();
-						plugin.init({
-							"type": "hexo",
-							"id": "readmore-container",
-							"name": "HeyCSM-你好客户成功经理",
-							"blogId": "85700-3670119654427-676",
-							"qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG",
-							"keyword": "heycsm",
-							"random": "1",
-							"height": "auto",
-							"expires": "365",
-							"lockToc": "yes",
-							"interval": "60",
-							"baseUrl": "",
-							"tocSelector": ""
-						});
-					} catch(e) {
-						console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);
-					}
-				}
-				</script>
-			]]></content>
-      <categories>
-        <category>深度文章</category>
-      </categories>
-      <tags>
-        <tag>客户成功</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>协作SaaS：他们在说的IPD究竟是什么东西</title>
     <url>/2024/09/03/xie-zuo-saas-ta-men-zai-shuo-de-ipd-jiu-jing-shi-shi-me-dong-xi/</url>
     <content><![CDATA[<div id="readmore-container"><p>不知道大家有没有观察到最近职场、客户、友商频繁的方法论名词逐渐变成了<code>IPD</code>。</p>
@@ -2642,277 +2809,108 @@
       </tags>
   </entry>
   <entry>
-    <title>加班，不正是你默许领导的吗？（下）</title>
-    <url>/2024/09/10/jia-ban-bu-zheng-shi-ni-mo-xu-ling-dao-de-ma-xia/</url>
-    <content><![CDATA[<div id="readmore-container"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>为什么我一直对加班这件事儿感到反感？这要追溯到我实习的时候，那时我在一家外企实习。让我印象最深的是我的领导，他为了避免员工加班，居然会在下班后直接拉掉工区的电闸。</p>
-<p>那段短暂的实习经历让我明白，<strong>领导如果真的关心员工的工作与生活平衡，是可以做到的。</strong></p>
-<p>许多资讯提到，我们如今的8小时工作制，是几百年前的人们通过艰苦斗争争取来的，而现在的我们似乎并不珍惜。虽然在国内互联网的工作环境下，加班仿佛成了常态，但放眼人类历史，这种现象其实是不正常的。</p>
-<p>最近，我除了忙于搭建网站、写文章之外，也通过看影视作品来放松。最近看了<code>《异形：夺命舰》</code>和<code>《凡人歌》</code>(我不会承认是冲着章若楠的颜去看的) 。</p>
-<p>在《异形：夺命舰》里有一个场景让我记忆深刻：女主角去兑换某物时，管理处人员告诉她，她还需要工作多少多少年。这个庞大的数字让人感到窒息，仿佛女主角还要承受无尽的压迫。豆瓣上有热心网友仔细计算，发现女主角即使被处罚每天的工作时间也不过8小时，而这8小时如今在职场中竟成了稀有的“福利”。</p>
-<p>只能说是外国人在工作时间的想象上还是太<strong>贫瘠</strong>了。</p>
-<p>在<code>《凡人歌》</code>中，我非常欣赏章若楠的<code>李晓悦</code>这个角色。她既能认真对待工作，同时又有一种洒脱的态度，领导让加班说不干就不干了，这种矛盾性格在新一代职场人身上表现得淋漓尽致。我们一方面希望认真工作，另一方面却又洒脱拒绝无理的要求。对于员工本身，这其实并不是问题，问题出在现实的职场环境–像<code>李晓悦</code>这样的人，你在现实中遇到的可能并不多，因为都已经被在职场中干掉了(but我感觉章若楠在演我，不愧是我喜欢的姐姐呀)。</p>
-<p>谈到加班，这个现象已经越来越常见了。由于曾经几次离职的原因都与加班有关，我对这个现象深有感触，也因此写了上一篇文章<a class="link"   href="https://mp.weixin.qq.com/s/NF0eOrIeCr4DzTP7Dez6Ew" >加班，不正是管理出了问题吗？（上） <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><a id="jump_8"></a>。我记得曾经对某位公司高层表达过企业的价值感应该让员工自驱加班的态度加班的态度，如果是出于自己喜欢的事情，企业文化应该培养出员工自主加班的主人翁精神。</p>
-<p>然而，现实中这个观点却被曲解了，变成了强迫员工加班。<strong>对某一公司的同事们深感抱歉。</strong></p>
-<p>这让我意识到，加班并不是一件单纯的事情。领导或许经过了多轮思考和决策，但最终仍然选择了加班这一条路。如果上篇文章冒犯了某些人，我想说的是，这并非无端指责，而是事实。在一些企业，领导只需要一句话：“大家加班努力一下，任务要赶紧完成！” 似乎所有人都无法拒绝。你可能是主动接受，也可能是被动妥协，但加班已经成了一种常态。</p>
-<p>但是，你有没有想过，加班文化的盛行，真的只是领导的问题吗？<strong>加班，不正是你自己默许的结果吗？</strong></p>
-<p>很多人可能不愿承认这一点，但每当你默默接受加班、顺从领导的要求时，你其实是在默认这套不合理的加班制度，并为它的延续提供了支持。今天我们就来聊聊，为什么加班文化不仅是管理层的问题，也与你的默许行为息息相关。</p>
-<hr>
-<section data-id="3073" class="v3editor">
-    <!--样式1978，更新于2019.09.21 -->
-    <section style="margin-top: 20px;margin-bottom: 10px;">
-        <section style="display: flex;justify-content:center;align-items:center;">
-            <section style="width: 12px; height: 12px; background-color: #E62412; border-radius: 50%;" data-width="12px"></section>
-            <section style="margin-left:5px;">
-                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
-                <section style="margin-top: 3px;margin-bottom: 3px;width: 80px;height: 1px;background-color: #a5a5a5;" data-width="80px"></section>
-                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
-            </section>
-            <section style="margin-left: 5px; width: 12px; height: 12px; border-style: solid; border-width: 1px; border-color: #1B9AEE; border-radius: 50%;" data-width="12px"></section>
-        </section>
-        <section style="margin-top: -30px;">
-            <p style="text-align: center;">
-                <span style="font-size: 30px; padding-left: 0em; color: #585858; ">
-                    <em><strong>1</strong></em>
-                </span>
-            </p>
-        </section>
-    </section>
-</section>
-
-
-<h2 id="加班文化：你真的在反抗吗？"><a href="#加班文化：你真的在反抗吗？" class="headerlink" title="加班文化：你真的在反抗吗？"></a>加班文化：你真的在反抗吗？</h2><p>在职场中，有一种默认的规则——当领导提出加班要求时，员工必须照做。如果你不加班，可能会被视为“不配合”或者“没有责任心”。于是，即便内心再不情愿，你还是默默接受了加班，有时甚至主动加班，试图通过这种方式表现自己在工作上的勤奋和奉献精神。</p>
-<p><figure class="image-caption"><img  
+    <title>客户成功离“Tony”老师还有多远？</title>
+    <url>/2024/08/27/ke-hu-cheng-gong-chi-tony-lao-shi-huan-you-duo-yuan/</url>
+    <content><![CDATA[<div id="readmore-container"><h1 id="关于“Title”的乱乱想"><a href="#关于“Title”的乱乱想" class="headerlink" title="关于“Title”的乱乱想"></a>关于“Title”的乱乱想</h1><p>很早以前，我从第一家业内公司离职后，加入了第二家SaaS公司。有一次，我跟我的直属leader一起去拜访客户，回程时我们在出租车上领导问我：“今天见完客户后，你对比前一家公司拜访客户的感受如何？”我当时脱口而出：<code>“Title”</code>——尤其是“头衔”，确实在客户现场挺重要的。</p>
+<p>在之前的那家公司，我是类似于“小主管”的角色。面对客户时，我可以很自信地说自己是客户成功这部分的负责人，这样客户会更愿意信任我说的话，也更愿意跟我一起把事情推进落实。但当我重新转回基础岗位时，特别是跟领导一起出面时，我的话语权明显弱了（这里可能说自己的气场更恰当）。即使我是在座各位中最了解产品应用的人，但缺少高头衔背书的情况下，客户对我的重视程度也打了折扣。这是我第一次真切地感受到头衔在客户沟通中的影响。</p>
+<p>一直以来，我觉得客户成功的未来一定是向咨询行业靠拢的，毕竟大家都是通过<code>“事实和感受”</code>混口饭吃。在咨询行业，高头衔是常见的现象，这背后有着深层次的原因。咨询行业早期，许多咨询公司直接从商学院或法学院招募精英，为了让这些初入职场的新鲜人类更好地开展业务，咨询公司赋予了他们起步就是“咨询顾问”的头衔。而且，咨询师的头衔和咨询的业务形式决定了在与客户互动时，遵循对等原则，往往是直接面对企业高层领导。这样，高头衔不仅帮助咨询师建立权威，也让他们在客户面前更有话语权。</p>
+<p>随着咨询行业全球化发展，许多公司为了在不同地区保持服务标准，内部建立了完善的晋升体系。这种体系既是市场竞争力的判断，也是员工清晰的职业发展路径，自然而然逐渐成为行业内的一种“规矩”。</p>
+<h1 id="头衔的意义不仅仅是身份"><a href="#头衔的意义不仅仅是身份" class="headerlink" title="头衔的意义不仅仅是身份"></a>头衔的意义不仅仅是身份</h1><p>不过，我觉得吧，头衔不仅仅是身份的象征，它更是一种<strong>责任以及可支配资源能力的体现</strong>。以美国SaaS行业为例，客户成功的职位体系早已建立，但这背后是因为美国SaaS市场比中国市场成熟得早，用我们的话说“美国SaaS市场比中国至少成熟10年”。这一点，在国内SaaS行业是大家心知肚明的。那么，美国SaaS行业为什么如此重视客户成功呢？其实是因为<strong>SaaS的业务特性决定了客户成功经理对公司持续、稳定收入的影响力</strong>。另外也是因为<strong>在美国市场，客户成功的概念已经被广泛接受和推广</strong>。</p>
+<p>我们再看看国内，在销售主导的阶段，尤其是在传统软件行业，销售经理的头衔通常都很高。即使他们可能只是普通销售经理，但对外名片上却印着“高级销售经理”或“销售总监”，内部也可能还会有“KA销售”的定义。这表明<strong>在国内市场，销售仍然是主力</strong>，因为他们直接决定了当前的收入，而客户成功的作用还不够明显。</p>
+<h1 id="客户成功何时拥有高头衔"><a href="#客户成功何时拥有高头衔" class="headerlink" title="客户成功何时拥有高头衔?"></a>客户成功何时拥有高头衔?</h1><blockquote>
+<p><a class="link"   href="https://www.gainsight.com/blog/3-ways-customer-success-will-evolve-as-a-growth-engine-in-2019/"  title="3 Ways Customer Success Will Evolve as a Growth Engine in 2019">“Customer Success Management is hitting the mainstream.”That’s what Forrester analyst TJ Keitt said in his September 2018 report, How to Build a Customer Success Progra. <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+</blockquote>
+<p>对于大多数美国SaaS公司而言，当他们的年收入达到约<code>五千万到一亿美元</code>之间时，企业往往会经历一个转折点，客户成功的角色从支持角色转变为战略角色。这是因为在这个收入级别，客户续约和扩展对企业的长期增长至关重要，而新增客户的获取成本（CAC）往往会变高，因此客户成功的战略地位大幅上升。那么，客户成功经理什么时候也能像销售经理一样，拥有高级头衔，并在公司内外都拥有更多的话语权呢？这其实要结合公司SaaS业务的发展情况来分析。美国SaaS行业的典型发展路径可以给我们一些参考：</p>
+<ol>
+<li><p><strong>初创期</strong>：</p>
+<ul>
+<li>目标：快速获得市场份额，吸引早期客户。</li>
+<li>资源分配：主要集中在销售获取新客户，客户成功角色可能只负责基础的客户支持和实施。</li>
+<li>代表案例：2000年代初的Salesforce，他们以销售为核心，迅速扩展了CRM市场。</li>
+</ul>
+</li>
+<li><p><strong>增长期</strong>：</p>
+<ul>
+<li>目标：提高市场渗透率，扩大客户基础。</li>
+<li>资源分配：销售仍是重点，但客户成功开始获得更多关注，尤其是在避免客户流失方面。</li>
+<li>代表案例：2010年代初的HubSpot，他们大力发展客户成功团队，逐渐意识到客户教育和长期关系的重要性。</li>
+</ul>
+</li>
+<li><p><strong>成熟期</strong>：</p>
+<ul>
+<li>目标：优化客户生命周期价值（LTV），降低客户流失率，增强客户忠诚度。</li>
+<li>资源分配：客户成功逐渐成为主导角色，特别是在推动续约和扩展销售方面。企业资源也开始更多地向客户成功倾斜。</li>
+<li>代表案例：2010年代中期的Zendesk和ServiceNow，他们的客户成功团队管理整个客户生命周期，从入职到续约和扩展。</li>
+</ul>
+</li>
+</ol>
+<p>虽然没有固定的公式，但一些行业建议的比例可以作为参考。例如：</p>
+<ul>
+<li><strong>初创期</strong>：资源分配通常是<code>70%</code>给销售，<code>30%</code>给客户成功。在这个阶段，客户获取是主要目标，但也不能忽视客户成功的基础设置。</li>
+<li><strong>增长期</strong>：随着企业进入增长期，比例可以调整为<code>60%</code>销售，<code>40%</code>客户成功，更多资源开始转向客户成功，以确保留住和扩展已有客户。</li>
+<li><strong>成熟期</strong>：在企业成熟期，建议将资源分配为<code>50%</code>销售，<code>50%</code>客户成功，甚至在一些情况下，客户成功的比例会更高，达到40%销售，60%客户成功，以最大化客户的生命周期价值。</li>
+</ul>
+<p>在SaaS行业的成熟阶段，业内常用的几个指标能帮助判断何时应将资源重心从销售转移到客户成功上：</p>
+<ol>
+<li><p><strong>LTV:CAC 比率</strong>：这是衡量客户生命周期价值（LTV）与客户获取成本（CAC）之间的比率。理想的比率应大于<code>3:1</code>，这意味着客户成功需要更多资源投入。</p>
+<p> <figure class="image-caption"><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409101429514.png"
-                      alt="中华人民共和国劳动法第41条"
-                ><figcaption>中华人民共和国劳动法第41条</figcaption></figure></p>
-<p>其实，我们需要关注的并不是加班的时间长度，而是劳动者是否有权与企业协商加班。这是法律赋予的权利——加班应该是一个可以自主决定的行为，而不是被迫的选择。然而，很多人往往会主动放弃这个权利。</p>
-<p>另外，我不是说加班本身有什么错，每个员工的情况和需求都不同，但默许加班而不索取相应的报酬是不合理的。如果你默默接受加班而不争取应有的权益，那么被评价为“工贼”或者被称为“内卷”的一份子，也未必是过分的说法。</p>
-<h3 id="默许加班：你在为加班文化背书"><a href="#默许加班：你在为加班文化背书" class="headerlink" title="默许加班：你在为加班文化背书"></a>默许加班：你在为加班文化背书</h3><p>每当你顺从地接受加班，实际上你是在为这套不合理的制度“背书”。<strong>当你不说“不”的时候，领导自然会认为你能够接受加班，甚至可能认为这是你的“责任感”在驱使你做出这种选择</strong>。</p>
-<p>随着时间推移，领导对加班的期待会越来越高，甚至会将加班作为衡量员工忠诚度的标准。</p>
-<p>或许你觉得自己别无选择，但事实上，<strong>正是你的默认和顺从，让加班文化在职场中愈演愈烈</strong>。</p>
-<p>如果没人反抗，大家都默默接受，那么企业自然不会改变现行的制度，因为加班看似已经被所有人默许和接受。</p>
-<h3 id="加班是为了升职加薪？你被套路了"><a href="#加班是为了升职加薪？你被套路了" class="headerlink" title="加班是为了升职加薪？你被套路了"></a>加班是为了升职加薪？你被套路了</h3><p>有些人认为，加班是一种展示工作态度的方式，试图通过加班来赢得领导的好感，以此争取升职加薪的机会。然而，现实往往很残酷——<strong>领导不会因为你加班就给你升职加薪</strong>。在他们看来，<strong>加班只是你履行工作职责的一部分，并不值得额外奖励。</strong></p>
-<p>你可能通过加班塑造了一个“奋斗者”的形象，但从长远来看，<strong>你只是在消耗自己的时间和精力，而领导并不会因此给你更多回报</strong>。那些真正能升职加薪的人，通常是在规定时间内高效完成工作拿到领导想要结果的员工，而不是每天都熬夜加班的“拼命三郎”。</p>
-<section data-id="3073" class="v3editor">
-    <!--样式1978，更新于2019.09.21 -->
-    <section style="margin-top: 20px;margin-bottom: 10px;">
-        <section style="display: flex;justify-content:center;align-items:center;">
-            <section style="width: 12px; height: 12px; background-color: #E62412; border-radius: 50%;" data-width="12px"></section>
-            <section style="margin-left:5px;">
-                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
-                <section style="margin-top: 3px;margin-bottom: 3px;width: 80px;height: 1px;background-color: #a5a5a5;" data-width="80px"></section>
-                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
-            </section>
-            <section style="margin-left: 5px; width: 12px; height: 12px; border-style: solid; border-width: 1px; border-color: #1B9AEE; border-radius: 50%;" data-width="12px"></section>
-        </section>
-        <section style="margin-top: -30px;">
-            <p style="text-align: center;">
-                <span style="font-size: 30px; padding-left: 0em; color: #585858; ">
-                    <em><strong>2</strong></em>
-                </span>
-            </p>
-        </section>
-    </section>
-</section>
-
-
-<h2 id="加班文化中的“工贼”：你在压榨自己和同事"><a href="#加班文化中的“工贼”：你在压榨自己和同事" class="headerlink" title="加班文化中的“工贼”：你在压榨自己和同事"></a>加班文化中的“工贼”：你在压榨自己和同事</h2><p>过去，“工贼”一词用来形容那些为了个人利益，损害工人集体利益的人。如今，<strong>在加班文化中，某些员工的行为俨然成为了现代版的“工贼”行为</strong>。他们顺从加班制度，不仅在无意中压榨自己，还给同事的工作和生活带来了负面影响。</p>
-<h3 id="主动加班是在剥削自己"><a href="#主动加班是在剥削自己" class="headerlink" title="主动加班是在剥削自己"></a>主动加班是在剥削自己</h3><p>你可能认为，通过加班能表现出对公司的忠诚和拼劲，甚至期望通过这种方式赢得升职加薪的机会。然而，事实是，<strong>你其实是在剥削自己的时间和生活，牺牲了本该属于你的休息和自我提升的机会</strong>。</p>
-<p><strong>你为了工作，放弃了家庭和健康，但最后得到的回报却少得可怜</strong>。</p>
-<p>即便你加班加得再辛苦，领导或许会把你贴上“努力员工”的标签，但这个标签并不会让你在职业生涯中走得更远。</p>
-<p><strong>剥削自己，只不过是一种看似“积极”的自我欺骗</strong>，最终，你可能失去的不是职业机会，而是宝贵的生活和健康。</p>
-<h3 id="加班给同事带来的无形压力"><a href="#加班给同事带来的无形压力" class="headerlink" title="加班给同事带来的无形压力"></a>加班给同事带来的无形压力</h3><p>更糟糕的是，当你主动加班时，<strong>你无意中也在给你的同事施加无形的压力</strong>。领导看到你加班，可能会认为其他员工也应该加班，甚至将加班常态化。那些不愿意加班或追求工作与生活平衡的员工，由于无法违背领导的意愿，也不得不被迫加入加班的行列。</p>
-<p>你可能以为自己是在为公司奉献，但事实上，<strong>你是在打破职场的平衡，逼迫其他同事也接受不合理的加班要求</strong>。时间久了，整个团队的工作环境变得压抑，生活质量下降，工作满意度也随之下滑。</p>
-<section data-id="3073" class="v3editor">
-    <!--样式1978，更新于2019.09.21 -->
-    <section style="margin-top: 20px;margin-bottom: 10px;">
-        <section style="display: flex;justify-content:center;align-items:center;">
-            <section style="width: 12px; height: 12px; background-color: #E62412; border-radius: 50%;" data-width="12px"></section>
-            <section style="margin-left:5px;">
-                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
-                <section style="margin-top: 3px;margin-bottom: 3px;width: 80px;height: 1px;background-color: #a5a5a5;" data-width="80px"></section>
-                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
-            </section>
-            <section style="margin-left: 5px; width: 12px; height: 12px; border-style: solid; border-width: 1px; border-color: #1B9AEE; border-radius: 50%;" data-width="12px"></section>
-        </section>
-        <section style="margin-top: -30px;">
-            <p style="text-align: center;">
-                <span style="font-size: 30px; padding-left: 0em; color: #585858; ">
-                    <em><strong>3</strong></em>
-                </span>
-            </p>
-        </section>
-    </section>
-</section>
-
-
-<h2 id="加班并不能掩盖效率低下的问题"><a href="#加班并不能掩盖效率低下的问题" class="headerlink" title="加班并不能掩盖效率低下的问题"></a>加班并不能掩盖效率低下的问题</h2><p>很多加班的员工，并不是因为工作量太大或任务太难，而是因为他们没有合理安排好自己的工作时间。<strong>加班成了一种掩盖工作效率低下的手段</strong>。</p>
-<h3 id="工作时间管理不当，导致加班"><a href="#工作时间管理不当，导致加班" class="headerlink" title="工作时间管理不当，导致加班"></a>工作时间管理不当，导致加班</h3><p>有些人总是通过加班来完成任务，<strong>这是因为他们在正常工作时间内没有高效利用时间</strong>。可能是因为拖延，也可能是时间管理不当，导致他们在规定的工作时间内无法完成工作。加班成了他们弥补效率低下的方式，而非工作量真正过多。</p>
-<p>这种做法不仅没有提高效率，反而让问题更加恶化。<strong>加班掩盖了低效率的真相，让员工误以为延长工作时间就能解决问题</strong>，但实际上，他们只是在通过增加工作时间来弥补，根源问题并没有得到解决。</p>
-<p>我之前也曾被一些“求职宝典”的观念影响，当被问到对加班的看法时，我通常会回答：“如果是因为我自己的问题，我会愿意加班来完成工作；但如果是因为任务量过多，我会与领导沟通。”然而，后来我发现，这种思路并不能解决问题。无论我的工作能力多强，总有一些任务会超出正常工作时间。</p>
-<p>我是个喜欢做短期规划的人，经常通过日程安排和会议来规划我第二天工作。但我发现，客户成功，特别是在面对客户的岗位上，时间总是会被各种突发事件打乱，计划往往难以执行。</p>
-<p>在当下的工作环境中，<strong>想要预先计划每一件事本身就是一种错误</strong>。与其关注时间，不如提升自己的效率，让自己不断进步，才能更好地应对现在的职场局面。</p>
-<p>举个例子，领导要求我写一篇文章，为什么不能通过AI工具来生成呢？如果领导想了解客户产品的使用情况，为什么还要靠我与客户沟通？这些信息完全可以通过客户成功监控系统直接呈现。这些才是我们应该用来提升效率的手段。</p>
-<p>如果有人质疑，认为系统里的数据和客户口头反馈有差异，也对，但是我认为系统数据往往比口头沟通更能反映真实情况。</p>
-<p><strong>而这也是我坚持帮助企业实现数字化的信念。</strong></p>
-<h3 id="加班带来的疲劳，进一步降低工作效率"><a href="#加班带来的疲劳，进一步降低工作效率" class="headerlink" title="加班带来的疲劳，进一步降低工作效率"></a>加班带来的疲劳，进一步降低工作效率</h3><p>加班不仅无法提高工作效率，反而会导致员工的身心疲惫，从而进一步降低工作表现。<strong>长期加班让员工陷入疲劳状态，思维变得迟钝，工作错误也大幅增加</strong>。这些错误需要花费更多时间来修复，最终加班变得愈加频繁，形成恶性循环。</p>
-<p>加班不仅没有提高工作效率，反而制造了更多错误和问题。<strong>你为了加班而加班，却忽视了加班带来的疲劳已经严重影响了你的工作表现</strong>。</p>
-<p>对此，我深有体会。我的同事们应该都知道，我在开会的情景下一直很积极主动，分享自己的观点，热衷于表达，可是当我的精力被耗尽时，我就会陷入一种呆滞的状态。</p>
-<p><strong>整个人都会down掉。</strong></p>
-<p>这不是心理反应，而是生理上的疲惫。我记得有一次，领导在晚上拉着我们加班到凌晨，为客户做售前的PPT讨论。当时间到了凌晨一点，我已经完全无法集中精力，尽管那场会议直到凌晨三点才结束，但那段时间我几乎什么也没做，只是坐在那里发呆。</p>
-<p>还有一次加班的经历也是类似的：我们原本在会议上讨论一个问题，持续了好几个小时，会议本来用于解决问题的时间被讨论所消耗，但实际上，会议并没有取得预期的结果，反而因为过度讨论拖延了后续的行动。</p>
-<p>每当我回想这些时刻时，我总是在思考：坐在会议桌旁，面如死灰的我，当时应该在思考什么人生的哲学问题吧？</p>
-<p>我是谁？</p>
-<p>我从哪里来？</p>
-<p>我要到哪里去？</p>
-<p>我发现，这些漫无边际的思绪，全都是被我无力支配的时间所“催生”出来的。正因为对时间的无能为力，所以才陷入了这种无尽的思索。</p>
-<p>因为对<strong>时间的支配无能为力</strong>，所以<strong>狂怒</strong>，所以<strong>放纵</strong>。</p>
-<p>这种时间的无能为力还体现在另一个现象中——</p>
-<p>为什么现在很多年轻人熬夜？因为深夜才是他们唯一可以自由支配的时间。而当我们没有足够的睡眠，或者没有足够的时间去放空自己时，情绪就会陷入<code>emo</code>的状态。</p>
-<p>在这样的情况下，<strong>我们如何能够用一个健康的身体和心理状态去完成第二天的工作呢？</strong></p>
-<section data-id="3073" class="v3editor">
-    <!--样式1978，更新于2019.09.21 -->
-    <section style="margin-top: 20px;margin-bottom: 10px;">
-        <section style="display: flex;justify-content:center;align-items:center;">
-            <section style="width: 12px; height: 12px; background-color: #E62412; border-radius: 50%;" data-width="12px"></section>
-            <section style="margin-left:5px;">
-                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
-                <section style="margin-top: 3px;margin-bottom: 3px;width: 80px;height: 1px;background-color: #a5a5a5;" data-width="80px"></section>
-                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
-            </section>
-            <section style="margin-left: 5px; width: 12px; height: 12px; border-style: solid; border-width: 1px; border-color: #1B9AEE; border-radius: 50%;" data-width="12px"></section>
-        </section>
-        <section style="margin-top: -30px;">
-            <p style="text-align: center;">
-                <span style="font-size: 30px; padding-left: 0em; color: #585858; ">
-                    <em><strong>4</strong></em>
-                </span>
-            </p>
-        </section>
-    </section>
-</section>
-
-
-<h2 id="加班文化的恶性循环：你不说“不”，问题永远不会改变"><a href="#加班文化的恶性循环：你不说“不”，问题永远不会改变" class="headerlink" title="加班文化的恶性循环：你不说“不”，问题永远不会改变"></a>加班文化的恶性循环：你不说“不”，问题永远不会改变</h2><p>加班文化之所以持续存在，正是因为员工从未真正站出来反对。<strong>如果你一直默许加班，甚至主动加班，那么加班文化只会越来越严重</strong>。领导看到员工都在加班，会认为这是员工的“工作态度”，并逐渐把加班视为公司文化中的合理组成部分。</p>
-<h3 id="不拒绝加班，问题永远不会得到解决"><a href="#不拒绝加班，问题永远不会得到解决" class="headerlink" title="不拒绝加班，问题永远不会得到解决"></a>不拒绝加班，问题永远不会得到解决</h3><p>当你面对加班选择沉默，或心中有怨言却不敢表达时，领导根本不会意识到这是一个问题。<strong>在他们看来，员工并没有表现出反对，加班被默认成了工作的常态</strong>。他们会认为你接受并愿意为公司牺牲更多时间，而不是意识到这是一个需要解决的问题。</p>
-<p>如果你不站出来反抗，事情永远不会改变。<strong>公司不会主动去改善加班文化，因为在他们眼中，加班似乎是提升业绩的“捷径”</strong>。如果你不说“不”，加班文化就会一直延续，成为职场的常态。</p>
-<p>虽然不必过分探讨加班背后的管理责任，但我希望你的<strong>每一次加班，都是为了将来减少不必要的加班。</strong></p>
-<p><strong>更早解决问题，总比在问题恶化后采取补救措施要有效和经济得多</strong>。</p>
-<h3 id="想要改变，就要学会说“不”"><a href="#想要改变，就要学会说“不”" class="headerlink" title="想要改变，就要学会说“不”"></a>想要改变，就要学会说“不”</h3><p>如果你想打破加班文化，首先要学会勇敢地说“不”。拒绝不合理的加班要求，并且提出合理的工作安排建议。<strong>当越来越多的人勇敢表达自己的立场时，企业才会意识到加班文化的弊端，并开始反思自己的管理方式</strong>。</p>
-<p>有时，一次小小的反抗可能会带来巨大的改变。你不必过于担心领导会因此对你产生负面看法，<strong>如果你的工作表现足够出色，拒绝加班只会让你更有底气</strong>。领导看重的是工作成果，而不是你为完成任务在办公室待了多久。</p>
-<p>我很佩服身边一些敢于对加班说“不”的人，尤其是那些职场新手。虽然他们可能没有经历过职场中的层层压力，但他们的勇气让我感到敬佩。我常想如果我能回到过去，我也会像他们一样做出类似的选择。事实上，我已经这么做了，<strong>我不后悔</strong>。即便现状可能依然面临挑战，但我明白，<strong>默许并不代表正确，每个人都有权利表达自己的意愿</strong>。你应该清楚地告诉别人你愿意做什么、不愿意做什么。</p>
-<p>当越来越多的人站出来时，众志成城，积少成多，不合理的行为终将从这个世界消失。</p>
-<p>用老罗的话说：</p>
-<blockquote>
-<p>每一个生命来到世间，都注定改变世界，这是你的宿命，你别无选择。你要么把世界变得好一点，要么把世界变得坏一点。</p>
-</blockquote>
-<p>当你梗着脖子低声说出“不”字时：</p>
-<blockquote>
-<p>你还是改变了世界，你让这个世界变得美好了一点点。</p>
-</blockquote>
-<section data-id="3073" class="v3editor">
-    <!--样式1978，更新于2019.09.21 -->
-    <section style="margin-top: 20px;margin-bottom: 10px;">
-        <section style="display: flex;justify-content:center;align-items:center;">
-            <section style="width: 12px; height: 12px; background-color: #E62412; border-radius: 50%;" data-width="12px"></section>
-            <section style="margin-left:5px;">
-                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
-                <section style="margin-top: 3px;margin-bottom: 3px;width: 80px;height: 1px;background-color: #a5a5a5;" data-width="80px"></section>
-                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
-            </section>
-            <section style="margin-left: 5px; width: 12px; height: 12px; border-style: solid; border-width: 1px; border-color: #1B9AEE; border-radius: 50%;" data-width="12px"></section>
-        </section>
-        <section style="margin-top: -30px;">
-            <p style="text-align: center;">
-                <span style="font-size: 30px; padding-left: 0em; color: #585858; ">
-                    <em><strong>5</strong></em>
-                </span>
-            </p>
-        </section>
-    </section>
-</section>
-
-
-<h2 id="加班文化的未来：需要改变的，是我们每一个人"><a href="#加班文化的未来：需要改变的，是我们每一个人" class="headerlink" title="加班文化的未来：需要改变的，是我们每一个人"></a>加班文化的未来：需要改变的，是我们每一个人</h2><p>如果每个人都默许加班文化的存在，它就永远不会消失。我们必须意识到，<strong>加班并不是努力工作的证明，真正的工作表现体现在效率和成果上，而不是工作时间的长度</strong>。</p>
-<h3 id="员工的选择，决定职场文化的走向"><a href="#员工的选择，决定职场文化的走向" class="headerlink" title="员工的选择，决定职场文化的走向"></a>员工的选择，决定职场文化的走向</h3><p>每一种职场文化，都是由员工和管理者共同塑造的。<strong>当员工选择顺从不合理的制度时，这种制度就会越来越强大，最终成为职场中的“潜规则”</strong>。相反，当员工勇敢地站出来反对时，制度才有可能发生改变。</p>
-<p>加班文化的存在，不能单单怪罪于管理层，员工的默认同样是问题的根源之一。要改变这种文化，需要每个员工学会捍卫自己的权益，拒绝不合理的工作安排。</p>
-<blockquote>
-<p>“人人向往的地方，不是天堂，也是食堂；人人逃离的地方，不是地狱，也是监狱。现实世界如果允许自由迁徙，那么人流的方向就是文明的方向。”<br>–（假托哈耶克之名，实为非正本《通往奴役之路》语句）</p>
-</blockquote>
-<p>在本书中比较类似的观点出现在《通往奴役之路》的中文版序言中：</p>
-<blockquote>
-<p>哈耶克坚信，中央计划经济限制个人自由、摧毁责任感和社会的道德基础，阻碍财富的生产并导致贫困，甚至最终导致极权主义的兴起。他曾指出，“用通往天堂的美好愿望，铺设国家通向地狱之路”，计划经济的道路必将通向奴役。</p>
-</blockquote>
-<p>这段话深深影响了我对加班的看法。</p>
-<p>曾经，我简单地把加班视为一种负担和压迫，但后来我发现，当我做自己热爱的事情时，即便是给老板做事的打工人，我也愿意加班。比如当我的目标与领导一致时，我会自愿加班去完成任务。但与此同时，我也开始理解那些有家有业的人，比如刚结婚、买房、生子的同事。<strong>他们对稳定性的需求更高，背负的责任也更重</strong>，即便他们的加班带有无奈性质，但这背后却有着现实的原因。</p>
-<p>职场上还存在着“老油条”现象，这些人深谙职场规则，尽管内心没有动力，外界也没有压力，却依然选择表演式加班。这种现象虽值得讨论，但同样也能理解。</p>
-<p>从企业的角度来看，理想状态下，企业文化应该默默影响员工的心理，让加班自然而然地发生。虽然愿景、使命、价值观听起来很虚，但接触过许多客户和公司之后，我意识到这些因素确实有规则般的作用，能够有效影响员工，而这种作用往往难以量化。</p>
-<h3 id="健康的职场文化需要合理的工作与生活平衡"><a href="#健康的职场文化需要合理的工作与生活平衡" class="headerlink" title="健康的职场文化需要合理的工作与生活平衡"></a>健康的职场文化需要合理的工作与生活平衡</h3><p>一个健康的职场文化，应该是<strong>工作与生活之间有合理的平衡</strong>。员工在工作时间内全力以赴，但下班后可以享有自己的生活。这种平衡不仅有助于员工的身心健康，也能提高工作效率和团队士气。</p>
-<p>Work–life balance（工作与生活的平衡）是一个健康职场的重要组成部分。<strong>如果每个人都能拒绝不必要的加班，公司也能在合理的工作时间内完成任务，企业的长期发展才会更加稳定和健康</strong>。</p>
-<p>我一直将自己定位为奋斗逼和三和大神的结合体。对于我来说，理想的生活状态或许是开滴滴，因为它提供了赚钱的机会，也让我拥有生活的自主权。在这过程中，我可以接触各种各样的乘客，了解他们的故事。<strong>每个乘客背后都有独特的人生</strong>，而我可以在短短的时间内感受到这些人生的片段，这是极具吸引力的。</p>
-<p>然而，为什么我也会说自己是奋斗逼呢？因为我有想要达成的目标。<strong>在目标实现之前，我会为此持续努力</strong>。这也是我身上所谓责任感的体现。我不轻易许诺，但一旦承诺，我就必须做到。对我来说，不仅仅是对自己的责任，更是对他人期待的回应。婚姻、事业都是如此。</p>
-<p>至于三和大神的心态，我认为所有工具的发明，都是为了让人们从繁重的劳动中解放出来。科技的发展，<strong>最终目的是让生活更简单</strong>。我多次提到，未来的生活可能就像《机器人总动员》中的场景，人们通过科技轻松地完成各种任务，只需享受当下的快乐。</p>
-<p>正如《三体》中的那句台词：</p>
-<blockquote>
-<p>给岁月以文明，而不是给文明以岁月。</p>
-</blockquote>
-<p>当我们利用科技掌控更多的资源和力量时，人类文明的进步将达到前所未有的高度。而这一切，归根结底，<strong>就是对我们自身能力的掌控和实现</strong>。</p>
-<p>我想工作时就工作，我想生活时就生活。</p>
-<section data-id="3073" class="v3editor">
-    <!--样式1978，更新于2019.09.21 -->
-    <section style="margin-top: 20px;margin-bottom: 10px;">
-        <section style="display: flex;justify-content:center;align-items:center;">
-            <section style="width: 12px; height: 12px; background-color: #E62412; border-radius: 50%;" data-width="12px"></section>
-            <section style="margin-left:5px;">
-                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
-                <section style="margin-top: 3px;margin-bottom: 3px;width: 80px;height: 1px;background-color: #a5a5a5;" data-width="80px"></section>
-                <section style="width:80px;height:1px;background-color:#a5a5a5;" data-width="80px"></section>
-            </section>
-            <section style="margin-left: 5px; width: 12px; height: 12px; border-style: solid; border-width: 1px; border-color: #1B9AEE; border-radius: 50%;" data-width="12px"></section>
-        </section>
-        <section style="margin-top: -30px;">
-            <p style="text-align: center;">
-                <span style="font-size: 30px; padding-left: 0em; color: #585858; ">
-                    <em><strong>6</strong></em>
-                </span>
-            </p>
-        </section>
-    </section>
-</section>
-
-
-<h2 id="给老板们的建议：总不能光提出问题吧"><a href="#给老板们的建议：总不能光提出问题吧" class="headerlink" title="给老板们的建议：总不能光提出问题吧"></a>给老板们的建议：总不能光提出问题吧</h2><p>在上一篇文章中，主要是对管理层的加班文化提出了一些吐槽，随后有读者反馈，说文章激起了情绪，这点我倒是承认的，至少这个话题引起了讨论和争论。但对老板这样的读者来说，文章似乎没有提供有效的解决方案，反而更像是在情绪上的挑拨。尽管如此，我的阅读量和转发量还是在没有主动推动的情况下有所增长，微信平台也给了一些推荐流量。</p>
-<p>于是，在这篇文章中，我想尝试提出一些无论是从员工还是从老板的角度，都能够应对加班问题的解决方案。</p>
-<p>或许我的建议看起来有些笨拙，但对于我们这一代员工的心态而言，确实如此。</p>
-<h3 id="优化管理方向"><a href="#优化管理方向" class="headerlink" title="优化管理方向"></a>优化管理方向</h3><p>其实，我也曾和我姥爷（经历过红色信仰的年代，从军人变成援青干部）一样，觉得自己不应该做管理者，毕竟那会儿是以劳工为荣，领导是要真的给人民服务的。当你要站在一个更高位的时候，意味着你要更多的工作。</p>
-<p>在一次面试中，我甚至和面试官聊起这个话题。原因是，早期的管理经验让我发现，每天我需要汇总大量的数据，进行各种汇报和分析。然而，在我看来，<strong>这并不是核心的工作内容</strong>。核心价值在于拿到数据后如何分析，以及制定接下来的策略。那才是我该专注的地方，而不是做那些花费大量时间却看似漂亮的表格。</p>
-<p><strong>我不希望自己成为“给表格打工，面向老板做表”</strong>，因为太多的加班根本是低效的。有效的工具可以大幅减少员工的工作时间，避免无谓的加班。</p>
-<h3 id="建立企业文化"><a href="#建立企业文化" class="headerlink" title="建立企业文化"></a>建立企业文化</h3><p>企业文化这个话题常常被讨论。在互联网公司里，工牌和花名不仅是象征荣誉，更多的是一种身份认同感和归属感。<strong>员工带着工牌、用着花名，这些细节能够无形中让员工对企业产生归属感</strong>。我相信，真正的企业文化建设能渗透到员工行为的方方面面，因此忽视企业文化的管理者，确实让人难以理解。</p>
-<h3 id="管理的出发点是激发善意和潜能"><a href="#管理的出发点是激发善意和潜能" class="headerlink" title="管理的出发点是激发善意和潜能"></a>管理的出发点是激发善意和潜能</h3><p>管理的目的不是单纯地“管人”或“管事”，而是<strong>激发善意和潜能</strong>。德鲁克曾经说过，管理的本质是通过尊重来激发员工的善意。我相信，<strong>当管理措施基于对员工的尊重，管理的每一个决策和制度都能够被合理解释</strong>。当管理出于对员工的尊重，甚至能让员工在外部环境的压力下团结一心，形成合力。类似于胖东来或者华为的企业，很多人觉得他们成功的原因不止于经济回报，而是因为员工的利益和企业的命运紧密绑定，这两家都有着全员持股的相关规定。</p>
-<h3 id="重视榜样的力量"><a href="#重视榜样的力量" class="headerlink" title="重视榜样的力量"></a>重视榜样的力量</h3><p>在职场中，一个明星员工的存在能够影响整个团队的氛围。在某次离职访谈中，我和领导讨论过这个话题。<strong>每个岗位的明星员工，都是其他员工的标杆</strong>。当一个员工在严格的制度和规则下，依然能超额完成任务时，他对周围人的影响力是巨大的。这不仅让其他人感受到榜样的力量，也激励了团队形成健康的竞争环境。</p>
-<p>感谢洪博兄在上篇文章中的探讨，他提到：“老板之所以会加班，是因为他在为自己挣钱。”在这个角度上，我倒觉得<strong>销售和老板一样，都是在为自己打工</strong>。明星员工在销售中，像老板一样为自己创造价值，这就是明星员工带来的光环效应。其他员工会因为这种榜样效应，自然而然地模仿和学习他们的行为。而加班也是如此，员工为额外付出的工作时间，应该得到相应的奖励，不论是口头表扬、物质奖励，还是调休（但调休本质上只是一种时间的转移，并不能真正调动员工的积极性，甚至有可能会打乱员工的安排，但是作为一个借口还是不错的）。</p>
-<p>更多想说的不是明星员工这个人，而是他不断获得的 <strong>“正反馈。”</strong></p>
-<h3 id="保持向上的趋势"><a href="#保持向上的趋势" class="headerlink" title="保持向上的趋势"></a>保持向上的趋势</h3><p>如果一家企业能够让员工看到前景并充满希望，员工自然愿意为企业多做一点。<strong>永远不要让员工觉得公司在走下坡路</strong>，这种感觉会导致员工产生消极情绪，进而在工作中表现出不满甚至抗争。为什么互联网大厂的员工甘愿“卷”起来？因为他们看到公司在不断进步，为了更宏大的目标，他们愿意付出额外的努力。</p>
-<p>创业公司给员工期权也是这个道理，资本投资创业公司是因为相信未来的回报。如果公司能让员工相信企业有前景，那他们愿意为公司奋斗。<strong>管理者要学会“画饼”，但这个饼必须让员工看到</strong>，不是空谈，而是实实在在的希望。</p>
-<p>我一直认为，一个企业如果能够让员工保持向上的态度，看到光明的未来，那这个企业一定在走上升的路。而管理者如何让员工看到未来的美好，这正是管理者需要深入思考的问题。</p>
-<hr>
-<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>加班，不仅仅是管理层的问题，它同样与你的默许息息相关。<strong>每当你一次次顺从加班要求时，实际上是在帮助加班文化延续</strong>。改变从你自己开始，你有权利拒绝加班，选择为自己的生活和健康负责。</p>
-<p>加班文化的终结，不是等待管理层的改变，而是<strong>每一个员工敢于站出来说“不”</strong>。如果你不说不，问题就永远不会消失。</p>
-<p>当然，今天的这篇文章已经不是单纯地批评加班了，所以最后，我还是想送上一个美好的祝愿：</p>
-<p><strong>希望你永远不加班</strong>。希望当你真的加班时，是因为你<strong>自己愿意</strong>；也希望在你不得不加班的时候，你能<strong>得到你应得的回报和尊重</strong>。</p>
-<p><img  
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092209798.png"
+                      alt="LTV:CAC 比率"
+                ><figcaption>LTV:CAC 比率</figcaption></figure></p>
+<p> <strong>应用方法</strong>：</p>
+<ul>
+<li>如果你的公司发现LTV:CAC比率较低，比如低于<code>2:1</code>，这可能表明你的客户流失率较高或客户成功不足，资源应该更多地分配给客户成功团队以提高LTV。</li>
+<li>如果LTV:CAC比率较高，比如超过<code>4:1</code>，则表明客户的长期价值高，且获取成本较低，可能需要更多资源投入销售以扩大市场份额。</li>
+</ul>
+</li>
+<li><p><strong>客户流失率（Churn Rate）</strong>：这个指标衡量在一定时期内流失的客户比例。如果流失率过高，说明客户成功需要更多资源来提高客户留存率。</p>
+<p> <figure class="image-caption"><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409101827853.png"
-                     
-                ></p>
-<p>你应该有你的<strong>时间</strong>和<strong>自由</strong>，</p>
-<p><strong>–去跑、去跳、去漂亮的倒挂金钩。</strong></p>
-<br>
-
-<p><code>点亮</code><span style="margin: 0; color: #E62412; font-weight: bold;">赞</span>、<span style="margin: 0; color: #1B9AEE; font-weight: bold;">在看</span>，<code>离成功更近一</code><strong>点</strong>。</p>
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092209637.png"
+                      alt="客户流失率"
+                ><figcaption>客户流失率</figcaption></figure></p>
+<p> <strong>应用方法</strong>：</p>
+<ul>
+<li>如果公司的流失率较高（例如每月超过<code>5%</code>），这表明客户成功团队可能需要更多资源来更好地服务现有客户并减少流失。</li>
+<li>你可以设定一个目标流失率（例如低于<code>2%</code>），并建议公司将更多资源分配给客户成功，以帮助达到这一目标。</li>
+</ul>
+</li>
+<li><p><strong>客户成功贡献度</strong>：这个指标衡量客户成功对续约和扩展收入的贡献比例。如果客户成功的贡献超过50%，那么应该考虑给予他们更多资源。</p>
+<p> <figure class="image-caption"><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409092210970.png"
+                      alt="客户贡献度"
+                ><figcaption>客户贡献度</figcaption></figure></p>
+<p> <strong>应用方法</strong>：</p>
+<ul>
+<li>如果客户成功团队贡献了<code>50%</code>以上的续约和扩展收入，表明他们在维持和增加公司收入方面起着关键作用，公司应考虑将更多资源分配给客户成功团队。</li>
+<li>如果这个比例较低（如低于<code>30%</code>），可以作为争取更多资源的理由，来改善续约率和客户扩展。</li>
+</ul>
+</li>
+</ol>
+<p>这些指标再次揭露了我们一个残酷的职场真相：<strong>谁掌握了收入来源，谁就拥有更大的权力</strong>。</p>
+<h1 id="服务形式不等同于服务能力"><a href="#服务形式不等同于服务能力" class="headerlink" title="服务形式不等同于服务能力"></a>服务形式不等同于服务能力</h1><p>因为之前有跟朋友沟通过这个话题，说内部也有明确的职级体系，对外的服务售卖上也有不同的收费标准，那是不是相对是比较科学的。我觉得在国内SaaS市场中，很多公司都会提供类似于<code>“服务包”</code>或<code>“实施费用”</code>的服务，这些服务通常分为不同等级，比如基础版、标准版、高级版等。这种分级的服务形式在市场上十分常见，但需要注意的是，<strong>服务形式与服务能力之间存在显著区别</strong>。</p>
+<p><strong>服务形式</strong></p>
+<p>服务形式主要指的是企业如何将其服务打包和呈现给客户。这种形式通常根据服务内容的不同，划分出多个层次，比如提供不同数量的支持工单、不同响应时间的服务承诺，或是在产品上线初期提供的不同深度的培训与支持。这些层次实际上是企业根据市场需求和定价策略所设定的产品组合。</p>
+<p><strong>服务能力</strong></p>
+<p>相比之下，服务能力更关注的是客户成功经理能够在实际操作中为客户解决问题的深度和广度。这包括：</p>
+<ul>
+<li><strong>技术能力</strong>：企业是否具备足够的技术资源和经验来支持复杂的客户需求，比如定制化的落地方案或高度集成的系统配置。</li>
+<li><strong>人员能力</strong>：客户成功团队或实施团队的专业水平，包括他们的经验、知识储备以及应对突发问题的能力。</li>
+<li><strong>服务覆盖范围</strong>：服务能力也包括企业能够提供支持的地域范围和业务覆盖程度，特别是在人数较多复杂架构下，客户成功经理能否在客户组织内提供一致且高质量的服务。</li>
+<li><strong>问题解决能力</strong>：在遇到复杂或非常规问题时，客户成功是否有能力迅速响应并协调资源有效解决，而不仅仅是按照既定的流程处理问题。</li>
+</ul>
+<p><strong>形式与能力的错位</strong></p>
+<p>在很多情况下，国内SaaS企业通过售卖不同等级的服务包来实现差异化收入，但这种形式上的差异并不代表企业在实际能力上的提升。例如，某些企业可能提供了一个更高级别的服务包，增加了<code>响应时间</code>或<code>工单数量</code>，但其客户成功团队的核心能力并未相应提高。这种情况下，客户在选择更高级别的服务形式时，可能并未获得预期中更高的服务能力。</p>
+<p>这种形式与能力的错位，容易导致客户在体验中的落差，也可能影响客户对企业的信任度和续约意愿。因此，<strong>在设计服务产品时，企业应当明确区分形式与能力，确保每一层次的服务都能够有效反映企业实际具备的服务能力</strong>。</p>
+<h1 id="展望客户成功的高头衔时代"><a href="#展望客户成功的高头衔时代" class="headerlink" title="展望客户成功的高头衔时代"></a>展望客户成功的高头衔时代</h1><p>就像麦肯锡的精英文化与金字塔式的组织架构那样，我觉得客户成功经理未来也一定会走向<code>“高头衔、高责任、高期望”</code>的职业路径。在咨询行业中，高头衔不仅是身份的象征，更是维持客户期望、业务场景以及内部职业发展的文化。这种文化客户成功领域同样适用。</p>
+<p>有时候，我也思考为什么大家都热衷于追逐权力。其实，权力不仅意味着责任，它还能建立信任，无论是在客户面前还是在内部资源调配上，权力还会让我们在谈判中更有筹码。因此，<strong>追求高头衔并没有什么问题，关键是要在合适的时间去追逐它</strong>。</p>
+<p>由衷的希望未来客户成功经理能获得更多权限，承担更大的责任，成为公司战略决策中的关键角色，享有更高的资源配置优先级，并通过数据驱动实现真正的价值化。而不是简单的职位提升，因为客户成功经理好歹还带着<code>“经理”</code>两个字，想起来之前看过的一个招聘岗位上特别强调<strong>客户成功经理不是管理岗</strong>，笑Cry。怎么说呢，客户成功经理他不是管理体系的经理，但是对能力的要求一点都没有降低，尤其是我们的业务覆盖跟客户企业的发展战略紧密相关时。</p>
+<p>等到了那个时代，我们就可以兴高采烈地跟客户说：你是要这个99的学徒剪发，199的创意总监剪发、299的设计总监剪发、399的店长剪发、499的主理人剪发还是… 我们这里啊，总有一款会适合您。</p>
 <br>
 <br>
 <br>
@@ -2930,8 +2928,10 @@
                       alt="Anjou Duan" style="width: 80px; height: 80px; border-radius: 50%; margin-left: 15px;"
                 ><figcaption>Anjou Duan</figcaption></figure>
 </div>
-不提`Teambition领航员（钉钉数字化专家）`、`宜搭行业解决方案共创PDSA`这些虚名以及有那么`一点好看的职业数据`，只不过一个平淡无奇的王者荣耀`荣耀王者`、和平精英`传奇王牌`的小天才罢了。
 
+
+
+<p>不提<code>Teambition领航员（钉钉数字化专家）</code>、<code>宜搭行业解决方案共创PDSA</code>这些虚名以及有那么<code>一点好看的职业数据</code>，只不过一个平淡无奇的王者荣耀<code>荣耀王者</code>、和平精英<code>传奇王牌</code>的小天才罢了。</p>
 <hr>
 <p style="margin: 0; color: #1B9AEE; font-weight: bold;"> HeyCSM </p>
 
@@ -2971,7 +2971,7 @@
 				</script>
 			]]></content>
       <categories>
-        <category>断想一束</category>
+        <category>深度文章</category>
       </categories>
       <tags>
         <tag>客户成功</tag>
