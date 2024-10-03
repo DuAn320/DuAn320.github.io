@@ -6,7 +6,7 @@
   <link href="https://heycsm.com/atom.xml" rel="self"/>
   
   <link href="https://heycsm.com/"/>
-  <updated>2024-10-01T11:15:19.751Z</updated>
+  <updated>2024-10-03T10:09:18.165Z</updated>
   <id>https://heycsm.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>NPS—衡量SaaS客户成功的关键指标</title>
+    <link href="https://heycsm.com/2024/10/03/NPS%E2%80%94%E8%A1%A1%E9%87%8FSaaS%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E7%9A%84%E5%85%B3%E9%94%AE%E6%8C%87%E6%A0%87/"/>
+    <id>https://heycsm.com/2024/10/03/NPS%E2%80%94%E8%A1%A1%E9%87%8FSaaS%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E7%9A%84%E5%85%B3%E9%94%AE%E6%8C%87%E6%A0%87/</id>
+    <published>2024-10-03T10:06:23.000Z</published>
+    <updated>2024-10-03T10:09:18.165Z</updated>
+    
+    <content type="html"><![CDATA[<div id="readmore-container"><p><span style="color: #E62412; font-weight: bold;">Hey</span><span style="color: #1B9AEE; font-weight: bold;">CSM</span></p><p><strong>为什么 NPS 是 SaaS 客户成功中排在续约率续费率之前的更基础指标？</strong></p><p>在当今竞争激烈的 SaaS 市场中，客户成功已成为企业持续增长并保持竞争优势的关键因素。</p><p>其中，NPS（净推荐值）作为衡量客户满意度和忠诚度的核心指标，受到了广泛的关注和应用。</p><p>本文将探讨 NPS 的重要性及其在 SaaS 客户成功中的应用。</p><h2 id="1-什么是-NPS？"><a href="#1-什么是-NPS？" class="headerlink" title="1. 什么是 NPS？"></a>1. 什么是 NPS？</h2><p>NPS，全称 Net Promoter Score，由管理咨询公司贝恩公司（Bain &amp; Company）于 2003 年提出。</p><p>它通过一个简单的问题来衡量客户忠诚度：“你有多大可能向朋友或同事推荐我们的产品&#x2F;服务？”</p><p>客户根据他们的体验打分，范围为 0 到 10 分。</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202410031747572.png"                                     ></p><p>根据得分，客户被分为三类：</p><ul><li><strong>推荐者（9-10 分）：</strong> 对产品非常满意，愿意积极推荐。</li><li><strong>被动者（7-8 分）：</strong> 满意但不热情，容易被竞争对手吸引。</li><li><strong>贬损者（0-6 分）：</strong> 不满意，可能会传播负面评价。</li></ul><p>NPS 的计算公式为：</p><p><strong>NPS &#x3D; 推荐者的百分比 - 贬损者的百分比</strong></p><h2 id="2-NPS-在-SaaS-客户成功中的重要性"><a href="#2-NPS-在-SaaS-客户成功中的重要性" class="headerlink" title="2. NPS 在 SaaS 客户成功中的重要性"></a>2. NPS 在 SaaS 客户成功中的重要性</h2><h3 id="2-1-预测客户忠诚度和留存率"><a href="#2-1-预测客户忠诚度和留存率" class="headerlink" title="2.1 预测客户忠诚度和留存率"></a>2.1 预测客户忠诚度和留存率</h3><p>高 NPS 值通常意味着更高的客户忠诚度和留存率。</p><p>对于 SaaS 公司来说，保留现有客户的成本往往低于获取新客户，忠诚客户更有可能续约并进行增购。</p><h3 id="2-2-指导产品和服务改进"><a href="#2-2-指导产品和服务改进" class="headerlink" title="2.2 指导产品和服务改进"></a>2.2 指导产品和服务改进</h3><p>通过分析贬损者的反馈，企业可以识别产品或服务中的不足并及时改进。</p><p>同时，推荐者的正面反馈也能指出公司的优势，帮助巩固这些优势。</p><h3 id="2-3-提升口碑传播和新客户获取"><a href="#2-3-提升口碑传播和新客户获取" class="headerlink" title="2.3 提升口碑传播和新客户获取"></a>2.3 提升口碑传播和新客户获取</h3><p>推荐者愿意积极推荐产品或服务，帮助企业通过口碑传播获取新客户。</p><p>这种有机增长方式成本低且效果显著，对于 SaaS 公司尤为重要。</p><h2 id="3-SaaS-公司如何有效利用-NPS？"><a href="#3-SaaS-公司如何有效利用-NPS？" class="headerlink" title="3. SaaS 公司如何有效利用 NPS？"></a>3. SaaS 公司如何有效利用 NPS？</h2><h3 id="3-1-定期收集-NPS-数据"><a href="#3-1-定期收集-NPS-数据" class="headerlink" title="3.1 定期收集 NPS 数据"></a>3.1 定期收集 NPS 数据</h3><p>建立定期的 NPS 调查机制，最好是在客户旅程的关键节点，例如产品使用 30 天后或合同续签前进行调查。</p><blockquote><p>企业通常通过调查来获取 NPS。他们可能会要求客户立即提供反馈。或者，他们可能会在客户与其互动后征求反馈。常见的调查方式包括：</p><ol><li><strong>电子邮件调查：</strong> 虽然接收电子邮件数据可能会有所延迟，但回复往往不会那么仓促，而且更加深思熟虑。在追问回复者以获取更多信息时，电子邮件调查还可以补充其他调查方式。</li><li><strong>网站调查：</strong> NPS 调查可以作为感谢页面的一部分出现在转化页面上。它们也可以作为退出调查弹出。</li><li><strong>短信调查：</strong> 您可以通过短信询问标准 NPS 调查问题。回复预计会较为简短，但可以这样追问：“请详细说一下您为何选择这个分数。”</li><li><strong>电话调查：</strong> 电话调查对于初始 NPS 评分很有用。这种调查也非常适合追问贬损者，以了解产品或服务出现的问题。</li></ol><p><strong>专业提示：</strong> 不要同时向所有客户发送调查。您应每天向 1&#x2F;90 的用户发送一次 NPS 调查并持续发送 90 天，这样一来，在数据收集期结束时，您便能对一段时间内的所有客户互动有所认识。例如，如果您有 10000 个用户，则在 90 天内，每天共向不同的用户发送 111 份调查。</p><p>–<a class="link"   href="https://www.atlassian.com/zh/agile/product-management/nps-score"  title="什么是净推荐值 (NPS)？">Atlassian 建议如何收集 NPS 反馈 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p></blockquote><h3 id="3-2-深入分析-NPS-反馈"><a href="#3-2-深入分析-NPS-反馈" class="headerlink" title="3.2 深入分析 NPS 反馈"></a>3.2 深入分析 NPS 反馈</h3><p>不仅关注 NPS 的数值，还要重视客户的具体反馈。</p><p>通过数据分析工具找出影响 NPS 的关键因素。</p><h3 id="3-3-制定行动计划"><a href="#3-3-制定行动计划" class="headerlink" title="3.3 制定行动计划"></a>3.3 制定行动计划</h3><p>根据分析结果制定针对性的改进措施。</p><p>对贬损者，及时跟进解决问题；对推荐者，鼓励他们继续支持并给予适当奖励。</p><h3 id="3-4-内部沟通与协作"><a href="#3-4-内部沟通与协作" class="headerlink" title="3.4 内部沟通与协作"></a>3.4 内部沟通与协作</h3><p>与公司内部分享 NPS 结果，推动各部门协作，共同改善客户体验。</p><p>例如，产品团队可以根据反馈优化功能，客户服务团队则可以改进服务流程。</p><h2 id="4-成功案例观点分享"><a href="#4-成功案例观点分享" class="headerlink" title="4. 成功案例观点分享"></a>4. 成功案例观点分享</h2><blockquote><p>产品内推调研 NPS（NPS 是一个很好的评价客户成功的概念，叫做客户推荐净值；有一分到十分，你的客户有愿意多大程度给你推荐，特别愿意打十分，特别不愿意打零分），调研结果是 50%用户给了满分，但其实这个数字是不对的， NPS 本身不能够说有 50%的能给了满分就是好，他只是离散的数字。</p><p>–<a class="link"   href="https://www.niswo.com/20485.html"  title="你的客户会给你打多少分？深度解析：SaaS 产品的客户成功之道">Teambition 创始人兼 CEO 齐俊元早期关于 NPS 的观点 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p></blockquote><h2 id="5-结语"><a href="#5-结语" class="headerlink" title="5. 结语"></a>5. 结语</h2><p>作为 SaaS 客户成功的关键指标，NPS 可以直观地反映客户的满意度和忠诚度。</p><p>通过有效收集和分析 NPS 数据，SaaS 公司能够不断改进产品和服务，增强客户关系，实现业务的可持续增长。</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202410031748540.png"                                     ></p><p>我是觉得每个 CSM 应该关注下 NPS，虽然可能跟你的绩效无关，但确实是可以证明产品及你工作深度的。</p><p><strong>另外：</strong></p><p><strong>客户的成功、NPS 的反应从来不只是 CSM 的事情。</strong></p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
+    
+    
+    <summary type="html">每个 CSM 应该关注下 NPS，虽然可能跟你的绩效无关，但确实是可以证明产品及你工作深度的。</summary>
+    
+    
+    
+    <category term="客成百科" scheme="https://heycsm.com/categories/%E5%AE%A2%E6%88%90%E7%99%BE%E7%A7%91/"/>
+    
+    
+    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>客户成功经理的客户生命周期管理</title>
