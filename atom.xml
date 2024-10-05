@@ -6,7 +6,7 @@
   <link href="https://heycsm.com/atom.xml" rel="self"/>
   
   <link href="https://heycsm.com/"/>
-  <updated>2024-10-03T10:09:18.165Z</updated>
+  <updated>2024-10-05T09:36:09.806Z</updated>
   <id>https://heycsm.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SaaS客户成功的关键指标：深入理解客户流失率和续约率</title>
+    <link href="https://heycsm.com/2024/10/05/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E7%9A%84%E5%85%B3%E9%94%AE%E6%8C%87%E6%A0%87%EF%BC%9A%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E5%AE%A2%E6%88%B7%E6%B5%81%E5%A4%B1%E7%8E%87%E5%92%8C%E7%BB%AD%E7%BA%A6%E7%8E%87/"/>
+    <id>https://heycsm.com/2024/10/05/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E7%9A%84%E5%85%B3%E9%94%AE%E6%8C%87%E6%A0%87%EF%BC%9A%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E5%AE%A2%E6%88%B7%E6%B5%81%E5%A4%B1%E7%8E%87%E5%92%8C%E7%BB%AD%E7%BA%A6%E7%8E%87/</id>
+    <published>2024-10-05T09:22:37.000Z</published>
+    <updated>2024-10-05T09:36:09.806Z</updated>
+    
+    <content type="html"><![CDATA[<div id="readmore-container"><p><span style="color: #E62412; font-weight: bold;">Hey</span><span style="color: #1B9AEE; font-weight: bold;">CSM</span></p><p><strong>为什么 CSM 要关注客户流失率和续约率这对孪生指标？</strong></p><p>在 SaaS 行业，客户流失率和续约率是评估企业健康状况和增长潜力的重要指标。</p><p>流失率反映了在特定时间内停止使用某产品或服务的客户百分比，而续约率则指在服务期到期后，继续使用产品或服务的客户百分比。</p><p>理解这两个指标之间的关系对于客户成功经理（CSM）制定有效的客户保留策略至关重要。</p><h2 id="什么是客户流失率？"><a href="#什么是客户流失率？" class="headerlink" title="什么是客户流失率？"></a>什么是客户流失率？</h2><p>客户流失率是指在特定时间段内流失的客户数量占期初总客户数量的百分比。</p><p>计算公式如下：</p><p><strong>客户流失率 &#x3D; （特定时间段内流失的客户数 ÷ 期初总客户数）× 100%</strong></p><p>较高的流失率可能表明产品或服务未能满足客户需求，或客户体验存在问题。</p><p><figure class="image-caption"><img src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202410051635352.jpeg" alt="[针对不同SaaS产品行业标准流失率不同，但是行业共识上限最高到10%，另外如果流失率不好达标很多SaaS公司转而追求净负流失率（Negative Churn Rate），即通过抬升NDR &gt; 100%达到](https://www.woshipm.com/pd/5933775.html &quot;中国 SaaS行业为啥这么难？路在何方？&quot;)"><figcaption>[针对不同SaaS产品行业标准流失率不同，但是行业共识上限最高到10%，另外如果流失率不好达标很多SaaS公司转而追求净负流失率（Negative Churn Rate），即通过抬升NDR &gt; 100%达到](https://www.woshipm.com/pd/5933775.html &quot;中国 SaaS行业为啥这么难？路在何方？&quot;)</figcaption></figure></p><h2 id="什么是续约率？"><a href="#什么是续约率？" class="headerlink" title="什么是续约率？"></a>什么是续约率？</h2><p>续约率是指在服务期到期后，选择继续订阅或升级服务的客户比例。</p><p>计算公式如下：</p><p><strong>续约率 &#x3D; （续约的客户数 ÷ 到期的客户数）× 100%</strong></p><p>较高的续约率通常意味着客户对产品或服务感到满意，愿意继续投资。</p><h2 id="客户流失率与续约率的关系"><a href="#客户流失率与续约率的关系" class="headerlink" title="客户流失率与续约率的关系"></a>客户流失率与续约率的关系</h2><p>客户流失率和续约率是反映客户保留的重要指标，两者密切相关。</p><ul><li><p><strong>互补性</strong>：较高的续约率通常意味着较低的客户流失率，反之亦然。</p></li><li><p><strong>共同影响收入</strong>：两者直接影响经常性收入（MRR）和客户终身价值（CLV），从而影响公司的财务健康状况。</p></li><li><p><strong>反映客户满意度</strong>：较高的续约率和较低的流失率通常表明客户满意度和忠诚度较高。</p></li></ul><p>通过同时监控这两个指标，企业可以更全面地了解客户行为，制定更精准的客户成功策略。</p><h2 id="这些指标为何如此重要？"><a href="#这些指标为何如此重要？" class="headerlink" title="这些指标为何如此重要？"></a>这些指标为何如此重要？</h2><ol><li><p><strong>预测业务增长</strong>：较低的客户流失率和较高的续约率有助于稳定收入，并为预测未来业务增长提供可靠的数据基础。</p></li><li><p><strong>优化资源配置</strong>：了解客户保留情况可以帮助企业更有效地分配销售、营销和客户支持资源。</p></li><li><p><strong>增强竞争优势</strong>：不断提升客户体验，降低流失率，提高续约率，可以帮助企业在激烈的市场竞争中脱颖而出。</p></li></ol><h2 id="CSM-如何降低客户流失率并提高续约率？"><a href="#CSM-如何降低客户流失率并提高续约率？" class="headerlink" title="CSM 如何降低客户流失率并提高续约率？"></a>CSM 如何降低客户流失率并提高续约率？</h2><ol><li><strong>积极参与客户旅程</strong></li></ol><p>从客户入职开始，积极参与客户的使用过程，确保他们能够顺利上手产品并实现预期价值。</p><ol start="2"><li><strong>个性化客户支持</strong></li></ol><p>根据客户的具体需求和使用情况，提供定制化的支持和建议，以提升客户满意度。</p><ol start="3"><li><strong>定期业务评估</strong></li></ol><p>与客户进行定期业务评估（QBR），了解他们的目标和挑战，提供相应的解决方案，促进续约。</p><ol start="4"><li><strong>数据驱动的风险预警</strong></li></ol><p>使用数据分析工具监控客户的使用行为和参与度，及时识别潜在的流失风险，并采取预防措施。</p><ol start="5"><li><strong>构建长期关系</strong></li></ol><p>通过持续沟通和价值交付，建立信任，增强客户忠诚度和粘性。</p><h2 id="举例分析"><a href="#举例分析" class="headerlink" title="举例分析"></a>举例分析</h2><h3 id="背景："><a href="#背景：" class="headerlink" title="背景："></a>背景：</h3><p>一家提供项目管理软件的 SaaS 公司发现，尽管新客户的增长率很高，但客户流失率持续上升，导致整体收入增长停滞。</p><h3 id="问题分析："><a href="#问题分析：" class="headerlink" title="问题分析："></a>问题分析：</h3><ul><li><p><strong>缺乏客户培训</strong>：许多客户在购买后未能充分利用产品功能，导致使用率低下。</p></li><li><p><strong>客户支持响应缓慢</strong>：对客户问题的响应速度较慢，影响了客户体验。</p></li><li><p><strong>价值未被感知</strong>：客户未能看到产品对其业务的实际价值，缺乏续约的动力。</p></li></ul><h3 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h3><ul><li><p><strong>加强客户入职流程</strong>：提供全面的培训材料和在线研讨会，帮助客户快速上手。</p></li><li><p><strong>提高客户支持效率</strong>：增加支持团队人员并优化问题响应流程。</p></li><li><p><strong>定期业务评估</strong>：与客户定期沟通，展示产品对其业务的积极影响。</p></li></ul><h3 id="结果："><a href="#结果：" class="headerlink" title="结果："></a>结果：</h3><ul><li><p><strong>客户流失率降低</strong>：从最初的 15%降至 7%。</p></li><li><p><strong>续约率提高</strong>：续约率从 60%提升至 85%。</p></li><li><p><strong>收入增长</strong>：经常性收入（MRR）增长了 25%。</p></li></ul><p><figure class="image-caption"><img src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202410051623123.jpeg" alt="[分享一个正确的对立观点--续签率的误区，辨证着看吧](https://www.niutoushe.com/38819 &quot;客户成功谈续约率之前，先做好价值和增购设计&quot;)"><figcaption>[分享一个正确的对立观点--续签率的误区，辨证着看吧](https://www.niutoushe.com/38819 &quot;客户成功谈续约率之前，先做好价值和增购设计&quot;)</figcaption></figure></p><h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>客户流失率和续约率是 SaaS 公司必须密切关注的关键指标。</p><p>理解这两个指标之间的关系，可以帮助客户成功经理制定更有效的客户保留策略。</p><p>通过提供卓越的客户体验、主动支持和持续的价值交付，我们可以减少客户流失，提高续约率，推动公司长期可持续增长。</p><p>作为 CSM，我们的目标不仅是解决客户的问题，还要成为他们成功道路上的战略伙伴。</p><p><strong>只有客户成功，我们的公司才能真正实现成功。</strong></p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
+    
+    
+    <summary type="html">在SaaS行业，客户流失率和续约率是评估企业健康状况和增长潜力的重要指标。</summary>
+    
+    
+    
+    <category term="客成百科" scheme="https://heycsm.com/categories/%E5%AE%A2%E6%88%90%E7%99%BE%E7%A7%91/"/>
+    
+    
+    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>NPS—衡量SaaS客户成功的关键指标</title>
