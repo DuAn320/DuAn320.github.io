@@ -6,7 +6,7 @@
   <link href="https://heycsm.com/atom.xml" rel="self"/>
   
   <link href="https://heycsm.com/"/>
-  <updated>2025-01-03T09:26:46.924Z</updated>
+  <updated>2025-01-04T09:56:39.618Z</updated>
   <id>https://heycsm.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>偷产研Workaround一词讲从客户需求权变到推动产品迭代</title>
+    <link href="https://heycsm.com/2025/01/04/%E5%81%B7%E4%BA%A7%E7%A0%94Workaround%E4%B8%80%E8%AF%8D%E8%AE%B2%E4%BB%8E%E5%AE%A2%E6%88%B7%E9%9C%80%E6%B1%82%E6%9D%83%E5%8F%98%E5%88%B0%E6%8E%A8%E5%8A%A8%E4%BA%A7%E5%93%81%E8%BF%AD%E4%BB%A3/"/>
+    <id>https://heycsm.com/2025/01/04/%E5%81%B7%E4%BA%A7%E7%A0%94Workaround%E4%B8%80%E8%AF%8D%E8%AE%B2%E4%BB%8E%E5%AE%A2%E6%88%B7%E9%9C%80%E6%B1%82%E6%9D%83%E5%8F%98%E5%88%B0%E6%8E%A8%E5%8A%A8%E4%BA%A7%E5%93%81%E8%BF%AD%E4%BB%A3/</id>
+    <published>2025-01-04T09:55:18.000Z</published>
+    <updated>2025-01-04T09:56:39.618Z</updated>
+    
+    <content type="html"><![CDATA[<div id="readmore-container"><p>在客户成功（CSM）的日常工作中，有一个非常有意思的现象：</p><p>当客户提出某个需求，而产品短期内无法满足时，我们常常需要通过一些<strong>巧妙的方式</strong>来实现客户的目标。</p><p>这种做法我们常叫做灵活应对，但其实在产研场景里有一个词也是形容这种做法的，被称为“<strong>Workaround</strong>”。</p><p>我们都明白产品是不可能 100%适配客户业务场景的，也不可能通过后续产品的迭代将产品和具体客户的业务匹配适配到 100%。</p><p>为了解决客户实际的业务问题我们 CS 肯定有发挥自己主观能动性的地方：</p><p>是利用配置？是低代码？是和其他工具的手动结合？</p><p>对，以上都是一些好的策略，但我今天更想讲讲 Workaround 及其意义。</p><p>那么，<strong>Workaround</strong> 究竟是什么？</p><p>为什么在 CSM 的工作中，它不仅是“变通方案”，更是一种<strong>推动产品进步的桥梁</strong>？</p><hr><h2 id="什么是-Workaround？"><a href="#什么是-Workaround？" class="headerlink" title="什么是 Workaround？"></a>什么是 Workaround？</h2><p><strong>Workaround</strong>，直译为“变通方法”或“权宜之计”。</p><p>在产品和技术领域，它指的是<strong>一种临时性方案或技巧</strong>，用于绕过当前系统的功能限制，从而实现预期目标。</p><p>对研发来说，“Workaround”往往意味着在有限的时间、资源和技术条件下，为了绕过某个 Bug 或技术难题，推出的<strong>权宜之计</strong>。</p><p>也或者说就是临时更新的过渡态。</p><p>常见的场景包括：</p><ul><li>功能模块之间不兼容，但可以通过额外的手动步骤完成操作。</li><li>某个 API 暂时不可用，因此通过其他手段实现类似功能。</li></ul><p>在研发眼中，这是一种“临时解决方案”，背后有一种“等下次更新时修复根本问题”的默契。</p><p>简单来说，Workaround 并不是直接解决问题的“终极方案”，而是<strong>一种通过灵活配置、流程调整来帮助客户达成目标的创新思路</strong>。</p><h3 id="示例："><a href="#示例：" class="headerlink" title="示例："></a>示例：</h3><p>假设某款协作产品暂时不支持自动生成季度数据分析报告（时间颗粒度的不支持）。</p><ul><li><strong>研发视角的 Workaround</strong>：通过支持手动导出数据和配置外部工具（比如 excel）暂时生成报表。</li><li><strong>CSM 视角的 Workaround</strong>：推动产研支持基础数据导出，另外为客户设计一套数据处理流程，降低操作成本，提高效率。</li></ul><p><strong>对于客户来说，这种灵活配置方案，可能就是产品是否“好用”的关键</strong>。</p><p>但不要忘了 Workaround 是 <strong>“暂时妥协”</strong>，它虽然展现了团队在限制条件下的创新与服务意识，可重点还是“等下次更新时修复根本问题”。</p><p>——如此场景下的时间范围筛选。</p><p>备胎终究是备胎，不能长久使用。</p><hr><h2 id="客户成功经理的“Workaround”实践"><a href="#客户成功经理的“Workaround”实践" class="headerlink" title="客户成功经理的“Workaround”实践"></a>客户成功经理的“Workaround”实践</h2><p>在 CSM 的日常工作中，Workaround 往往承担着以下几种角色：</p><h3 id="1-解决当下问题的“灵活方案”"><a href="#1-解决当下问题的“灵活方案”" class="headerlink" title="1. 解决当下问题的“灵活方案”"></a>1. 解决当下问题的“灵活方案”</h3><p>很多时候，产品的标准化功能无法完全匹配客户的个性化需求。<br>这时，CSM 需要发挥“创意力”，通过<strong>产品功能的组合使用</strong>来满足客户的业务需求。</p><ul><li><p><strong>场景示例</strong>：</p><p>客户希望在系统中实现多步骤的审批流，而当前产品只支持简单流程。<br><strong>Workaround 方案</strong>：通过多账户联动配置，将多个单步骤审批组合成复杂流程。</p></li></ul><h3 id="2-提升客户体验的“配置巧用”"><a href="#2-提升客户体验的“配置巧用”" class="headerlink" title="2. 提升客户体验的“配置巧用”"></a>2. 提升客户体验的“配置巧用”</h3><p>Workaround 不仅是被动应对，还可以是主动的<strong>客户体验优化手段</strong>。</p><ul><li><p><strong>场景示例</strong>：</p><p>客户抱怨某些功能入口过于复杂，导致使用频率降低。<br><strong>Workaround 方案</strong>：通过系统配置为客户设置快捷按钮、个性化菜单，提高操作效率。</p></li></ul><h3 id="3-数据收集与产品迭代的“反馈样本”"><a href="#3-数据收集与产品迭代的“反馈样本”" class="headerlink" title="3. 数据收集与产品迭代的“反馈样本”"></a>3. 数据收集与产品迭代的“反馈样本”</h3><p>当某个 Workaround 被频繁使用时，CSM 需要敏锐地意识到<strong>这可能是产品功能缺失的信号</strong>。</p><ul><li><p><strong>场景示例</strong>：</p><p>多位客户都在要求同样的审批流功能，而 CS 执行的 Workaround 数量持续攀升。<br><strong>行动方案</strong>：将这些需求整理成高频使用场景和数据，推动产品团队将需求纳入后续迭代计划。</p></li></ul><p>这也是我一直说的最见客户成功方案功力的“10%”，刨除产品适配业务的 80%和 10%未来迭代支持的最根本能力。</p><hr><h2 id="Workaround-的价值和挑战"><a href="#Workaround-的价值和挑战" class="headerlink" title="Workaround 的价值和挑战"></a>Workaround 的价值和挑战</h2><h3 id="1-提升客户满意度"><a href="#1-提升客户满意度" class="headerlink" title="1. 提升客户满意度"></a>1. 提升客户满意度</h3><p>当客户遇到需求瓶颈时，Workaround 是一种“短期见效的方案”，它避免了客户对产品“功能不足”的不满，增强了客户对产品价值的认可。</p><h3 id="2-培养客户对产品的信任"><a href="#2-培养客户对产品的信任" class="headerlink" title="2. 培养客户对产品的信任"></a>2. 培养客户对产品的信任</h3><p>通过配置技巧和功能组合，CSM 向客户展示了产品的“可塑性”和“灵活性”，提升了客户的使用体验，构建了更强的信任关系。</p><h3 id="3-避免长期依赖，推动产品更新"><a href="#3-避免长期依赖，推动产品更新" class="headerlink" title="3. 避免长期依赖，推动产品更新"></a>3. 避免长期依赖，推动产品更新</h3><p>虽然 Workaround 可以在短期内解决问题，但它并不是一劳永逸的办法。</p><p>当某个需求被证明具有高频率和共性时，CSM 需要及时将其整理成<strong>标准化的需求报告</strong>，并推动产品团队进行正式的功能迭代。</p><hr><h2 id="从权变到标准化：推动产品成长的循环"><a href="#从权变到标准化：推动产品成长的循环" class="headerlink" title="从权变到标准化：推动产品成长的循环"></a>从权变到标准化：推动产品成长的循环</h2><p>Workaround 不仅仅是对产品功能不足的“补救”，它更是 CSM 用来识别、验证、推动产品优化的重要方式：</p><ol><li><strong>发现问题</strong>：通过客户反馈发现产品功能的“盲区”。</li><li><strong>验证场景</strong>：通过 Workaround 提供灵活解决方案，验证客户对功能的真实需求。</li><li><strong>数据沉淀</strong>：收集 Workaround 使用频率、客户场景和使用体验等数据。</li><li><strong>推动迭代</strong>：将高频 Workaround 整理为需求报告，推动产品团队进行更新迭代。</li></ol><p>这一循环不仅帮助客户成功团队更好地服务客户，也推动了产品能力的不断成长。</p><hr><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>在客户成功的世界里，Workaround 并不是“权宜之计”那么简单——</p><p>它是一种灵活应变的解决方案，一种客户体验的优化方式，更是推动产品成长的“引擎”。</p><p>所以，下次当你设计一个 Workaround 时，不妨问问自己：</p><ul><li>这是否是一个普遍的客户需求？</li><li>有没有可能通过标准化功能满足更多用户的类似需求？</li></ul><p>因为，每一次看似临时的权变，都有可能成为推动产品更好满足客户需求的“微小转折点”。</p><p>其实也不止是 Workaround，包括我们职责要求的关注竞品更新，也是如此：</p><ul><li>为什么他们会做这样的产品功能？</li></ul><p><strong>魔鬼藏在细节里</strong>，希望你能看到，希望你能懂。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
+    
+    
+    <summary type="html">Workaround是产品技术领域中的临时方案，用于绕过功能限制实现目标。在CSM中，它不仅是变通方案，更是推动产品进步的桥梁，通过灵活配置优化客户体验，收集反馈推动产品迭代。</summary>
+    
+    
+    
+    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>客户成功：很遗憾，成功只是偶然失败才是常态</title>
@@ -417,27 +438,6 @@
     
     
     <category term="断想一束" scheme="https://heycsm.com/categories/%E6%96%AD%E6%83%B3%E4%B8%80%E6%9D%9F/"/>
-    
-    
-    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ToB的尽头是销售吗？</title>
-    <link href="https://heycsm.com/2024/12/15/ToB%E7%9A%84%E5%B0%BD%E5%A4%B4%E6%98%AF%E9%94%80%E5%94%AE%E5%90%97%EF%BC%9F/"/>
-    <id>https://heycsm.com/2024/12/15/ToB%E7%9A%84%E5%B0%BD%E5%A4%B4%E6%98%AF%E9%94%80%E5%94%AE%E5%90%97%EF%BC%9F/</id>
-    <published>2024-12-15T12:33:20.000Z</published>
-    <updated>2024-12-15T12:34:33.000Z</updated>
-    
-    <content type="html"><![CDATA[<div id="readmore-container"><p><strong>是的，别自欺欺人了，我们其实都知道答案。</strong></p><p>ToB 从业者的一个状态：当过去的成功经验变得无效，当新的增长路径尚未显现，我们便用尽头来定义这种无法掌控的状态。</p><p>我相信很多 ToB 的业务会问过自己一个问题：“我签下一单又一单，最终只是为了完成公司 KPI，这样的工作到底有什么价值？除了拼人脉，拼嘴皮子，好像也没有太多的上升空间。”</p><p>好像行业增长和个人发展都走到头了。</p><hr><p>那天，客户现场。</p><p>技术负责人拍着桌子问我：“你们这个系统，究竟能帮我解决什么问题？”</p><p>他脸上的表情，像极了小学老师让你回答问题的眼神：你是不会，还是单纯的笨？</p><p>这种场景，在 ToB 行业并不陌生。</p><p>表面上是功能和需求的对话，背后却是一场彻头彻尾的人性较量。</p><p>说到底，ToB 的尽头到底是不是销售？</p><p>这个问题，对于以 CS 自居的我刺耳又扎心。</p><hr><h2 id="销售，是地基，还是天花板？"><a href="#销售，是地基，还是天花板？" class="headerlink" title="销售，是地基，还是天花板？"></a>销售，是地基，还是天花板？</h2><p>朋友有句话让我印象深刻：</p><p>ToB 公司天天喊产品为王，结果最后又是 KPI 逼着销售冲锋。</p><p>客户要什么功能，开发说做不了，老板就盯着销售：**”卖！先把钱签下来再说。”**</p><p>这是 ToB 的真实场景：</p><p>产品当然重要，但没有销售，产品不过是 PPT 里的一段数据。</p><p>那些精心设计的技术指标、完美的用户体验，最终还是需要销售去完成最后一公里。</p><p>客户不会只看你的功能表，而是看一个更关键的问题：</p><p><strong>你敢不敢为他的选择兜底？</strong></p><p>但这里也有一个悖论：</p><p>当销售成了核心，ToB 企业的另一个身份——技术驱动者会不会变得苍白？</p><hr><h2 id="去销售化的尝试：理想主义还是自我欺骗？"><a href="#去销售化的尝试：理想主义还是自我欺骗？" class="headerlink" title="去销售化的尝试：理想主义还是自我欺骗？"></a>去销售化的尝试：理想主义还是自我欺骗？</h2><p>近年来，ToB 行业流行一个概念：去销售化。</p><p>很多公司都想通过自动化营销、线上触达、自助试用，绕开传统销售的复杂性。</p><p>他们的逻辑很简单：<strong>如果产品力足够强，还需要推销吗？</strong></p><p>然而现实却一再打脸。</p><p>一个 SaaS 公司尝试用线上签约取代传统销售，但一年后发现，真正的大客户根本不鸟你的自助流程。</p><p>举个例子，你去谈一个百万大单，对方采购经理见你的第一面，心里就盘算着：你需要我比我需要你，所以我可以慢慢拖、压价、提要求。</p><p>而所谓“去销售化”的手段，想通过流程化的方式把这种权力博弈系统消解。</p><p>但现实是，这种消解只会让客户觉得你更软弱。</p><p>客户需要的是人，一个敢拍胸脯承诺这玩意儿能行的人，别管他是不是只会拍胸脯。</p><p>客户为什么需要销售？</p><p>因为 ToB 的本质不是简单的功能交易，而是<strong>风险转移</strong>。</p><p>客户要的是有人能来替他背锅、承担风险，而不是让他自己点选套餐再签个线上合同。</p><p>技术是冷冰冰的，但销售是活生生的，它提供的是一种心理上的安全感。</p><p>这种安全感，任何自动化流程都无法替代。</p><p>所以，所谓的去销售化，本质上只是在逃避一个现实：</p><p>客户不需要一个更简化的流程，他们需要的是有人能为结果负责。</p><hr><h2 id="销售的本质：不是卖产品，而是卖人性"><a href="#销售的本质：不是卖产品，而是卖人性" class="headerlink" title="销售的本质：不是卖产品，而是卖人性"></a>销售的本质：不是卖产品，而是卖人性</h2><p>一个真实的故事：</p><p>某工业软件公司，几年来一直靠一个销售团队维护核心大客户。</p><p>客户明知道这个软件功能平平，价格偏高，却始终不愿意换供应商。</p><p>为什么？</p><p>客户的理由很简单：“你们销售每次都记得我女儿的生日，还送过她喜欢的手办。换掉你们，我都觉得过意不去。”</p><p>听起来荒唐吗？</p><p>但这就是现实：</p><p><strong>ToB 的决策永远不是完全理性的</strong>。</p><p>客户的选择，往往基于信任和关系，而不是冷冰冰的数据。</p><p>你以为客户决策是因为你的产品“性能更优”？</p><p>别天真了，大多数时候他连完整试用都懒得做。</p><p>客户需要的是信任感和背书，你的技术指标只是进门的敲门砖，真正起作用的是人脉、关系、甚至小到一张合影的分量。</p><p>这也是 ToB 销售的核心：</p><p>不仅仅是交易，更是一种长期的关系绑定。</p><p>你看似在卖产品，但客户买的，是“我信你不会坑我”的<strong>感觉</strong>。</p><p>这种感觉，只有销售才能创造，甚至在我写出来的时候我相信也只有销售会看得懂。</p><hr><h2 id="销售的边界，正在被重塑"><a href="#销售的边界，正在被重塑" class="headerlink" title="销售的边界，正在被重塑"></a>销售的边界，正在被重塑</h2><p>当然，这并不意味着 ToB 永远只能围绕传统销售展开。</p><p>今天的商业环境正在改变，销售也不再只是推销或妥协的艺术，它的边界正在模糊，甚至进化成了<strong>共创的游戏</strong>。</p><p>举个例子，一些领先的 ToB 公司不再直接卖产品，而是与客户合作开发解决方案。</p><p>产品功能不再是一个固定的商品，而是双方共同定义的成果。</p><p>销售的角色，也从推销者转变成合作伙伴。</p><p>这是一种新的销售逻辑：</p><p>不再是一次性的交易，而是持续的关系共建。</p><p>你可以说它超越了传统销售，但本质上，它依然是销售，只是形式变得更隐秘、更高级。</p><p>所以我今天一直很好奇一个问题：</p><p>我见过了太多的客户成功团队是由售后服务团队转型而来的，但是很少见过是销售转过来的。</p><p>可本质上客户成功也只是一种“伟光正”的销售策略啊。</p><hr><h2 id="ToB-的尽头，是销售，但远不止销售"><a href="#ToB-的尽头，是销售，但远不止销售" class="headerlink" title="ToB 的尽头，是销售，但远不止销售"></a>ToB 的尽头，是销售，但远不止销售</h2><p>回到那个问题：</p><p>ToB 的尽头真的是销售吗？</p><p>销售只是表象，本质是价值流动。</p><p>ToB 企业的使命，是创造并传递价值，而销售不过是这个流动的桥梁。</p><p>那些试图消解销售作用的公司，最终会发现，销售不仅不会消失，它还会成为企业竞争力的核心。</p><p>但销售也在进化。</p><p>从单纯的推销，到建立信任，再到共同创造，销售的形式越来越多样化。</p><p>ToB 的尽头，不只是销售，而是通过销售，去理解客户、连接客户，甚至和客户共同成长。</p><p>到这个层次，销售和客户成功这个“title”的划分我觉得已经无所谓了。</p><hr><h2 id="ToB-有叫好不叫座的意义吗"><a href="#ToB-有叫好不叫座的意义吗" class="headerlink" title="ToB 有叫好不叫座的意义吗"></a>ToB 有叫好不叫座的意义吗</h2><p>回想起有一天，我拿着刚打印完的合同回到工位。</p><p>我 leader 路上问我：“又搞定一单？”</p><p>我说：“搞定了。但你觉得我们是在卖产品吗？”</p><p>他愣了一下，笑着说：“别管什么理论，先卖出去再说。”</p><p>我心里暗自想：俗，销售意味着交易不假，而只说交易似乎又太市侩。</p><p>但现在想起：我只能笑笑吧。</p><p>或许，ToB 的尽头不是销售，而是通过销售，我们一次次触碰商业背后的本质。</p><p>而理解这一切，恰恰是最难的销售。</p><p><strong>所有追寻的意义是卖出去之后才有资格谈意义。</strong></p><p>销售的工作本质上就是推动客户掏钱，这没有错。</p><p>而销售的意义也就是让客户掏钱，仅此而已。</p><p>很简单却很难。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
-    
-    
-    <summary type="html">ToB行业面临销售与价值创造矛盾，销售不仅是交易，更是建立信任、共创价值。去销售化尝试失败，销售进化为合作伙伴，ToB尽头是理解、连接客户并共同成长。</summary>
-    
-    
-    
-    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
     
     
     <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
