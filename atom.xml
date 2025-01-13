@@ -6,7 +6,7 @@
   <link href="https://heycsm.com/atom.xml" rel="self"/>
   
   <link href="https://heycsm.com/"/>
-  <updated>2025-01-12T09:18:39.000Z</updated>
+  <updated>2025-01-13T10:18:15.305Z</updated>
   <id>https://heycsm.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>客户成功的你给客户赔过钱吗？我赔过</title>
+    <link href="https://heycsm.com/2025/01/13/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E7%9A%84%E4%BD%A0%E7%BB%99%E5%AE%A2%E6%88%B7%E8%B5%94%E8%BF%87%E9%92%B1%E5%90%97%EF%BC%9F%E6%88%91%E8%B5%94%E8%BF%87/"/>
+    <id>https://heycsm.com/2025/01/13/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E7%9A%84%E4%BD%A0%E7%BB%99%E5%AE%A2%E6%88%B7%E8%B5%94%E8%BF%87%E9%92%B1%E5%90%97%EF%BC%9F%E6%88%91%E8%B5%94%E8%BF%87/</id>
+    <published>2025-01-13T10:15:50.000Z</published>
+    <updated>2025-01-13T10:18:15.305Z</updated>
+    
+    <content type="html"><![CDATA[<div id="readmore-container"><p>有一次聚会，一个朋友突然问我：</p><p>“你们客户成功天天帮客户做服务，最糟糕的时候会怎么样？退费吗？”</p><p>我笑了笑，说：</p><p>“赔钱？不光是退费，有时候还需要额外补偿。”</p><p>这是真的。</p><hr><h2 id="项目“崩了”的那一刻"><a href="#项目“崩了”的那一刻" class="headerlink" title="项目“崩了”的那一刻"></a>项目“崩了”的那一刻</h2><p>那是我刚接手某客户 SaaS 项目时的一次“翻车”事故。</p><p>客户是一个预上市的文化传媒集团，老板对数字化系统的期待值拉满，并有一支内部数字化研发团队，由 PMO 部门统筹项目上线工作，在上线期间 PMO 的对接人每天问：</p><p>“什么时候上线？能不能更快一点？”</p><p>大概交代一下客户的背景和对接人的性格。</p><p>项目在上线期间没啥大的问题，但谁能想到在运行一段时间后出了大问题。</p><p>我对时间节点印象深刻，是个五一前。</p><p>在月底，PMO 部门需要导出研发人员的工时数据进行处理。</p><p>但由于生产环境数据量过大，加上近期更新改动了产品的上限值，导致客户多次导出的数据混乱，甚至同样条件每次导出的数据都不一致，对接人一片抱怨：</p><p>“系统完全不行啊，这不是耽误了我们月底统计的工作吗。”</p><p>当我确认了这个问题之后立马按照内部处理规范和途径给产研提交了 BUG，并且也因为有其他客户出现这个问题，产研团队迅速发布了修复补丁。</p><p>但故事还没有结束。</p><p>过了两天客户的生产环境再次出现了工时导出的问题，虽然不是之前的 BUG，但是导出的数据仍然“不可用”。</p><p>对接人急眼了，直接在我们和产研的服务群里要求我们退款。</p><p>我们内部疯狂拉人，升级问题，找领导协商之后大致得出结论：节前没有更新的窗口了，另外这个客户的使用场景确实比较极限，如果要从产品的角度更新的话得产研专门去做一个专项，即使可以解决问题时间上也来不及了。</p><p>陪着笑脸在跟客户对接人同步完这个消息之后，客户的老板直接在群里发了一句话：</p><p>“如果不解决这个问题，我们的损失谁负责？”</p><p>客户老板那句话在群里很刺眼，尤其是我们这边领导也不应声了，说实话，那一刻我的手心全是汗。</p><p>我盯着手机，脑子里闪过无数想法：</p><p>“这个项目是不是彻底完了？我是不是要背一个锅了？但是突然想到还是得先修复客户关系，内部产品的事情内部再说，还是先做好善后。”</p><p>想明白这个逻辑之后我刷脸跟客户 PMO 的对接人再次去了个电话，那个对接人说的很直接，因为在采购的时候有专门沟通过相关的条款，按照条款退款来就好。</p><p>这样他可以向自己的老板交代，至于“统计工作滞后”问题，他可以灵活处理，大不了手动核算接下来换个产品的事了。</p><p>那么问题来了。</p><hr><h2 id="选择“赔钱”，还是赔掉一切？"><a href="#选择“赔钱”，还是赔掉一切？" class="headerlink" title="选择“赔钱”，还是赔掉一切？"></a>选择“赔钱”，还是赔掉一切？</h2><p>作为一个负责服务的 CS 来说，最简单的办法是什么？</p><p>甩锅，说是产品问题。</p><p>但那只会加剧客户的不满，让事情不可收拾。</p><p>于是，我深吸一口气，主动跟客户说：</p><p>“这次是我们的责任，我来补救。”</p><p>客户那头沉默了几秒，然后冷冷地说：</p><p>“那直接退款算了”。</p><p>我硬着头皮说：</p><p>“我提个方案：我去找领导沟通赔偿相关的适宜，并在后续服务中进行补偿（如确认产品上线相关功能，还续约提供优惠等），保证你们无后顾之忧。”</p><p>对方哼了一声：“看看你们怎么做吧。”</p><p>说罢，挂掉了电话。</p><p>到这里，这就像一场赌博——</p><p>如果赢了，客户会被重新拉回到信任轨道上；如果输了，那就不仅是赔钱，而是赔掉这个项目，赔掉我自己的职业信誉。</p><hr><h2 id="赢回信任的瞬间"><a href="#赢回信任的瞬间" class="headerlink" title="赢回信任的瞬间"></a>赢回信任的瞬间</h2><p>当天，我和领导主动沟通了对接人的态度以及已经避无可避的“钱”的事。</p><p>领导认为，退掉一个客户的费用损失是可以接受的，所以说方案全权交给我处理。</p><p>但是真的给客户做了退款之后，作为客户成功的我们的灵活性在哪？</p><p>可能有读者可以猜到：SLA 协议。</p><p>对，是的，既然客户的问题是“服务不可用”，产研也有可以优化的方案并做出了技术评估，那我们只需要赔偿客户“服务不可用”的时间造成的损失。</p><p>法律上无异议（符合 SLA 和合同条款约定），态度上得到了客户认可（因为已提出赔偿方案），技术上也具备可行性（产研已明确上线时间和方案）。</p><p>于是我很快出了相关的方案并跟对接人再次沟通，对接人应允了。</p><p>然后我就快马加鞭的出了相关的盖章协议和以及财务方面的一些沟通。</p><p>当客户对接人确认财物收款及回传协议的时候。</p><p>那一刻，我知道，我们赢回来了。</p><p>不在于我们没有全退款而在于我们还有这个客户。</p><p>至于后续的产品更新、客户更深度的应用都是必然的后话了。</p><hr><h2 id="敢赔，不只是因为钱"><a href="#敢赔，不只是因为钱" class="headerlink" title="敢赔，不只是因为钱"></a>敢赔，不只是因为钱</h2><p>最终，这个客户不仅没有流失，反而在半年后因为上市前的合规性审查追加了更大的订单（大概是 4 倍的样子，但是要对原合同进行一些主体方面的处理）。</p><p>虽然种种原因最终没有成功落地吧，主要是我们内部的一些规范无法变通导致的。</p><p>所以这个事件上看似我们“赔”了一次服务，但其实赚回了信任、合作和尊重。</p><p>而且，客户成功从来不是追求“零失误”，而是当你失误时，能不能用行动让客户相信：</p><p><strong>你站在他们这边。</strong></p><hr><h2 id="写给客户成功的你"><a href="#写给客户成功的你" class="headerlink" title="写给客户成功的你"></a>写给客户成功的你</h2><p>如果你也曾经历“翻车”的时刻，问问自己：</p><p>是时候赔掉一点资源，赢回信任了吗？</p><p><strong>因为有时候，赔的不是钱，而是一次证明自己价值的机会。</strong></p><p><strong>甚至只是客户的“信任”二字。</strong></p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
+    
+    
+    <summary type="html">客户SaaS项目出故障，客户要求退款。作为客户成功的我主动承担责任，提出赔偿并补偿服务方案，最终赢回客户信任。虽未全退款，但客户半年后追加大单，证明敢赔能赢得信任与合作。</summary>
+    
+    
+    
+    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>为什么大厂更偏爱咨询背景的客户成功经理？</title>
@@ -407,27 +428,6 @@
     
     
     <summary type="html">CSM常用电话回访关怀客户却易致客户冷淡，QBR通过战略对话、故事化数据等方式帮客户发现增长机会，重新定义沟通方式，让客户重新爱上服务，实现更深层次合作。</summary>
-    
-    
-    
-    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
-    
-    
-    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我发现，那些真做事的人都有一种特点——友商是傻逼</title>
-    <link href="https://heycsm.com/2024/12/24/%E6%88%91%E5%8F%91%E7%8E%B0%EF%BC%8C%E9%82%A3%E4%BA%9B%E7%9C%9F%E5%81%9A%E4%BA%8B%E7%9A%84%E4%BA%BA%E9%83%BD%E6%9C%89%E4%B8%80%E7%A7%8D%E7%89%B9%E7%82%B9%E2%80%94%E2%80%94%E5%8F%8B%E5%95%86%E6%98%AF%E5%82%BB%E9%80%BC/"/>
-    <id>https://heycsm.com/2024/12/24/%E6%88%91%E5%8F%91%E7%8E%B0%EF%BC%8C%E9%82%A3%E4%BA%9B%E7%9C%9F%E5%81%9A%E4%BA%8B%E7%9A%84%E4%BA%BA%E9%83%BD%E6%9C%89%E4%B8%80%E7%A7%8D%E7%89%B9%E7%82%B9%E2%80%94%E2%80%94%E5%8F%8B%E5%95%86%E6%98%AF%E5%82%BB%E9%80%BC/</id>
-    <published>2024-12-24T10:19:02.000Z</published>
-    <updated>2024-12-24T10:19:58.000Z</updated>
-    
-    <content type="html"><![CDATA[<div id="readmore-container"><p><strong>“友商是傻逼。”</strong></p><p>——雷军的这句话又在社媒上引发了热议。</p><p>几年前，雷军带领小米宣布正式进军造车领域，消息一出，震动整个行业。</p><p>而在最近的小米 Su7 发布会上，与其说是发布会，不如说是一次豪气干云的“行业演讲”。</p><p>面对竞争对手们的花式堆参数和内卷，雷军语气轻松又带着点调侃：“在过去的三四年，小米在高端化的过程中，最重要的体验就是要从参数领先转向体验领先，要每一个体验的细节去比较。”</p><p>一句话，轻描淡写，却把整个行业的焦虑和竞争心态轻松击碎。</p><hr><h2 id="01-友商在“卷”，雷军“神不知鬼不觉”"><a href="#01-友商在“卷”，雷军“神不知鬼不觉”" class="headerlink" title="01 友商在“卷”，雷军“神不知鬼不觉”"></a>01 友商在“卷”，雷军“神不知鬼不觉”</h2><p>从手机到智能家居，再到现在的智能汽车，雷军无疑是一个“站在风口上”的企业家。</p><p>“友商是傻逼”，看似调侃，实际上是一种极致的商业哲学：<strong>专注用户需求，忽略无意义的内卷。</strong></p><p>想想看，当下的智能汽车市场，竞争有多激烈？</p><p>特斯拉像个疯子一样，降价、烧钱、占领市场；传统车企则在电动化、智能化的双重压力下，像过度膨胀的气球，随时可能爆炸。</p><p>而雷军却告诉我们：</p><p><strong>你把焦虑当作竞争力，我把焦虑当作浪费时间的噪音。</strong></p><p>即使曾在发布会上频频“不服跑个分”这种举动，但别忘了消费者同时期也有定论——“买小米手机是因为 MIUI 就值 500 块。”</p><p>在智能汽车这个新赛道，雷军的逻辑很简单：</p><p>不要争着卷续航，也不比拼座舱花哨。专注细节，解决用户真正的痛点，这才是赢家思维。</p><hr><h2 id="02-Su7-的亮点：用户真正想要的是什么？"><a href="#02-Su7-的亮点：用户真正想要的是什么？" class="headerlink" title="02 Su7 的亮点：用户真正想要的是什么？"></a>02 Su7 的亮点：用户真正想要的是什么？</h2><p>小米 Su7，这款车最大的亮点，不是续航第一，也不是性能爆表，而是细节上的用心。</p><p>比如：</p><ul><li><strong>女性车主最爱的小细节</strong>：车内特别设计了防晒功能，让夏天暴晒后也不会烫到手；</li><li><strong>设计党的最爱</strong>：半隐藏式门把手，不仅美观，还兼具实用性；</li><li><strong>安全感爆棚</strong>：电池设计采用向下喷火方案，事故时减少对乘客的威胁。</li></ul><p>最近的一个真实案例：一辆 Su7 从 20 米悬崖摔下后，车辆结构完好，AB 柱无损，车主毫发无伤，还拍了视频分享。</p><p>更有趣的是，Su7 的智能车机系统不仅可以无缝连接小米的米家生态，还在最新更新中实现了对苹果设备的“强兼”。</p><p>试想一下：</p><p>当你坐在车里，语音指令不仅能让家里的空调开启，还能直接访问你的 Keynote 等苹果专属格式文件；甚至米家设备和苹果 HomeKit 的联动也能顺畅无比。</p><p><figure class="image-caption"><img                       lazyload                     src="/images/loading.svg"                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/20241224174624348.png"                      alt="我想玩ha的HomeKit Bridge都会用吧"                ><figcaption>我想玩ha的HomeKit Bridge都会用吧</figcaption></figure></p><p>这种智能生态的兼容性，显然已经超越了传统的车机系统，为用户提供了一个真正便利的智能生活。</p><p>这些亮点看似不起眼，却牢牢抓住了用户的心。相比之下，其他车企在拼命堆配置、比参数时，却忽视了这些真正提升体验的细节。</p><p>这就是为什么雷军能站出来说“友商是傻逼”。</p><hr><h2 id="03-SaaS-创业者的教训：别盯着友商，盯着用户"><a href="#03-SaaS-创业者的教训：别盯着友商，盯着用户" class="headerlink" title="03 SaaS 创业者的教训：别盯着友商，盯着用户"></a>03 SaaS 创业者的教训：别盯着友商，盯着用户</h2><p>其实，不止是雷军，很多真做事的人都有类似的思维方式。</p><p>前段时间，我和一位 SaaS 企业的创始人聊天。他坦言，创业初期，他们最容易犯的错，就是“活在友商的阴影下”。</p><p>“友商搞促销，我们也搞促销；他们上线新功能，我们就拼命赶工想超越。但最后发现，这种心态下做出来的东西，用户根本不买账。”</p><p>他说得很坦诚：</p><p><strong>真正在乎友商的公司，大多活得都不太好。</strong></p><p>相比之下，那些专注自己核心竞争力的企业，反而一步步脱颖而出。</p><p>雷军的策略印证了这一点。</p><p>无论是手机还是汽车，他都用“用户体验”打破了内卷逻辑，走出了一条差异化竞争之路。</p><p>就像 Su7，在安全性和细节设计上不声不响地赢得用户，根本不需要和特斯拉正面交锋。</p><hr><h2 id="04-客户成功的哲学：专注，才是最有效的竞争力"><a href="#04-客户成功的哲学：专注，才是最有效的竞争力" class="headerlink" title="04 客户成功的哲学：专注，才是最有效的竞争力"></a>04 客户成功的哲学：专注，才是最有效的竞争力</h2><p>作为一名客户成功经理，我深知“焦虑”对工作的影响。</p><p>行业内的内卷越来越严重，大家都在拼命追赶指标，却往往忽视了最重要的一点：<strong>用户真正的需求</strong>。</p><p>如果你想成为行业的佼佼者，最好的办法不是和同行比拼功能，而是专注解决用户的核心痛点。</p><p>雷军给我们上了一个生动的例子——通过细致入微的设计，让用户体验到真正的不同。</p><p>就像 SaaS 企业的客户成功服务，很多时候 KPI 是盯着续约率、活跃度等指标，但又有多少公司真正为客户设计过从购买到使用的完整旅程？</p><p>真正的客户成功，不是盲目追求数据，而是让用户感受到“被理解、被支持”，这才是长久竞争力的来源。</p><hr><h2 id="05-写在最后"><a href="#05-写在最后" class="headerlink" title="05 写在最后"></a>05 写在最后</h2><p>“友商是傻逼”，听起来像句玩笑，但背后是一种清醒的战略思维。</p><p>雷军不仅仅是在造车，他是在创造一个全新的智能生态，让用户体验到更便捷、更智能的生活方式。</p><p>在过度竞争的环境下，盲目跟风、堆砌功能，最终都不会赢得用户的心。只有那些专注细节、洞察用户需求的公司，才能在激烈的市场中脱颖而出。</p><p>作为客户成功从业者，这种专注的态度也值得我们深思：</p><p>与其纠结同行的动作，不如把更多精力放在用户身上，去解决他们真正的痛点。</p><p>下次，当你听到有人说“友商是傻逼”，别急着笑。</p><p>那可能只是一个信号：真正懂得做事的人，早就无视了对手的步伐，专注跑好自己的赛道。</p><p><figure class="image-caption"><img                       lazyload                     src="/images/loading.svg"                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/20241224175740685.png"                      alt="我咋知道苹果为啥十年干不成？"                ><figcaption>我咋知道苹果为啥十年干不成？</figcaption></figure></p><p>最后放下我今天断章取义的全文吧：</p><blockquote><p>过去的五年，是小米的五年，也是中国手机行业巨变的五年。有人说其中最大的变化，是手机业成了娱乐业，表现形式就是没完没了的发布会，而且所有的发布会都有一个共同的主题，那就是金光闪闪的五个字：友商是傻逼，其中小米首先是傻逼。被大家议论也罢，嘲笑也好，无论如何，通过全中国友商们的共同努力，国产手机成了市场主流！——雷军本人在2015年11月24日发布会上发言</p></blockquote><p>“小米首先是傻逼”除了体现了被曲解的真做事的“专注”，还体现了自我成长的“重塑”。</p><p>从<strong>为发烧而生</strong>到<strong>让每个人都能享受科技的乐趣</strong>。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
-    
-    
-    <summary type="html">雷军以“友商是傻逼”调侃内卷，强调专注用户体验。小米Su7以细节设计赢得用户，雷军在智能汽车领域也坚持差异化竞争，专注解决用户痛点，创造智能生态。</summary>
     
     
     
