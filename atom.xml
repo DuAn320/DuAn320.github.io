@@ -6,7 +6,7 @@
   <link href="https://heycsm.com/atom.xml" rel="self"/>
   
   <link href="https://heycsm.com/"/>
-  <updated>2025-02-09T10:09:59.264Z</updated>
+  <updated>2025-02-10T09:43:14.650Z</updated>
   <id>https://heycsm.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>听完Gainsight的AI相关webinar，我只记住了客户成功的IFTTT</title>
+    <link href="https://heycsm.com/2025/02/10/%E5%90%AC%E5%AE%8CGainsight%E7%9A%84AI%E7%9B%B8%E5%85%B3webinar%EF%BC%8C%E6%88%91%E5%8F%AA%E8%AE%B0%E4%BD%8F%E4%BA%86%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E7%9A%84IFTTT/"/>
+    <id>https://heycsm.com/2025/02/10/%E5%90%AC%E5%AE%8CGainsight%E7%9A%84AI%E7%9B%B8%E5%85%B3webinar%EF%BC%8C%E6%88%91%E5%8F%AA%E8%AE%B0%E4%BD%8F%E4%BA%86%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E7%9A%84IFTTT/</id>
+    <published>2025-02-10T09:41:55.000Z</published>
+    <updated>2025-02-10T09:43:14.650Z</updated>
+    
+    <content type="html"><![CDATA[<div id="readmore-container"><p>今天又要标题党了，大年初二参与了 Gainsight 的主题为“AI CSMs: Our Future, or Fiction?”的 webinar。</p><p><figure class="image-caption"><img                       lazyload                     src="/images/loading.svg"                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/20250210155258244.png"                      alt="Gainsight官网有回放"                ><figcaption>Gainsight官网有回放</figcaption></figure></p><p>主题和主持人及嘉宾并没有给我什么新的启发，之所以听也就是因为 AI 主题很符合我们的现状：</p><p>大家都知道 AI 是趋势，而且落地的 AI 应用大家都在做都在探索，只是没特别亮眼的应用跑出来。</p><p>而且我一直对 AI 有以下隐忧：</p><ul><li>标准化：AI 绝对可以减少重复性工作，把人类从繁重的体力劳动藩篱中拉出来，但是因为不成熟(比如幻觉)的原因，不能 100%采信，还需要新增审阅时间</li><li>个性化：AI 可以很好的体会我们人类外露的情感表达和给出相应的应对措施，但是不外露（如灰色利益暗示）的呢，很难理解也很难直接处理</li></ul><p>所以我相信 AI 可以解放生产力，正如我们 SaaS 工具搞数字化一样，但是完全替代人类这种终极夙愿我认为不具备现实可行性。</p><p>以上都是一家之言，大家随便看看，再放一下 Gainsight 的完整表述吧：</p><p><figure class="image-caption"><img                       lazyload                     src="/images/loading.svg"                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/20250210161513693.png"                      alt="完整介绍"                ><figcaption>完整介绍</figcaption></figure></p><p>其实从介绍和实际讲述的内容来看，有两个点可以特别关注下，值得我们思考：</p><ul><li>一是表述中对于之前 SMB 这种需要批量处理的客户可以借助 AI 让客户感受到被关注，即消除运营盲区</li><li>二是在讲述中发散的观点 AI 的引用并不只局限于客户成功的作业系统和流程，还可以放在业务产品中嵌入，如产品引导界面和流程更加个性化</li></ul><p>这是我之前不曾重视的地方。</p><p>不过今天我想重点讨论的是评论区一位 CS 提出的关于 AI 在我们业务工作中定位的观点——<strong>IFTTT</strong>。我认为这一观点非常精准，甚至可以视作一种方法论。</p><hr><h2 id="什么是-IFTTT"><a href="#什么是-IFTTT" class="headerlink" title="什么是 IFTTT"></a>什么是 IFTTT</h2><p>IFTTT（If This Then That，即“如果这样，那么那样”）。</p><p>在客户成功和销售领域可以理解为一套基于触发条件的自动化规则，用于提高客户体验、优化销售流程和提升业务增长。</p><p>它本质上是“事件驱动”的逻辑链，将不同的数据点或行为连接起来，实现智能化的自动响应。</p><blockquote><p>实际上，IFTTT 是一个自动化服务平台（商业性质的，），允许用户通过设置“如果发生某事件（This）”，则自动执行另一个操作（Then That）。通过 IFTTT，用户可以连接不同的应用程序和设备，创建自动化的工作流，从而简化日常任务。例如，你可以设置一个规则：如果你在 Instagram 上发布了一张新照片，那么这张照片会自动被保存到 Google Drive 中。又比如，当天气预报显示下雨时，你可以设置 IFTTT 发送提醒到你的手机，提醒你带伞。IFTTT 支持多种服务和设备，包括社交媒体、智能家居设备、邮件、天气服务等，帮助用户高效管理和自动化常见操作。</p></blockquote><p><figure class="image-caption"><img                       lazyload                     src="/images/loading.svg"                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/20250210170153155.png"                      alt="IFTTT官网"                ><figcaption>IFTTT官网</figcaption></figure></p><p>我猜测那位在研讨会中发言的 CSM 变形引申了在客户成功领域的概念，但是确实描述的很精准，甚至它能很好的解释客户成功的工作为什么是主动化的。</p><p>客户成功的主动化并不是我们真的有事没事就问客户有什么需要我帮忙的？</p><p>而是从现实或系统中发现了某个“This”，然后我们去做的“That”。</p><p>所以基于这个前提再次强调客户成功系统的必要性，我们总不能用人眼去找“This”吧？</p><hr><h2 id="在客户成功（CS）领域的-IFTTT-应用"><a href="#在客户成功（CS）领域的-IFTTT-应用" class="headerlink" title="在客户成功（CS）领域的 IFTTT 应用"></a>在客户成功（CS）领域的 IFTTT 应用</h2><p>客户成功的核心目标是推动客户价值实现，提高留存率和增长。</p><p>因此，IFTTT 逻辑在 CS 中的应用通常涉及客户行为监测、风险预警和干预机制，例如：</p><ol><li><p><strong>产品使用率触发客户干预</strong></p><ul><li><strong>IF</strong> 过去 14 天用户的活跃度下降 50%</li><li><strong>THEN</strong> 触发客户成功经理（CSM）发送关怀邮件或安排 1v1 会议，确保客户不会流失。</li></ul></li><li><p><strong>续约风险预警</strong></p><ul><li><strong>IF</strong> 账户健康评分低于某个阈值（如 NPS 低于 6 或工单量激增）</li><li><strong>THEN</strong> 触发高优先级工单，要求 CSM 主动介入，提供针对性的解决方案。</li></ul></li><li><p><strong>扩展销售机会</strong></p><ul><li><strong>IF</strong> 客户某个团队的席位使用率达到 90%</li><li><strong>THEN</strong> 自动向客户经理发送提醒，建议跟进增购需求。</li></ul></li><li><p><strong>高价值客户生命周期管理</strong></p><ul><li><strong>IF</strong> 客户在 30 天内达到产品激活的关键里程碑（如完成 5 个项目创建）</li><li><strong>THEN</strong> 触发“客户成功自动化邮件”，鼓励其探索高级功能，并引导进入付费计划。</li></ul></li></ol><hr><h2 id="IFTTT-在-CS-领域的价值"><a href="#IFTTT-在-CS-领域的价值" class="headerlink" title="IFTTT 在 CS 领域的价值"></a>IFTTT 在 CS 领域的价值</h2><ol><li><strong>提升效率</strong>：减少手动操作，让 CSM 专注于高价值任务。</li><li><strong>优化体验</strong>：在正确的时间给客户提供正确的资源，提高满意度。</li><li><strong>降低流失率</strong>：通过数据驱动的干预，预防客户流失，提升续约率。</li><li><strong>增加收入</strong>：自动识别扩展销售机会，促进增购和交叉销售。</li></ol><p>IFTTT 思维本质上就是“数据驱动+自动化+业务逻辑”，在客户成功领域的应用可以极大提升团队的工作效率和客户体验。</p><hr><h2 id="想法是好的，但是很难落地？"><a href="#想法是好的，但是很难落地？" class="headerlink" title="想法是好的，但是很难落地？"></a>想法是好的，但是很难落地？</h2><p>这个观点有失偏颇，回到开头我讲到过的：IFTTT 可以用于终端业务产品，这个我相信大家都看到过的：</p><ul><li>Apple 家庭中的自动化</li><li>GitHub 的 Actions</li><li>我昨天提到的影刀 RPA 和同赛道的来也</li><li>细分的 ToB 连接器赛道</li><li>PingCode 的子产品 Flow 和 Teambition 的自动化能力</li><li>某厂商客户成功监控系统已经能做到的主动提醒</li></ul><p>所以不存在落地的问题，只是大家很可能像我一样之前没有这么想过。</p><p>毕竟我们从来不会觉得“人饿了要吃饭”这样的因果关系模式会是一个值得思考的问题和潜在的商机。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
+    
+    
+    <summary type="html">参与Gainsight webinar，讨论AI应用现状与隐忧，提出IFTTT方法论在客户成功领域应用，通过数据驱动+自动化+业务逻辑提升效率和客户体验，并举例IFTTT在CS中的实际应用场景。</summary>
+    
+    
+    
+    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>问DeepSeek和ChatGPT谁更强，它竟套路满满？来学</title>
@@ -412,29 +433,6 @@
     
     
     <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2025职场新年规划：你会是个“卖得出去的产品”吗？</title>
-    <link href="https://heycsm.com/2025/01/02/2025%E8%81%8C%E5%9C%BA%E6%96%B0%E5%B9%B4%E8%A7%84%E5%88%92%EF%BC%9A%E4%BD%A0%E4%BC%9A%E6%98%AF%E4%B8%AA%E2%80%9C%E5%8D%96%E5%BE%97%E5%87%BA%E5%8E%BB%E7%9A%84%E4%BA%A7%E5%93%81%E2%80%9D%E5%90%97%EF%BC%9F/"/>
-    <id>https://heycsm.com/2025/01/02/2025%E8%81%8C%E5%9C%BA%E6%96%B0%E5%B9%B4%E8%A7%84%E5%88%92%EF%BC%9A%E4%BD%A0%E4%BC%9A%E6%98%AF%E4%B8%AA%E2%80%9C%E5%8D%96%E5%BE%97%E5%87%BA%E5%8E%BB%E7%9A%84%E4%BA%A7%E5%93%81%E2%80%9D%E5%90%97%EF%BC%9F/</id>
-    <published>2025-01-02T08:59:03.000Z</published>
-    <updated>2025-01-02T09:00:44.000Z</updated>
-    
-    <content type="html"><![CDATA[<div id="readmore-container"><p><strong>是不是总有这样的情形，规划写了很多，年终却一地鸡毛？</strong></p><p>2025 年新年伊始，你是不是又坐在电脑前，打开了那个“新年规划”的文档：</p><ul><li>“升职、加薪！”</li><li>“提升专业能力！”</li><li>“建立个人品牌！”</li></ul><p>这些目标看起来很励志，但你有没有发现——</p><p><strong>这些词，去年也写过，前年也写过，甚至再往前翻，都是一样的套路。</strong></p><p>年初信誓旦旦，年底一地鸡毛。</p><p>为什么？</p><p>因为你的规划，只是个“形式感爆棚的待办清单”，而不是一个真正能推动你成长的工具。</p><p>那么问题来了：</p><p><strong>如果你的职业生涯是一款产品，你的规划能成为它的产品路线图吗？你的用户——老板、同事、客户，真的会为你买单吗？</strong></p><hr><h2 id="1-职场人-产品，规划-路线图"><a href="#1-职场人-产品，规划-路线图" class="headerlink" title="1 职场人&#x3D;产品，规划&#x3D;路线图"></a>1 职场人&#x3D;产品，规划&#x3D;路线图</h2><p>在职场中，你的本质是一款“产品”：</p><ul><li>你的<strong>能力</strong>是功能。</li><li>你的<strong>业绩</strong>是用户口碑。</li><li>你的<strong>关系网络</strong>是分销渠道。</li></ul><p>而你的“新年规划”，就是这款产品的“路线图”：它不是为了满足你的情绪，而是为了：</p><p><strong>用最小的资源投入，实现最大的价值增长</strong>。</p><p>但现实是，大多数职场人的规划，就像那些“被埋没的宝藏 App”：</p><ul><li>功能点堆了一堆，但没有核心亮点。</li><li>上线时热闹一阵，过几个月就无人问津。</li><li>更糟的是，产品本身并没有给用户带来真正的价值。</li></ul><hr><h2 id="2-为什么你的规划像个“失败的产品”？"><a href="#2-为什么你的规划像个“失败的产品”？" class="headerlink" title="2 为什么你的规划像个“失败的产品”？"></a>2 为什么你的规划像个“失败的产品”？</h2><h3 id="2-1-没有核心卖点，目标过于分散"><a href="#2-1-没有核心卖点，目标过于分散" class="headerlink" title="2.1 没有核心卖点，目标过于分散"></a>2.1 没有核心卖点，目标过于分散</h3><p>优秀的产品路线图，始终围绕“核心卖点”设计，而你的规划呢？</p><p>同时写了“升职、转型、学习新技能”，看起来很全面，实际上毫无重点。</p><p><strong>问问自己：今年的“核心职业目标”是什么？</strong></p><h3 id="2-2-忽略用户需求，全是自嗨"><a href="#2-2-忽略用户需求，全是自嗨" class="headerlink" title="2.2 忽略用户需求，全是自嗨"></a>2.2 忽略用户需求，全是自嗨</h3><p>老板、客户、团队是你的“用户”，但你的规划往往只考虑“自己想做什么”，却忽略了“用户需要你做什么”。</p><p><strong>你的用户到底需要什么样的价值？你能交付吗？</strong></p><h3 id="2-3-执行没有节奏，一开始就想“全功能上线”"><a href="#2-3-执行没有节奏，一开始就想“全功能上线”" class="headerlink" title="2.3 执行没有节奏，一开始就想“全功能上线”"></a>2.3 执行没有节奏，一开始就想“全功能上线”</h3><p>每款成功的产品，都是按阶段迭代的。</p><p>你的规划却总想着“一步到位”，结果既耗尽了精力，也无法交付可见的成果。</p><p><strong>问问自己：你的规划能否分阶段完成？哪些是必须“提前上线”的？</strong></p><hr><h2 id="3-如何设计一份“卖得出去”的职场路线图？"><a href="#3-如何设计一份“卖得出去”的职场路线图？" class="headerlink" title="3 如何设计一份“卖得出去”的职场路线图？"></a>3 如何设计一份“卖得出去”的职场路线图？</h2><h3 id="3-1-定义核心目标：明确你的“北极星指标”"><a href="#3-1-定义核心目标：明确你的“北极星指标”" class="headerlink" title="3.1 定义核心目标：明确你的“北极星指标”"></a>3.1 定义核心目标：明确你的“北极星指标”</h3><p>每个产品路线图都有一个核心目标，比如提高留存率、提升营收。</p><p>同样，你的职场规划也需要一个北极星指标：</p><ul><li>“2025 年，成为团队不可替代的核心成员。”</li><li>“在年中实现转型目标，进入新领域。”</li></ul><p><strong>核心原则：目标要可量化、可追踪。</strong></p><p>比如：</p><ul><li>不要写：“提升客户满意度。”</li><li>要写：“将客户满意度从 85%提升到 90%。”</li></ul><h3 id="3-2-分解路径：用“迭代思维”落地目标"><a href="#3-2-分解路径：用“迭代思维”落地目标" class="headerlink" title="3.2 分解路径：用“迭代思维”落地目标"></a>3.2 分解路径：用“迭代思维”落地目标</h3><p>不要想着“一次性解决所有问题”，优秀的路线图总是分阶段完成：</p><ul><li><strong>Q1：快速验证期</strong><br>明确学习方向，完成一项快速提升的技能。</li><li><strong>Q2：成果打造期</strong><br>聚焦完成一个高影响力项目，交付阶段性成果。</li><li><strong>Q3：优化调整期</strong><br>根据上半年反馈，修正规划中的不足。</li><li><strong>Q4：价值冲刺期</strong><br>集中资源，确保全年目标达成，同时准备下一年的方向。</li></ul><h3 id="3-3-用户导向：为老板、客户、团队创造价值"><a href="#3-3-用户导向：为老板、客户、团队创造价值" class="headerlink" title="3.3 用户导向：为老板、客户、团队创造价值"></a>3.3 用户导向：为老板、客户、团队创造价值</h3><p>在每个阶段问自己：“这个目标如何直接提升我的‘用户体验’？”</p><ul><li><strong>对老板</strong>：提升团队效率、贡献关键业绩。</li><li><strong>对客户</strong>：提供解决方案，提升满意度或增购率。</li><li><strong>对团队</strong>：打造知识体系或案例，帮助大家共同成长。</li></ul><hr><h2 id="4-成功的规划，不是写给自己的清单，而是写给市场的说明书"><a href="#4-成功的规划，不是写给自己的清单，而是写给市场的说明书" class="headerlink" title="4 成功的规划，不是写给自己的清单，而是写给市场的说明书"></a>4 成功的规划，不是写给自己的清单，而是写给市场的说明书</h2><p>一个真正优秀的职场规划，不是写给自己看的，而是能被“市场”（老板、客户、团队）认可的：</p><ul><li>目标清晰且贴近需求。</li><li>路径具体且具有可执行性。</li><li>价值明确且能经得起检验。</li></ul><p>问问自己：</p><p>如果你的职业是个产品，这份规划能让用户“持续买单”吗？</p><hr><h2 id="结尾：规划是工具，不是摆设，2025-重新定义你的职业路线图！"><a href="#结尾：规划是工具，不是摆设，2025-重新定义你的职业路线图！" class="headerlink" title="结尾：规划是工具，不是摆设，2025 重新定义你的职业路线图！"></a>结尾：规划是工具，不是摆设，2025 重新定义你的职业路线图！</h2><p>新年的规划，不是用来感动自己的，它是你职业生涯的一份说明书，是你向职场证明自己价值的产品路线图。</p><p>2025 年，别再迷失在“无效的清单”里，设计出一份真正能推动成长的路线图，成为那个“用户离不开”的职业产品吧！</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
-    
-    
-    <summary type="html">职场规划应围绕核心目标设计，分阶段迭代完成，关注用户需求。成功规划需目标清晰、路径具体、价值明确，成为被市场认可的“产品路线图”。</summary>
-    
-    
-    
-    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
-    
-    
-    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
-    
-    <category term="场景分享" scheme="https://heycsm.com/tags/%E5%9C%BA%E6%99%AF%E5%88%86%E4%BA%AB/"/>
     
   </entry>
   
