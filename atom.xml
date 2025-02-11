@@ -6,7 +6,7 @@
   <link href="https://heycsm.com/atom.xml" rel="self"/>
   
   <link href="https://heycsm.com/"/>
-  <updated>2025-02-10T09:43:14.650Z</updated>
+  <updated>2025-02-11T09:47:40.924Z</updated>
   <id>https://heycsm.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Onboarding使用率达标就算客户成功？做好这两者才可能有第三者</title>
+    <link href="https://heycsm.com/2025/02/11/Onboarding%E4%BD%BF%E7%94%A8%E7%8E%87%E8%BE%BE%E6%A0%87%E5%B0%B1%E7%AE%97%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%EF%BC%9F%E5%81%9A%E5%A5%BD%E8%BF%99%E4%B8%A4%E8%80%85%E6%89%8D%E5%8F%AF%E8%83%BD%E6%9C%89%E7%AC%AC%E4%B8%89%E8%80%85/"/>
+    <id>https://heycsm.com/2025/02/11/Onboarding%E4%BD%BF%E7%94%A8%E7%8E%87%E8%BE%BE%E6%A0%87%E5%B0%B1%E7%AE%97%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%EF%BC%9F%E5%81%9A%E5%A5%BD%E8%BF%99%E4%B8%A4%E8%80%85%E6%89%8D%E5%8F%AF%E8%83%BD%E6%9C%89%E7%AC%AC%E4%B8%89%E8%80%85/</id>
+    <published>2025-02-11T09:45:00.000Z</published>
+    <updated>2025-02-11T09:47:40.924Z</updated>
+    
+    <content type="html"><![CDATA[<div id="readmore-container"><p><strong>前两者是：问高层要定位，问一线要体验。</strong></p><p>最近在一些沟通中，谈到客户成功不可避免的要提到“Onboarding”。</p><p>大家对于 Onboarding 的看法比较一致，那就是它是客户成功所有后续动作展开的基础建设。</p><p>但是，问题来了，你有没有想过，对于 Onboarding 来说，真的单纯的依靠后台系统中的采用率或者登录率指标达标，是否就能代表这个客户在使用过程中做得比较完善了呢？</p><hr><h2 id="Onboarding-指标是一切？"><a href="#Onboarding-指标是一切？" class="headerlink" title="Onboarding 指标是一切？"></a>Onboarding 指标是一切？</h2><p>如果你有这样的想法，我只能告诉你，这太表面了。</p><p>Onboarding 从来都不仅仅是一个简单的指标。</p><p>它更多的是一种结果，是你的管理者用来监测你工作的一个手段，但它背后更深远的意义是通过你的服务让客户认同你的产品。</p><p>那么，问题又来了，如何去获取客户的认同呢？</p><p>这其实是我想分享的一些看法。</p><hr><h2 id="世界上有多少-BE-是不相配"><a href="#世界上有多少-BE-是不相配" class="headerlink" title="世界上有多少 BE 是不相配"></a>世界上有多少 BE 是不相配</h2><p>不要问客户要他们没有的东西。</p><p><figure class="image-caption"><img                       lazyload                     src="/images/loading.svg"                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/20250211164517064.png"                      alt="之前分享过的要给客户留下的最终印象"                ><figcaption>之前分享过的要给客户留下的最终印象</figcaption></figure></p><p>大家熟悉我之前说过的观点，做方案交付时，我们一定要区分高层和执行层的需求。</p><p>高层关注的是专业的印象，而一线执行层则需要一个简单易用的工具。</p><p>这两层级在产品感受上的需求完全不同，为什么要这样区分？</p><p>实际上，高层领导往往关注的是什么呢？</p><p>他们关心的是产品的定位，以及如何帮助他们解决当前的管理问题。</p><p>举个例子，比如说你在做协作 SaaS 产品，可能对于人事部门的负责人来说，这个工具需要的是一个简历池的具体实施场景，能够派发任务并推进面试。</p><p>对于管理层来说，他们只关注这一个流程的顺畅运行和高效管理。</p><p>就像销售总又提出需要客户管理，那协作工具是也且必须转变成 CRM 工具。</p><p>这就是高层的视角，管理层对于工具的采用，其实就是为了满足当前的需求，找到合适的产品就好，即我说的“定位”。</p><p>对于我们这些协作类 SaaS 产品来说，我曾经提过，应该鼓励大家把产品当作 KPI 工具嵌入到客户的业务流程中，这样更能满足高层的需求。</p><p><strong>这是高层的视角，要定位，这也是他能给你的。</strong></p><p>那么，为什么执行层需要留下简单的印象呢？</p><p>其实，像飞书或者 Teambition 口碑做得比较好，就是提供了一种愉悦的使用感受。</p><p>用户在使用产品时，最高频感受到的是产品在日常工作中的便捷性。</p><p>以简历管理为例，执行人员只需要快速地在卡片上录入简历信息，推进任务流转，记录关键内容。</p><p>而你能把所有关于候选人的信息放在一个卡片上承载且条理的分类，整个看板上状态或者节点井然有序，更别提整个流程简化到可以批量处理多个任务卡片。</p><p>那 HR 的开心我们是可以想象到的。</p><p>所以，对于执行层来说，简便易用是关键。</p><p><strong>那你就能收获到来自执行层的认可，是体验，也是他能给你的。</strong></p><hr><h2 id="拿到认同感就满足了吗"><a href="#拿到认同感就满足了吗" class="headerlink" title="拿到认同感就满足了吗"></a>拿到认同感就满足了吗</h2><p>不，当然不是，我们是要搞钱的。</p><p>当你能够同时获得高层和执行层的认同，你就收获了客户的整体认同。</p><p>而这种认同感给你带来的最直接的影响是什么，是口碑传播，对吧？</p><p>这里我们再引入一个论据：SLG、PLG 和 MLG 这三个概念，实际上是企业增长，或者说产品增长的基本策略。</p><p>我们来看一下这三个概念：</p><ul><li>SLG（Sales-Led Growth）：是面向高层，获取他们对产品的认同。这是很多销售人员擅长的领域，他们之所以能够将不完全适配业务场景的产品卖给客户。因为他们在 SLG 上做得很好，成功获得了高层的认同。你别管是方案式的 Call High 还是特色客情，反正卖出去了。</li><li>PLG（Product-Led Growth）：是面向执行层，获得他们对产品的认同。这意味着产品需要提供良好的使用体验。如果大家熟悉 NPS 的评价，你会发现 NPS 的客户评价其实主要是由执行层决定的，因为现阶段大多数企业还无法精准地推送 NPS 给特定的目标群体。所以，客户对产品的理解、使用和评价，都是由执行层的实际使用体验决定的。</li><li>MLG（Marketing-Led Growth）：这在 SLG 和 PLG 的基础上发展而来。如果之前这三个概念有明显的区分，那么在客户成功的过程中，它们是有顺序的。首先你需要赢得高层的认同，然后赢得执行层的认同，最终把客户打造成能够帮助你推广产品的品牌代言人。</li></ul><hr><h2 id="举一个形象的例子"><a href="#举一个形象的例子" class="headerlink" title="举一个形象的例子"></a>举一个形象的例子</h2><p>不知道大家有没有在墙上敲过钉子。</p><p>销售人员就像是在墙上钉钉子。销售人员常说的“客户攻坚”，就是把钉子钉在墙上的过程。</p><p>在这个过程中，攻的是什么？是高层，是钉面。</p><p>在这过程中，我们必须大力出奇迹，将钉子砸进去。</p><p>可如果没有把钉体完全砸进去的话？这个钉子是不是很容易掉或者拔出来？</p><p>接下来呢，就是要继续“深扎”——这意味着我们要加深与客户的关系，扩大产品影响力。</p><p>当“钉体”扎得足够深，墙面和钉面平齐，钉体完全没入墙体，你想拔都不一定能拔出来了吧。</p><p>这里的钉体就是一线执行层，为你的产品提供了更多的摩擦力。</p><p>再然后，是不是有可能在砸钉子的过程中让墙体产生了裂缝。</p><p>那一个它就会带动更多裂缝，而这些裂缝也让更多的钉子能够顺利地插入。</p><p>这就是我们不断扩大影响力的过程。</p><p>所以，其实商业策略是非常有趣的。</p><p>今天，我从 Onboarding 的指标讲起，到产品定位与用户体验的讨论，再到如何打造一个客户成功到扩展到一整面故事墙，这一系列的内容，都是围绕如何让产品扎根客户不同层级需求并逐步扩展其影响力展开的。</p><hr><h2 id="所以啊，开始砸钉子吧"><a href="#所以啊，开始砸钉子吧" class="headerlink" title="所以啊，开始砸钉子吧"></a>所以啊，开始砸钉子吧</h2><p>不要只盯着那些硬性的指标。</p><p>你更应该关注这些指标背后的联系，以及你具体的工作如何与公司产品和市场节奏契合。</p><p>比如，流失的客户常说“没什么用”和“不好用”，是因为我们可能没能给他们提供合适的服务和体验。</p><p>但激活的时候“没什么用”和“不好用”分别找谁看完这篇文章的你清楚了吧。</p><p>只有理解了这些，你才能更好地优化客户产品的使用，推动客户成功和你的成功。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
+    
+    
+    <summary type="html">Onboarding非单纯指标，是客户成功基础，需获高层定位认同和执行层体验认同，结合SLG、PLG和MLG策略逐步扩展影响力，关注指标背后联系，优化产品使用，推动客户成功。</summary>
+    
+    
+    
+    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>听完Gainsight的AI相关webinar，我只记住了客户成功的IFTTT</title>
@@ -405,27 +426,6 @@
     
     
     <summary type="html">Workaround是产品技术领域中的临时方案，用于绕过功能限制实现目标。在CSM中，它不仅是变通方案，更是推动产品进步的桥梁，通过灵活配置优化客户体验，收集反馈推动产品迭代。</summary>
-    
-    
-    
-    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
-    
-    
-    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>客户成功：很遗憾，成功只是偶然失败才是常态</title>
-    <link href="https://heycsm.com/2025/01/03/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%EF%BC%9A%E5%BE%88%E9%81%97%E6%86%BE%EF%BC%8C%E6%88%90%E5%8A%9F%E5%8F%AA%E6%98%AF%E5%81%B6%E7%84%B6%E5%A4%B1%E8%B4%A5%E6%89%8D%E6%98%AF%E5%B8%B8%E6%80%81/"/>
-    <id>https://heycsm.com/2025/01/03/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%EF%BC%9A%E5%BE%88%E9%81%97%E6%86%BE%EF%BC%8C%E6%88%90%E5%8A%9F%E5%8F%AA%E6%98%AF%E5%81%B6%E7%84%B6%E5%A4%B1%E8%B4%A5%E6%89%8D%E6%98%AF%E5%B8%B8%E6%80%81/</id>
-    <published>2025-01-03T09:19:32.000Z</published>
-    <updated>2025-01-03T09:26:46.000Z</updated>
-    
-    <content type="html"><![CDATA[<div id="readmore-container"><p>当你拿着精心准备的“最佳实践”方案，信心满满地走进客户会议室时，你内心已经幻想过无数次项目顺利落地的画面。</p><p>可现实总喜欢给人一些“惊喜”——</p><p>客户的反应并没有如你预期般积极，讨论甚至出现了长时间的沉默。</p><p>那一刻，你愣住了。</p><p>方案哪里有问题吗？流程是不是不够完善？</p><p>可即便回过头再看，你依然找不出明显的纰漏。</p><p>是不是突然意识到一个有点“emo”的事实——</p><p><strong>即便方案再完美，成功依然不是必然。</strong></p><hr><h2 id="最佳实践背后的渴望"><a href="#最佳实践背后的渴望" class="headerlink" title="最佳实践背后的渴望"></a>最佳实践背后的渴望</h2><p>为什么我们会如此迷恋“最佳实践”？</p><p>很简单，因为它听起来像是一份“成功秘籍”。</p><p>我们相信，只要按照这份模板操作，就能规避错误，提升成功率。</p><p>无论是客户经理还是职场新人，都希望有一条标准化的路可走，让“未知”变得“可控”。</p><p>可现实却常常打破我们的期待。</p><p>客户的需求随时可能变化、市场环境充满不确定性、团队的配合也不总是天衣无缝。</p><p>一切的变量，让我们发现：</p><p>“最佳实践”并非万能公式，它更像是一种<strong>参考而非真理</strong>。</p><hr><h2 id="成功的偶然性"><a href="#成功的偶然性" class="headerlink" title="成功的偶然性"></a>成功的偶然性</h2><p>有人说，商业世界里，成功是实力的体现，但更多时候它也是运气的馈赠。</p><p>以我们 CSM 的日常为例：</p><ul><li>产品的成熟度、客户的数字化认知程度、预算审批速度……每一个环节都可能影响最终的成果。</li><li>有时候，推动项目成功的“关键人物”会突然离职，或政策环境发生变化，这些情况都超出我们能控制的范围。</li><li>甚至有时，仅仅是客户那天的情绪，都可能让一次原本顺利的提案偏离轨道。</li></ul><p>这让我想起一个行业笑谈：</p><p>“你可以尽力优化一切，但有些时候，‘天时地利人和’才是那张王牌。”</p><p>当然，这并不是否认努力的价值，而是提醒我们不要陷入对“公式化成功”的执念中。</p><p>施主，切勿着相。</p><hr><h2 id="面对偶然，如何应对？"><a href="#面对偶然，如何应对？" class="headerlink" title="面对偶然，如何应对？"></a>面对偶然，如何应对？</h2><p>既然成功充满偶然性，我们是否该停止持续成长自暴自弃？</p><p>当然不是。</p><p>客户成功经理的使命并不是消除所有不确定性，而是在这种不确定性中，尽可能提高成功的“概率”。</p><p>说来惭愧，我也并不是你们以为的的成功常伴吾身，本质上也只是玩概率游戏罢了，甚至多次被失败打的身心俱疲，万念俱灰。</p><p>但关键是“大侠，请从头来过”，以下是我的几点策略和心态建议：</p><h3 id="1-灵活应变，拥抱变化"><a href="#1-灵活应变，拥抱变化" class="headerlink" title="1. 灵活应变，拥抱变化"></a>1. 灵活应变，拥抱变化</h3><p>方案只是基石，过程中保持灵活性至关重要。</p><p>与其追求完美，不如在执行中根据实际情况做出快速调整。</p><h3 id="2-关注过程而非结果"><a href="#2-关注过程而非结果" class="headerlink" title="2. 关注过程而非结果"></a>2. 关注过程而非结果</h3><p>将每一次实践视作学习的机会，而不是“成败判决”。</p><p>就算方案没有达到理想结果，也要总结经验，调整优化。</p><h3 id="3-强化关系与沟通"><a href="#3-强化关系与沟通" class="headerlink" title="3. 强化关系与沟通"></a>3. 强化关系与沟通</h3><p>客户的变化是必然的，但通过建立信任和长期关系，可以降低突发情况对项目的冲击。</p><hr><h2 id="过程的意义，胜过结果"><a href="#过程的意义，胜过结果" class="headerlink" title="过程的意义，胜过结果"></a>过程的意义，胜过结果</h2><p>回顾那些“走过弯路”的项目，每一段经历都在无形中塑造了我的视野和判断力。</p><p>我开始相信，真正的“最佳实践”不是一套标准化的模板，而是那些失败和尝试叠加而成的“个人经验库”。</p><p>它们不会保证我们每次都成功，但却让我们在面对下一次挑战时更加从容。</p><p>所以，如果有时你也因为“没有百分之百把握”而感到焦虑，不妨试着问自己：</p><p>“这次尝试给我带来了什么？我学到了什么？”</p><p>因为，<strong>无论成败，偶然性带来的长久意义，往往胜过那一次的‘完美的成功’</strong>。</p><p>我也不相信这个世界上真的有 100%的成功，但我相信有无限趋近于 100%的正在进行时。</p><p>我想，应该有我，但更多的有你们。</p><p>HeyCSM，感谢是你，正在让进步发生。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
-    
-    
-    <summary type="html">“最佳实践”非成功保证，成功含偶然性。需灵活应变，关注过程学习，强化关系沟通。真正的“最佳实践”是个人经验积累，面对挑战更从容。偶然性带来的长久意义，往往胜过一次“完美成功”。</summary>
     
     
     
