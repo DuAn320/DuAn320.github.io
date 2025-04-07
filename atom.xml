@@ -6,7 +6,7 @@
   <link href="https://heycsm.com/atom.xml" rel="self"/>
   
   <link href="https://heycsm.com/"/>
-  <updated>2025-04-06T10:30:44.846Z</updated>
+  <updated>2025-04-07T09:10:51.509Z</updated>
   <id>https://heycsm.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SaaS，扔掉产品的路线图，因为这是客户成功的世界</title>
+    <link href="https://heycsm.com/2025/04/07/SaaS%EF%BC%8C%E6%89%94%E6%8E%89%E4%BA%A7%E5%93%81%E7%9A%84%E8%B7%AF%E7%BA%BF%E5%9B%BE%EF%BC%8C%E5%9B%A0%E4%B8%BA%E8%BF%99%E6%98%AF%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E7%9A%84%E4%B8%96%E7%95%8C/"/>
+    <id>https://heycsm.com/2025/04/07/SaaS%EF%BC%8C%E6%89%94%E6%8E%89%E4%BA%A7%E5%93%81%E7%9A%84%E8%B7%AF%E7%BA%BF%E5%9B%BE%EF%BC%8C%E5%9B%A0%E4%B8%BA%E8%BF%99%E6%98%AF%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E7%9A%84%E4%B8%96%E7%95%8C/</id>
+    <published>2025-04-07T09:09:26.000Z</published>
+    <updated>2025-04-07T09:10:51.509Z</updated>
+    
+    <content type="html"><![CDATA[<div id="readmore-container"><p><strong>因为客户不是活在你的产品路线图上，他们活在自己的业务焦虑里。</strong></p><p>我们在做 SaaS 产品规划时，经常以功能齐全、闭环完备为目标；可客户成功经理却经常反其道而行之，他们可能会优先推进一个半成品、甚至是 Bug 多但影响价值实现的小功能。</p><p>为什么？</p><p>为什么一个“看起来不完备”的产品，为了灵活，反而在客户成功的眼里优先级更高？</p><p><strong>为什么客户成功视角 SaaS 产品的“配置灵活”高于“功能完善”？</strong></p><h2 id="客户是为了他的成功"><a href="#客户是为了他的成功" class="headerlink" title="客户是为了他的成功"></a>客户是为了他的成功</h2><p>首先，从“客户成功”的基本假设出发：客户不是因为功能多而续费，而是因为他们实现了目标（value realization）才会选择留下。</p><p>这意味着产品必须在关键路径上“对症下药”——即便这个药膏贴得不完美，它能止痛、能止血，那就是成功。</p><p>产品完善，更多是工程审美或技术完备视角；而配置灵活，是以“客户价值实现路径”为锚点的动态行为。</p><h2 id="客户的业务是非标的"><a href="#客户的业务是非标的" class="headerlink" title="客户的业务是非标的"></a>客户的业务是非标的</h2><p>再往下推一步，这种“配置灵活”其实是一种反标准化的策略。</p><p>客户成功视角强调“非规模化”的解决问题方式：</p><p>我会因为 A 客户的特殊需求推动 Feature X 提前上线，也可能会因为 B 客户压根不在意而把本来排在 P1 的优化项放一边。</p><p>这对传统 PM 的优先级排序体系是一种挑战——甚至是一种破坏。</p><p>但这种破坏，是为了保住客户关系和 ARR 的现实策略，是一种价值交换逻辑的再分配。</p><h2 id="即时反馈的深意是灵活"><a href="#即时反馈的深意是灵活" class="headerlink" title="即时反馈的深意是灵活"></a>即时反馈的深意是灵活</h2><p>另一个层次是“反馈闭环机制”。</p><p>客户成功处于最靠近客户一线的位置，获取的是“即时信号”，也承担着“即时响应”的责任。</p><p>功能完善往往是长周期规划，但客户留不住可能只需要 3 天。</p><p>所以在 SaaS 生命周期早期或续费临界期，优先级更像是战术级的资源调配，而不是战略级的产品建设。</p><p>灵活是必要的、具备生存意义的操作策略。</p><h3 id="但我还要补充一点——这种灵活性并不意味着没有原则。"><a href="#但我还要补充一点——这种灵活性并不意味着没有原则。" class="headerlink" title="但我还要补充一点——这种灵活性并不意味着没有原则。"></a>但我还要补充一点——这种灵活性并不意味着没有原则。</h3><p>它是建立在“客户画像”、“目标路径”、“业务优先级”的基础之上，是经过深思熟虑的动态调整，而非拍脑袋的临时变动。</p><p>很多客户成功经理在推动某个具体需求优先级调整的时候，心里有一本账：这个客户是否属于目标行业？这个场景是否会被其他客户复用？这个需求是否符合我们对 NDR 增长的预判模型？</p><p>看似“灵活”，实则背后需要有一整套判断系统在支撑。</p><h2 id="线性世界观的失效"><a href="#线性世界观的失效" class="headerlink" title="线性世界观的失效"></a>线性世界观的失效</h2><p>当我们说“产品功能完善”，默认的是一个<strong>线性世界观</strong>：</p><blockquote><p>一个功能从需求调研 → 设计 → 开发 → 测试 → 上线 → 收集反馈 → 优化，这是典型的瀑布流或部分敏捷模式。</p></blockquote><p>而“客户成功的配置灵活”，是在说，这个线性假设在真实世界根本站不住脚。</p><p><strong>客户的世界是非线性的、是混沌的、是被“上线时间、内部资源、期望落差、真实使用者情绪”共同驱动的。</strong></p><p>这与传统产品团队“Roadmap 优先级以技术完备性为导向”的路径产生天然张力。</p><p>客户的预算、目标、上线节奏是现实的，不等人。</p><p><strong>再深一层看，这是两套系统性逻辑的对抗：</strong></p><ul><li><strong>产品逻辑</strong> &#x3D; 模块思维、技术完备性、规模复用、长期 ROI</li><li><strong>客户成功逻辑</strong> &#x3D; 情境思维、价值实现性、客户生存感受、短期续费率</li></ul><p>这两套逻辑天然冲突，因为：</p><ul><li><strong>客户的期待是动态变化的</strong></li><li><strong>而产品优先级是阶段冻结的</strong></li></ul><p>客户不会因为你在做“P1 大功能”就延后他的业务目标。</p><blockquote><p>大客户常见场景：“你是说让我们的业务等你是吗？” 那你的高管“上门道歉”+“需求妥协”+“需求对照表”三件套可要准备好了。</p></blockquote><h2 id="这里-CS-不需要长期主义"><a href="#这里-CS-不需要长期主义" class="headerlink" title="这里 CS 不需要长期主义"></a>这里 CS 不需要长期主义</h2><p>这也引申出一个行业悖论：</p><p>产品经理常常把“功能完整性”当作衡量产品价值的核心，而客户成功经理更在意“功能转化为客户目标”的路径短不短、绕不绕、顺不顺。</p><p>于是两者在优先级排序上天然存在张力。</p><p>但这并不是矛盾，而是角色的分工——客户成功的“灵活”，恰恰是为了让产品的“完整”在现实中不脱节。</p><p>而在 SaaS 尤其是 B 端产品中，客户并不是完全被教育好的终端用户，他们有自己对流程、权限、数据结构的先入为主理解。</p><p>功能再完整，不解决他的实际场景痛点，对方就不会用；而只要能临时帮他“打通一点”，甚至是 geek 式的方案，他就愿意续约。</p><p>这才是客户成功视角中“灵活性”的本质所在。</p><p>再更深一层，这是一种“价值-时间对冲机制”：你用调整产品节奏的灵活性，换取客户在续费周期中的信任续命。</p><p>这种对冲模型在 PLG 或强客户干预类产品中尤为重要。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>如果我要提炼成一个核心判断：“产品功能完善，我们仍说它是局限的；产品配置灵活，我们也认为它是成熟的。”</p><p>而判断的价值标准在哪里？</p><p><strong>客户业务的实践。</strong></p><p>这也是我为什么觉得 SaaS 产品必做 PaaS 的原因之一。</p><p>成熟和局限的——最天然和最根本的判断区别在于：</p><p><strong>产品的有限和场景的无限动态匹配。</strong></p><p>而从商业或者客户成功的角度来讲：</p><p><strong>有限的产品一定有其有形的价格，无限的场景一定有其无形的价值。</strong></p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
+    
+    
+    <summary type="html">在SaaS产品的世界里，我们习惯信奉路线图、闭环设计与技术完备性。但客户成功告诉我们：客户不是活在产品的节奏里，而是活在自己的业务焦虑中。这篇文章从客户成功的视角出发，重新定义了“优先级”的本质，剖析产品与客户之间的“非线性关系”，并指出：灵活不是牺牲，而是现实的尊重。真正的SaaS魅力，从来都不是功能的堆砌，而是客户价值兑现路径上的一次次“定制化拯救”。</summary>
+    
+    
+    
+    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>为什么客户成功有“不破首单”即不低于原订单优惠的原则？</title>
@@ -405,27 +426,6 @@
     
     
     <summary type="html">客户成功经理与销售的关系，就像一场婚姻。未必是你最喜欢的那个人，却是你不得不长期相处、共同承担责任的一位伴侣。你会因为销售的“无知”而着急上火，也会因对方的“搞关系”能力而不得不寻求帮助。真正的智慧，不是幻想对方彻底改变，而是懂得在妥协与争取中找到平衡，在利益捆绑中形成合力。就像婚姻里，感情之外还有责任，而责任让彼此即便不完美，依然选择携手同行。</summary>
-    
-    
-    
-    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
-    
-    
-    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于客户成功经理的赛道选择或者只是选择</title>
-    <link href="https://heycsm.com/2025/03/09/%E5%85%B3%E4%BA%8E%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E7%BB%8F%E7%90%86%E7%9A%84%E8%B5%9B%E9%81%93%E9%80%89%E6%8B%A9%E6%88%96%E8%80%85%E5%8F%AA%E6%98%AF%E9%80%89%E6%8B%A9/"/>
-    <id>https://heycsm.com/2025/03/09/%E5%85%B3%E4%BA%8E%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E7%BB%8F%E7%90%86%E7%9A%84%E8%B5%9B%E9%81%93%E9%80%89%E6%8B%A9%E6%88%96%E8%80%85%E5%8F%AA%E6%98%AF%E9%80%89%E6%8B%A9/</id>
-    <published>2025-03-09T11:22:21.000Z</published>
-    <updated>2025-03-09T11:24:26.729Z</updated>
-    
-    <content type="html"><![CDATA[<div id="readmore-container"><p>今天想聊一个关于<strong>客户成功经理赛道选择</strong>的话题。</p><p>严格意义上说，我并不具备去评价所有行业的 CSM 的经验，因为我本身做得比较垂直，主要是在<strong>协作工具</strong>、 <strong>数字化底座产品</strong>这类赛道。</p><p>但即便如此，我觉得我还是可以分享一些自己的浅见或者是自我选择的剖析。</p><h2 id="选择赛道时，融资情况很重要"><a href="#选择赛道时，融资情况很重要" class="headerlink" title="选择赛道时，融资情况很重要"></a>选择赛道时，融资情况很重要</h2><p>关于职业赛道的选择，其实每个人的成长轨迹大致都是从普通打工人到更高级的打工人，因为对于创业者来讲，不存在职业赛道，而是市场赛道。</p><p>选赛道时，关注点有很多，比如公司的业务情况、市场占有率、口碑等等。但这些往往不是我们个人能轻易判断的。</p><p>不过，有一个相对清晰、可操作的指标——<strong>融资情况</strong>。</p><p>融资信息其实是个很直观的信号。虽然国内一些大厂本身不依赖融资，也能凭借自身业务稳健发展。</p><p>但这样的公司毕竟是少数，大厂总共才有几个啊，而 tob 职场人又何其多。而且这些企业里的客户成功岗位，很多时候更偏向行业咨询、传统软件的高管，或是相关垂直厂商的从业者流动过去的。</p><p>所以，如果你要判断一个有前景的赛道，<strong>关注公司最近几轮融资的表现</strong>是一个很实用的办法。</p><h2 id="坚持多年后，选择已不是关键"><a href="#坚持多年后，选择已不是关键" class="headerlink" title="坚持多年后，选择已不是关键"></a>坚持多年后，选择已不是关键</h2><p>如果你已经在某个赛道上坚持了多年，比如说在 CRM 这个赛道深耕了很久，那其实“选不选择”已经不是你最需要考虑的事了。</p><p>当你已经在一个领域站稳脚跟，所谓的选择更像是在：</p><ul><li>从<strong>赛道第一 A</strong>跳到<strong>赛道第二 B</strong>，</li><li>从<strong>赛道第二 B</strong>再跳回<strong>赛道第一 A</strong>，</li><li>又或者看看<strong>赛道第三 C</strong>有没有新机会。</li></ul><p>这时候，真正值得关注的是市场动态，而不是随意更换赛道。贸然切入一个完全陌生、甚至毫无关联的行业，风险是很高的。</p><h2 id="新兴企业-vs-老牌厂商"><a href="#新兴企业-vs-老牌厂商" class="headerlink" title="新兴企业 vs. 老牌厂商"></a>新兴企业 vs. 老牌厂商</h2><p>如果你关注的是融资表现不错的 SaaS 企业，那你大概率会遇到两种类型的公司：</p><p><strong>第一类：新兴企业。</strong><br>这类公司通常有明星企业家或明星资本的加持，或者本身产品定位独特、具备一定的市场潜力。这样的公司有个显著特点：<strong>起薪不会太低</strong>。而且光环效应下，企业整体的市场关注度也会比较高。</p><p><strong>第二类：老牌厂商。</strong><br>这些公司可能没有明星资本的加持，但却能持续获得融资。主要还是能持续增长，健不健康都不关键。这类公司往往内部已经形成了一种微妙的 <strong>“销售 - 服务 - 研发”政治平衡</strong>。尽管起薪可能不如明星企业，但在薪酬体系、内部资源调度、信息共享上更有保障。</p><p>这两种选择各有利弊，具体怎么选，还是看你的个人规划。</p><p>分别讲下两者的弊端，大概率是：</p><ul><li>一类“卷”、“莽”</li><li>二类“死气”、“一眼望到头的上升空间”</li></ul><h2 id="通用-vs-垂直，哪个更适合？"><a href="#通用-vs-垂直，哪个更适合？" class="headerlink" title="通用 vs. 垂直，哪个更适合？"></a>通用 vs. 垂直，哪个更适合？</h2><p>既然说到 SaaS 赛道，那除开企业不得不聊产品形态。</p><p>关于选择<strong>通用型工具</strong>还是<strong>垂直型工具</strong>，我的个人倾向是——<strong>我更偏向通用工具</strong>。</p><p>垂直型 SaaS 工具往往对专业度要求更高，产品特性决定了它更偏向行业化。它的从业者可能可以从零上手，但要真正成为一名成熟的 CSM，通常也意味着你要成为某个行业的专家。</p><p>相比之下，通用型工具就不一样了。它的核心逻辑更多是围绕企业管理的方法论，而不是单一行业的业务流程。</p><p>从我的实际经历来看，CSM 在通用型工具赛道上能学到的东西更多。即便未来想要转向更垂直的领域，这些方法论的积累依然有用。更重要的是，通用型工具本身的灵活度也更高，既可以走专业化路线，也可以转向更通用的场景。</p><h2 id="通用型工具的另一个优势：更高层次的沟通"><a href="#通用型工具的另一个优势：更高层次的沟通" class="headerlink" title="通用型工具的另一个优势：更高层次的沟通"></a>通用型工具的另一个优势：更高层次的沟通</h2><p>除了学习上的优势，通用型工具还有一个让我觉得很有意思的点：<strong>它能帮助 CSM 锻炼与更高层次客户沟通的能力。</strong></p><p>在垂直型工具中，CSM 的沟通范围往往就锁定在该领域的负责人，比如销售管理工具可能对接的就是销售负责人，向上最多也就是 VP 层级。</p><p>但通用型工具不一样。由于它更多涉及企业的信息流动，你的沟通范围更宽，甚至有可能接触到 CEO、总裁等更高决策层。</p><p>这会倒逼 CSM 不断提升自己的表达、思考和沟通能力。</p><p>如果说 CSM 成熟后可以成为一个专家，媲美甚至超越甲方的存在，那你想做一个销售负责人还是企业家需要想清楚的。</p><h2 id="关于大厂的选择"><a href="#关于大厂的选择" class="headerlink" title="关于大厂的选择"></a>关于大厂的选择</h2><p>有大厂选择，福利待遇差不多的情形下无需多加考虑，尤其对于新人来讲。</p><p>大厂最少是一个学习机会，让你有更大成长空间的机会。</p><p>让我拿一个生活中的例子来举个例子吧。</p><p>我身边的朋友都知道，我从小就是个小有成绩的打乒乓球的<strong>业余</strong>爱好者。乒乓球这件事让我发现了一个很有意思的现象。</p><p>在乒乓球里，新手或者说水平比较一般的人，往往喜欢站得离台面很近。站得近的好处是省事，很多来球直接伸手就能挡回去，似乎更容易掌握比赛节奏。</p><p>但相应的，他们很难应对一些更复杂的球路。比如，对方打出的大角度调动、带旋转的回球，或者那种需要快速移动、借力回球的球路。新手往往反应不过来，不是站位僵硬，就是判断不准球的落点。</p><p>以上是技术层面的差距，再来一个策略层面的利用——</p><p>调左压右、压反吊正。</p><p>更有意思的是，即便新手能够看懂对手的意图，知道这个球要往哪儿落，但还是救不到球。因为他们的步法、走位、身法这些基本功不扎实，根本来不及调整。<br>而我们这些所谓的高手（小装一下，没有省队的水平），对于台面的掌控，一定是可远可近的，机动性很强。</p><p>而救球的关键一方面在于看懂，一方面在于空间的掌握。</p><p>会有那种站台面前很僵直却能什么球都接的大佬吗？会有，但是水平一定远超于我了，如省队的教练或者不知深浅的公园老大爷。</p><p>与其说大厂真的有娴熟的业务或培训水平，不如说他能给你的空间更大、视野更广、玩法更多，而不是让你只在台前不动的固定站位。</p><p>我自己的感受里那些大厂的大佬服从性不好评价，但创造性是真的强。</p><p>最后，如果你的目标是大厂，而当前很难进大厂，那选择赛道时可以考虑以下几点：</p><ul><li><strong>如果在垂直赛道</strong>，就尽量选择那些与大厂业务有重合的公司。</li><li><strong>如果在通用赛道</strong>，进入大厂的机会会更大。</li></ul><p>这和大厂的产品特性有关。大厂的通用型产品往往覆盖面更广，客户群体更复杂，对 CSM 的专业要求更偏向“通用型能力”，这反而更容易上手。</p><h2 id="最后，选择不是重点，坚持或说成绩才是"><a href="#最后，选择不是重点，坚持或说成绩才是" class="headerlink" title="最后，选择不是重点，坚持或说成绩才是"></a>最后，选择不是重点，坚持或说成绩才是</h2><p>我觉得，真正重要的不是你选了哪个赛道，而是<strong>你能不能坚持下去，并且做出成绩来。</strong></p><p>很多时候，选择只是个开始，真正影响结果的还是你的积累和坚持。</p><p>这里我不拿个人举例了，以公司举例吧。</p><p>我之前有聊过其实市场竞争有两个方式：一个是全面竞争，另一个是差异化竞争，而且某些情境下是可以互相转化的。</p><p>比如说销售易，虽然它不是 CRM 赛道里的最具潜力玩家，毕竟纷享销客挡在前面，但因为长期坚持，最终还是被腾讯收购，是 CRM 赛道中的差异化但也是腾讯应对阿里 salesforce 国内代理的大厂之间的全面化竞争。</p><p>又比如钉钉和飞书，都有项目模块，比如 teambition 和飞书项目。两者看起来都属于通用协作工具，但客群比例中更大的是产研场景，那理论上企业微信也应该跟进啊。是的，虽然企微没有通用协作的模块，但是架不住腾讯内部本身就有 TAPD、Coding 这些产品来服务研发团队。</p><p>这些例子都说明，选择某个赛道固然重要，但真正决定结果的，还是<strong>时间、积累和坚持</strong>以及看得见的<strong>成绩</strong>。</p><p>以上是个体因素，还有环境方面的<strong>时局</strong>和<strong>竞争形势</strong>。</p><p>所以，回归个体，无论你选择了什么，关键是<strong>做下去，并做出成绩。</strong></p><p>这才是个体层级能决定的，更有创造性的选择。</p><p>比如让别人来挖你，让它来亮条件先不过分吧。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
-    
-    
-    <summary type="html">CSM赛道选择时，融资情况是关键。坚持多年后，选赛道不再是重点。SaaS赛道中，新兴企业和老牌厂商各有利弊。通用型工具更适合CSM成长。大厂选择能提供更广视野，坚持和成绩才是关键。</summary>
     
     
     
