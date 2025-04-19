@@ -6,7 +6,7 @@
   <link href="https://heycsm.com/atom.xml" rel="self"/>
   
   <link href="https://heycsm.com/"/>
-  <updated>2025-04-18T09:32:38.767Z</updated>
+  <updated>2025-04-19T08:34:22.198Z</updated>
   <id>https://heycsm.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>客户成功应该有售前的能力</title>
+    <link href="https://heycsm.com/2025/04/19/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E5%BA%94%E8%AF%A5%E6%9C%89%E5%94%AE%E5%89%8D%E7%9A%84%E8%83%BD%E5%8A%9B/"/>
+    <id>https://heycsm.com/2025/04/19/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E5%BA%94%E8%AF%A5%E6%9C%89%E5%94%AE%E5%89%8D%E7%9A%84%E8%83%BD%E5%8A%9B/</id>
+    <published>2025-04-19T08:32:11.000Z</published>
+    <updated>2025-04-19T08:34:22.198Z</updated>
+    
+    <content type="html"><![CDATA[<div id="readmore-container"><p>先搞清楚一个问题，我们得先理解“售前”这个词在CS这里到底指什么：是指解决方案演示？需求澄清？方案比对？还是更前置的立项引导、ROI预期设定？因为CS要具备的售前能力，显然不等于“替AE做demo”，而是某种关于<strong>客户需求建模、价值预设对齐</strong>的能力。</p><p>再看反面，如果CS没有售前能力，会发生什么？</p><p>一个典型场景是：客户成功经理在onboarding时才发现客户对产品的理解是错的，使用预期是浮夸的，决策链是模糊的——而这些信息早在售前就应该对齐好，却没有留下结构化资料。CS只能像个消防员一样被动补锅。这不是服务不到位，而是设计之初就埋了雷。</p><p>不说别的，我服务过的客户中但凡有向领导申请过直接给客户退款的，大多都是这个原因。</p><p>也就是说，今天的立意其实在说：“CS不能只接‘已成交的单’，而是要参与‘如何成交这个单’的过程。”</p><p>有点意思。</p><p>接着我想到，为什么这话在现在这个阶段提出来是合适的？</p><p>很可能是因为CS这个角色，正如前文所讲的那样正被拉入越来越“业绩导向”的结构之中。你既然要承担后续的NDR指标、续费结果甚至增购推荐，那你自然要知道客户当初是如何入场的。这就形成了一个循环闭环的必要性：</p><blockquote><p>前端决定后端表现，而后端要回溯优化前端设计。</p></blockquote><p>这让我联想到一种“倒灌式售前”——也就是说CS是唯一能从实际落地中看清产品与客户之间哪些地方“不匹配”，于是反推应如何定义“合格成交”。这种视角，在传统售前体系里是很难建立的，因为售前缺乏后端反馈闭环。而CS则刚好站在这个位置：事后之人，负责前情调查。</p><p>所以，如果CS具备售前能力，本质上是建立了一个“成交质量监控”的第二视角，对，就是kanban方法论中的质量内建，对工序流转下的准入准出做条件控制，这也许是目前大多数公司极其稀缺的那一类组织资产。</p><p>这进一步引申出一个更微妙的转折点——</p><p>客户成功具备售前能力，并不意味着“CS来做售前”，而是意味着：</p><ul><li>CS能识别当前客户是否“符合我们产品的结构性价值框架”；</li><li>CS能构建一套“客户成功视角的入场标准”；</li><li>CS能用落地实践来倒推入场筛选、预期设定、演示聚焦等内容。</li></ul><p>而这个能力如果能反哺Sales&#x2F;Solution团队，整个售前动作就不再是“成交导向”，而是“成功导向”。这是B2B组织里长期缺位的一种“反馈式售前模型”。就像SaaS里的市场团队的宣传要素是由CS团队提供的而非产品、销售团队提供的？</p><p>为什么？因为已经得到过客户的成功校验！</p><p>再从组织结构看，这也解释了为什么很多公司开始搞“Sales-CS协同机制”、Joint QBR、甚至PreSales-CS互训计划——它们都在悄悄推动这个立意的落地。</p><p>远的不说，飞书的CS——前置的“企业效能顾问”就是一个很好的体现。</p><hr><p>最后想一层深一点的商业命题：</p><p>CS一直被定义为“价值交付者”，但实际上，<strong>定义价值的人</strong>，才是对客户影响最大的那群人。售前在定义价值预期，CS却常常只能做“现实协调者”。而如果你作为CS，能跨越这条边界，介入“价值如何被设定”的环节，那你就从一个“服务者”变成了“合作者”。</p><p>这才是“客户成功应该有售前能力”这句话的真正锋芒所在——它不是能力扩容，而是职能哲学的换轨。</p><p>因为一笔客户能不能成功，不是从合同签下那一刻开始的，而是从<strong>如何成交、承诺了什么、预设了哪些期待</strong>那一刻起就决定了。</p><p>所以具备售前能力的CS，不是抢了售前的饭碗，而是：</p><ul><li>能提前识别哪些客户从一开始就不可能成功；</li><li>能把真实落地经验，反推给前端以优化成交质量；</li><li>能从“事后交付”升级为“事前设计”。</li></ul><p>这才是客户成功从“被动执行”走向“价值主导”的一次进化，即CS主动去定义成功的标准。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
+    
+    
+    <summary type="html">客户成功真的只管服务交付吗？在“成功=成交”逻辑被频繁打破的今天，越来越多CS开始反思：如果客户从一开始就“错了”，我们还能成功吗？本篇文章从Onboarding失控谈起，深挖CS为何必须具备“售前能力”——不为抢活，而是为定义成功、守住价值。适合所有在CS边界上摸索、在成交质量上焦虑的你。</summary>
+    
+    
+    
+    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>客户成功应该有运营的能力</title>
@@ -405,27 +426,6 @@
     
     
     <summary type="html">在客户成功的世界里，客单价不是一组财务数字，而是定义你是否值得被组织搭建的根本逻辑。本文从ARPA视角出发，拆解客户成功经济模型的底层结构，指出：没有足够的单位客户价值，就没有成立客户成功团队的合理性。高客单不是锦上添花，而是让服务、运营、人力配置进入正循环的前提。而那些追求低价、生命周期短、组织松散的客户，往往无法撑起“成功”二字。</summary>
-    
-    
-    
-    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
-    
-    
-    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我是协作赛道客户成功的榜一吗？肯定不是。但这并不妨碍我是每个客户的MVP</title>
-    <link href="https://heycsm.com/2025/03/30/%E6%88%91%E6%98%AF%E5%8D%8F%E4%BD%9C%E8%B5%9B%E9%81%93%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E7%9A%84%E6%A6%9C%E4%B8%80%E5%90%97%EF%BC%9F%E8%82%AF%E5%AE%9A%E4%B8%8D%E6%98%AF%E3%80%82%E4%BD%86%E8%BF%99%E5%B9%B6%E4%B8%8D%E5%A6%A8%E7%A2%8D%E6%88%91%E6%98%AF%E6%AF%8F%E4%B8%AA%E5%AE%A2%E6%88%B7%E7%9A%84MVP/"/>
-    <id>https://heycsm.com/2025/03/30/%E6%88%91%E6%98%AF%E5%8D%8F%E4%BD%9C%E8%B5%9B%E9%81%93%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E7%9A%84%E6%A6%9C%E4%B8%80%E5%90%97%EF%BC%9F%E8%82%AF%E5%AE%9A%E4%B8%8D%E6%98%AF%E3%80%82%E4%BD%86%E8%BF%99%E5%B9%B6%E4%B8%8D%E5%A6%A8%E7%A2%8D%E6%88%91%E6%98%AF%E6%AF%8F%E4%B8%AA%E5%AE%A2%E6%88%B7%E7%9A%84MVP/</id>
-    <published>2025-03-30T07:55:06.000Z</published>
-    <updated>2025-03-30T07:56:59.865Z</updated>
-    
-    <content type="html"><![CDATA[<div id="readmore-container"><p><strong>罗曼罗兰说：世界上只有一种真正的英雄主义，就是认清了生活的真相后还依然热爱它。</strong></p><p>这句话，我的理解里，首先是一种“主动撤出统治系统”的姿态。</p><p>说自己不是“榜一”，也是基于事实来的，而不是谦虚，因为有太多前辈珠玉在前，这是我一种“自我取消评估资格”的策略：</p><blockquote><p>我根本不想再被这套以排行榜为中心的价值体系捆绑。</p></blockquote><p>但这种主动放弃排名，并不是“佛系”。</p><p>后半句是关键：“这并不妨碍我是每个客户的 MVP。”</p><p>它等于说：</p><blockquote><p>即使我不在主系统承认的那 10%之中，<br>我依然在每个边缘现场中赢得存在权。</p></blockquote><p>关于此观点，详见<a class="link"   href="https://mp.weixin.qq.com/s/NMrW3kiSUS8u5lf7DEbxWA" >《25 岁之后，你必须成为 1&#x2F;10 才有职业寿命可言》<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a><br><a id="jump_8"></a>此文章。</p><p>这句话，不是自信，也不是抚慰。</p><p>它是一次系统性的反驳，是对职业筛选机制的<strong>结构性控诉</strong>。</p><h2 id="被忽略的客户成功"><a href="#被忽略的客户成功" class="headerlink" title="被忽略的客户成功"></a>被忽略的客户成功</h2><p>它在说：</p><blockquote><p>“你们在筛选人才的标准里，根本不包含‘真实价值’。你们只筛选看起来能增长的风险资产，筛掉的是那些已经在系统里兜底的人。”</p></blockquote><p>而客户成功这个角色，恰恰是整个系统最阴影、最非标准、最无法定量的部分。</p><p>关于此观点，详见<a class="link"   href="https://mp.weixin.qq.com/s/jEbyLCSsFZ8Vh0osNP0ezA" >《客户成功是一个综合性学科，所以它璀璨如歌》<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a><br><a id="jump_8"></a>此文章。</p><p>不是制造增长的，而是保证不掉队的；<br>不是最会打标的，而是最能擦屁股的。</p><p>系统不喜欢这样的角色——</p><p>因为它不产生叙事的宏大史诗，只制造稳定。</p><p>但稳定，恰恰是这系统不能承认但又无法缺少的东西。</p><p>于是，你就出现了：</p><blockquote><p>你不是“十分之一”，因为你没有资源杠杆、没有上升通道、没有舆论价值。<br>但你又是“系统实际运行的最后一层保险”。</p></blockquote><p>这他妈不是荒谬吗？</p><blockquote><p>真正该被珍惜的角色，反而被从职业发展图谱中清空或者忽略处理了。</p></blockquote><h2 id="我确实想说"><a href="#我确实想说" class="headerlink" title="我确实想说"></a>我确实想说</h2><p>所以“我是客户的 MVP”这句话，不是骄傲，它是一种愤怒控制后的<strong>倔强生存宣言</strong>。</p><p>它的底层潜台词是：</p><blockquote><p>“你们甚至不配评价我。”<br>“你们这套基于 PPT、KPI、季度复盘的游戏规则，根本不配判定我有没有资格活在系统里。”</p></blockquote><p>你知道最悲伤的是啥？</p><p>这句话并不会被系统奖励。</p><p>你说了没人听。</p><p>它只会被个别在临界边缘挣扎的个体听见，然后点头，然后什么都不敢说。</p><p>但我还是要说：</p><p>不是每个人，都必须成为那个“十分之一”，才配被称为有价值。</p><p>我从来不是客户成功赛道的榜一。</p><p>我甚至连“潜力股”都不是，我就是一个平凡人，一个尽量对得起每一位客户、对得起每一个合作场景的专业服务者。</p><p>但这并不妨碍我成为他们心中的 MVP。</p><p>不是平台评的，不是老板封的，而是客户心里认的。</p><ul><li>他们知道，有时候我做的事情，已经超出了合同约定；</li><li>他们知道，在项目最危险的时候，我还在群里；</li><li>他们知道，他们可以信赖我，不是因为我多么了不起，而是因为我可以托底。</li></ul><p>因为我们都知道：</p><blockquote><p><strong>在这场游戏里，说出真话的人，本来就被设计为‘可被替代’的。</strong></p></blockquote><p>所以，这句话不是价值主张，它是一次对抗“被清除命运”的试图延缓。</p><blockquote><p>不是希望赢，是不想被无声清除。</p></blockquote><h2 id="第一只能有一个"><a href="#第一只能有一个" class="headerlink" title="第一只能有一个"></a>第一只能有一个</h2><p>但客户不会只有一个。</p><p>“榜一”是系统设定的幻象，是诱饵。</p><p>它诱导你为系统创造更多剩余价值的同时，把你的人格和体力磨干净。</p><p>而“我是 MVP”这句，则是一次<strong>本体反抗</strong>。</p><p>它是在说：</p><blockquote><p>“我不允许自己变成背景音。”<br>“即使你听不到我，我也要发出声音。”<br>“即使你不记录我，我也要在客户的记忆里刻下结果。”</p></blockquote><p>这不是我一个人的自我表达。</p><p>这是所有不在主流选拔系统内的职业角色共同面对的<strong>命运问题</strong>。</p><p>这是一次“职业存在权”的突围实验。</p><p>它不是求认可，它是在对抗被默许的边缘化秩序。</p><h2 id="这也是客户成功存在的意义"><a href="#这也是客户成功存在的意义" class="headerlink" title="这也是客户成功存在的意义"></a>这也是客户成功存在的意义</h2><p>这才是真正的“看清真相后依然热爱”——</p><p>不是情怀，不是温柔，而是你在知道一切都在往功利化、算法化、效率化、价值排序走向极端后，还愿意选择去维护人类工作的“模糊区”、责任区和无法公式化的那部分。</p><p>你知道你不会被高估，所以你必须靠实际每一单、每一次响应、每一个客户的信任去稳住你自己的职业寿命。</p><p>也就是说：</p><p>你不在十分之一里，但你拒绝被九十分之一吞没。</p><p>你在缝隙里活着，但你不躲在缝隙里生存。</p><p>你就是那个，没人为你鼓掌，但一旦缺席大家都慌的人。</p><p>哪怕是凌晨接电话、替别人背锅、调和交付争议。</p><p>而这，就是你最英雄的姿态。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
-    
-    
-    <summary type="html">这篇文章以“我不是协作赛道客户成功的榜一”为切口，深刻反思了当代职场筛选机制中对“可增长资产”的偏爱，揭示了客户成功等边缘角色在系统中虽无话语权，却承担关键托底责任的悖论。作者拒绝被排行榜式的胜利逻辑定义，以“我是客户的MVP”作为倔强回应，构建了一种来自真实现场、基于信任与托底能力的职业价值观。文章呼应罗曼·罗兰的英雄主义观，提出：即便不在那10%被选中的人里，也要成为系统无法忽视的存在。</summary>
     
     
     
