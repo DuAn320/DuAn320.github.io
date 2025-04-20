@@ -6,7 +6,7 @@
   <link href="https://heycsm.com/atom.xml" rel="self"/>
   
   <link href="https://heycsm.com/"/>
-  <updated>2025-04-19T08:34:22.198Z</updated>
+  <updated>2025-04-20T09:44:48.547Z</updated>
   <id>https://heycsm.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>客户成功应该有解决方案架构的能力</title>
+    <link href="https://heycsm.com/2025/04/20/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E5%BA%94%E8%AF%A5%E6%9C%89%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E6%9E%B6%E6%9E%84%E7%9A%84%E8%83%BD%E5%8A%9B/"/>
+    <id>https://heycsm.com/2025/04/20/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E5%BA%94%E8%AF%A5%E6%9C%89%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E6%9E%B6%E6%9E%84%E7%9A%84%E8%83%BD%E5%8A%9B/</id>
+    <published>2025-04-20T09:38:41.000Z</published>
+    <updated>2025-04-20T09:44:48.547Z</updated>
+    
+    <content type="html"><![CDATA[<div id="readmore-container"><p>CS有“有解决方案架构的能力”这个命题乍一听像是一个招聘JD上“加分项”倡议，但其实，它有种隐藏的必然性。也就是说，不是“有了解决方案架构能力会更好”，而是“没有这能力，CS就做不下去”。</p><p>嗯……那得先搞清楚一件事：</p><h2 id="什么是“解决方案架构的能力”？"><a href="#什么是“解决方案架构的能力”？" class="headerlink" title="什么是“解决方案架构的能力”？"></a>什么是“解决方案架构的能力”？</h2><p>是不是做售前？拉个PPT讲产品配置？做客户痛点对照表？不完全是。解决方案能力，不是CS去扮演产品或售前的角色，而是他得能把一个抽象的、模糊的客户目标，转译成能落地的“解决路径”——它可能包括产品使用方案、业务流程建议、组织协作引导，甚至包括“这个客户现在不能推进，为什么”的判断逻辑。</p><p>另外，如果上升到“架构”这个词汇，因为“架构”这个词不轻，特别是在ToB场景下，它天然地携带着“整体设计能力”“多方协同能力”“系统性思维”的意味。这不是某一个动作，而是一个视角；不是某一个技能，而是一种认知位置。</p><p>所以这不是个“懂产品”就能补上的技能，而是对客户目标的<strong>建模能力</strong>、对落地障碍的<strong>识别能力</strong>、以及对资源配置的<strong>整合能力</strong>。</p><p>它一出现，就暗示了某种“上游参与”的姿态。</p><h2 id="那再看一眼反面："><a href="#那再看一眼反面：" class="headerlink" title="那再看一眼反面："></a>那再看一眼反面：</h2><p>如果客户成功<strong>没有</strong>解决方案架构能力，会发生什么？</p><p>客户在问“我们能不能实现这个目标”，CS说：“我问下产品未来规划”。</p><p>客户在说“我们现在上线有阻力”，CS说：“您可以使用行政命令强推”。</p><p>客户在抱怨“功能不如竞品”，CS说：“我给你一个功能对比”。</p><p>听起来没毛病，但其实都是在<strong>把问题退回去</strong>。这是服务型CS最大的致命伤——“你确实回应了客户，但你没有提供路径”。而这个路径，就是“解决方案架构”。</p><p>我有一个很惋惜的客户在服务群里闹的很不愉快，是客户从Confluence切换为国产化知识库，客户的指定对接人一直强调Confluence的使用体验要优于我们产品，于是我严格对照Confluence相关客户提及的内容在服务群里进行“反驳”，然后，客户对接人的领导就把电话打到销售那里了…</p><p>不是说不能跟客户较真，甚至从乙方CS内部规范或操守来讲我的做法也并没有什么问题，只是你真要奔着“客户成功”的角度来讲，再不济再不济的手段也是“您的反馈我记录下了交给产研评估看能不能进规划路线图”。</p><p>这就是解决问题和否认问题的区别，但是我还是想挽尊一下，毕竟是那个客户的需求多到产研做不过来，所以我只能想办法直接“毙掉”一些需求。</p><h2 id="这让我想到另一个关键词：“问题状态”-vs-“方案状态”。"><a href="#这让我想到另一个关键词：“问题状态”-vs-“方案状态”。" class="headerlink" title="这让我想到另一个关键词：“问题状态” vs “方案状态”。"></a>这让我想到另一个关键词：“<strong>问题状态</strong>” vs “<strong>方案状态</strong>”。</h2><p>很多CS一直困在“问题状态”里反应式服务，客户一说痛点就跟着摇头点头，不断安抚，不断协调——但客户不是来找心理咨询师的，客户是来找“办法”的。而CS如果能把“我们现在遇到什么问题”推进成“我们可以试试这样解决”这个结构转变，客户的感知就会从焦虑转为信任。</p><p>说到底，<strong>解决方案架构能力是CS从“跟着客户走”到“带着客户走”的分水岭。</strong></p><p>这让我又联想到一点：其实“解决方案架构”并不一定要完美。它可以是阶段性的、权宜之计的、甚至是带着风险的建议。关键不是“你有没有一个完美路径”，而是“客户是否愿意跟你一起往那个方向走”。而这种信任，来源于CS提出方案时表现出的<strong>思考深度、立场清晰和对复杂性的判断力。</strong></p><hr><h2 id="那具体的能力要求应该是怎么样的？"><a href="#那具体的能力要求应该是怎么样的？" class="headerlink" title="那具体的能力要求应该是怎么样的？"></a>那具体的能力要求应该是怎么样的？</h2><p>首先今天这篇文章不是说CS要会写代码、画ER图，而是说，CS要具备以下几种能力融合体：</p><ul><li>能从碎片的信息中抽象出业务架构的核心矛盾；</li><li>能理解产品功能的模块逻辑，并知道如何搭配组合以支撑业务目标；</li><li>能与AE&#x2F;SA&#x2F;实施&#x2F;产品进行“架构层”的沟通，而不是只谈执行细节；</li><li>能判断某个需求是产品缺陷，流程问题，组织能力不足，还是数据流不通；</li><li>能绘制客户视角的价值交付路径图，并识别出关键影响点与高风险环节。</li></ul><p>这些不是靠一次项目就能练成的能力，它需要大量项目中“向上咬合”的思维训练，也需要CS放下“服务补位”的身份感，去逼近“交付成败责任人”的角色自觉，甚至是“客户业务成败负责人”这个维度。</p><hr><h2 id="再进一步，这个能力的缺失会极大限制CS的职业发展。"><a href="#再进一步，这个能力的缺失会极大限制CS的职业发展。" class="headerlink" title="再进一步，这个能力的缺失会极大限制CS的职业发展。"></a>再进一步，这个能力的缺失会极大限制CS的职业发展。</h2><p>你想啊，如果你只会转述产品配置、流程答疑，那你会被AI替代；但如果你能根据不同客户的业务背景、组织结构、价值目标，提出定制化的策略建议，那你就在构建<strong>无法被复制的信任资产。</strong></p><p>这不仅是客户成功的进化方向，也是职业发展的护城河，自我保护的手段之一，有点像程序员的“防御式编码”，不过好在我们不是主观这么做，是客户的“客观个性化场景”导致的。</p><p>最后我脑中闪过一个画面：客户说“我们这次项目领导很谨慎，怕方案落地不了”，你不是说“我们产品没问题”，而是说：</p><blockquote><p>“我懂你的担忧，我给你两种方案——一种是我们分阶段上线，先跑一个业务线；另一种是我帮你对齐一次领导层的ROI模型，看他们对产品的要求更侧重于什么，我们来帮你做。”</p></blockquote><p>这就是解决方案架构的能力。</p><p>如果你不具备这样的能力，那你一定会陷入服务、运营、项目管理、售前、销售这些偏实操向的“后链路服务”，职责边界天然在“执行”，倒不是有多么不好，只不过职业发展“天花板”和客户“同层次对话”的高度也很确定。</p><p>太过确定的东西如“一眼看到头”我猜这肯定也不是你想要的。</p><p>这也是为什么它不是个选修课，而是个必修项。</p><hr><h2 id="最后分享一个我思考的暴论吧："><a href="#最后分享一个我思考的暴论吧：" class="headerlink" title="最后分享一个我思考的暴论吧："></a>最后分享一个我思考的暴论吧：</h2><p>虽然这篇文章中我混用了“解决方案”和“架构”这两个关键词汇，但我想更进一步的告诉你：</p><ul><li><strong>解决方案：</strong> 是路径选择，是目标转化手段，是产品的灵活使用。</li><li><strong>架构能力：</strong> 是统筹视角，是资源配置设计能力，是业务的管理抽象。</li></ul><p><strong>如果你真的想掌握这种能力，甚至可以重架构轻方案。</strong></p><blockquote><p>客户成功，先是一个业务专家才是一个产品专家。</p></blockquote></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
+    
+    
+    <summary type="html">在ToB SaaS服务中，客户成功不只是执行层角色，更需要解决方案架构能力。本篇文章深入探讨CS如何通过业务建模、流程设计与资源统筹，为客户构建可落地的解决路径，从而实现从“回应问题”到“定义路径”的角色跃迁。这不仅关乎客户价值交付，更是CS职业发展的关键分水岭。</summary>
+    
+    
+    
+    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>客户成功应该有售前的能力</title>
@@ -409,27 +430,6 @@
     
     
     <category term="断想一束" scheme="https://heycsm.com/categories/%E6%96%AD%E6%83%B3%E4%B8%80%E6%9D%9F/"/>
-    
-    
-    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>客单价不高，你做什么客户成功？</title>
-    <link href="https://heycsm.com/2025/03/31/%E5%AE%A2%E5%8D%95%E4%BB%B7%E4%B8%8D%E9%AB%98%EF%BC%8C%E4%BD%A0%E5%81%9A%E4%BB%80%E4%B9%88%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%EF%BC%9F/"/>
-    <id>https://heycsm.com/2025/03/31/%E5%AE%A2%E5%8D%95%E4%BB%B7%E4%B8%8D%E9%AB%98%EF%BC%8C%E4%BD%A0%E5%81%9A%E4%BB%80%E4%B9%88%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%EF%BC%9F/</id>
-    <published>2025-03-31T10:58:09.000Z</published>
-    <updated>2025-03-31T10:59:42.548Z</updated>
-    
-    <content type="html"><![CDATA[<div id="readmore-container"><p>我很早之前分享过一个观点：</p><p><figure class="image-caption"><img                       lazyload                     src="/images/loading.svg"                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/20250331180605801.png"                      alt="客单价决定一切"                ><figcaption>客单价决定一切</figcaption></figure></p><p><strong>客单价决定一切！客单价决定一切！客单价决定一切！</strong></p><p>这句话很武断，但你别急着下判断，请听我讲然后顺着它往深里走，别被表面“高客单&#x3D;收入高”这种关乎自己切身利益的浅逻辑糊弄了。</p><p>这个命题背后，是客户成功整个经济模型的根骨。</p><h2 id="ARPA-ARPU"><a href="#ARPA-ARPU" class="headerlink" title="ARPA &#x2F; ARPU"></a>ARPA &#x2F; ARPU</h2><p>这里先说清楚，我讲的“客单价”，不是那种 KA 大客户的一年几十万、几百万的合同金额。</p><p>而是指每个客户实际支付的<strong>基础单价</strong>、License Price、本质上接近一个“平均客单价”概念——</p><p>它某种程度上，就像线下零售行业的“坪效比”：你不是靠大客户活，而是靠每平米能卖多少钱活。</p><p>同理，客户成功靠的，不是单个客户掏了多少钱，而是<strong>单位客户，是否支撑得起你的服务体系。</strong></p><blockquote><p>我不知道这里表达的对不对，或者说我没找到合适的定义，是基础定价那个东西，比如一个 license 是 699，或者 2000 这样的，大家应该可以理解。</p></blockquote><h2 id="为什么重要"><a href="#为什么重要" class="headerlink" title="为什么重要"></a>为什么重要</h2><p>嗯……首先我们先搞明白一点——</p><p>客户成功领域，为什么我们愿意为了高客单付出一切运营、服务、交付甚至组织结构上的代价？</p><p>包括引入客户成功岗位本身就是代价的体现。</p><p>这是不是意味着，高客单本质上定义了一家 B2B 企业做 CS 的下限、上线和生死线？</p><h3 id="第一个直觉冒出来的：客户成功是重运营、重服务、重人效的系统。"><a href="#第一个直觉冒出来的：客户成功是重运营、重服务、重人效的系统。" class="headerlink" title="第一个直觉冒出来的：客户成功是重运营、重服务、重人效的系统。"></a>第一个直觉冒出来的：客户成功是重运营、重服务、重人效的系统。</h3><p>它不像广告或者游戏那样能靠自动化分发跑规模，它的产出本质上是“信任+时间+关系管理”的复合资产，而这类资产，只有在单位客户价值足够高时，才能正向闭环。</p><p>你不可能对一个年付两千的客户配置一个 CSM，哪怕你再想要口碑再想要反馈。</p><p>因为你赔不起。</p><p>低客单和 CS 是天然悖论。</p><h3 id="这又牵出另一个悖论：客户成功是靠“长期主义”吃饭的，但低客单客户的生命周期其实很短。"><a href="#这又牵出另一个悖论：客户成功是靠“长期主义”吃饭的，但低客单客户的生命周期其实很短。" class="headerlink" title="这又牵出另一个悖论：客户成功是靠“长期主义”吃饭的，但低客单客户的生命周期其实很短。"></a>这又牵出另一个悖论：客户成功是靠“长期主义”吃饭的，但低客单客户的生命周期其实很短。</h3><p>尤其在 SaaS 里，客户生命周期受限于预算、团队稳定性、技术能力。</p><p>而低客单客户流失的速度快过你服务的速度，CS 还没跑完 onboarding，人家已经去用了竞品的免费版。</p><p>我不太想讲甚至有可能这个客户的寿命都没有合同期限长。</p><p>这时候你意识到一个事情——低价客户根本承受不起“客户成功”这个动作的成本。</p><p>所以不是你服务做得不好，是你压根做不成。</p><h3 id="啊，这就更深了：CS-不是一个普世适用的职能，而是一个桥梁。"><a href="#啊，这就更深了：CS-不是一个普世适用的职能，而是一个桥梁。" class="headerlink" title="啊，这就更深了：CS 不是一个普世适用的职能，而是一个桥梁。"></a>啊，这就更深了：CS 不是一个普世适用的职能，而是一个<strong>桥梁</strong>。</h3><p>它只对高客单客户真正有意义，对低客单客户的所谓“成功”，只能靠产品自助、教育化内容、社区协作等方式支撑。</p><p>这也解释了为什么很多 PLG（产品驱动增长）公司对 CS 部门半信半疑，因为他们本质上并不指望靠人力撬动客户价值。</p><h3 id="接着我想到了“Gross-Margin”（毛利率）。"><a href="#接着我想到了“Gross-Margin”（毛利率）。" class="headerlink" title="接着我想到了“Gross Margin”（毛利率）。"></a>接着我想到了“Gross Margin”（毛利率）。</h3><p>一个客户的毛利率高不高，关键看服务成本在他的营收占比中是多少。</p><p>CS 是成本，不是收入中心。</p><p>至少我说的是只靠续费的大多数客户成功团队的现实。</p><p>只有当客户支付的金额足够高时，CS 的投入才有经济合理性。</p><p>所以从 Unit Economics 上看，</p><p><strong>高客单 &#x3D; 可以负担起深度服务 &#x3D; 能带来增购&#x2F;扩容&#x2F;转介绍 &#x3D; 客户成功才成立</strong>。</p><h3 id="再来，客户成功其实并不是“做得多”就“成功”。"><a href="#再来，客户成功其实并不是“做得多”就“成功”。" class="headerlink" title="再来，客户成功其实并不是“做得多”就“成功”。"></a>再来，客户成功其实并不是“做得多”就“成功”。</h3><p>虽然我有过下文的表述：</p><p><figure class="image-caption"><img                       lazyload                     src="/images/loading.svg"                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/20250331175206090.png"                      alt="但请注意我的上下文"                ><figcaption>但请注意我的上下文</figcaption></figure></p><p>它依赖于策略性介入、精准定位和行为设计。</p><p>怎么理解呢？</p><p>其实近期在看一些物理科普的书，然后就是牛顿经典力学的还原论或者是决定论它某些程度上是对的，在商业世界里，你可以理解为：</p><blockquote><p>有付出，就一定有回报。</p></blockquote><p>但是我们也知道量子力学提出之后挑战了牛顿经典力学在微观世界下的准确性。</p><p>这里我想用刘振云的分享告诉你。</p><blockquote><p>你千万别相信世界上没有近路可走，是有的；你千万别相信事情不可以投机，是可以投机的。</p></blockquote><p>在现代科学对于量子力学和牛顿经典力学的适用域定义清楚之前真的要学会两条腿走路。</p><p>扯远了，那么放在我们的 KA 和 SMB 客户中是什么样的？</p><p>SMB 客户其实更重投入但产生更大产出的概率小，非线性的，量子力学。</p><p>而高客单客户是相对线性的，经典力学，往往在交付价值时配合度更高——他们愿意听建议，愿意投入资源，甚至愿意一起共创。</p><p>这些能力，是低客单客户缺乏的。</p><p>而客户成功要的就是“客户的主动性 + 组织间的协同”，不然 CS 就只是项目管理，不是赋能。</p><h3 id="那再往远一点看：如果一家公司-CS-部门做得风生水起，很可能意味着这家公司有一批高客单客户在支撑。"><a href="#那再往远一点看：如果一家公司-CS-部门做得风生水起，很可能意味着这家公司有一批高客单客户在支撑。" class="headerlink" title="那再往远一点看：如果一家公司 CS 部门做得风生水起，很可能意味着这家公司有一批高客单客户在支撑。"></a>那再往远一点看：如果一家公司 CS 部门做得风生水起，很可能意味着这家公司有一批高客单客户在支撑。</h3><p>因为 CS 不是营收驱动的，而是价值驱动的。</p><p>所以当我们说“客单价高于一切”，其实是在说：</p><p><strong>没有高客单，就没有价值闭环；没有价值闭环，就没有客户成功；没有客户成功，就没有长期增长。</strong></p><p>当然也不能绝对化，PLG 那种走规模、走自动化的路径，确实可以在低客单下构建某种“轻量版 CS”，但那不是“客户成功管理”，那是“用户教育”或者“产品运营”。</p><p>其实 C 端的订阅制产品往往就是这个逻辑。</p><h2 id="所以找什么样的工作？"><a href="#所以找什么样的工作？" class="headerlink" title="所以找什么样的工作？"></a>所以找什么样的工作？</h2><p>回到这个命题的本质：</p><p><strong>客户成功的根，是单位价值可被放大的空间。而这个空间，不是靠客户数量撑起来的，是靠客户深度撑起来的。</strong></p><p>所以，<strong>客单价，是客户成功得以存在的土壤。而不是华而不实的指标。</strong></p><p>最后，今天的文章准确来讲是一个 To 文，即为什么我更推荐客户成功经理去找多模块的 SaaS 产品的工作？</p><p>看到这里，我相信你应该明白了。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
-    
-    
-    <summary type="html">在客户成功的世界里，客单价不是一组财务数字，而是定义你是否值得被组织搭建的根本逻辑。本文从ARPA视角出发，拆解客户成功经济模型的底层结构，指出：没有足够的单位客户价值，就没有成立客户成功团队的合理性。高客单不是锦上添花，而是让服务、运营、人力配置进入正循环的前提。而那些追求低价、生命周期短、组织松散的客户，往往无法撑起“成功”二字。</summary>
-    
-    
-    
-    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
     
     
     <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
