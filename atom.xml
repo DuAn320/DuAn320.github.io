@@ -6,7 +6,7 @@
   <link href="https://heycsm.com/atom.xml" rel="self"/>
   
   <link href="https://heycsm.com/"/>
-  <updated>2025-05-15T10:36:43.811Z</updated>
+  <updated>2025-05-16T14:53:13.019Z</updated>
   <id>https://heycsm.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>私有部署，SaaS从业者拿什么爱你</title>
+    <link href="https://heycsm.com/2025/05/16/%E7%A7%81%E6%9C%89%E9%83%A8%E7%BD%B2%EF%BC%8CSaaS%E4%BB%8E%E4%B8%9A%E8%80%85%E6%8B%BF%E4%BB%80%E4%B9%88%E7%88%B1%E4%BD%A0/"/>
+    <id>https://heycsm.com/2025/05/16/%E7%A7%81%E6%9C%89%E9%83%A8%E7%BD%B2%EF%BC%8CSaaS%E4%BB%8E%E4%B8%9A%E8%80%85%E6%8B%BF%E4%BB%80%E4%B9%88%E7%88%B1%E4%BD%A0/</id>
+    <published>2025-05-16T14:50:47.000Z</published>
+    <updated>2025-05-16T14:53:13.019Z</updated>
+    
+    <content type="html"><![CDATA[<div id="readmore-container"><p><strong>爱之深，恨之切。我从没想过这个形容有一天也能形容 SaaS 从业者的精神状态了。</strong></p><p>你有没有遇到过这样一种客户：</p><ul><li>一上来就问：“你们支持私有部署吗？”</li><li>然后甩来一份“内部安全政策”，条款比合同还厚；</li><li>一边说要“标准化产品的最佳实践”，一边要求“能不能按我们流程改一下”；</li><li>项目上线要打三次补丁，开发资源排期全乱。</li></ul><hr><ul><li><strong>但他们是你的头部客户，是销售提成的半壁江山，是融资 BP 上的 logo 资源。</strong></li></ul><p>你恨得牙痒痒，但你又不敢说不。</p><p>这，就是私有部署的悖论。</p><h2 id="为什么我们还是会“爱上私有部署”"><a href="#为什么我们还是会“爱上私有部署”" class="headerlink" title="为什么我们还是会“爱上私有部署”"></a>为什么我们还是会“爱上私有部署”</h2><p>从产品视角看，私有部署是个灾难。</p><p>但从营收视角看，它就是一笔能让财务开心到转圈的“现金交易”。他们拉高了营收指标，也塑造了产品可信度。</p><p>所以即使被迫划向“项目制交付”的泥潭我们也会因为以下原因嘴上说不要身体却很诚实：</p><ul><li>因为客户很大：一签就是一年几倍标品的预算，甚至能打包三年；</li><li>因为品牌背书：这些客户的 Logo，是下一轮融资的敲门砖；</li><li>因为销售需求：ToB 的增长节点常常离不开一个“可定制”的战略突破口；</li><li>因为现实环境：你不是在北美，不是 PLG 爆发的市场，而是在一个“招标制度+本地合规+信任缺失”并存的复杂体系里打仗。</li></ul><p>你知道你该骂它违背 SaaS 的本质，但你又离不开它带来的 KPI。哪怕在老板角度，你知道你该恨它毁了你的 SaaS 模型，但你又爱它带来的现金流和体面。</p><p>这就叫“爱得不甘心”。</p><h2 id="爱得越深，恨得越切"><a href="#爱得越深，恨得越切" class="headerlink" title="爱得越深，恨得越切"></a>爱得越深，恨得越切</h2><p>“上得厅堂，下得机房。”</p><p>这句话，用来形容做私有部署项目的 SaaS 从业者，最合适不过，尤其是那些玩百万项目的 KA 以及在从一个机房跳到另一个机房的实施&#x2F;运维同学。</p><p>你得理解客户安全架构，和政企 IT 开会，还要把 CI&#x2F;CD 拆成手动打包。你得管理代码分支、维护多套环境、扛住凌晨上线后的电话。</p><p>而这些痛苦，最终并不会被我们这些“客户成功”正向反哺，为什么？相比直接带来的业务成就感而言客户更有感知的是下面这些内容：</p><ul><li>一次上线问题，就能毁掉半年积累的信任；</li><li>一个定制版本，足以拆穿你“产品通用”的商业幻想；</li><li>一个安全事件，就能让你的售后成本炸裂。</li></ul><p>这些穿插了整个私有部署后服务的日常。</p><p>所以啊，私有部署并不只是服务方式的不同，而是<strong>一整个组织资源配置逻辑的逆流而行</strong>。你越想打造一个纯净的产品模式、越想凭产品力吃饭，越会在面对“私有部署”客户时觉得羞辱。</p><p>你以为自己卖的是“产品”，其实你已经在打包“人力+定制+维护+运维”。</p><p>而另一边呢？</p><p>客户以为买的是“L2.9 级智能驾驶”，结果是你每天在客户服务器里“手动更补丁”的“L2 级辅助驾驶”。客户也挺委屈，总感觉自己受了骗，委屈巴巴的。</p><p>这还怎么做 SaaS？</p><h2 id="SaaS-从业者真正恨的是什么？"><a href="#SaaS-从业者真正恨的是什么？" class="headerlink" title="SaaS 从业者真正恨的是什么？"></a>SaaS 从业者真正恨的是什么？</h2><p>恨的不是客户提了需求，而是你没有选择权。</p><ul><li>你可以讲标准化的好处，但老板会问你：“能不能先签了？版本后面再收敛。”</li><li>你可以谈理想，但市场告诉你：“不满足私有化就没资格谈竞争。”</li><li>你想做产品，但最终沦为项目制服务商。</li><li>你想做 SaaS，却始终卡在 PaaS 和工程项目之间左右为难。</li></ul><p>你最恨的，是自己清楚知道这是不对的，却又不得不妥协。</p><p>你恨的，其实是<strong>你努力构建的 SaaS 秩序，在现实面前不堪一击</strong>。</p><p>甚至不需要我多做说明了，2025 年“活下去”的口号在 SaaS 公司内外部频频提及就已经足够说明问题了。</p><h2 id="不是你爱错了人，而是这个市场从未善待理想主义者"><a href="#不是你爱错了人，而是这个市场从未善待理想主义者" class="headerlink" title="不是你爱错了人，而是这个市场从未善待理想主义者"></a>不是你爱错了人，而是这个市场从未善待理想主义者</h2><p>也许我们爱得不是客户，而是<strong>那个我们曾经想成为的自己</strong>：</p><ul><li>有清晰产品定位；</li><li>有标准化能力边界；</li><li>有愿意为好产品付费的市场；</li><li>有信任、合作、契约精神支撑的生态。</li></ul><p>可现实告诉我们，爱之深，恨之切。</p><p>爱的是未来理想的 SaaS 模样，恨的是此刻妥协的自己。</p><p>所以我们只能一边打补丁，一边试图保住初心；一边“假装标准化”，一边偷偷为客户开后门。</p><p>这是我们这一代 SaaS 从业者的悲喜剧。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
+    
+    
+    <summary type="html">这篇文章深刻揭示了SaaS行业从业者面对“私有部署”客户时的现实困境与心理撕裂：一方面，它带来高营收、大客户和品牌背书；另一方面，却让产品标准化和组织效率陷入混乱，甚至背离SaaS本质。作者以真实场景与情绪共鸣，展现了在理想与妥协之间挣扎的SaaS团队生态，是一场关于“爱之深，恨之切”的行业自白与理性反思。</summary>
+    
+    
+    
+    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>我在骗自己，可客户成功本来就是理想主义啊</title>
@@ -405,27 +426,6 @@
     
     
     <summary type="html">客户成功真的只管服务交付吗？在“成功=成交”逻辑被频繁打破的今天，越来越多CS开始反思：如果客户从一开始就“错了”，我们还能成功吗？本篇文章从Onboarding失控谈起，深挖CS为何必须具备“售前能力”——不为抢活，而是为定义成功、守住价值。适合所有在CS边界上摸索、在成交质量上焦虑的你。</summary>
-    
-    
-    
-    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
-    
-    
-    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>客户成功应该有运营的能力</title>
-    <link href="https://heycsm.com/2025/04/18/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E5%BA%94%E8%AF%A5%E6%9C%89%E8%BF%90%E8%90%A5%E7%9A%84%E8%83%BD%E5%8A%9B/"/>
-    <id>https://heycsm.com/2025/04/18/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E5%BA%94%E8%AF%A5%E6%9C%89%E8%BF%90%E8%90%A5%E7%9A%84%E8%83%BD%E5%8A%9B/</id>
-    <published>2025-04-18T09:10:51.000Z</published>
-    <updated>2025-04-18T09:32:38.767Z</updated>
-    
-    <content type="html"><![CDATA[<div id="readmore-container"><p>今天我们先不聊“RevOps”这种公司组织级的战略，我们先聊聊客户成功能力模型中本身该有的基础能力——“运营”。</p><p>嗯，让我慢慢拆一下。</p><p>第一反应是：</p><p>为什么“运营”这个词会出现在CS（客户成功）的语境里？</p><p>这看上去像是两个职能的边界正被重新界定。CS通常被认为是以客户为单位的、一对一的价值交付角色，而运营则是一对多的系统能力，强调流程、节奏、规模化影响。</p><p>这背后一定发生了什么变化。</p><p>也许是这样：CS的职责越来越“系统化”了——不是那种靠情商维系关系的“服务”，而是靠节奏、机制、内容流动来撬动客户价值的“运营型服务”。</p><p>这时，CS不再是那个永远在群里“帮客户解决问题”的客服型角色，而是一个“制造影响力”的角色。影响客户用得更好、跑得更顺、增长更快。</p><p>这让我想起我看过的一种CS打法——有的CS会定期策划内容，比如“每月最佳实践合集”、“季度更新提醒”、“沉默客户唤醒计划”——这都不是传统意义上的“客户维护”，这是“精细化运营”，只是对象是客户，而不是用户。说到底，是“客户成功的运营化”。</p><hr><p>再说个反例。</p><p>很多CS在客户数量增加后会明显感到力不从心：客户太多、对接不过来、每个客户都等你“拉一拉”才有活性。</p><p>那为啥你不能主动让他们“自己跑”起来？是因为你缺了一套“让客户自动跑起来”的机制——也就是运营能力。</p><p>这种运营不是“发活动通知”那么浅的理解，它是：</p><ul><li>能拆出客户在哪个生命周期节点上可能出问题  </li><li>能设计一套节奏，把高频低干预的内容自动送到客户面前  </li><li>能根据数据判断哪些客户需要什么干预  </li><li>能基于客户旅程，提前“铺好路”</li></ul><p>这不是客服做的，这是增长运营做的。但CS如果具备这个能力，就能“放大”自己的价值输出。</p><hr><p>实际上SaaS的演进不光催熟了“客户成功”这个岗位，“增长黑客”也是，只是因为相对“幕后”，不像“客户成功”一样直接接触客户从而走到“台前”。</p><p>我又想起一个场景：客户用你家产品，一直卡在“配置阶段”，没人教，功能用不上。你每天一个一个教，效率低死了。如果你有运营思维，你可能会想：</p><p>→ 我能不能做个“配置训练营”？<br>→ 能不能每周三发一个功能小贴士？<br>→ 能不能用自动化工具根据客户行为触发提醒？</p><hr><p>我记得一个很有感触的事情，是一位前辈经历过的：</p><p>居家办公那个时期对我们协作SaaS是利好的，甚至出现过销售不够用的情况，这是前提。</p><p>与此对应的是CS手中需要onboarding的客户在排队，于是那位前辈做了件什么事情呢？</p><p>把客户集中化培训，就是多家客户同时培训。当然相较于一对一培训使用深度肯定力有不逮，但是对于当时需要极速上线维持业务运转的客户来讲，这就是恰当甚至优秀的应对举措。</p><p>除此之外，当时的远程会议还一直保持在线，保证有使用问题的客户可以立马连线处理。</p><p><strong>这就是运营。</strong></p><p>它不是替代CS一对一，而是放大CS的覆盖面。</p><hr><p>现在再回到那句话：“客户成功应该有运营的能力”——我觉得它的隐含逻辑是：</p><p>→ 未来的客户成功，不是靠堆人，而是靠机制。<br>→ 没有运营能力的CS，是做不出规模化影响的。<br>→ 有运营能力的CS，才能真正跑出飞轮效应。</p><p>所以这句话不是要求你去做运营的事，而是要求你具备运营的思维方式和系统能力，把客户成功从“人拉人”变成“机制驱动”。</p><p>表面是“你多学一点运营”，深层是“你要学会做价值放大”。</p><p>也许运营的底层逻辑就是“以小搏大”。</p><p><strong>对于CS来讲，这确实是个岗位进化的号角。</strong></p><p>因为客户成功，终究要走向“规模影响力”。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
-    
-    
-    <summary type="html">这篇文章聚焦客户成功岗位中“运营能力”的重要性，指出CS不仅要做好一对一服务，更要具备以机制驱动客户成功的一对多影响力。通过具体案例与场景还原，文章揭示了CS如何借助内容节奏、自动化手段和流程设计，实现客户价值的放大。它不仅是能力模型的延伸，更是CS职业路径中的关键转型信号。文末附智书企飞CS岗位招聘信息，欢迎关注。</summary>
     
     
     
