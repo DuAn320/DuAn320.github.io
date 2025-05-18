@@ -6,7 +6,7 @@
   <link href="https://heycsm.com/atom.xml" rel="self"/>
   
   <link href="https://heycsm.com/"/>
-  <updated>2025-05-17T15:50:15.116Z</updated>
+  <updated>2025-05-18T13:21:35.274Z</updated>
   <id>https://heycsm.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SaaS从业者如何与客户沟通好软件需求？</title>
+    <link href="https://heycsm.com/2025/05/18/SaaS%E4%BB%8E%E4%B8%9A%E8%80%85%E5%A6%82%E4%BD%95%E4%B8%8E%E5%AE%A2%E6%88%B7%E6%B2%9F%E9%80%9A%E5%A5%BD%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%EF%BC%9F/"/>
+    <id>https://heycsm.com/2025/05/18/SaaS%E4%BB%8E%E4%B8%9A%E8%80%85%E5%A6%82%E4%BD%95%E4%B8%8E%E5%AE%A2%E6%88%B7%E6%B2%9F%E9%80%9A%E5%A5%BD%E8%BD%AF%E4%BB%B6%E9%9C%80%E6%B1%82%EF%BC%9F/</id>
+    <published>2025-05-18T13:15:33.000Z</published>
+    <updated>2025-05-18T13:21:35.274Z</updated>
+    
+    <content type="html"><![CDATA[<div id="readmore-container"><p><strong>客户不懂软件，但他们懂业务。</strong></p><p>“SaaS 从业者”——这个身份本身很广。</p><p>可以是客户成功，可以是产品经理，甚至是销售、实施顾问、解决方案架构师。但无论哪一个身份，我们都是需要通过跟 B 端客户沟通具体的业务需求来抽象出我们的产品、方案的定义。</p><p>那对于我们而言，“软件需求”又是什么？</p><p>这也有层次——是客户想要一个新功能？是他们不满意现有逻辑？是他们看到了竞品有某个能力？还是他们其实根本没想清楚要啥，只是说“你们能不能支持 XXX”？这里面很多时候需求本身是不成形的。</p><p>如果你只是做一个收集工作的话，其实很简单，有沟通技巧，简单地“听清楚客户想要什么”记录好交差就行了。</p><p>但如果想要你收集到的信息<strong>有效</strong>，你必然得——</p><ol><li>怎么识别客户说的，是表达的愿望、已有的流程，还是真实的痛点；</li><li>怎么引导客户讲清楚自己都没捋清的需求；</li><li>更难的是，在这背后，你怎么在“做不到”、“不适合做”、“不能做”中选一个体面但真诚的答复方式。</li></ol><p>而我觉得这事之所以在 SaaS 里更突出，是因为软件是虚拟的，功能是抽象的，交付是滞后的，从 CS 的“成功”角度来看，客户说的“我想要一个报表导出”可能意味着潜台词是“我们老板不信你这个系统”，这时候你不能真的以为加个 Excel 按钮就能解决。</p><p>反过来说，客户其实也很痛苦。他们不是产品经理。他们表达的方式也许就是“能不能改一下 XX 的颜色”，但他们的真实问题是：“我们老板抱怨看不清那个按钮”。</p><p>所以我现在意识到——“沟通软件需求”不是“翻译”客户的语言，而是“再建构”这个语言的底层动机，并和内部团队一起去协商：我们要不要为这个动机开发功能？还是通过其他方式解决？</p><p>这让我想到几个关键词：<strong>同理、提问、澄清、翻译、再定义、博弈。</strong></p><ul><li>同理是你得站在客户那边看问题，不然你会觉得客户“要求太多”；</li><li>提问是你得问得动脑，不然你听到的只是“你们能不能做这个功能”；</li><li>澄清是你要确认“需求”真的成立，而不是客户的一拍脑门；</li><li>翻译是你得把客户的语境还原成产品团队能理解的语言；</li><li>再定义是你能不能基于系统能力重构客户的问题；</li><li>博弈是你明知道这个功能不能做，你怎么让客户接受替代方案。</li></ul><p>所以某种程度上我其实挺欣赏产品经理的“独断”的，因为我也认同客户需求不是拿来“满足”的，而是拿来<strong>理解、筛选、引导、折中、重构</strong>的。</p><p>当然，这句话的前提是针对于真正的价值承载&#x2F;交付物——<strong>产品</strong>而言。</p><p>只有你真正看懂客户，也真正理解产品，你才能在这两者之间，搭起那座有价值的桥。</p><p>而这，才是 SaaS 从业者，尤其是客户成功、产品经理、实施顾问们真正的核心能力。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
+    
+    
+    <summary type="html">在这篇文章中，作者深入探讨了 SaaS 从业者在与 B 端客户沟通软件需求时所面临的真实挑战。文章指出，客户提出的“功能需求”往往只是表象，背后隐藏着未被准确表达的业务痛点与动机。因此，SaaS 从业者需要具备同理心、提问能力、澄清能力与重构意识，不只是“听懂需求”，而是通过引导与博弈，把模糊诉求转化为产品团队能理解、能落地、且有价值的功能决策。这不仅是沟通能力，更是一种产品思维的体现。</summary>
+    
+    
+    
+    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>客户成功，你一定要和客户有非正式聊天</title>
@@ -405,27 +426,6 @@
     
     
     <summary type="html">这篇文章深刻剖析了“客户成功需要具备产品能力”这一看似加分项、实则基础能力的核心命题。它指出，客户成功不是单纯的服务执行者，而是必须具备产品思维、理解设计逻辑与使用场景，才能真正帮助客户落地价值。文章强调：没有产品能力，CS只能当“功能翻译器”；有产品能力，CS才能成为客户与产品之间的桥梁，推动业务成功，也扩张了SaaS产品的价值边界。</summary>
-    
-    
-    
-    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
-    
-    
-    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>客户成功应该有解决方案架构的能力</title>
-    <link href="https://heycsm.com/2025/04/20/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E5%BA%94%E8%AF%A5%E6%9C%89%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E6%9E%B6%E6%9E%84%E7%9A%84%E8%83%BD%E5%8A%9B/"/>
-    <id>https://heycsm.com/2025/04/20/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E5%BA%94%E8%AF%A5%E6%9C%89%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E6%9E%B6%E6%9E%84%E7%9A%84%E8%83%BD%E5%8A%9B/</id>
-    <published>2025-04-20T09:38:41.000Z</published>
-    <updated>2025-04-20T09:44:48.547Z</updated>
-    
-    <content type="html"><![CDATA[<div id="readmore-container"><p>CS有“有解决方案架构的能力”这个命题乍一听像是一个招聘JD上“加分项”倡议，但其实，它有种隐藏的必然性。也就是说，不是“有了解决方案架构能力会更好”，而是“没有这能力，CS就做不下去”。</p><p>嗯……那得先搞清楚一件事：</p><h2 id="什么是“解决方案架构的能力”？"><a href="#什么是“解决方案架构的能力”？" class="headerlink" title="什么是“解决方案架构的能力”？"></a>什么是“解决方案架构的能力”？</h2><p>是不是做售前？拉个PPT讲产品配置？做客户痛点对照表？不完全是。解决方案能力，不是CS去扮演产品或售前的角色，而是他得能把一个抽象的、模糊的客户目标，转译成能落地的“解决路径”——它可能包括产品使用方案、业务流程建议、组织协作引导，甚至包括“这个客户现在不能推进，为什么”的判断逻辑。</p><p>另外，如果上升到“架构”这个词汇，因为“架构”这个词不轻，特别是在ToB场景下，它天然地携带着“整体设计能力”“多方协同能力”“系统性思维”的意味。这不是某一个动作，而是一个视角；不是某一个技能，而是一种认知位置。</p><p>所以这不是个“懂产品”就能补上的技能，而是对客户目标的<strong>建模能力</strong>、对落地障碍的<strong>识别能力</strong>、以及对资源配置的<strong>整合能力</strong>。</p><p>它一出现，就暗示了某种“上游参与”的姿态。</p><h2 id="那再看一眼反面："><a href="#那再看一眼反面：" class="headerlink" title="那再看一眼反面："></a>那再看一眼反面：</h2><p>如果客户成功<strong>没有</strong>解决方案架构能力，会发生什么？</p><p>客户在问“我们能不能实现这个目标”，CS说：“我问下产品未来规划”。</p><p>客户在说“我们现在上线有阻力”，CS说：“您可以使用行政命令强推”。</p><p>客户在抱怨“功能不如竞品”，CS说：“我给你一个功能对比”。</p><p>听起来没毛病，但其实都是在<strong>把问题退回去</strong>。这是服务型CS最大的致命伤——“你确实回应了客户，但你没有提供路径”。而这个路径，就是“解决方案架构”。</p><p>我有一个很惋惜的客户在服务群里闹的很不愉快，是客户从Confluence切换为国产化知识库，客户的指定对接人一直强调Confluence的使用体验要优于我们产品，于是我严格对照Confluence相关客户提及的内容在服务群里进行“反驳”，然后，客户对接人的领导就把电话打到销售那里了…</p><p>不是说不能跟客户较真，甚至从乙方CS内部规范或操守来讲我的做法也并没有什么问题，只是你真要奔着“客户成功”的角度来讲，再不济再不济的手段也是“您的反馈我记录下了交给产研评估看能不能进规划路线图”。</p><p>这就是解决问题和否认问题的区别，但是我还是想挽尊一下，毕竟是那个客户的需求多到产研做不过来，所以我只能想办法直接“毙掉”一些需求。</p><h2 id="这让我想到另一个关键词：“问题状态”-vs-“方案状态”。"><a href="#这让我想到另一个关键词：“问题状态”-vs-“方案状态”。" class="headerlink" title="这让我想到另一个关键词：“问题状态” vs “方案状态”。"></a>这让我想到另一个关键词：“<strong>问题状态</strong>” vs “<strong>方案状态</strong>”。</h2><p>很多CS一直困在“问题状态”里反应式服务，客户一说痛点就跟着摇头点头，不断安抚，不断协调——但客户不是来找心理咨询师的，客户是来找“办法”的。而CS如果能把“我们现在遇到什么问题”推进成“我们可以试试这样解决”这个结构转变，客户的感知就会从焦虑转为信任。</p><p>说到底，<strong>解决方案架构能力是CS从“跟着客户走”到“带着客户走”的分水岭。</strong></p><p>这让我又联想到一点：其实“解决方案架构”并不一定要完美。它可以是阶段性的、权宜之计的、甚至是带着风险的建议。关键不是“你有没有一个完美路径”，而是“客户是否愿意跟你一起往那个方向走”。而这种信任，来源于CS提出方案时表现出的<strong>思考深度、立场清晰和对复杂性的判断力。</strong></p><hr><h2 id="那具体的能力要求应该是怎么样的？"><a href="#那具体的能力要求应该是怎么样的？" class="headerlink" title="那具体的能力要求应该是怎么样的？"></a>那具体的能力要求应该是怎么样的？</h2><p>首先今天这篇文章不是说CS要会写代码、画ER图，而是说，CS要具备以下几种能力融合体：</p><ul><li>能从碎片的信息中抽象出业务架构的核心矛盾；</li><li>能理解产品功能的模块逻辑，并知道如何搭配组合以支撑业务目标；</li><li>能与AE&#x2F;SA&#x2F;实施&#x2F;产品进行“架构层”的沟通，而不是只谈执行细节；</li><li>能判断某个需求是产品缺陷，流程问题，组织能力不足，还是数据流不通；</li><li>能绘制客户视角的价值交付路径图，并识别出关键影响点与高风险环节。</li></ul><p>这些不是靠一次项目就能练成的能力，它需要大量项目中“向上咬合”的思维训练，也需要CS放下“服务补位”的身份感，去逼近“交付成败责任人”的角色自觉，甚至是“客户业务成败负责人”这个维度。</p><hr><h2 id="再进一步，这个能力的缺失会极大限制CS的职业发展。"><a href="#再进一步，这个能力的缺失会极大限制CS的职业发展。" class="headerlink" title="再进一步，这个能力的缺失会极大限制CS的职业发展。"></a>再进一步，这个能力的缺失会极大限制CS的职业发展。</h2><p>你想啊，如果你只会转述产品配置、流程答疑，那你会被AI替代；但如果你能根据不同客户的业务背景、组织结构、价值目标，提出定制化的策略建议，那你就在构建<strong>无法被复制的信任资产。</strong></p><p>这不仅是客户成功的进化方向，也是职业发展的护城河，自我保护的手段之一，有点像程序员的“防御式编码”，不过好在我们不是主观这么做，是客户的“客观个性化场景”导致的。</p><p>最后我脑中闪过一个画面：客户说“我们这次项目领导很谨慎，怕方案落地不了”，你不是说“我们产品没问题”，而是说：</p><blockquote><p>“我懂你的担忧，我给你两种方案——一种是我们分阶段上线，先跑一个业务线；另一种是我帮你对齐一次领导层的ROI模型，看他们对产品的要求更侧重于什么，我们来帮你做。”</p></blockquote><p>这就是解决方案架构的能力。</p><p>如果你不具备这样的能力，那你一定会陷入服务、运营、项目管理、售前、销售这些偏实操向的“后链路服务”，职责边界天然在“执行”，倒不是有多么不好，只不过职业发展“天花板”和客户“同层次对话”的高度也很确定。</p><p>太过确定的东西如“一眼看到头”我猜这肯定也不是你想要的。</p><p>这也是为什么它不是个选修课，而是个必修项。</p><hr><h2 id="最后分享一个我思考的暴论吧："><a href="#最后分享一个我思考的暴论吧：" class="headerlink" title="最后分享一个我思考的暴论吧："></a>最后分享一个我思考的暴论吧：</h2><p>虽然这篇文章中我混用了“解决方案”和“架构”这两个关键词汇，但我想更进一步的告诉你：</p><ul><li><strong>解决方案：</strong> 是路径选择，是目标转化手段，是产品的灵活使用。</li><li><strong>架构能力：</strong> 是统筹视角，是资源配置设计能力，是业务的管理抽象。</li></ul><p><strong>如果你真的想掌握这种能力，甚至可以重架构轻方案。</strong></p><blockquote><p>客户成功，先是一个业务专家才是一个产品专家。</p></blockquote></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
-    
-    
-    <summary type="html">在ToB SaaS服务中，客户成功不只是执行层角色，更需要解决方案架构能力。本篇文章深入探讨CS如何通过业务建模、流程设计与资源统筹，为客户构建可落地的解决路径，从而实现从“回应问题”到“定义路径”的角色跃迁。这不仅关乎客户价值交付，更是CS职业发展的关键分水岭。</summary>
     
     
     
