@@ -6,7 +6,7 @@
   <link href="https://heycsm.com/atom.xml" rel="self"/>
   
   <link href="https://heycsm.com/"/>
-  <updated>2025-05-19T14:35:13.647Z</updated>
+  <updated>2025-05-20T10:12:52.261Z</updated>
   <id>https://heycsm.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一线遇到客户强势和内部混乱，该怎么办？</title>
+    <link href="https://heycsm.com/2025/05/20/%E4%B8%80%E7%BA%BF%E9%81%87%E5%88%B0%E5%AE%A2%E6%88%B7%E5%BC%BA%E5%8A%BF%E5%92%8C%E5%86%85%E9%83%A8%E6%B7%B7%E4%B9%B1%EF%BC%8C%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F/"/>
+    <id>https://heycsm.com/2025/05/20/%E4%B8%80%E7%BA%BF%E9%81%87%E5%88%B0%E5%AE%A2%E6%88%B7%E5%BC%BA%E5%8A%BF%E5%92%8C%E5%86%85%E9%83%A8%E6%B7%B7%E4%B9%B1%EF%BC%8C%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F/</id>
+    <published>2025-05-20T10:11:29.000Z</published>
+    <updated>2025-05-20T10:12:52.261Z</updated>
+    
+    <content type="html"><![CDATA[<div id="readmore-container"><p>这其实不是一个单一问题，而是“多重不对称权力冲突”在一个供应商项目现场的集中体现。</p><p>基本上在这种“夹层”场景里会有三种困境存在：</p><ol><li>客户强势、需求多且不可理喻；</li><li>内部组织混乱，执行力低；</li><li>内部有人强势无理，不配合推进需求落地。</li></ol><p>这三类问题叠在一起，是常见的企业服务从业者工作场景，尤其常见于 SaaS 厂商、数字化项目、B 端交付团队，也就是乙方在推进客户成功或项目交付时经常会踩进去的坑。</p><p>所以核心问题是：<strong>当上层权力关系不清晰、双方组织各自混乱、而你又处于最容易被要求“执行到底”的角色时，该如何处理？</strong></p><h2 id="问题分析"><a href="#问题分析" class="headerlink" title="问题分析"></a>问题分析</h2><p>先看第一个问题——“客户强势、需求过高”：</p><p>客户强势并不稀奇，但问题的关键是：强势之下有没有理性边界？有些客户“强势但讲理”，你还能通过数据、合同、项目排期等方式沟通；但如果客户既强势又不讲理，连你说的交付约束、范围边界都完全不认，那就变成“暴力型客户”——这类客户你光靠说服是没用的，你需要的是风险转移和授权保护机制。</p><p>再看第二种情况，“内部管理混乱，配合不上”：</p><p>这本质上是执行链条断裂。它说明公司内部没有形成一套“以交付为目标”的机制，也可能是资源优先级不清、团队责任边界模糊，或者干脆就是流程形同虚设。</p><p>更惨的是第三种，“内部有人强势又不执行”：</p><p>——它不仅仅是无能，更是“拉横幅挡刀”的状态：你要交付，他要摆资历、不理你，那你处在项目前线只能被客户骂，内部却无人兜底。</p><p><strong>这一切的本质问题都是角色不对等 + 责任不清晰 + 没人替你兜底。</strong></p><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>所以，我倾向于做这样的判断：这个问题不是要解决“怎么让客户满意”，也不是“怎么让内部执行”，而是——<strong>你怎么在没有权力的前提下，自保、稳场，并想办法推动组织或客户“自己暴露出问题”，</strong> 从而让你找到真正的切入点。</p><p>在这种局面下，<strong>你需要切换到一个“小透明”（切忌不要刷存在感）的心态</strong>：我不能解决所有问题，但我要站在对的地方、说对的话、写对的记录。</p><p>更进一步的三条“可实操路径”：</p><ul><li><p>如果客户强势但你没能力兜底需求，那你要用“书面流程和结构化交付路径”拖住局势，比如用双方的需求评审会、里程碑共识、需求进度表等方式把“需求合理性”和“项目范围”变成一个需要被记录、被签字的过程——目的是不让无理需求口头压你头上。</p></li><li><p>如果内部不作为，那你得切换到“留痕和转移风险”的机制：比如用周报、推进纪要、任务指派、工单系统等方式，持续制造“任务有被提出，但没有被回应”的证据——不是要搞谁，而是为自己保命，也为“拉领导下水”的契机埋雷。</p></li><li><p>如果内部有人强势挡路，那你要善于“制造矛盾暴露”：不是去对抗，而是故意制造“项目推进不了”的显性化现象——比如推动联合评审会请老板参加、推动里程碑验收卡住项目进度影响回款，以此让上层看到问题不是你，而是“那个人”或“那些人”的问题。</p></li></ul><h2 id="整体理解"><a href="#整体理解" class="headerlink" title="整体理解"></a>整体理解</h2><p>所以整体的思路其实是：你无法解决混乱也不需要解决，但你可以“让混乱显形”，逼出组织或客户的真正权责人出场。</p><p>或者说，你需要从“执行者”角色跳出来，成为局势的“记录者”和“推手”——你不一定能解决问题，但你能比所有人都先看到问题、定义问题、引导解决问题的方向。</p><p>这才是一个困境中乙方一线应该具备的“解决问题”（其实是合理甩锅和放大）能力。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
+    
+    
+    <summary type="html">在企业服务场景中，一线从业者常常面对客户强势、内部混乱、资源推诿等多重夹击。本篇文章深入剖析“夹层困境”的本质，提出通过书面流程留痕、制造问题显性化、推动组织权责出场等策略，教你如何在权力不对等的局面中实现自保、稳场、破局。适用于SaaS、数字化交付、B端项目管理等典型职场人群。</summary>
+    
+    
+    
+    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>SaaS厂商最爱腰部客户？别被骗了！</title>
@@ -405,27 +426,6 @@
     
     
     <summary type="html">在今天这篇文章里，我想聊的不是客户成功要不要“协助市场”，而是从更底层的逻辑出发：CS是否应该具备一种像市场一样建设“内容农场”、争取资源的机制意识。当客户成功能够将一线客户问题转化为结构化内容资产，并理解内容布局如何带来线索与流量时，CS就不仅仅是价值交付者，更是组织资源链中的设计者和供给者。这不仅是一种能力拓展，更是职能升维。</summary>
-    
-    
-    
-    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
-    
-    
-    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>客户成功应该有市场的能力</title>
-    <link href="https://heycsm.com/2025/04/22/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E5%BA%94%E8%AF%A5%E6%9C%89%E5%B8%82%E5%9C%BA%E7%9A%84%E8%83%BD%E5%8A%9B/"/>
-    <id>https://heycsm.com/2025/04/22/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E5%BA%94%E8%AF%A5%E6%9C%89%E5%B8%82%E5%9C%BA%E7%9A%84%E8%83%BD%E5%8A%9B/</id>
-    <published>2025-04-22T10:13:06.000Z</published>
-    <updated>2025-04-22T10:16:28.777Z</updated>
-    
-    <content type="html"><![CDATA[<div id="readmore-container"><p>大家印象中对于市场同学工作的感知是什么样的？</p><p>我这么一问，你肯定会本能地往“会做PPT、写宣传文案、协助市场活动”这些偏执行类的活上靠，但这不太可能是我今天立意真正想表达的意思。既然立意说的是“客户成功应该有市场的能力”，那就说明这不是“协作市场”，而是“拥有市场的那种视角、洞察和策略意识”。</p><hr><p>那么，我先说下CS下的“市场能力”到底是什么。</p><p>我们讲“市场能力”时，不是说CS要去替市场部投放广告或做SEO，而是指一种对于“如何构建、传播和维护客户价值主张”的能力。市场这个部门的核心本质，其实是在构建“客户为什么要买”的理由；客户成功的本质，则是负责“客户为什么要续”。从这个角度看，两者本质上是围绕客户价值生命周期的两个阶段：一个是承诺期，一个是兑现期。</p><p>但CS的问题常常是，只在兑现中做服务，却没有参与到价值预设的构建中。</p><hr><p>是的，虽然前几天在将CS应该有“售前”的能力中倡导CS去通过售前的行为定义成功的标准，但也是从交易行为上去讲的，而不是市场定位或者品牌建设上。</p><p>关于这点怎么理解？</p><p>很简单，负责市场的同学有两个典型的工作“内容农场的建设（SEO优化）”和“产品官网卖点表达”。</p><p>今天侧重的是第二点，第一点可能会放在明天的“营销能力”上去讲。</p><hr><p>现在问题来了：如果一个CS没有市场的能力，会发生什么？</p><p>我想象一个典型场景：CS在做续约推进，客户说：“我们觉得这个产品没以前那么值钱了。”这时CS往往会陷入两难：一边是功能其实没变，甚至还更新了；但另一边，客户的感知确实变了。这种“认知断层”，就需要CS具备一种再一次帮助客户看见价值的能力——而这种能力，其实正是“市场”在做的事。</p><hr><p>举个例子来讲，都是研发管理领域的软件，其实研发领域有过众多的方法论革新，一茬一茬的。而曾经我听过一个投资人的观点说：</p><blockquote><p>每套SaaS的背后都是一套标准的方法论。</p></blockquote><p>于是，你也能看到这个现象，研发SaaS赛道从最开始的“瀑布研发模型”的支持、“Scrum”的兴起、“kanban”的支撑、“混合”的大一统、“IPD”的专精、“DevOps”的绝对对…各大SaaS品牌你来我往，新品旧品“主张”辈出。</p><p>而这些产品的卖点，或者说对市场趋势的把握，本质上是为了讲述自己的“价值主张”。</p><p>而这种能讲清楚价值主张的能力就是“讲故事”。</p><hr><p>所以你可以回想着看看，那些最有“市场能力”的CS，往往都有一个共同点：他们能讲故事，能讲趋势，能把客户的目标和行业变化结合起来，重新“包装”产品价值，而不是单点维度死磕使用量或上线情况。</p><p>实际很重要的一个点是：CS如果没有市场能力，实际上就会在续约和增购过程中逐渐“工具化”。这会带来一种结果：客户开始把CS当成“客服”或“配置助手”，而不是“合作伙伴”或“价值推手”。</p><hr><p>我曾经有次RolePlay当时领导（站位是VP）给过一个评价是：你们有没有发现在他的培训后你们（我的考核官们）提出的问题都偏向实际业务而非产品功能，这种call high或者这种培训的维度才会更加迎合客户组织高层的需要。</p><hr><p>所以说，“客户成功应该有市场的能力”这个命题背后，其实是在召唤CS脱离“交付导向”的惯性，走向一种更能“影响客户认知”的角色定位。而影响认知的方式，正是市场的专业领域。</p><hr><p>现在让我再换一个角度思考——</p><p>有没有一种可能，CS的工作方式可以借鉴市场的模型？</p><p>比如：</p><ul><li><p>市场讲定位模型（定位谁、讲什么、怎么讲），那CS是否也可以有“客户续约的价值定位”？</p></li><li><p>市场讲AIDA模型（Attention, Interest, Desire, Action），那CS是否可以重新审视客户生命周期中的“Desire”阶段是否还在？</p></li><li><p>市场讲“内容策略”，那CS是否也需要一套“客户内容运营”逻辑，让客户在使用期也不断接收到“价值信息”？</p></li></ul><hr><p>所以“市场能力”之于CS，可能不只是“补强”，而是一种进化。</p><p>如果CS能用市场视角去构建客户的“成功故事”，那CS就不是被动服务，而是一个“价值传播者”。而价值的传播，恰恰是留存和增购的前提。</p><p>而“讲故事”的这种能力是放大自己的价值，让价值被看见的重要手段，对内对外都是。</p><p>说到底，CS必须具备“重新定义成功叙事”的能力，而这能力，本质上就是市场的能力。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
-    
-    
-    <summary type="html">这篇文章探讨了“客户成功应该具备市场能力”的观点，指出CS不仅要服务客户，更要具备重新定义客户价值感知的能力。通过对市场定位、价值主张、AIDA模型等概念的借鉴，作者强调CS在续约与增购中不应沦为工具角色，而应成为“价值传播者”，主动影响客户的认知与决策。最终落脚于一个关键命题：CS的进化，不只是交付做得更好，而是讲得出客户成功的故事。</summary>
     
     
     
