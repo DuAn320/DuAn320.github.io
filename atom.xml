@@ -6,7 +6,7 @@
   <link href="https://heycsm.com/atom.xml" rel="self"/>
   
   <link href="https://heycsm.com/"/>
-  <updated>2025-05-22T10:44:33.197Z</updated>
+  <updated>2025-05-23T09:56:36.037Z</updated>
   <id>https://heycsm.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>项目里客户说的话到底能不能全信？</title>
+    <link href="https://heycsm.com/2025/05/23/%E9%A1%B9%E7%9B%AE%E9%87%8C%E5%AE%A2%E6%88%B7%E8%AF%B4%E7%9A%84%E8%AF%9D%E5%88%B0%E5%BA%95%E8%83%BD%E4%B8%8D%E8%83%BD%E5%85%A8%E4%BF%A1%EF%BC%9F/"/>
+    <id>https://heycsm.com/2025/05/23/%E9%A1%B9%E7%9B%AE%E9%87%8C%E5%AE%A2%E6%88%B7%E8%AF%B4%E7%9A%84%E8%AF%9D%E5%88%B0%E5%BA%95%E8%83%BD%E4%B8%8D%E8%83%BD%E5%85%A8%E4%BF%A1%EF%BC%9F/</id>
+    <published>2025-05-23T09:53:51.000Z</published>
+    <updated>2025-05-23T09:56:36.037Z</updated>
+    
+    <content type="html"><![CDATA[<div id="readmore-container"><p>客户说的话到底能不能全信，这在项目管理、特别是 B 端项目中，是个绕不过去的话题。</p><p>项目经理和客户频繁沟通，客户会不断释放信息：说目前需求明确、说上线后会推动使用、说内部已经确认方案、说他们对目前的交付节奏满意等等。</p><p>但这些话能不能全信，如何判断真假、分辨背后的动因，其实就是项目管理中最考验“人性洞察力”的部分。</p><p>从本质上来说，客户的表达永远不是“中立”的信息传递，而是带有动机的行为选择。这一点必须放在第一位来思考。客户说“满意”，可能是为了不推进变更；说“还没内部确认”，可能是为了拖延；说“这个功能很关键”，可能是为了为后期谈判铺垫。</p><p>并不代表客户在“撒谎”，但他们的表达确实不一定是事实全貌。</p><h2 id="那问题就来了：项目经理怎么判断这些话是真是假？"><a href="#那问题就来了：项目经理怎么判断这些话是真是假？" class="headerlink" title="那问题就来了：项目经理怎么判断这些话是真是假？"></a>那问题就来了：项目经理怎么判断这些话是真是假？</h2><p>第一层，是从“行为-语言对齐度”判断。</p><p>也就是说，客户说他们很重视这个项目，那实际有没有安排固定会议？有没有明确的 owner？有没有在内部推动？如果说的话和做的事对不上，那就要小心。行为永远比语言更诚实。</p><p>第二层，是“组织结构辨识”。</p><p>客户说话的这个人，是否真有话语权？他可能真心想做这件事，但他的 leader 是怎么想的？组织内是否存在其他冲突角色？比如说业务部门想推进，但 IT 部门死活不同意。项目经理如果不了解客户内部结构，就很容易“听了不该信的话”。</p><p>第三层，是“上下文重复验证”。</p><p>同样一件事情，从不同的人口中听到是否一致？今天客户说这个需求明确，过两天又说还在评估中？说明他们内部尚未形成统一意见。这种情况下，一切口头承诺都不能作为推进依据。必须落纸成文，或明确责任人、时间表。</p><p><strong>另外一个关键点是，项目经理不能只盯着“说了什么”，而要想“为什么这么说”。</strong></p><p>背后的动机才是真正关键。客户是为了争取资源？为了掩盖内部问题？为了争取更多交付？动机识别之后，才可能更有策略地应对。</p><h2 id="再进一步，一个经验型项目经理还会有一套“红黄灯机制”"><a href="#再进一步，一个经验型项目经理还会有一套“红黄灯机制”" class="headerlink" title="再进一步，一个经验型项目经理还会有一套“红黄灯机制”"></a>再进一步，一个经验型项目经理还会有一套“红黄灯机制”</h2><p>——也就是说，对客户释放的信息自动分级判断：</p><ul><li>绿灯：有文档、有行为、有验证，可信；</li><li>黄灯：有逻辑、有部分支持，但缺验证，谨慎推进；</li><li>红灯：口说无凭、行为不一致、角色权限不明，必须警惕。</li></ul><p>而最根本的认知是：</p><p>项目管理中对于信息的采“信”不是情感层面的“信任”，而是博弈层面的“信用系统设计”——</p><p>你要让客户知道，言出必有据，承诺需兑现，这不是为了“信不信”，而是为了让项目在复杂环境中尽可能可控。</p><p>所以，这不是信不信的问题，是——有没有建立机制来验证、来修正、来防止客户表达的不确定性导致项目失控的问题。</p><p>对于实际业务来讲，这个角度更实用，也更真实。</p><p>所以，<strong>客户说的每句话，不要当作结论，而要当作线索。线索要去验证，结论要靠证据，推进要靠系统。</strong></p><p>这才是项目经理真正的“听话听音”之道。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
+    
+    
+    <summary type="html">在项目管理中，客户说的话并非都能照单全收。项目经理需要通过“语言与行为是否一致”、“说话人的组织角色”、以及“信息在不同场合是否一致”等角度判断客户表达的真实性与动机。文章指出，客户的言辞往往是带有目的的行为表达，而非中立的事实陈述。建立验证机制、分级判断信息可信度（红黄绿灯机制），以及识别客户背后的博弈心理，是保障项目顺利推进的关键。这是一篇关于“项目中如何判断客户话语可信度”的实用洞察文章。</summary>
+    
+    
+    
+    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>客户沟通无进展怎么破局？</title>
@@ -405,27 +426,6 @@
     
     
     <summary type="html">在企服行业，真正拉开差距的，从不是单纯的执行力，而是能否沉淀出方法论。当一家企业能够将零散的服务经验提炼成结构化、可复用的认知体系时，他们就不再只是“做事”，而是掌握了影响行业、塑造市场的力量。这篇文章探讨了为何能输出方法论的企服公司，才是真正可怕的存在——因为他们用知识搭建了护城河，用认知驱动了规模化复制，并以此持续扩张自己的生态势能。</summary>
-    
-    
-    
-    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
-    
-    
-    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>产品经理的动机是对的，但为什么SaaS的AI落地总是那么难？</title>
-    <link href="https://heycsm.com/2025/04/25/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E7%9A%84%E5%8A%A8%E6%9C%BA%E6%98%AF%E5%AF%B9%E7%9A%84%EF%BC%8C%E4%BD%86%E4%B8%BA%E4%BB%80%E4%B9%88SaaS%E7%9A%84AI%E8%90%BD%E5%9C%B0%E6%80%BB%E6%98%AF%E9%82%A3%E4%B9%88%E9%9A%BE%EF%BC%9F/"/>
-    <id>https://heycsm.com/2025/04/25/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E7%9A%84%E5%8A%A8%E6%9C%BA%E6%98%AF%E5%AF%B9%E7%9A%84%EF%BC%8C%E4%BD%86%E4%B8%BA%E4%BB%80%E4%B9%88SaaS%E7%9A%84AI%E8%90%BD%E5%9C%B0%E6%80%BB%E6%98%AF%E9%82%A3%E4%B9%88%E9%9A%BE%EF%BC%9F/</id>
-    <published>2025-04-25T10:55:20.000Z</published>
-    <updated>2025-04-25T10:58:00.102Z</updated>
-    
-    <content type="html"><![CDATA[<div id="readmore-container"><blockquote><p><strong>查理·芒格说：“拿着锤子，看啥都像钉子”。</strong></p></blockquote><p>今天这篇写给那些在 SaaS 里负责 AI 探索，但感到无从下手、推进困难、效果拉胯的人。</p><p>很多 SaaS 公司对 AI 的投注，正陷入一种“出发点错了”的循环。表面上大家都说“要 AI 赋能”，但具体到实际推动的时候，你会发现整个链条都绷得很紧，最后交付团队一脸懵逼，客户也没有实感。</p><p>为什么？</p><h2 id="1-技术不是起点，客户的现实才是"><a href="#1-技术不是起点，客户的现实才是" class="headerlink" title="1. 技术不是起点，客户的现实才是"></a>1. 技术不是起点，客户的现实才是</h2><p>我们应该问的问题是：“客户今天的使用方式，我们有没有可能用 AI 再往前推进一步？”</p><p>而不是“现在有了 AI，咱去找找哪个功能能套上去。”</p><p>这是两种完全不同的逻辑起点：</p><ul><li>第一种是客户价值驱动</li><li>第二种是技术炫技导向</li></ul><p>偏偏很多产品经理在 AI 浪潮下，把“能不能用 AI”变成了一个目标，而不是手段。他们的动机是好的，想让产品更智能，更先进。但结果往往是错的：不是客户不想要 AI，而是这个 AI 不解决实际问题。</p><h2 id="2-为什么是产品动机对，但交付很痛苦？"><a href="#2-为什么是产品动机对，但交付很痛苦？" class="headerlink" title="2. 为什么是产品动机对，但交付很痛苦？"></a>2. 为什么是产品动机对，但交付很痛苦？</h2><p>因为产品经理在做设计时，是在一个脱离一线的逻辑系统中做推论的。他们参考了数据，聊过客户，也许还调研了竞品。但他们缺的，是一种叫 <strong>“双赢意识”</strong> 的东西：</p><ul><li>什么是对客户好用的</li><li>同时也是对交付好执行的</li></ul><p>他们更多从产品视角思考“这个 AI 能不能实现”，但很少从落地视角问“客户能不能感受到它的价值”、“交付团队有没有能力把这个功能做成行为改变”。</p><p>正因为产品经理的动机是好的，但是结果是错的，交付就会很难受，更别提客户了。</p><h2 id="3-AI-不是万灵药，反馈链却像接力赛"><a href="#3-AI-不是万灵药，反馈链却像接力赛" class="headerlink" title="3. AI 不是万灵药，反馈链却像接力赛"></a>3. AI 不是万灵药，反馈链却像接力赛</h2><p>我们很多项目是这样推进的：</p><p><strong>产品 → 售前 → 交付 → 客户 → 售后 → 回到产品</strong></p><p>每一环都在试图“把问题传递下去”，不是为了整体协同，而是因为每一环都<strong>没有全局感知的空间</strong>。</p><p>最严重的表现就是：当客户说“这个 AI 不好用”，产品的第一反应是“那我们加个配置项&#x2F;调一下参数”，而不是回头看设计动机是否成立。</p><p>这就是“组织系统性”的弊端，真正解决问题的人和提出问题的人是同一个，但是过程中的反馈确实通过“一环传一环”的接力存在的，先不说信息在传递过程中失真，首先传递就有一个“时间”过程的。</p><p>等一个 sprint 1 的反馈回到产品手里，sprint 2 的增量都快做完了。</p><h2 id="4-C-端可以讨好，B-端必须标准"><a href="#4-C-端可以讨好，B-端必须标准" class="headerlink" title="4. C 端可以讨好，B 端必须标准"></a>4. C 端可以讨好，B 端必须标准</h2><p>我们经常听到这句话：“顾客想要的不一定是对的。”</p><p>这句话在 C 端是成立的，因为 C 端的用户个体差异巨大、选择多、价格低、试错成本也小，你总可以找到愿意为你买单的一群人。</p><p>但在 B 端，尤其是 SaaS 领域，这种说法是危险的。因为：</p><ul><li>企业在成长过程中，会向着“标准化”靠拢</li><li>真正能被组织接纳的功能，必须能嵌入体系</li><li>不是“能不能做”，而是“能不能批量、持续、可控地做”</li></ul><p>所以你设计一个功能，如果是满足“这个客户今天临时想法”（我相信产品大概率不会纯是自己拍脑袋）的，那它大概率会在三个月内被弃用。</p><p>但如果你能基于 AI 升级客户现有流程，它就是长期价值。</p><p>只有一种情形“顾客想要的不一定是对的”这句话在 B 端可以适用，你能成为 IPD 之华为，OKR 之字节，这种“企业先成功——是因为理念成功——所以产品才能成功”的路径才能被客户这些高理性的“B 端决策机制”所接受，至于为什么，客户成功理念里案例客户的作用——因为成功得到过验证所以追加信任感。</p><h2 id="5-建议：产品经理请出办公室，多见客户"><a href="#5-建议：产品经理请出办公室，多见客户" class="headerlink" title="5. 建议：产品经理请出办公室，多见客户"></a>5. 建议：产品经理请出办公室，多见客户</h2><p>我甚至认为，产品经理的职责里，至少<strong>一半时间应该在一线</strong>。不一定都亲自去客户现场，但至少你得：</p><ul><li>听售前怎么解释产品</li><li>看客户怎么使用功能</li><li>了解交付同事有哪些不得不绕过的功能设计</li><li><strong>以及最重要的，现有的客户反馈中有哪些是可以通过 AI 去做更好的解决的</strong></li></ul><p>不要制造需求，解决当前的需求是更稳妥的创新。</p><p>只有这样，你才能从“设计的有效性”迈向“落地的可持续性”。</p><p>最后，AI 不是 SaaS 的救世主，它只是个更强的工具&#x2F;媒介——中间能力。如果出发点错了，它能让你更快地把系统搞砸。但如果出发点对了，它也可以成为改变客户体验和产品效率的真正杠杆。</p><p>请不要再以“AI 能做这个，能做那个”为起点，而是要以“客户现有这个流程能不能被 AI 优化”为起点。</p><p>否则，你永远只能做出那些“技术上很牛，但客户用完说没感觉”圈地自萌的功能。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
-    
-    
-    <summary type="html">在AI浪潮下，许多SaaS产品团队选择“先有技术，再找场景”，结果陷入自我感动的陷阱。本篇文章深入剖析这种出发点错误如何导致产品设计与交付脱节，指出产品经理虽然动机良好，但若脱离客户现场和实际落地逻辑，再先进的AI也只是无效叠加。C端用户可以被个性化讨好，而B端企业却追求结构化、体系化的可复制价值。真正有价值的AI应用，不是寻找钉子的锤子，而是基于客户现有场景的延展与优化。</summary>
     
     
     
