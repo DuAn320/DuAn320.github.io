@@ -6,7 +6,7 @@
   <link href="https://heycsm.com/atom.xml" rel="self"/>
   
   <link href="https://heycsm.com/"/>
-  <updated>2025-05-27T10:06:46.926Z</updated>
+  <updated>2025-05-28T10:06:21.559Z</updated>
   <id>https://heycsm.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>客户管理不是搞关系，是可以建模的</title>
+    <link href="https://heycsm.com/2025/05/28/%E5%AE%A2%E6%88%B7%E7%AE%A1%E7%90%86%E4%B8%8D%E6%98%AF%E6%90%9E%E5%85%B3%E7%B3%BB%EF%BC%8C%E6%98%AF%E5%8F%AF%E4%BB%A5%E5%BB%BA%E6%A8%A1%E7%9A%84/"/>
+    <id>https://heycsm.com/2025/05/28/%E5%AE%A2%E6%88%B7%E7%AE%A1%E7%90%86%E4%B8%8D%E6%98%AF%E6%90%9E%E5%85%B3%E7%B3%BB%EF%BC%8C%E6%98%AF%E5%8F%AF%E4%BB%A5%E5%BB%BA%E6%A8%A1%E7%9A%84/</id>
+    <published>2025-05-28T10:04:39.000Z</published>
+    <updated>2025-05-28T10:06:21.559Z</updated>
+    
+    <content type="html"><![CDATA[<div id="readmore-container"><p><strong>客户关系管理可以利用 AHP 方法吗？</strong></p><p>——这个问题初看之下像是一个方法论适配的问题，即“能否将一种常用于决策分析的数学工具应用到一个以人际关系、商业交互为主导的管理实践中”。</p><p>乍一听好像很远，但我觉得这个问题的张力恰恰在于：<a class="link"   href="https://zh.wikipedia.org/wiki/%E5%B1%A4%E7%B4%9A%E5%88%86%E6%9E%90%E6%B3%95"  title="层次分析法">AHP（层次分析法，Analytic Hierarchy Process）<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>这种严密结构化的模型，是否能为 CRM 这种非结构化、动态性强的业务提供“辅助决策”的作用。</p><h2 id="先自问一句：AHP-擅长解决什么问题？"><a href="#先自问一句：AHP-擅长解决什么问题？" class="headerlink" title="先自问一句：AHP 擅长解决什么问题？"></a>先自问一句：AHP 擅长解决什么问题？</h2><p>它本质上是用来处理<strong>复杂多准则决策问题</strong>的工具。</p><p>当一个问题很难用单一维度来判断（比如光靠价格、或光靠质量），就可以通过 AHP 把不同评估维度结构化，层层分解，赋予权重，然后进行成对比较，最终得到一个定量化的排序。</p><p>这种结构对“如何选出最优解”特别有用，比如选供应商、定战略、选址、招聘评估等等。</p><p>再看 CRM，它是围绕“客户关系”展开的全过程管理活动：从客户获取、培育、互动、忠诚度、流失预警、续费预测等，一般以客户价值提升和满意度管理为目标，强调行为洞察和关系维护。</p><p>我虽然没实际见过 AHP 在商业 CRM 中的实际运用，但是在我们协作 SaaS 研发领域确实存在着类似的应用及产品：</p><p><figure class="image-caption"><img                       lazyload                     src="/images/loading.svg"                     data-src="https://atlas.pingcode.com/files/public/66f91338fe4a805fb1234290/origin-url?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWRfZm9yX3B1YmljX2ltYWdlIjoiN2ViOTc3MDk0MDIxNDBhYjlhMjk3ODdiNDkxMzEzMzQiLCJ0ZWFtX2Zvcl9wdWJsaWNfaW1hZ2UiOiI1ZGE0MjEzZTMyYjIwMjAwMzc3NTdkNzQiLCJwdWJsaWNfaW1hZ2VfaWRzIjpbIjY3Y2U1YWIyOWViZTQwNGE4NjQzZjgxNiIsIjY2ZjkxMjNlZmU0YTgwNWZiMTIzNDI4ZCIsIjY3YWM1YWRkOWViZTQwNGE4NjQzZDczYSIsIjY3Y2U1YjFkOWViZTQwNGE4NjQzZjgxYSIsIjY2ZjkxMzM4ZmU0YTgwNWZiMTIzNDI5MCIsIjY3MjQ5NmExOWFjMDBlODM5YTgzNzFhNSIsIjY3Y2U1YjgwOWViZTQwNGE4NjQzZjgxYyIsIjY3Y2U1Yjk0OWViZTQwNGE4NjQzZjgxZSJdLCJpYXQiOjE3NDg0MjM4OTksImV4cCI6MTc0ODQzNDY5OX0.KM0NfWxySTpJq5zwLJtlk3x1nxbdmjaFTKJSiAKtTg8"                      alt="[PingCode产品管理中的RICE评审模型](https:&#x2F;&#x2F;pingcode.com&#x2F;spaces&#x2F;si4PJHASUg&#x2F;pages&#x2F;1sSI3Y &quot;PingCode产品管理中的RICE评审模型&quot;)"                ><figcaption>[PingCode产品管理中的RICE评审模型](https:&#x2F;&#x2F;pingcode.com&#x2F;spaces&#x2F;si4PJHASUg&#x2F;pages&#x2F;1sSI3Y &quot;PingCode产品管理中的RICE评审模型&quot;)</figcaption></figure></p><p><figure class="image-caption"><img                       lazyload                     src="/images/loading.svg"                     data-src="https://atlas.pingcode.com/files/public/63e5fc9b0a2ff288521332cb/origin-url?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWRfZm9yX3B1YmljX2ltYWdlIjoiN2ViOTc3MDk0MDIxNDBhYjlhMjk3ODdiNDkxMzEzMzQiLCJ0ZWFtX2Zvcl9wdWJsaWNfaW1hZ2UiOiI1ZGE0MjEzZTMyYjIwMjAwMzc3NTdkNzQiLCJwdWJsaWNfaW1hZ2VfaWRzIjpbIjYzZTVmYzliMGEyZmYyODg1MjEzMzJjYiJdLCJpYXQiOjE3NDg0MjQwOTAsImV4cCI6MTc0ODQzNDg5MH0.sjedCFO92IqLaa17Wcgc__UTP9Dh6wGEy1Crw21vZPQ"                      alt="RICE 模型是通过四个因素的评分，来帮助产品经理确定产品需求优先级"                ><figcaption>RICE 模型是通过四个因素的评分，来帮助产品经理确定产品需求优先级</figcaption></figure></p><p>像这种通过在产品管理中植入 RICE 决策模型（在需求评估时，可以通过多种参考因素合并来判别需求的排期，其中部分因素会纳入计算公式中）的方式就十分利于产品经理更为客观的评价产品需求的优先级以此来指导产品经理的日常工作。</p><p>扯远了，绕回来。</p><p>也就是说，AHP 不能解决所有 CRM 问题，但它非常适合嵌入那些<strong>需要综合判断、定性定量结合的关键节点</strong>，是 CRM 系统向更科学化演进的一种工具选项。</p><h2 id="那么，AHP-能切入的环节是什么？"><a href="#那么，AHP-能切入的环节是什么？" class="headerlink" title="那么，AHP 能切入的环节是什么？"></a>那么，AHP 能切入的环节是什么？</h2><p>我先试着做个联想。</p><h3 id="1、客户分级"><a href="#1、客户分级" class="headerlink" title="1、客户分级"></a>1、客户分级</h3><p>如果我们是在<strong>客户分级</strong>场景中，比如某企业面临上千个客户，需要从中识别“高价值客户”、“高潜力客户”或“应重点维护客户”，那么一个合理的评分机制就必不可少。</p><p>而传统 CRM 系统中用的 RFM（最近一次购买、购买频率、金额）模型本身就带有权重分配和打分的逻辑。</p><p>这时候 AHP 就能上场——它可以帮助企业将“客户价值评估”的多维度指标（营收贡献、战略价值、合作年限、品牌影响力、客户满意度、渠道潜力……）进行结构化拆分，并由多位决策者打分，最终生成一个排序或权重矩阵。</p><p>是不是很类似于我上文中举出的已经商业化的 PingCode 产品的实例？</p><h3 id="2、客户流失预警指标权重建模"><a href="#2、客户流失预警指标权重建模" class="headerlink" title="2、客户流失预警指标权重建模"></a>2、客户流失预警指标权重建模</h3><p>另一个可能的切口是<strong>客户流失预警指标权重建模</strong>。</p><p>企业在设计客户留存预测模型时，会考虑多个因素：如投诉次数、近三月活跃度、关键人物流动、账期异常、续费意向评分等等。</p><p>这些因素如何定权？</p><p>AHP 一样能嵌入这个指标体系的建设中，帮助 CS 或数据部门更科学地构建权重体系。</p><h3 id="3、客户生命周期管理"><a href="#3、客户生命周期管理" class="headerlink" title="3、客户生命周期管理"></a>3、客户生命周期管理</h3><p>再进一步，如果我们从<strong>客户生命周期管理</strong>角度看，可能还涉及到“不同阶段客户应该接受怎样的服务级别”这种运营策略问题。</p><p>比如 A 客户是大客户、但投诉多；B 客户贡献不大但发展潜力高；C 客户活跃但频繁要求定制开发……</p><p>在这种多准则情况下，若企业需要制定“客户投入优先级策略”，AHP 可以作为决策模型，帮助 CS 团队做出更具一致性的策略选择。</p><h3 id="4、不适合-AHP-的-CRM-场景"><a href="#4、不适合-AHP-的-CRM-场景" class="headerlink" title="4、不适合 AHP 的 CRM 场景"></a>4、不适合 AHP 的 CRM 场景</h3><p>但等一下，有没有什么<strong>不适合 AHP 的 CRM 场景</strong>？</p><p>当然有——AHP 并不适合处理高动态、实时响应、非结构性数据驱动的问题，比如：</p><ul><li>日常客户沟通、跟进节奏调整（这些靠人判断、经验积累）；</li><li>自动化邮件触发机制（更多靠行为触发规则）；</li><li>客户情绪识别与实时干预（需要 NLP&#x2F;AI 实时分析）；</li><li>B 端客户内部联系人关系网动态变化（适合图数据库等网络建模方法）……</li></ul><p>再次强调：<strong>AHP 能切的，是 CRM 里“需要综合判断，定性与定量结合的决策节点”，而不是“即时交互行为的处理场景”。</strong></p><p>我现在开始理解为什么这个问题值得问：</p><h2 id="它其实是对“CRM-是否可以更科学地制定策略”的追问。"><a href="#它其实是对“CRM-是否可以更科学地制定策略”的追问。" class="headerlink" title="它其实是对“CRM 是否可以更科学地制定策略”的追问。"></a>它其实是对“CRM 是否可以更科学地制定策略”的追问。</h2><p>传统 CRM 往往太依赖“人”的判断，而 AHP 可以把“人的判断”结构化并共识化，提升科学性和可复制性。</p><p>回到问题本身——能不能用？是可以的，甚至在一些高阶 CRM 战略设计中，<strong>应该考虑使用 AHP。</strong></p><p>但也要注意，不是让 AHP 来“替代”CS 或销售，而是辅助他们在“需要定权和决策”的关键场景中做出更理性判断。</p><p>这一点，其实也可延伸到其他“人为主导”的系统—— <strong>如客户成功计划优先级制定、CSM KPI 设置、CS 团队资源分配等</strong>。</p><p>最后再给出我的答案吧：</p><p>AHP 的核心价值在于“帮助人在复杂变量中做出权衡”，而 CRM 的一个核心难点正是“变量太多且杂”。</p><p>这两者结合，反而可能带来意想不到的决策清晰感。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
+    
+    
+    <summary type="html">客户关系管理（CRM）一直被视为“经验驱动”的领域，但其实也可以通过科学决策模型进行结构化优化。本文探讨了如何利用 AHP（层次分析法）为客户分级、流失预警、生命周期管理等关键环节赋能，提升判断标准的一致性与策略执行的精度。同时也指出 AHP 不适合处理高频动态交互场景，适合嵌入到定性与定量结合的关键节点，是传统 CRM 走向智能化、科学化的重要一环。</summary>
+    
+    
+    
+    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>屡见不鲜的员工离职后客户跟着走</title>
@@ -405,27 +426,6 @@
     
     
     <summary type="html">在客户成功工作中，专业不是体现在“方案多”，而是体现在“选得准”。这篇文章深入剖析了战略型客户成功与战术型执行的核心差异，指出真正的高手懂得做减法、看时机、识人心，能在纷繁复杂的客户诉求中，判断出什么才是当下最值得投入的行动路径。客户不缺执行者，缺的是能做出精准判断的战略伙伴。</summary>
-    
-    
-    
-    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
-    
-    
-    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2025年客户成功旅程设计最该增补的内容</title>
-    <link href="https://heycsm.com/2025/05/08/2025%E5%B9%B4%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E6%97%85%E7%A8%8B%E8%AE%BE%E8%AE%A1%E6%9C%80%E8%AF%A5%E5%A2%9E%E8%A1%A5%E7%9A%84%E5%86%85%E5%AE%B9/"/>
-    <id>https://heycsm.com/2025/05/08/2025%E5%B9%B4%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E6%97%85%E7%A8%8B%E8%AE%BE%E8%AE%A1%E6%9C%80%E8%AF%A5%E5%A2%9E%E8%A1%A5%E7%9A%84%E5%86%85%E5%AE%B9/</id>
-    <published>2025-05-08T10:11:08.000Z</published>
-    <updated>2025-05-08T10:13:09.923Z</updated>
-    
-    <content type="html"><![CDATA[<div id="readmore-container"><p>今天不聊那些政治正确的话题了，聊个现实一点的。</p><p>客户流失率高居不下的今天，面对日益增长的流失客户请学会好聚好散。</p><p>“客户成功旅程设计”中其实从我自己长期实践来看，缺失的一环是：“退出机制”，而这个点隐含着一个行业内长期被忽视但极其关键的盲区：</p><h2 id="1-没有退出机制是对客户的不尊重"><a href="#1-没有退出机制是对客户的不尊重" class="headerlink" title="1. 没有退出机制是对客户的不尊重"></a>1. 没有退出机制是对客户的不尊重</h2><p>客户成功一直在讲激活、使用、转化、扩展、续费，旅程的每一步都围绕“如何留下来”。但没有人认真面对“客户要走怎么办”。</p><p>退订、流失、终止合同，在 CS 眼里几乎是“失败的信号”，从业者下意识地不愿碰它。结果是：退出机制的设计被搁置、被回避、被忽视。</p><p>但如果换个角度想：一家成熟企业怎么可能不设计“退场路径”？甚至应该说，没有明确退出机制的客户旅程，是不完整的，是对客户的不尊重。</p><p>这让我想起线下跟朋友交流聊到的一些真实案例。</p><h2 id="2-缺失退出机制可能会造成的漏洞"><a href="#2-缺失退出机制可能会造成的漏洞" class="headerlink" title="2. 缺失退出机制可能会造成的漏洞"></a>2. 缺失退出机制可能会造成的漏洞</h2><p>比如，一些创业公司被大客户砍掉，是因为合同到期前两个月没有任何人跟进，客户成功经理因为客户给出的首次回复是“续约概率不高”干脆摆烂，导致客户决议续约却 CS 流程立马跟不上转而愤怒地断约，最后连中间介绍人脉都拒绝提供客户最终决策者关键信息，你道歉都找不到人了。</p><p>也有 CS 团队在客户主动表示“想中止合约切换竞品”时，不知道该把客户引导给谁、怎么帮客户清理数据、怎么确保现有仪表盘数据导出，场面一度非常尴尬。</p><blockquote><p>题外话，协作 SaaS 的 leads 可以引导给我，客户即使切换产品在我这里我们也能赚点介绍费的。</p></blockquote><p>更别提哪些合同结束了，客户流失了，团队甚至从来没做“复盘”——没有结案文档、没有内部分析、没有客户归档。</p><p>这些漏洞的根本，其实都源自“退出机制缺位”。</p><h2 id="3-那退出机制到底应该包含什么？"><a href="#3-那退出机制到底应该包含什么？" class="headerlink" title="3. 那退出机制到底应该包含什么？"></a>3. 那退出机制到底应该包含什么？</h2><h3 id="第一，是“预退出信号捕捉”机制。"><a href="#第一，是“预退出信号捕捉”机制。" class="headerlink" title="第一，是“预退出信号捕捉”机制。"></a>第一，是“预退出信号捕捉”机制。</h3><p>流失其实并非突然发生。客户活跃度降低、使用指标下降、支持单增长、关键联系人消极响应……这些都该是“潜在退出”的预警点。</p><p>但现在 CS 更多是靠“感觉”去判断，而不是流程、数据和模型。我们需要把这些信号系统化、标准化，甚至通过系统自动提醒。</p><h3 id="第二，是“协助退出”本身的服务设计。"><a href="#第二，是“协助退出”本身的服务设计。" class="headerlink" title="第二，是“协助退出”本身的服务设计。"></a>第二，是“协助退出”本身的服务设计。</h3><p>客户既然决定要离开，那就应该提供完整、尊重、专业的下车体验。比如：一键导出历史数据、账号停用前的安全提醒、系统自动归档、统计数据导出等。</p><p>这种设计不是“帮客户离开”，而是“维护最后的尊重”。CS 不是客户的敌人，哪怕在终点，也应该是“顺利结束合作”的引导者。</p><h3 id="第三，是“退出后的反哺机制”。"><a href="#第三，是“退出后的反哺机制”。" class="headerlink" title="第三，是“退出后的反哺机制”。"></a>第三，是“退出后的反哺机制”。</h3><p>客户为什么离开、真正的原因是什么、我们产品哪部分没有满足客户的目标——<strong>这些信息，比任何续费客户的访谈都真实有价值。</strong></p><p>如果能建立“流失客户回访制度”、设定“退出总结会议”，甚至保留一个“未来重启合作档案”，那这些客户未来也许还有回流的可能。</p><p>这不是一个书面上的可能，实践里我的客户群体中有些确实是“流失召回”的标签。</p><h2 id="4-拒绝面对失败是不成熟的表现"><a href="#4-拒绝面对失败是不成熟的表现" class="headerlink" title="4. 拒绝面对失败是不成熟的表现"></a>4. 拒绝面对失败是不成熟的表现</h2><p>但说到底，行业之所以迟迟不愿面对这个环节，是因为“退出”被贴上了“失败”的标签。这其实是整个 CS 文化的一种不成熟表现。</p><p>如果我们把客户的整个生命周期比作一段旅程，那离开也只是旅程的终点站，甚至只是临时中转站。你可以在这站下车，但谁说未来不能再回来？如果你当初下车时受到了体面对待、专业服务，你更愿意在未来某个合适时间再次搭乘。</p><p>所以我反而认为：退出机制，才是客户成功团队是否真正成熟的试金石。</p><p>真正成熟的客户成功旅程，不是用来“黏住客户”的，是用来“陪客户走完整程”的。哪怕最后一程，是离开。</p><p>在 2025 年这个“经济反周期+SaaS 行业内卷加剧”的大背景下，SaaS 公司能不能（或者更应该说要不要）把“退出”也变成“客户成功体验”的一部分，将是我们能不能从失败中总结出教训的检验。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
-    
-    
-    <summary type="html">2025年，客户成功旅程的最大缺口，不再是激活或续约流程，而是缺乏对“客户退出”的机制设计。退出并非失败，而是旅程的一部分。通过构建预警信号识别、专业协助退出流程、以及流失复盘机制，SaaS企业才能实现真正完整的客户生命周期管理。这篇文章深度解析退出机制的必要性，揭示其如何成为客户成功体系成熟度的关键标志。</summary>
     
     
     
