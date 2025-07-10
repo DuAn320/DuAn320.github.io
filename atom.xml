@@ -6,7 +6,7 @@
   <link href="https://heycsm.com/atom.xml" rel="self"/>
   
   <link href="https://heycsm.com/"/>
-  <updated>2025-07-09T10:25:47.922Z</updated>
+  <updated>2025-07-10T11:29:14.930Z</updated>
   <id>https://heycsm.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>定制化不香了？大家为什么不再讨好KA客户了</title>
+    <link href="https://heycsm.com/2025/07/10/%E5%AE%9A%E5%88%B6%E5%8C%96%E4%B8%8D%E9%A6%99%E4%BA%86%EF%BC%9F%E5%A4%A7%E5%AE%B6%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E5%86%8D%E8%AE%A8%E5%A5%BDKA%E5%AE%A2%E6%88%B7%E4%BA%86/"/>
+    <id>https://heycsm.com/2025/07/10/%E5%AE%9A%E5%88%B6%E5%8C%96%E4%B8%8D%E9%A6%99%E4%BA%86%EF%BC%9F%E5%A4%A7%E5%AE%B6%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E5%86%8D%E8%AE%A8%E5%A5%BDKA%E5%AE%A2%E6%88%B7%E4%BA%86/</id>
+    <published>2025-07-10T11:27:52.000Z</published>
+    <updated>2025-07-10T11:29:14.930Z</updated>
+    
+    <content type="html"><![CDATA[<div id="readmore-container"><p>“反标准化”的“新”需求曲线可能已经出现了…</p><p>曾几何时，谁家产品不打出一句“可为 KA 客户定制”都不好意思出门见人。</p><p>在 SaaS 和企业服务行业，KA 客户意味着是金字塔顶端的服务标准：专属部署、私有化接口、场景式开发、甚至包括组织变革建议，都是“定制化”的体现。</p><p>现在呢？</p><p>越来越多厂商开始“躲”着定制化的需求走了。</p><p>销售那边收到 KA 的私有部署诉求，拖；<br>客户成功那边接到个性需求的诉求，推；<br>研发更直接——</p><p><strong>你要定制？那就等排期吧，明年这个时候也许能排上。</strong></p><p>这不是个别现象，而是一股趋势。</p><h2 id="01"><a href="#01" class="headerlink" title="01"></a>01</h2><h3 id="一场行业“脱敏”：从深度服务到规模收敛"><a href="#一场行业“脱敏”：从深度服务到规模收敛" class="headerlink" title="一场行业“脱敏”：从深度服务到规模收敛"></a>一场行业“脱敏”：从深度服务到规模收敛</h3><p>定制化曾是大客户服务的荣耀象征。</p><p>但它太贵了。</p><p>贵在人力、贵在维护、贵在未来的版本兼容。</p><p>而当 SaaS 行业整体步入利润焦虑期，每一行代码都必须问一句：</p><blockquote><p>“它能复用吗？”</p></blockquote><p>于是厂商不再痴迷于“让客户成为最佳实践背书”，而是反思自己：</p><p><strong>与其花三个月满足一个大客户的定制，不如用这三个月优化标准产品，让千个中小客户受益。</strong></p><p>说白了，这是一个资源配置逻辑的更新。</p><h2 id="02"><a href="#02" class="headerlink" title="02"></a>02</h2><h3 id="技术也不惯着你了：AI-时代，平台更强，定制更弱"><a href="#技术也不惯着你了：AI-时代，平台更强，定制更弱" class="headerlink" title="技术也不惯着你了：AI 时代，平台更强，定制更弱"></a>技术也不惯着你了：AI 时代，平台更强，定制更弱</h3><p>另一个冷知识是：</p><p>AI 产品时代，标准化更容易发挥价值。</p><p>AI 产品（尤其是生成式 AI）越想“泛化”，就越依赖结构统一、接口规范、场景归一的输入。</p><p><strong>定制化反而成了干扰项，是 AI 落地的大敌。</strong></p><p>一个很现实的例子是：</p><p>AI 产品的落地和部署，我们先不谈效果如何，光是因为客户的数据安全要求，大多数都得做私有部署。</p><p>但一旦部署在客户自己的环境里，厂商对产品的真实运行状况就完全看不到了，整个系统变成了“黑箱”。</p><p>再加上每个客户对 AI 产品都有高度个性化的使用方式，通常会“根据自己的业务场景”来配置 prompts、规则、语料、权限、标签体系等等。</p><p>厂商对客户业务的理解就只能停留在“你在哪个流程用了我们”，却没法深入到“你具体怎么用、用了生成了什么、业务效果怎么样”。</p><p>换句话说，厂商只能服务于客户的“流程”，但很难理解和优化客户的“内容”。</p><p>于是厂商们反而“被技术逼着”向标准靠拢。</p><p>平台也在做减法——</p><p>以前是“你想怎么接、对接我都支持”，现在是“你得符合我客户画像”。</p><p>这不是傲慢，是新的技术范式下的必然。</p><h2 id="03"><a href="#03" class="headerlink" title="03"></a>03</h2><h3 id="客户也变了：从“要你做”到“我自己做”"><a href="#客户也变了：从“要你做”到“我自己做”" class="headerlink" title="客户也变了：从“要你做”到“我自己做”"></a>客户也变了：从“要你做”到“我自己做”</h3><p>有意思的是，客户这边也不再那么执着于“定制化”。</p><p>他们也累了。</p><p>过去靠厂商改代码等产品迭代，改一次要等几周，甚至大概率是需求被打回。</p><p>所以客户现在他们更想要的是灵活可配、拖拉拽搞定，甚至自己组一个低代码平台来搞集成，干脆把定制权握在自己手里。</p><p>这也是<strong>低代码单品</strong>曾经大行其道的原因，虽然现在声响变小，但无可争议的是<strong>低代码平台+标准产品</strong>的组合解决方案是现在 SaaS 产品拓客的主流趋势。</p><p>与此同时，大客户不再执着于“定制”，而是转向 <strong>“灵活”+“自建”+“兼容”</strong>，他们变聪明了，不愿被一个供应商绑死。</p><p>在这种情况下，真正“香”的不是厂商答应做，而是平台本身的“弹性”。</p><p>这是一种权力的转移——</p><p>从“厂商对客户有求必应”，到“客户自己搭建能力体系”。</p><h2 id="04"><a href="#04" class="headerlink" title="04"></a>04</h2><h3 id="所以说到底，定制化没死，只是从“服务义务”变成了“生态能力”"><a href="#所以说到底，定制化没死，只是从“服务义务”变成了“生态能力”" class="headerlink" title="所以说到底，定制化没死，只是从“服务义务”变成了“生态能力”"></a>所以说到底，定制化没死，只是从“服务义务”变成了“生态能力”</h3><p>定制化不是消失了，而是退位了。</p><p>它从核心交付能力变成了周边协同手段。</p><p>真正未来感的解决方案不是“我替你做”，而是“我给你工具”。</p><p>SaaS 平台的进化方向是：</p><ul><li>产品提供标准能力框架（垂类）</li><li>中间件、插件、API 层支持生态补全（泛类）</li><li>服务商、客户自己参与“定制”，但不影响主产品主干（渠道、生态、客&#x2F;用户参与）</li></ul><p>定制从“厂商做”变成了“平台支撑、客户自造”。</p><p>这就有趣了。</p><p>再回头看“大家好像不怎么关注 KA 客户定制化需求了”，其实不只是“关注度”在下降，而是 <strong>“定制”作为一种交付范式本身正在被弱化。</strong></p><p>这，才是那个真正值得关注的变化。</p><p>而全篇没有怎么提 SaaS 厂商对于 AI 的投注是因为——</p><p>只有从之前的定制化樊篱中释放资源出来才有资格探索 AI。</p><h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>大家不是不关注 KA 客户了，只是不再相信“你要什么我造什么”是长久之计，以及客户侧的觉醒，拒绝 SaaS 产品和厂商的硬绑定。</p><p>今天的厂商，更像在回答一个问题：</p><p><strong>“我是否有能力，在不定制的前提下满足定制化需求？”</strong></p><p>毕竟，对于厂商和客户双方来讲，定制化“性价比”不再成立了。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
+    
+    
+    <summary type="html">在这篇文章中，我们聚焦SaaS行业中的一个重要转变：厂商正逐步放弃对KA客户定制化需求的无条件响应，转而拥抱标准化与平台化能力。随着AI技术的落地、私有部署的“黑箱”效应，以及客户对灵活、自建、低绑定模式的偏好，定制化从“核心义务”退化为“生态能力”。文章深入剖析了这场范式转变背后的资源逻辑、技术趋势和客户心智变化，为企业服务者提供了一套理解未来客户成功与产品策略的新坐标。</summary>
+    
+    
+    
+    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>客户成功的下半场会是批量化运营吗？</title>
@@ -405,27 +426,6 @@
     
     
     <summary type="html">在这篇文章中，我们深入剖析了SaaS行业销售与客户成功人员跳槽失败的核心原因：不是能力不行，而是没有搞清楚自己到底适合卖什么产品、面对哪类客户。文章提供了一套实用的思考框架，帮助求职者从自身经验出发，匹配最能发挥优势的产品类型与客户生态，避免“盲目跟风”“误入陌生赛道”导致的重头来过。这是一篇兼具战略视角与落地建议的跳槽指南，适合正在找方向的ToB从业者阅读收藏。</summary>
-    
-    
-    
-    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
-    
-    
-    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>好营销的三点式，谁看谁上头</title>
-    <link href="https://heycsm.com/2025/05/30/%E5%A5%BD%E8%90%A5%E9%94%80%E7%9A%84%E4%B8%89%E7%82%B9%E5%BC%8F%EF%BC%8C%E8%B0%81%E7%9C%8B%E8%B0%81%E4%B8%8A%E5%A4%B4/"/>
-    <id>https://heycsm.com/2025/05/30/%E5%A5%BD%E8%90%A5%E9%94%80%E7%9A%84%E4%B8%89%E7%82%B9%E5%BC%8F%EF%BC%8C%E8%B0%81%E7%9C%8B%E8%B0%81%E4%B8%8A%E5%A4%B4/</id>
-    <published>2025-05-30T10:27:09.000Z</published>
-    <updated>2025-05-30T10:29:18.000Z</updated>
-    
-    <content type="html"><![CDATA[<div id="readmore-container"><p><strong>你真的懂痛点、痒点、卖点这些市场营销中的概念吗？</strong></p><p>你是不是也经常听人讲“这个产品要解决用户痛点”“要打用户痒点”“要有清晰的卖点”？</p><p>听上去都很有道理，可真轮到自己写文案、做推广、定产品，你却发现——全是糊的。</p><p>到底什么是痛点？什么又是痒点？为什么很多产品明明很努力，却卖不动？你以为你讲的是卖点，其实只是自说自话。</p><p><strong>你抓不到“人性”，就永远抓不住转化。</strong></p><p>今天这篇，我想用最通俗的方式，把这三个“点”一次讲透。写文案、做产品、谈客户、投广告，都能用。</p><p>我们先把这三个词剥开来：</p><h2 id="1-痛点（Pain-Point）"><a href="#1-痛点（Pain-Point）" class="headerlink" title="1. 痛点（Pain Point）"></a>1. 痛点（Pain Point）</h2><p>这是最直接、最刚性的动因。是用户生活系统里的裂缝。</p><p>比如腰疼、焦虑、加班、没时间陪娃、客户流失严重——这些痛，是用户自己就能感知到的“急需解决的问题”。</p><p>你只要能“精准戳到”，产品就被接受得顺理成章。用户甚至不需要太多解释，因为“我就是难受”。</p><p>它是一种压力下的购买，是理性的购买原因，用来解决现实问题。</p><h2 id="2-痒点（Itch-Point）"><a href="#2-痒点（Itch-Point）" class="headerlink" title="2. 痒点（Itch Point）"></a>2. 痒点（Itch Point）</h2><p>更复杂一点。它不是痛，它不紧急，也不是你非要处理的问题——它是一种 <strong>“欲望的预感”</strong>，甚至是 <strong>“虚荣心”</strong>。</p><p>用户本来没事，但一旦你“撩拨”一下，就开始有点不舒服、有点心动、有点“别人有，我也想有”，“不买也行，但买了就爽”。</p><p>比如你没必要买第二支口红，但一刷到小红书就觉得这支显白；你没打算换 iPhone，但看别人动态后缀一动，你就开始心痒。</p><p>它靠“种草”而非“解救”。是感性的购买原因，用来解决心理认同。</p><h2 id="3-卖点（Selling-Point）"><a href="#3-卖点（Selling-Point）" class="headerlink" title="3. 卖点（Selling Point）"></a>3. 卖点（Selling Point）</h2><p>这是商家提出的“回应”，是产品向用户喊话的方式。</p><p>它本质是一个翻译过程，把“痛点&#x2F;痒点”的感受，转化成一句话、一个功能、一个包装方案，告诉用户：“我懂你、我为你、我值这个价”。</p><p>比如洗发水——</p><ul><li>痛点是“脱发”</li><li>痒点是“蓬松显脸小”</li><li>卖点是“瑞士植萃+零硅油+高端沙龙同款”</li></ul><p>卖点是给人听的，痒点是给人想的，痛点是让人非买不可的。</p><h2 id="三者的关系？"><a href="#三者的关系？" class="headerlink" title="三者的关系？"></a>三者的关系？</h2><p>它们构成了一个感知价值三角坐标系：</p><ul><li>痛点代表：“我必须解决”</li><li>痒点代表：“我想要拥有”</li><li>卖点代表：“我提供给你”</li></ul><p>真正的营销高手，不是拍脑袋搞创意，而是擅长捕捉这个三角之间的张力与转译。</p><p>比如：</p><ul><li>有些产品靠“痒点+卖点”也能火：盲盒、潮鞋、NFT、医美——他们不是解决问题，而是制造焦虑、制造欲望。</li><li>有些产品必须围绕“痛点”：医疗、教育、SaaS、保险——你没痛，讲得再花也白搭。</li></ul><p>而最厉害的是，<strong>一个产品同时击中用户的“痛”和“痒”，再由一个漂亮的卖点包起来。</strong></p><p>比如 iPhone——它既解决了“效率焦虑”，又满足了“身份认同”。</p><h2 id="所以，关键是："><a href="#所以，关键是：" class="headerlink" title="所以，关键是："></a>所以，关键是：</h2><ul><li>你能不能看清，用户真正的“痒”往往是“不知道自己想要”；</li><li>真正的“痛”往往不是他们说出口的，而是隐藏在决策背后的焦虑；</li><li>而“卖点”，是你是否有能力把这种模糊情绪转译成一句能打动人心的话。</li></ul><p><strong>一句话总结：痛点是你该戳的，痒点是你该挠的，卖点是你该说的。</strong></p><p>懂了这个三角，你就离好营销不远了，也就理解了消费者为何愿意打开钱包。</p><p>比如吸引你点进来的文章标题。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
-    
-    
-    <summary type="html">本篇文章深入解析营销三大核心概念——痛点、痒点、卖点，揭示它们在用户心理决策中的真实作用。通过通俗易懂的案例与强烈的情绪钩子，帮助产品经理、营销人、文案写作者真正搞懂：如何精准识别用户需求、如何激发消费欲望、如何打造有转化力的产品卖点。适合想提升转化率、优化文案、打爆产品的从业者阅读。</summary>
     
     
     
