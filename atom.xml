@@ -6,7 +6,7 @@
   <link href="https://heycsm.com/atom.xml" rel="self"/>
   
   <link href="https://heycsm.com/"/>
-  <updated>2025-07-30T12:50:45.211Z</updated>
+  <updated>2025-07-31T10:31:52.192Z</updated>
   <id>https://heycsm.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ToB业务中，如何真正挖掘客户的需求和痛点？</title>
+    <link href="https://heycsm.com/2025/07/31/ToB%E4%B8%9A%E5%8A%A1%E4%B8%AD%EF%BC%8C%E5%A6%82%E4%BD%95%E7%9C%9F%E6%AD%A3%E6%8C%96%E6%8E%98%E5%AE%A2%E6%88%B7%E7%9A%84%E9%9C%80%E6%B1%82%E5%92%8C%E7%97%9B%E7%82%B9%EF%BC%9F/"/>
+    <id>https://heycsm.com/2025/07/31/ToB%E4%B8%9A%E5%8A%A1%E4%B8%AD%EF%BC%8C%E5%A6%82%E4%BD%95%E7%9C%9F%E6%AD%A3%E6%8C%96%E6%8E%98%E5%AE%A2%E6%88%B7%E7%9A%84%E9%9C%80%E6%B1%82%E5%92%8C%E7%97%9B%E7%82%B9%EF%BC%9F/</id>
+    <published>2025-07-31T10:30:22.000Z</published>
+    <updated>2025-07-31T10:31:52.192Z</updated>
+    
+    <content type="html"><![CDATA[<div id="readmore-container"><p>多数人停留在“记录需求”，少数人才能“发现痛点”。</p><p>你以为你在“挖需求”，但客户眼里，你可能只是一个高端“问卷调查员”。</p><p><strong>在 B 端业务里，绝大多数“需求访谈”，其实都是自欺欺人的仪式感。</strong></p><p>我们做问卷，我们做访谈，流程很正规、很科学，看起来挺美好的。</p><p>但请记住下面这几句话：</p><ol><li>客户说的需求，不一定是需求。</li><li>客户抱怨的痛点，不一定是痛点。</li><li>真正能撬动预算的东西，常常深埋在沉默里、业务链条的暗角里、算不清的代价里。</li></ol><p>我想过往客户成功工作中踩坑后的三个真相，帮你重构“挖需求”的底层逻辑。</p><h2 id="一、客户说出口的，多半不值钱"><a href="#一、客户说出口的，多半不值钱" class="headerlink" title="一、客户说出口的，多半不值钱"></a>一、客户说出口的，多半不值钱</h2><p>反直觉吧？</p><p><strong>别再把客户说的第一句话当金科玉律。</strong></p><ul><li>客户说：“我们想做自动化营销。”</li><li>你立刻接：“好的，我们有 XX 自动化模块，能帮您……”</li></ul><p>然后？半年过去项目一地鸡毛。为什么？</p><p>因为客户的问题根本不在营销自动化，而在数据源混乱、销售激励错配、底层逻辑没跑通。</p><p>需求是有三层的：</p><ul><li><strong>显性需求</strong>：客户开口提的，最容易被表面带跑；</li><li><strong>隐性需求</strong>：藏在数据和行为里的业务瓶颈；</li><li><strong>潜在需求</strong>：客户自己都没想到，一旦你指出，他们会拍桌子：“对，就是这个！”</li></ul><p>多数业务人只停在第一层，注定成为客户的“被多次打回方案的乙方”。</p><h2 id="二、痛点不是“抱怨”，而是客户付出的“代价”"><a href="#二、痛点不是“抱怨”，而是客户付出的“代价”" class="headerlink" title="二、痛点不是“抱怨”，而是客户付出的“代价”"></a>二、痛点不是“抱怨”，而是客户付出的“代价”</h2><p>客户嘴上抱怨的事，不一定会给钱去解决。</p><p>真正能撬动预算的痛点，必须满足两个条件：</p><ul><li><strong>有硬代价</strong>：真金白银的损失、时间成本、人力成本、合规风险。</li><li><strong>有可计算性</strong>：能被量化、对比、拿给老板拍板。</li></ul><p>你去问：“您目前最大的痛点是什么？”</p><p>客户说：“没什么特别的。”</p><p>那只是习惯了代价而已。</p><p><strong>高手的方法是算账。</strong></p><p>比如：“你们这个流程一个月浪费 20 个人天，年化成本 100 万+。”</p><p>算出真实代价，痛点才会浮出水面。</p><h2 id="三、四个反直觉动作，帮你掘开沉默"><a href="#三、四个反直觉动作，帮你掘开沉默" class="headerlink" title="三、四个反直觉动作，帮你掘开沉默"></a>三、四个反直觉动作，帮你掘开沉默</h2><h3 id="1-少问、多看"><a href="#1-少问、多看" class="headerlink" title="1. 少问、多看"></a>1. 少问、多看</h3><p>去客户现场看操作、看流程卡壳，看他们眉头一皱的瞬间，需求比语言更诚实。</p><p>另外一个邪法是去看客户的决策会议，哪怕关键用户不说话，你也能从他的情绪、表情发现很多客户嘴上没说的问题。</p><h3 id="2-听犹豫，不听答案"><a href="#2-听犹豫，不听答案" class="headerlink" title="2. 听犹豫，不听答案"></a>2. 听犹豫，不听答案</h3><p>客户回答流畅的，大概率是无关痛痒的需求。</p><p>犹豫、含糊、停顿的地方，藏着核心矛盾。</p><h3 id="3-跨边界挖“上游”和“下游”"><a href="#3-跨边界挖“上游”和“下游”" class="headerlink" title="3. 跨边界挖“上游”和“下游”"></a>3. 跨边界挖“上游”和“下游”</h3><p>一个部门的<strong>问题</strong>，往往起源于上游环节；</p><p>一个部门的<strong>问题暴露</strong>，往往是下游环节认为没有价值；</p><p>需求不全，是因为你只和对接人聊。</p><h3 id="4-大胆给假设，逼出真需求"><a href="#4-大胆给假设，逼出真需求" class="headerlink" title="4. 大胆给假设，逼出真需求"></a>4. 大胆给假设，逼出真需求</h3><p>不要问“您需要什么功能”，要给出带方向的假设：</p><p>“如果把这个环节出错率降 50%，能不能直接让业务指标提升？”</p><p>客户更容易反驳、补充、纠正，从而暴露真实需求。</p><h2 id="四、客户不会为需求买单，只会为“未来状态”买单"><a href="#四、客户不会为需求买单，只会为“未来状态”买单" class="headerlink" title="四、客户不会为需求买单，只会为“未来状态”买单"></a>四、客户不会为需求买单，只会为“未来状态”买单</h2><p>挖需求只是起点，能不能成单，看你能否描绘出一个更好的未来。</p><p>客户不缺“想要的功能清单”，缺的是一个能让老板拍桌子批准预算的未来场景。</p><p>所以真正的流程是：</p><ul><li>找出代价最大的业务漏洞；</li><li>推演出解决后能带来的量化收益；</li><li>让客户自己看见“现在 vs 未来”的巨大落差。</li></ul><p>只有这样，需求才会变成决策，痛点才会变成签约。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
+    
+    
+    <summary type="html">这篇文章深入解析了ToB业务中“客户需求和痛点挖掘”的核心逻辑，指出显性需求往往只是表象，真正驱动采购决策的是隐藏在业务裂缝、资金流失和流程卡点背后的“真实痛点”。文章提出通过业务深访、量化损失、未来场景推演等方法，用“扫描”代替“聆听”，找到客户愿意为之买单的真实价值突破口，帮助企业在竞争中赢得主动权。</summary>
+    
+    
+    
+    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>承认吧，客户就是会被区别对待的</title>
@@ -405,27 +426,6 @@
     
     
     <summary type="html">这篇文章深入探讨了SaaS产品设计中的用户习惯培养问题，强调“教育用户”不是起点，而是结果。通过抖音的滑动体验和iOS拟物风的历史案例，作者指出真正成功的产品是“刻意为之”的用户引导，而非理念输出。文章指出，SaaS产品在设计上更应先满足“认知顺滑感”，在建立粘性后再推动标准与教育，并提出通过行业协会等渠道反向影响客户认知是破局关键。适合关注B端产品设计、用户体验和SaaS战略定位的读者阅读。</summary>
-    
-    
-    
-    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
-    
-    
-    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>听弦外之音，找客户真正关心的问题</title>
-    <link href="https://heycsm.com/2025/06/24/%E5%90%AC%E5%BC%A6%E5%A4%96%E4%B9%8B%E9%9F%B3%EF%BC%8C%E6%89%BE%E5%AE%A2%E6%88%B7%E7%9C%9F%E6%AD%A3%E5%85%B3%E5%BF%83%E7%9A%84%E9%97%AE%E9%A2%98/"/>
-    <id>https://heycsm.com/2025/06/24/%E5%90%AC%E5%BC%A6%E5%A4%96%E4%B9%8B%E9%9F%B3%EF%BC%8C%E6%89%BE%E5%AE%A2%E6%88%B7%E7%9C%9F%E6%AD%A3%E5%85%B3%E5%BF%83%E7%9A%84%E9%97%AE%E9%A2%98/</id>
-    <published>2025-06-24T10:12:30.000Z</published>
-    <updated>2025-06-24T10:13:53.000Z</updated>
-    
-    <content type="html"><![CDATA[<div id="readmore-container"><p>客户不会直接告诉你他在意什么。</p><p>他说的是 A，真正在意的是 B。</p><p>你听得出弦外之音，你才有资格谈客户真正关心的问题是什么。</p><h2 id="客户说的，永远不是他在意的"><a href="#客户说的，永远不是他在意的" class="headerlink" title="客户说的，永远不是他在意的"></a>客户说的，永远不是他在意的</h2><p>“系统是不是还能再智能点？”</p><p>听起来像在提产品意见，其实意思是：</p><p><strong>“我不想每天手动导报表给老板。”</strong></p><p>再深一层是：</p><p><strong>“我怕老板觉得我啥也不会。”</strong></p><p><strong>高手 CS 从不按字面理解客户的话，而是顺着情绪找动机。</strong></p><h2 id="客户反应快慢，是判断关注度的金标准"><a href="#客户反应快慢，是判断关注度的金标准" class="headerlink" title="客户反应快慢，是判断关注度的金标准"></a>客户反应快慢，是判断关注度的金标准</h2><p>你丢出去一个建议，客户立马接住并补充，那就是他在意的。</p><p>“我们可以设个运营日报，自动推送给管理层。”</p><p>客户立马回：“对对，我们现在就缺这个！”</p><p>恭喜你，踩中他的“潜意识焦虑点”。</p><p><strong>客户没有动作反馈的“需求”，就是你脑补出来的幻觉。</strong></p><h2 id="真问题，藏在客户不愿说的沉默区"><a href="#真问题，藏在客户不愿说的沉默区" class="headerlink" title="真问题，藏在客户不愿说的沉默区"></a>真问题，藏在客户不愿说的沉默区</h2><p>客户从不提某个流程、某个环节、某个角色，你别以为是他不在意，恰恰是他“说不了”。</p><p>比如一个 HR 客户从不提业务面试官的配合度，往往是因为：<strong>“他们压根不听她的。”</strong></p><p><strong>CS 要敢于从沉默中读出组织的隐性矛盾。</strong></p><h2 id="每个客户都有个“要交差的对象”"><a href="#每个客户都有个“要交差的对象”" class="headerlink" title="每个客户都有个“要交差的对象”"></a>每个客户都有个“要交差的对象”</h2><p>你以为客户关心“产品功能是否好用”？</p><p>错。</p><p>他关心的是能不能：</p><ul><li>快速交出一个报告糊弄老板</li><li>向兄弟部门证明“我没选错供应商”</li><li>在季度会上有一个能吹的成果展示</li></ul><p><strong>客户真正的焦虑，不在产品里，在人际权责关系网里。</strong></p><p>你能不能帮他“交差”，决定了他有没有耐心继续跟你谈。</p><h2 id="打动客户，比不上代替客户说出他没说出口的事"><a href="#打动客户，比不上代替客户说出他没说出口的事" class="headerlink" title="打动客户，比不上代替客户说出他没说出口的事"></a>打动客户，比不上代替客户说出他没说出口的事</h2><p>别问“你们现在有什么难点？”</p><p>那是懒人 CS 才会问的正确废话。</p><p>你得直接丢一句：</p><p>“是不是你现在最大的麻烦，是业务部门都在甩锅？”</p><p>客户一愣，然后说：</p><p><strong>“你怎么知道的？”</strong></p><p>这就是信任的临门一脚，不是你专业，而是你“懂他”。</p><h2 id="你越是像咨询师，客户越把你当合作伙伴"><a href="#你越是像咨询师，客户越把你当合作伙伴" class="headerlink" title="你越是像咨询师，客户越把你当合作伙伴"></a>你越是像咨询师，客户越把你当合作伙伴</h2><p>能不能找对客户在意的事，不靠问，不靠套话术，靠<strong>理解客户“背后的任务”是什么。</strong></p><p>他说的是功能，想的是权责，怕的是背锅，求的是体面。</p><p>你能听出来，客户才听你的。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
-    
-    
-    <summary type="html">这篇文章深入解析了客户成功如何识别客户真正关心的问题，强调“听懂弦外之音”的重要性。通过对客户反馈、行为反应、沉默区域和权责关系的洞察，揭示了隐藏在表象之下的真实痛点。文章提出：CS 不应停留在功能解读层面，而应成为客户背后利益诉求的识别者和共谋者。这是一篇关于如何从“被动响应”走向“主动引导”的实战心法总结，适合关注客户关系、SaaS运营和ToB服务提升的从业者阅读。</summary>
     
     
     
