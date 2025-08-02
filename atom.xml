@@ -6,7 +6,7 @@
   <link href="https://heycsm.com/atom.xml" rel="self"/>
   
   <link href="https://heycsm.com/"/>
-  <updated>2025-08-01T10:21:22.051Z</updated>
+  <updated>2025-08-02T10:31:51.681Z</updated>
   <id>https://heycsm.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>客户提了天马行空的要求，高手是这样化解的</title>
+    <link href="https://heycsm.com/2025/08/02/%E5%AE%A2%E6%88%B7%E6%8F%90%E4%BA%86%E5%A4%A9%E9%A9%AC%E8%A1%8C%E7%A9%BA%E7%9A%84%E8%A6%81%E6%B1%82%EF%BC%8C%E9%AB%98%E6%89%8B%E6%98%AF%E8%BF%99%E6%A0%B7%E5%8C%96%E8%A7%A3%E7%9A%84/"/>
+    <id>https://heycsm.com/2025/08/02/%E5%AE%A2%E6%88%B7%E6%8F%90%E4%BA%86%E5%A4%A9%E9%A9%AC%E8%A1%8C%E7%A9%BA%E7%9A%84%E8%A6%81%E6%B1%82%EF%BC%8C%E9%AB%98%E6%89%8B%E6%98%AF%E8%BF%99%E6%A0%B7%E5%8C%96%E8%A7%A3%E7%9A%84/</id>
+    <published>2025-08-02T10:18:39.000Z</published>
+    <updated>2025-08-02T10:31:51.681Z</updated>
+    
+    <content type="html"><![CDATA[<div id="readmore-container"><p>在沟通中，“直接说不行”是最容易让关系僵化的方式。</p><p>你一定也遇到过这样的客户：</p><p>“这个功能能不能明天上线？其实不复杂吧。”</p><p>“预算就这么多，但我想要行业最佳实践的效果。”</p><p>“为什么你们家做不到自动生成周报？XX 公司都能做。”</p><p>看到这些需求时，你是不是心里默默翻了个白眼：这是认真的吗？</p><p>别急着生气，客户“不切实际”的背后，往往有原因。</p><p>高手不会直接回绝，而是既保护团队利益，又能让客户心甘情愿“回到现实”。</p><h2 id="一、为什么客户想法会偏离现实？"><a href="#一、为什么客户想法会偏离现实？" class="headerlink" title="一、为什么客户想法会偏离现实？"></a>一、为什么客户想法会偏离现实？</h2><p>客户提出离谱需求的背后，其实有三大成因：</p><ul><li><strong>信息差</strong>：他们不了解技术难度、行业规律、资源成本，想当然地以为“一键搞定”。</li><li><strong>心理预期失衡</strong>：看到竞品宣传、老板一句话、KPI 压力，容易把幻想当需求。</li><li><strong>沟通链路失真</strong>：需求多次转述，信息被扭曲、夸大，到你手上已经“天方夜谭”。</li></ul><p>理解这一点，你就能少些情绪，多些策略。</p><h2 id="二、高手的四步解法"><a href="#二、高手的四步解法" class="headerlink" title="二、高手的四步解法"></a>二、高手的四步解法</h2><h3 id="1-先接住，而不是立刻打回去"><a href="#1-先接住，而不是立刻打回去" class="headerlink" title="1. 先接住，而不是立刻打回去"></a>1. 先接住，而不是立刻打回去</h3><p>直接说“不可能”，只会让客户觉得你不专业，甚至会有对抗情绪产生。</p><p>试试这句话：</p><blockquote><p>“您的想法很有创意，我来帮您拆解一下可行性。”</p></blockquote><p>先接住情绪，再赢得耐心听你分析。</p><h3 id="2-用数据和事实把幻想拉回地面"><a href="#2-用数据和事实把幻想拉回地面" class="headerlink" title="2. 用数据和事实把幻想拉回地面"></a>2. 用数据和事实把幻想拉回地面</h3><p>告诉客户“不行”不如让他们自己看到代价，以“钱”和“时间”服人。</p><p>比如：</p><blockquote><p>“这个功能需要额外两周开发，预计增加 30%的成本，您看是否值得优先处理？”</p></blockquote><p>让客户自己在时间、成本、效果三维权衡，比硬拒绝更有效。</p><h3 id="3-提供替代方案，给台阶下"><a href="#3-提供替代方案，给台阶下" class="headerlink" title="3. 提供替代方案，给台阶下"></a>3. 提供替代方案，给台阶下</h3><p>不要只说“不行”，要给“行得通的路”。</p><blockquote><p>“如果我们把 A 方案简化，能 80%达成您的目标，还能准时上线，您觉得如何？”</p></blockquote><p>客户要的不是“完全满足”，而是被理解、被帮忙实现目标。</p><h3 id="4-做好提前预防，降低“离谱需求”频率"><a href="#4-做好提前预防，降低“离谱需求”频率" class="headerlink" title="4. 做好提前预防，降低“离谱需求”频率"></a>4. 做好提前预防，降低“离谱需求”频率</h3><p>高手不仅救火，更懂防火。</p><ul><li>在项目初期对功能边界、预算、时间做明确约定。</li><li>提前提供行业基准信息，帮客户建立合理预期。</li><li>定期复盘，让客户了解实现难度和取舍逻辑。</li></ul><p>避免一次次陷入“驳回离谱需求”的被动局面。</p><h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>真正的专业，不是对客户言听计从，而是用事实、方案和逻辑，引导他们走向可实现的价值。</p><p>下次遇到“天马行空”的想法，别急着翻白眼。</p><p>先接住情绪，再摆出数据、给出方案，最后用专业引导共识。</p><p>能把“不可能”化解成“能落地”，才是客户眼中值得信赖的高手。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
+    
+    
+    <summary type="html">客户经常提出看似“天马行空”的需求，如何既不伤和气又能引导其回归现实？本文解析客户不切实际想法的三大成因，并提供高手常用的“四步化解法”，通过情绪接纳、数据事实、替代方案和前期预防，让“不可能”变为可落地方案，建立更高效、专业、互信的合作关系。</summary>
+    
+    
+    
+    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>销售上逐级拜访客户有多么重要？</title>
@@ -405,27 +426,6 @@
     
     
     <summary type="html">在客户成功精细化运营难以为继的当下，SaaS企业正将重心转向“批量化运营”以提升效率和覆盖面。本文深入解析客户成功角色从陪伴式服务向自动化、系统化运营的转变，探讨模块化旅程设计、客户意图预测与内容组件化等关键策略，并指出批量化并非冷漠，而是生存策略下的必然选择。适合关注ToB增长策略、CS转型路径与SaaS运营效率的从业者阅读。</summary>
-    
-    
-    
-    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
-    
-    
-    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>在销售面前，客户成功要完</title>
-    <link href="https://heycsm.com/2025/07/08/%E5%9C%A8%E9%94%80%E5%94%AE%E9%9D%A2%E5%89%8D%EF%BC%8C%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E8%A6%81%E5%AE%8C/"/>
-    <id>https://heycsm.com/2025/07/08/%E5%9C%A8%E9%94%80%E5%94%AE%E9%9D%A2%E5%89%8D%EF%BC%8C%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E8%A6%81%E5%AE%8C/</id>
-    <published>2025-07-08T11:19:41.000Z</published>
-    <updated>2025-07-08T11:21:29.785Z</updated>
-    
-    <content type="html"><![CDATA[<div id="readmore-container"><p>从砍预算来讲，其实，大家对客户成功都是有一点失望的。</p><p>2025 年上半年，SaaS 行业重回销售主导逻辑。</p><p>各大 SaaS 厂商重新押宝销售的背后，是客户成功没有跑出应有的线性增长。</p><p><a class="link"   href="https://www.salesforce.com/news/press-releases/2025/05/28/fy26-q1-earnings"  title="Salesforce Reports Record First Quarter Fiscal 2026 Results Exceeds Guidance Across All Metrics; cRPO up 12% Y&#x2F;Y">Salesforce 一季度财报显示，AI 与 Data Cloud 年化收入超过 10 亿美元，同比翻番，超过 60%的大单都包含 Agentforce AI 产品。<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p><p><figure class="image-caption"><img                       lazyload                     src="/images/loading.svg"                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/20250708174502196.png"                      alt="AI方向的原生厂商和巨头投入过重意味着**服务价值的被稀释**"                ><figcaption>AI方向的原生厂商和巨头投入过重意味着**服务价值的被稀释**</figcaption></figure></p><p>这种增长速度令人振奋，也释放出一个明确信号：</p><p><strong>厂商愿意把更多资源押注销售。</strong></p><p>诚然有 AI 带来的市场机遇，有厂商的产品应对，有销售节奏的周期问题…</p><p>但问题是：</p><h2 id="客户成功（Customer-Success）去哪了？"><a href="#客户成功（Customer-Success）去哪了？" class="headerlink" title="客户成功（Customer Success）去哪了？"></a>客户成功（Customer Success）去哪了？</h2><p>过去几年，SaaS 厂商反复强调“客户成功是增长飞轮”，是驱动净收入留存（NRR）、扩展 ARR、降低流失率的核心部门。</p><p>但到了今天，它却没有跑出应有的线性增长，成了高层“默默抽预算”的对象。</p><p><a class="link"   href="https://www.saas-capital.com/blog-posts/spending-benchmarks-for-private-b2b-saas-companies"  title="2025 Spending Benchmarks for Private B2B SaaS Companies">根据 SaaS Capital 2025 年最新报告，融资阶段的 SaaS 公司将平均 13%的 ARR 投入销售，仅 8%分配给客户支持与客户成功，而这一比例比去年还略有下降（8.5% → 8.0%）。<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p><p><figure class="image-caption"><img                       lazyload                     src="/images/loading.svg"                     data-src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/20250708174151889.png"                      alt="在该报告里可以同时关注 **销售(加码)** 和 **营销(持平)** 方面的投入"                ><figcaption>在该报告里可以同时关注 **销售(加码)** 和 **营销(持平)** 方面的投入</figcaption></figure></p><p><strong>换句话说，有且只有客户成功的投入在缩水。</strong></p><h2 id="为什么？"><a href="#为什么？" class="headerlink" title="为什么？"></a>为什么？</h2><p>答案可能藏在结果里。</p><p><a class="link"   href="https://www.benchmarkit.ai/2025benchmarks"  title="2025 B2B SaaS Performance Metrics Benchmarks">Benchmarkit 的数据显示，2025 年行业 NRR 中位数仅为 101%。<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></p><p>也就是说，靠老客户带来的续约和扩展收益仅能勉强抵消流失。</p><p>这点在我之前的工作经历里我也有察觉到，包括之前有分享过，即使什么都不做的 CS 可以用 NDR 提升 10%的增长抵消掉客户自然流失的那 Churn 的 10%，而那些 NDR 能往上再走几个点的 CS 绝对不可能是单纯的“服务型”人员。</p><p>可这种所谓的“顾问型”<strong>高阶 CS</strong>，凤毛麟角。</p><p>由此推理，NDR 可以做的很高的厂商，也是凤毛麟角。</p><p>而这种微弱的“自增长”效果，<strong>自然无法说服管理层继续加码 CS。</strong></p><p>再往下一层，降本增效的今天——</p><h2 id="销售有效、CS-无感，这是决策层的直觉判断。"><a href="#销售有效、CS-无感，这是决策层的直觉判断。" class="headerlink" title="销售有效、CS 无感，这是决策层的直觉判断。"></a>销售有效、CS 无感，这是决策层的直觉判断。</h2><p>于是资源迅速向销售倾斜。</p><p>Salesforce、ServiceNow、Freshworks 等头部厂商纷纷扩大 AI 助手、Agent 系统部署，让销售变得“更聪明”、更自动化。</p><p>而 CS 部门却普遍面临工具落后、KPI 模糊、流程零散等困境。</p><p>这是 AI 时代工具提效对销售业务的辅助角度，但同时别忘了，AI 也让各大厂商的 SaaS 产品得以商业化，可以作为驱动营收增长的主要投入方向。</p><p>这个角度其实并不稀奇，是个 SaaS 厂商都在做，可有两个关键点不容忽视：</p><p><strong>1.订阅制下的客户是有客户生命周期的，作为新产品的消费者，尚未交棒到 CS 手里去做后营收。</strong></p><p><strong>2.AI 方向没有错，但 AI 对于客户问题解决的有效性尚得打个问号，我们 CS 强调的为效果付费至少业内人士大部分还不敢跟 AI 新产品挂钩。</strong></p><p>更何况，在没有 AI 之前，客户成功也确实没能兑现“飞轮效应”的承诺。</p><p>尚在客户成功的探索阶段。</p><h2 id="我要从这里开始强行挽尊了。"><a href="#我要从这里开始强行挽尊了。" class="headerlink" title="我要从这里开始强行挽尊了。"></a>我要从这里开始强行挽尊了。</h2><p>这不是因为它不重要，而是它从未真正被赋能。</p><p>我们看到太多 CS 团队被要求“降低流失”，却没有预算做客户画像、没有工具追踪健康度、没有自动化支持续约提醒，更没有和产品、销售形成数据闭环。</p><p>它像一个修补者，却被赋予增长责任；像一个客服，却被要求对 ARR 负责。</p><p>于是，一旦营收承压，所有的 CRO、CFO、CEO 都会本能地，把希望寄托在“更可见的增长部门”——</p><p><strong>销售。</strong></p><p>这是客户成功的危机，也是它的机会。</p><p>危机在于，如果 CS 继续保持“服务中心”定位，不升级为“营收引擎”，它就会被边缘化到底。</p><p>机会在于，如果厂商能重新设计 CS 的目标结构，把续约率、扩展 ARR 变成核心 KPI，把 AI 赋能真正下沉到客户生命周期管理流程中，它依然有机会成为长期 LTV 驱动者。</p><p>至于 AI 产品的商业化，对大 B 来说还是继续前行继续观望，目前能看到的都是小 C 的增长神话。</p><p>落地的方面：</p><h2 id="要让客户成功真正跑起来，我们建议从三件事做起："><a href="#要让客户成功真正跑起来，我们建议从三件事做起：" class="headerlink" title="要让客户成功真正跑起来，我们建议从三件事做起："></a>要让客户成功真正跑起来，我们建议从三件事做起：</h2><ul><li><strong>预算倾斜回归</strong>：CS 不是“消耗成本”，而是“放大利润”的部门。资源上要与销售平权。当然也需要对 CS 部门做更高的指标制定。</li><li><strong>智能化工具覆盖 CS 流程</strong>：不是只给销售配 Agent，CS 也要有健康预警、流失预测、自动触达的能力。老调重弹的 CS 工具建设，之所以一直被重谈是因为一直得不到重视。</li><li><strong>指标从满意度转向增长度</strong>：NRR、Expansion ARR、净推荐值 NPS 都应是 CS 的主责，不是“附属责任”。</li></ul><p>客户成功没有跑出线性增长，不是它能力不足，而是它没有被组织当成“收入引擎”来建设。</p><p>这里把问题甩出去了，其实我感觉还真有很大的原因就是 CS 团队的成员能力不足，抛开团队的组织定位（服务和营收中心）不谈，组织也得先负个人员招募、培养不力的责任吧。</p><p>只不过，当趋势上销售重新成为舞台中央时，客户成功必须重新证明：</p><p><strong>自己不是后台支援，而是增长曲线里不可或缺的另一条线。</strong></p><p>否则，它将持续被边缘、被忽视、被削弱。</p><p>现在是客户成功的转折点，也是它自证价值的机会。</p><p><strong>希望这个时代，不止有厉害的销售，还有厉害的客户成功。</strong></p><p>你要知道，SaaS 底层的“长期主义”、“信任经济”背后有直接关联关系的应当是 CS 岗位的你我。</p><p>又要让销售把家偷了吗？</p><p>不行，不可以。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
-    
-    
-    <summary type="html">2025年SaaS行业再次将重点资源押注在销售上，而客户成功（Customer Success）却因未跑出理想的线性增长曲线，面临边缘化风险。文章深度剖析了Salesforce等厂商在AI销售上的投入趋势、CS投入占比缩水的现实，以及客户成功未能有效驱动NRR提升的根本原因，并提出三大建议助力CS转型为真正的营收引擎。适合关注B2B SaaS、客户成功转型、增长策略与AI销售趋势的读者参考。</summary>
     
     
     
