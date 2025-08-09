@@ -6,7 +6,7 @@
   <link href="https://heycsm.com/atom.xml" rel="self"/>
   
   <link href="https://heycsm.com/"/>
-  <updated>2025-08-08T10:27:25.125Z</updated>
+  <updated>2025-08-09T11:03:30.102Z</updated>
   <id>https://heycsm.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>产研和销服，天生冤家？</title>
+    <link href="https://heycsm.com/2025/08/09/%E4%BA%A7%E7%A0%94%E5%92%8C%E9%94%80%E6%9C%8D%EF%BC%8C%E5%A4%A9%E7%94%9F%E5%86%A4%E5%AE%B6%EF%BC%9F/"/>
+    <id>https://heycsm.com/2025/08/09/%E4%BA%A7%E7%A0%94%E5%92%8C%E9%94%80%E6%9C%8D%EF%BC%8C%E5%A4%A9%E7%94%9F%E5%86%A4%E5%AE%B6%EF%BC%9F/</id>
+    <published>2025-08-09T11:01:43.000Z</published>
+    <updated>2025-08-09T11:03:30.102Z</updated>
+    
+    <content type="html"><![CDATA[<div id="readmore-container"><p>为什么这两方目标和想法总是差那么多？表层原因和深层原因分别是什么？</p><p>某家科技公司周一早上的跨部门例会。</p><p>销售总监一脸焦急：“客户下周就要交付，如果这次功能做不到，订单就黄了！”</p><p>研发负责人眉头一皱：“那是不可能的，架构根本不支持，而且你们上次不是答应只做核心功能吗？”</p><p>会议室的空气瞬间凝固。</p><p>有人轻轻翻动 PPT，有人低头玩手机，有人小声嘀咕：“又来了。”</p><p>这样的场景，在无数公司上演——甚至比你刷短视频的频率还高。</p><h2 id="1-为什么他们总是“不同步”？"><a href="#1-为什么他们总是“不同步”？" class="headerlink" title="1.为什么他们总是“不同步”？"></a>1.为什么他们总是“不同步”？</h2><p>产研（产品+研发）和销服（市场销售+客户服务），看似同一个公司里的“左右手”，目标都是为了让产品卖出去、公司赚钱。</p><p>但一旦进入具体执行，往往变成“左右互搏”。</p><p><strong>研发的世界</strong>：</p><p>他们更像工匠，关注的是技术可行性、功能完整性、架构稳定性。</p><p>一个按钮的交互逻辑，一个接口的响应速度，他们能反复琢磨一整天。</p><p><strong>销售的世界</strong>：</p><p>他们像冲锋的战士，盯着季度指标、竞品动态、客户情绪。</p><p>一个大客户的投诉、一个竞争对手的新功能，都可能让他们彻夜难眠。</p><p>用体育类比：</p><p>研发在跑马拉松，要稳、要耐力；销售在跑百米冲刺，要快、要爆发。</p><p>可公司却往往用同一套考核表，去评判谁跑得好。</p><p>结果必然是——谁都觉得委屈。</p><h2 id="2-矛盾背后的“五根刺”"><a href="#2-矛盾背后的“五根刺”" class="headerlink" title="2.矛盾背后的“五根刺”"></a>2.矛盾背后的“五根刺”</h2><ol><li><p><strong>信息链路失真</strong><br>客户在销售面前说：“我想要一个像 XX 那样的功能。”<br>到研发那儿，可能就成了：“客户要个搜索框。”<br>细节和背景全没了，研发做出来的东西和客户脑海里的画面，完全不是一回事。</p></li><li><p><strong>激励机制不同</strong><br>销售的 KPI 是签单额、回款率；研发的 KPI 是 Bug 率、稳定性、按期交付。<br>一个追速度，一个追质量，谁也不想为对方的指标负责。</p></li><li><p><strong>时间感差异</strong><br>销售的时间单位是“季度”，研发的时间单位是“年度”甚至“三年规划”。<br>销售关心的是下个月能不能拿到奖金，研发关心的是产品两年后会不会被淘汰。</p></li><li><p><strong>资源焦点不同</strong><br>销售希望优先满足大客户的定制化需求，哪怕是牺牲通用功能；研发希望集中精力打磨核心模块，不想被各种定制分散资源。</p></li><li><p><strong>缺少共同战略</strong><br>在很多公司里，产品路线和市场打法是平行制定的。<br>研发在闭门画蓝图，销售在市场拼命签单，直到上线前一刻才“碰头”，发现方向完全错位。</p></li></ol><h2 id="3-有解，但要下狠手"><a href="#3-有解，但要下狠手" class="headerlink" title="3.有解，但要下狠手"></a>3.有解，但要下狠手</h2><p><strong>第一刀：让研发去见客户</strong></p><p>光在会议室听需求是没用的，必须让研发亲自看到客户怎么用产品、遇到什么痛点。</p><p>甚至让他们感受客户那种“用得不爽”的表情，这种冲击是任何文档替代不了的。</p><p><strong>坑</strong>：别搞成“走个过场”，一定要有明确的观察清单和记录。</p><p><strong>第二刀：让销售参与产品规划</strong></p><p>不要等产品路线拍板了才通知销售，他们在前线收集的情报，可以帮研发少踩很多坑。</p><p><strong>坑</strong>：避免销售只带着大客户的声音进来，忽视了普遍用户需求。</p><p><strong>第三刀：统一考核语言</strong></p><p>建立跨部门 OKR，比如市场占有率（销售关注）+上线稳定性（研发关注），用同一套目标拉齐所有人的方向。</p><p><strong>坑</strong>：指标太多会让人无所适从，建议控制在 3-4 个核心目标。</p><p><strong>第四刀：小步快跑试错</strong></p><p>用 2-4 周的迭代周期先验证需求可行性，避免“大而全”项目让双方陷入对赌。</p><p><strong>坑</strong>：试错要有明确退出机制，不要一试就拖半年。</p><h2 id="4-从冤家到战友"><a href="#4-从冤家到战友" class="headerlink" title="4.从冤家到战友"></a>4.从冤家到战友</h2><p>产研和销服的冲突，不是因为谁对谁错，而是站的位置不同、看问题的时间维度不同。</p><p>如果你只站在自己的阵地看问题，就会觉得对方是绊脚石；如果你走到对方的战壕里看一眼，可能会发现——</p><p>原来大家都在为同一个目标奔跑。</p><p><strong>好产品，不是做出来的，是卖出来又能用下去的。</strong></p><p>当这句话变成全公司的共识，冤家就能握手，战场就能变成赛道。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
+    
+    
+    <summary type="html">产研与销服常因目标、节奏、资源焦点和信息链路不同而“同室操戈”，研发追求技术完美与长期稳定，销售聚焦市场速度与客户需求，错位导致产品难达预期。本文剖析五大根源，结合真实案例提出跨部门OKR、双向参与、快速试错等实操方案，帮助企业化解冲突、实现协同共赢。</summary>
+    
+    
+    
+    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>给客户打折后，怎么单还飞了</title>
@@ -405,27 +426,6 @@
     
     
     <summary type="html">在客户成功和服务行业中，频繁联系客户不一定等于高效维护关系。本文揭示了一个常被忽视的关键点：客户关系存在“热度周期”。通过真实案例和实用方法，教你如何用“客户关系温度”判断每天的工作优先级，避免无效拜访，提高响应率和客户粘性。适合客户经理、销售、CSM等角色收藏参考。</summary>
-    
-    
-    
-    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
-    
-    
-    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>客户总要找领导，不愿跟我沟通怎么办？</title>
-    <link href="https://heycsm.com/2025/07/19/%E5%AE%A2%E6%88%B7%E6%80%BB%E8%A6%81%E6%89%BE%E9%A2%86%E5%AF%BC%EF%BC%8C%E4%B8%8D%E6%84%BF%E8%B7%9F%E6%88%91%E6%B2%9F%E9%80%9A%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F/"/>
-    <id>https://heycsm.com/2025/07/19/%E5%AE%A2%E6%88%B7%E6%80%BB%E8%A6%81%E6%89%BE%E9%A2%86%E5%AF%BC%EF%BC%8C%E4%B8%8D%E6%84%BF%E8%B7%9F%E6%88%91%E6%B2%9F%E9%80%9A%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F/</id>
-    <published>2025-07-19T09:42:32.000Z</published>
-    <updated>2025-07-19T09:43:22.215Z</updated>
-    
-    <content type="html"><![CDATA[<div id="readmore-container"><p>跟领导怎么协同才能让客户别越级？</p><p>客户又发来一句：“能直接跟你们领导沟通吗？”</p><p>你看着屏幕，手指停在了键盘上，明明这件事你已经回复过，也完全在你的职责范围内，但客户偏要越过你，去找你的上级。</p><p>别急，这不是你一个人的困扰。</p><p>很多在一线负责客户工作的同学，或多或少都遇到过这种情况：</p><p>客户不回你的消息，却秒回你领导的微信；你说的话客户总是“听听就好”，但你领导一句话，他们就立刻接受。</p><p>你委屈吗？当然。你觉得被架空吗？确实。</p><p>但这事不是光靠情绪能解决的，咱得先搞清楚：客户为什么要这么做？</p><h2 id="一、客户为什么总要找领导？"><a href="#一、客户为什么总要找领导？" class="headerlink" title="一、客户为什么总要找领导？"></a>一、客户为什么总要找领导？</h2><h3 id="1-客户对“话语权”的天然敏感"><a href="#1-客户对“话语权”的天然敏感" class="headerlink" title="1. 客户对“话语权”的天然敏感"></a>1. 客户对“话语权”的天然敏感</h3><p>对很多客户来说，他们并不是真的想找你领导解决问题，而是想确认他们听到的是“公司级别的立场”，而不是你个人的“试探性表态”。</p><p>尤其是涉及价格、资源、服务条款这些问题时，如果你没有事先建立“我说的话就代表公司”的认知，客户天然会往上找确认。</p><h3 id="2-客户对你是否有“推进力”的怀疑"><a href="#2-客户对你是否有“推进力”的怀疑" class="headerlink" title="2. 客户对你是否有“推进力”的怀疑"></a>2. 客户对你是否有“推进力”的怀疑</h3><p>有些客户其实挺喜欢跟你沟通的，但一旦问题牵涉跨部门协作、需要你内推资源的时候，他们可能会觉得：</p><p>你推动不了、你说话不算数、不如找你领导快。</p><p>这其实是一种“懒惰式效率选择”——他们不想等你来跑流程，就直接跳过你。</p><h3 id="3-客户就是惯性——找领导-有保障"><a href="#3-客户就是惯性——找领导-有保障" class="headerlink" title="3. 客户就是惯性——找领导 &#x3D; 有保障"></a>3. 客户就是惯性——找领导 &#x3D; 有保障</h3><p>有些客户来自传统企业或政府背景，习惯了“上对上”的沟通结构。你说得再好，他们也觉得级别低的不靠谱。你说方案可行，他们会疑问：</p><p>“那你领导怎么说？”</p><p>这种文化惯性，不是你一个人能马上扭转的，但你可以逐步建立信任，改变路径依赖。</p><h2 id="二、为什么我们要想办法“把客户拉回来”？"><a href="#二、为什么我们要想办法“把客户拉回来”？" class="headerlink" title="二、为什么我们要想办法“把客户拉回来”？"></a>二、为什么我们要想办法“把客户拉回来”？</h2><p>你可能会想：客户爱找谁找谁吧，领导能处理我正好轻松点。</p><p><strong>错。客户不找你，意味着你在这段关系中没有实际控制力。长远来看：</strong></p><ul><li>你会失去“客户代表人”的身份，变成传话工具人</li><li>你无法建立真正的客户洞察，只是被动响应</li><li>客户和公司沟通的成本会越来越高，影响效率和满意度</li><li>你领导也会很烦，客户问题总绕不开你，但又必须每次出面</li></ul><p>所以，正确的做法是——<strong>适度协同领导，同时逐步收回客户的“注意力”和“信任度”。</strong></p><h2 id="三、怎么做，才能让客户愿意和你沟通？"><a href="#三、怎么做，才能让客户愿意和你沟通？" class="headerlink" title="三、怎么做，才能让客户愿意和你沟通？"></a>三、怎么做，才能让客户愿意和你沟通？</h2><h3 id="1-让领导“把客户还给你”"><a href="#1-让领导“把客户还给你”" class="headerlink" title="1. 让领导“把客户还给你”"></a>1. 让领导“把客户还给你”</h3><p>别一个人死扛。有意识地请领导“配合演出”：</p><blockquote><p>“这个部分 X 同学完全可以决策，你直接找他就行，我这边也是照他意见来处理的。”</p></blockquote><p>这句话的作用是<strong>权威授信</strong>，同时完成客户心理建设：“OK，你说话代表你们公司，那我找你也可以。”</p><h3 id="2-你要提前在客户面前“写好授权脚本”"><a href="#2-你要提前在客户面前“写好授权脚本”" class="headerlink" title="2. 你要提前在客户面前“写好授权脚本”"></a>2. 你要提前在客户面前“写好授权脚本”</h3><p>当客户提出一个可能让他们犹豫的问题时，你可以先说：</p><ul><li>“这块我有权限拍板，如果您确认我这边直接走流程就好。”</li><li>“我这边的判断就是我们最终意见，咱们可以按这个推进。”</li></ul><p>你越坚定，客户越不觉得需要找别人确认。</p><h3 id="3-主动打包沟通，减少客户“跳级动机”"><a href="#3-主动打包沟通，减少客户“跳级动机”" class="headerlink" title="3. 主动打包沟通，减少客户“跳级动机”"></a>3. 主动打包沟通，减少客户“跳级动机”</h3><p>每次汇报或推进，尽量别只说“我这边怎么看”，而是说：</p><ul><li>“我们内部商量后是这样定的……”</li><li>“我和领导已经同步过了，这是我们的共同建议。”</li></ul><p>这种表达给客户的感觉是：<strong>你不是一个人，而是你背后那个组织的延伸。</strong></p><h2 id="结语：赢得客户信任的前提，是你先赢得自己的立场"><a href="#结语：赢得客户信任的前提，是你先赢得自己的立场" class="headerlink" title="结语：赢得客户信任的前提，是你先赢得自己的立场"></a>结语：赢得客户信任的前提，是你先赢得自己的立场</h2><p>职场里最难的是：</p><p>你明明做了很多事，却不被客户（甚至组织内部）真正认可。</p><p>但正因如此，我们才更要用专业、稳重、清晰的沟通去一点点构建信任，赢得位置。</p><p>别被“客户总要找领导”击垮，也别对抗客户——你要做的是，利用好“领导的力量”去反哺你的客户关系，让你真正变成客户信任的主心骨。</p><p><strong>他们愿意听你说话那天，就是你从“执行者”走向“负责人”的起点。</strong></p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
-    
-    
-    <summary type="html">这篇文章深入剖析了“客户总要找领导、不愿跟一线沟通”的常见职场困境，从客户心理、组织认知和实际协同策略多个维度出发，提供了可落地的解决方案。无论是客户成功经理、项目负责人，还是职场新人，都能从中学会如何借助领导赋权、优化表达方式与沟通机制，有效提升客户信任度，建立专业影响力，实现从“执行者”向“负责人”的角色转变。</summary>
     
     
     
