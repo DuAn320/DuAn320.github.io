@@ -6,7 +6,7 @@
   <link href="https://heycsm.com/atom.xml" rel="self"/>
   
   <link href="https://heycsm.com/"/>
-  <updated>2025-08-29T10:46:10.002Z</updated>
+  <updated>2025-08-30T10:09:37.889Z</updated>
   <id>https://heycsm.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SaaS客户成功为何总爱“第一时间狡辩”？</title>
+    <link href="https://heycsm.com/2025/08/30/SaaS%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E4%B8%BA%E4%BD%95%E6%80%BB%E7%88%B1%E2%80%9C%E7%AC%AC%E4%B8%80%E6%97%B6%E9%97%B4%E7%8B%A1%E8%BE%A9%E2%80%9D%EF%BC%9F/"/>
+    <id>https://heycsm.com/2025/08/30/SaaS%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E4%B8%BA%E4%BD%95%E6%80%BB%E7%88%B1%E2%80%9C%E7%AC%AC%E4%B8%80%E6%97%B6%E9%97%B4%E7%8B%A1%E8%BE%A9%E2%80%9D%EF%BC%9F/</id>
+    <published>2025-08-30T10:08:33.000Z</published>
+    <updated>2025-08-30T10:09:37.889Z</updated>
+    
+    <content type="html"><![CDATA[<div id="readmore-container"><p>你只是说了句“这不好用”，他们就急着告诉你“这不是 bug，这是 feature”。</p><p>你有没有遇到过这种情况：</p><p>你用一个 SaaS 工具，发现某个流程非常绕，或者页面卡顿得不行。于是你打开客服的聊天，心平气和地反馈一句：“这个地方体验不太好。”</p><p>然后对方立马回复：“您好，其实这个功能是这样设计的，您可以先……”，紧接着甩一张操作指引截图，仿佛你根本没搞懂他们产品的“精妙逻辑”。</p><p>你心想，我不是来问“怎么用”的，我是说“这用起来不舒服”啊！</p><p>这不是你遇到个例，而是极其普遍的 SaaS 行业“反射弧机制”。客户说的是“我有问题”，厂商听到的却是“你在骂我”。</p><p>为什么会这样？为什么他们总是<strong>第一时间狡辩，而不是第一时间共情？</strong></p><h2 id="1-为什么他们总是这样？说句大实话：他们其实很怕你说得对"><a href="#1-为什么他们总是这样？说句大实话：他们其实很怕你说得对" class="headerlink" title="1. 为什么他们总是这样？说句大实话：他们其实很怕你说得对"></a>1. 为什么他们总是这样？说句大实话：他们其实很怕你说得对</h2><p>你以为你在提意见，他们听到的却是“你在找茬”。</p><p>原因很简单：<strong>SaaS 行业太看重“客户成功”这个 KPI 了。</strong></p><p>客户成功团队，听上去是“帮客户成功”，实际上很多时候是“帮公司续费”。</p><p>这类团队的 KPI 通常包括：“满意度评分要高、客户流失率要低、续约率要稳”。</p><p>你的一句“不好用”，在他们眼里就像是<strong>KPI 上的一个裂缝</strong>。</p><p>于是本能反应就变成了：</p><ul><li>赶紧解释，不要让客户继续不爽下去</li><li>赶紧推锅，说不定是客户不会用、环境问题、网络问题……</li><li>赶紧标记，免得这个客户以后真的不续约还怪我</li></ul><p>他们不是不想解决问题，而是根本没时间和空间去 <strong>真诚面对“问题确实存在”</strong> 这件事。</p><h2 id="2-有时候，他们甚至没有“解决问题”的权限"><a href="#2-有时候，他们甚至没有“解决问题”的权限" class="headerlink" title="2. 有时候，他们甚至没有“解决问题”的权限"></a>2. 有时候，他们甚至没有“解决问题”的权限</h2><p>更扎心的一点是：</p><p>很多时候你以为你在跟产品经理沟通，其实你是在跟一个被丢到前线“挡子弹”的客户成功小伙伴说话。</p><p>他们很努力、很认真，也真的想帮你。但他们没有话语权去改产品，也没有资源去优化功能。</p><p>他们能做的，就是用一堆话术来“让你觉得这个产品其实还不错”。</p><p>这不是他们的问题，是组织结构的问题。</p><p>于是你越追问根因，他们就越需要“合理化现状”，甚至美化问题存在的意义。</p><p>当“听得到，但改不了”的情况变成常态时，解释就成了他们<strong>唯一能做的保护动作</strong>。</p><h2 id="3-更可怕的是，有些公司根本就不觉得用户体验重要"><a href="#3-更可怕的是，有些公司根本就不觉得用户体验重要" class="headerlink" title="3. 更可怕的是，有些公司根本就不觉得用户体验重要"></a>3. 更可怕的是，有些公司根本就不觉得用户体验重要</h2><p>不是每家 SaaS 公司都尊重用户声音。</p><p>有些公司骨子里觉得：</p><ul><li>“你不会用，是你水平问题”</li><li>“我们这个设计已经很先进了”</li><li>“别人客户都没问题，怎么就你有意见？”</li></ul><p>这类公司通常有一个共性：<strong>以技术为中心，而不是以用户为中心。</strong></p><p>他们看重的是：功能有没有实现？有没有覆盖业务逻辑？代码写得优不优雅？</p><p>他们把客户反馈视为“低水平抱怨”，把用户不满当作“教育成本”，甚至理所当然地认为“你不会用是你的问题”。</p><p>在这种文化环境下，客户成功被训练出来的不是“同理心”，而是<strong>一整套问题回避与责任转移话术。</strong></p><p>你说产品不好用，他第一时间问你“你看了帮助文档吗”；你说流程逻辑有问题，他强调“很多客户都觉得这样很好”。</p><p>至于用户用起来顺不顺，体验是否自然，那是“能忍则忍”的事。</p><p>于是客户成功团队也被训练出一种“高级防守反应”：用合理的逻辑，把你的不适感包装成“误会”。</p><p>你说用着别扭，他告诉你“这是为了灵活性”；你说流程太长，他说“这是为了安全性”。</p><p>听起来都有道理，但你还是不想用。</p><h2 id="4-对-SaaS-公司说一句真心话：客户愿意提反馈，是给你机会，不是找你麻烦"><a href="#4-对-SaaS-公司说一句真心话：客户愿意提反馈，是给你机会，不是找你麻烦" class="headerlink" title="4. 对 SaaS 公司说一句真心话：客户愿意提反馈，是给你机会，不是找你麻烦"></a>4. 对 SaaS 公司说一句真心话：客户愿意提反馈，是给你机会，不是找你麻烦</h2><p>当一个客户愿意花时间告诉你“这不好用”，其实已经是极大的善意了。</p><p>很多客户更常见的做法是：<strong>直接走人，懒得说。</strong></p><p>如果你第一反应是“解释”、是“自证清白”，那你就错过了一次修复关系、优化产品、赢得口碑的机会。</p><p>你可能“讲赢了道理”，但你也“失去了用户”。</p><p>记住，客户不会因为你辩赢了而续约。他们只会因为你共情了、理解了、改变了，而留下来。</p><h2 id="5-对用户说一句提醒：别太天真，你在他们系统里，可能只是“风险用户”"><a href="#5-对用户说一句提醒：别太天真，你在他们系统里，可能只是“风险用户”" class="headerlink" title="5. 对用户说一句提醒：别太天真，你在他们系统里，可能只是“风险用户”"></a>5. 对用户说一句提醒：别太天真，你在他们系统里，可能只是“风险用户”</h2><p>当然作为用户，我们也得认清现实。</p><p>你真诚地反馈问题，不代表对方就真诚地接受。</p><p>他们可能不会在产品里做任何改进，但一定会在 CRM 系统里给你贴上标签：“高风险用户”，“可能流失”。</p><p>所以如果你真的在意体验，可以试试更聪明的方式：</p><ul><li>用数据说话</li><li>持续追踪反馈进度</li><li>问一句“你们内部有谁可以直接推动这个问题解决？”</li></ul><p>这时候你才有可能推动一点真正的改变。</p><h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p><strong>当客户说“这里不好用”，他们只是想被听见；但当你急着解释时，其实你已经把“聆听的机会”浪费了。</strong></p><p>狡辩不是坏，而是不敢面对“你说得对”的勇气缺席了。</p><p>客户想看到的不是你解释得有多流畅，而是你有没有哪怕一次，认真地问一句：“你为什么会觉得不好用？”</p><p>真正的客户成功，从“放下防御”开始。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
+    
+    
+    <summary type="html">这篇文章通过讽刺性的场景揭示了客户沟通中的困境：当客户仍在认真讲道理时，客服系统已为其贴上“风险客户”“爱提意见”“需谨慎应对”等标签。文章以科技化界面隐喻，探讨了企业在追求效率与风险控制时，如何容易忽视真实的客户声音，提醒读者反思标签化思维对客户关系与品牌温度的影响。</summary>
+    
+    
+    
+    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>产品被客户夸好，却因“贵”卖不动？你可能忽略了这5个真相</title>
@@ -405,27 +426,6 @@
     
     
     <summary type="html">客户经常提出看似“天马行空”的需求，如何既不伤和气又能引导其回归现实？本文解析客户不切实际想法的三大成因，并提供高手常用的“四步化解法”，通过情绪接纳、数据事实、替代方案和前期预防，让“不可能”变为可落地方案，建立更高效、专业、互信的合作关系。</summary>
-    
-    
-    
-    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
-    
-    
-    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>销售上逐级拜访客户有多么重要？</title>
-    <link href="https://heycsm.com/2025/08/01/%E9%94%80%E5%94%AE%E4%B8%8A%E9%80%90%E7%BA%A7%E6%8B%9C%E8%AE%BF%E5%AE%A2%E6%88%B7%E6%9C%89%E5%A4%9A%E4%B9%88%E9%87%8D%E8%A6%81%EF%BC%9F/"/>
-    <id>https://heycsm.com/2025/08/01/%E9%94%80%E5%94%AE%E4%B8%8A%E9%80%90%E7%BA%A7%E6%8B%9C%E8%AE%BF%E5%AE%A2%E6%88%B7%E6%9C%89%E5%A4%9A%E4%B9%88%E9%87%8D%E8%A6%81%EF%BC%9F/</id>
-    <published>2025-08-01T10:19:58.000Z</published>
-    <updated>2025-08-01T10:21:22.000Z</updated>
-    
-    <content type="html"><![CDATA[<div id="readmore-container"><p>找人，向上找人。</p><p>ToB 销售圈子里有这么一句话：</p><p><strong>单点突破是运气，逐级拜访并拿下是常态。</strong></p><p>销售是门“接触学”的生意，你见谁、见到什么层级，直接决定了这单生意的高度和未来的持续性。</p><p>可偏偏，很多销售宁愿在同一个对接窗口来回磨，也不愿意做那条看似麻烦的“逐级拜访”路线，结果——</p><p>一锤子买卖多，长期合作少；产品价值还没传递到位，价格战先打起来。</p><p>今天我们就聊聊，为什么逐级拜访客户是销售必须练到骨子里的底层能力。</p><h2 id="一、你见到谁，决定你卖多贵"><a href="#一、你见到谁，决定你卖多贵" class="headerlink" title="一、你见到谁，决定你卖多贵"></a>一、你见到谁，决定你卖多贵</h2><p>销售谈判的残酷现实是：你能卖多少，往往取决于你面对的是谁。</p><ul><li><strong>基层采购</strong> 看的是预算表格，只要便宜好用就行。</li><li><strong>中层经理</strong> 考虑的是指标达成和团队效率，价格之外还得算机会成本。</li><li><strong>高层决策者</strong> 看的是战略布局、风险分摊、长期价值。</li></ul><p>如果你只停留在最底层，产品就只能当“工具”卖；</p><p>只有逐级往上，你才能把“工具价”抬升到“战略价”。</p><p>同样一款产品，面对不同层级，价值感和给你的回报能差出十倍。</p><h2 id="二、逐级拜访，是你唯一能“拉平信息差”的方式"><a href="#二、逐级拜访，是你唯一能“拉平信息差”的方式" class="headerlink" title="二、逐级拜访，是你唯一能“拉平信息差”的方式"></a>二、逐级拜访，是你唯一能“拉平信息差”的方式</h2><p>很多销售抱怨，为什么我们明明方案好、性价比高，却总输给某些关系户。</p><p>说白了，是因为你接触到的那一层，信息不完整、权力不完整、话语权不完整。</p><ul><li>你不知道老板真正的底层需求是什么。</li><li>你不知道还有其他部门在影响决策。</li><li>你不知道竞争对手已经在高层讲过几轮故事。</li></ul><p>逐级拜访，不是为了给自己刷存在感，而是为了不被“蒙在鼓里”。</p><p>只有层层打穿，才能拼接出客户真实的决策链条，避免被一个小窗口牵着鼻子走。</p><h2 id="三、不逐级拜访，你永远在“被动成交”"><a href="#三、不逐级拜访，你永远在“被动成交”" class="headerlink" title="三、不逐级拜访，你永远在“被动成交”"></a>三、不逐级拜访，你永远在“被动成交”</h2><p>在销售上，有两种成交路径：</p><ol><li><strong>被动成交</strong>：等客户内部把信息传来传去，你只能听最终决定，最后比价拼一个吐血价。</li><li><strong>主动成交</strong>：自己层层推进，找到有拍板权的人，当面<strong>创造共识</strong>，这里的共识包含可说的和不可说的。</li></ol><p>逐级拜访，本质上就是从被动变主动的过程。</p><p>只有直接触达决策人，你才能：</p><ul><li>第一时间澄清误解，不让方案被中途曲解。</li><li>第一时间对齐价值观，让决策者认可溢价逻辑。</li><li>第一时间掌控节奏，而不是被动等回音。</li></ul><p>没有逐级拜访，销售就是在开盲盒，开出什么算什么。</p><h2 id="四、逐级拜访是对客户最大的尊重"><a href="#四、逐级拜访是对客户最大的尊重" class="headerlink" title="四、逐级拜访是对客户最大的尊重"></a>四、逐级拜访是对客户最大的尊重</h2><p>很多销售误会了，觉得频繁“往上找人”会冒犯现有对接人。</p><p>其实，真正有经验的客户，恰恰希望你能逐级触达。</p><ul><li>决策层希望直接了解关键信息，不喜欢“传话游戏”。</li><li>中间层希望减轻信息压力，省去无休止的转述。</li><li>对接人如果真想推动项目，更希望你直接搞定老板。</li></ul><p>逐级拜访不是越级，是帮客户节省成本，更远的不说，至少省去了对接人向上汇报的时间和精力，信息的准确性更有保证。</p><p>是不是？</p><p>所以真正的高手，能把逐级拜访做得优雅：</p><p>既让对接人不失面子，又能层层打开局面。</p><h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>销售是门直觉游戏，但真正赢下复杂客户的，从来不是“机灵”，而是有战略的耐心和路径感。</p><p>逐级拜访，不是锦上添花或偶尔为之，而是必须。</p><p>因为在 ToB 世界里，你见到谁、怎么推进、怎么破点，决定了：</p><ul><li>这单能不能签。</li><li>签得多不多。</li><li>未来能不能续。</li></ul><p><strong>记住：成交的关键，不在 PPT 和一个对接人的应答，而在“梯子”意识。</strong></p><p>否则，你会面临一个局面：</p><p>你在客户楼下或守着电话傻傻等消息，别人早就在楼上客户办公室敲定结果了。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
-    
-    
-    <summary type="html">逐级拜访是ToB销售的底层必修课，它决定了成交高度、价格空间和未来续约的可能性。单点突破靠运气，只有层层打穿客户组织结构，直达决策层，才能拉平信息差、掌控节奏，避免被动成交和价格战。真正的销售高手懂得优雅地往上找人，让价值传递到位，让合作走得更远。</summary>
     
     
     
