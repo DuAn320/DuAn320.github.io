@@ -6,7 +6,7 @@
   <link href="https://heycsm.com/atom.xml" rel="self"/>
   
   <link href="https://heycsm.com/"/>
-  <updated>2025-08-30T10:09:37.889Z</updated>
+  <updated>2025-08-31T10:18:29.993Z</updated>
   <id>https://heycsm.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如果不能更短时间展示价值，对不起，你再便宜也是“贵”</title>
+    <link href="https://heycsm.com/2025/08/31/%E5%A6%82%E6%9E%9C%E4%B8%8D%E8%83%BD%E6%9B%B4%E7%9F%AD%E6%97%B6%E9%97%B4%E5%B1%95%E7%A4%BA%E4%BB%B7%E5%80%BC%EF%BC%8C%E5%AF%B9%E4%B8%8D%E8%B5%B7%EF%BC%8C%E4%BD%A0%E5%86%8D%E4%BE%BF%E5%AE%9C%E4%B9%9F%E6%98%AF%E2%80%9C%E8%B4%B5%E2%80%9D/"/>
+    <id>https://heycsm.com/2025/08/31/%E5%A6%82%E6%9E%9C%E4%B8%8D%E8%83%BD%E6%9B%B4%E7%9F%AD%E6%97%B6%E9%97%B4%E5%B1%95%E7%A4%BA%E4%BB%B7%E5%80%BC%EF%BC%8C%E5%AF%B9%E4%B8%8D%E8%B5%B7%EF%BC%8C%E4%BD%A0%E5%86%8D%E4%BE%BF%E5%AE%9C%E4%B9%9F%E6%98%AF%E2%80%9C%E8%B4%B5%E2%80%9D/</id>
+    <published>2025-08-31T10:13:59.000Z</published>
+    <updated>2025-08-31T10:18:29.993Z</updated>
+    
+    <content type="html"><![CDATA[<div id="readmore-container"><p>在这个只关注价格的时代，SaaS 业务人员该如何反击？</p><p>这两年，我越来越常听到身边做 SaaS 的朋友吐槽：</p><blockquote><p>“我们产品真的很好，但客户只问价格。”</p><p>“一说完功能，对方就说：‘你们比 X 家贵了 30%，再便宜点？’”</p><p>“PPT 演示一小时，对方回一句：预算只有三万。”</p></blockquote><p>你花一周做了定制方案，改了无数次 Demo，汇报的也很出彩，但最后客户一句“预算紧张，看看别家”，然后就没了消息。</p><p>说实话，很沮丧。尤其是你知道你的产品确实能帮他们节省人力、提效，但对方就是不上钩。</p><p><strong>不是因为产品不好，而是因为你来不及让他们看到“好在哪”。</strong></p><h2 id="1-客户不是不重视价值，而是没感知到"><a href="#1-客户不是不重视价值，而是没感知到" class="headerlink" title="1. 客户不是不重视价值，而是没感知到"></a>1. 客户不是不重视价值，而是没感知到</h2><p>很多销售以为客户太“短视”，其实换个角度看：</p><p>你面对的是一个每天被汇报、KPI 和老板催着出结果的中层，他只有十分钟决定“要不要继续聊”。</p><p>在这种“注意力稀缺”的环境下，如果你没在前 3 分钟就让他感受到“这东西对我可能有用”，那接下来讲再多产品结构、功能细节、架构原理，都是白费。</p><p>说白了——不是客户不讲价值，而是我们讲得太慢、太抽象。</p><h2 id="2-不讲“能做什么”，讲“别人做了什么结果”"><a href="#2-不讲“能做什么”，讲“别人做了什么结果”" class="headerlink" title="2. 不讲“能做什么”，讲“别人做了什么结果”"></a>2. 不讲“能做什么”，讲“别人做了什么结果”</h2><p>我曾听过一个非常好的开场白：</p><blockquote><p>“我们最近服务了一家和您体量差不多的公司，他们原来内容生产每月需要 6 个人，现在只保留了 2 个，产出还提高了 30%。”</p></blockquote><p>不用讲技术，不用演示系统，一句话，客户立刻来了兴趣。</p><p>这就是我后来总结出的一个原则：</p><p><strong>不要讲“你能做什么”，而是讲“别人用了你之后做出了什么结果”</strong>。</p><p>客户并不关心你用的是什么 AI 推荐、流程自动化、分布式部署……他们关心的是：</p><p><strong>“用了你之后，我是不是能更省事？”</strong></p><h2 id="3-别太快展示产品，先问对一个问题"><a href="#3-别太快展示产品，先问对一个问题" class="headerlink" title="3. 别太快展示产品，先问对一个问题"></a>3. 别太快展示产品，先问对一个问题</h2><p>很多 SaaS 销售习惯一上来就打开系统、展示功能模块。其实这种“演示型开场”，越来越无效了。</p><p>是的，SaaS 业务人员传统的价值塑造路径（功能演示、案例讲解、ROI 计算等）的这条路子在逐渐失效了。</p><p>我反而建议，<strong>前几分钟什么都别讲，先问一个能引起共鸣的问题。</strong></p><p>比如你做内容运营类产品，就可以问：</p><blockquote><p>“你们是不是经常要靠 Excel 来统计内容数据？”</p></blockquote><p>或者：</p><blockquote><p>“你们编辑部是不是一直被审核流程卡着？”</p></blockquote><p>只要对方点头，就有戏。客户愿意“参与进来”，比你单方面讲解，要高效一百倍。</p><h2 id="4-SaaS-销售不是在讲产品，而是在讲一个“理想工作状态”"><a href="#4-SaaS-销售不是在讲产品，而是在讲一个“理想工作状态”" class="headerlink" title="4. SaaS 销售不是在讲产品，而是在讲一个“理想工作状态”"></a>4. SaaS 销售不是在讲产品，而是在讲一个“理想工作状态”</h2><p>你讲功能，客户会对比竞品；你讲效率，客户会对比成本；但你如果讲“用了之后会变得更轻松”，那是他“愿意为之花钱的未来”。</p><p>比如：</p><ul><li><p>不要说：“我们支持多维度数据可视化”<br>要说：“你再也不用拉十几个表格做汇总报表了，点一下自动生成”</p></li><li><p>不要说：“我们有 AI 内容审核机制”<br>要说：“你们的运营再也不用晚上加班手动审查了”</p></li></ul><p>客户要的是<strong>生活的变化</strong>，不是技术的复杂。</p><h2 id="5-快速建立价值感的-3-个小技巧"><a href="#5-快速建立价值感的-3-个小技巧" class="headerlink" title="5. 快速建立价值感的 3 个小技巧"></a>5. 快速建立价值感的 3 个小技巧</h2><p>结合我过去的一些踩坑经验，分享几个现在常用、效果不错的方式：</p><h3 id="1-一句话-ROI"><a href="#1-一句话-ROI" class="headerlink" title="1. 一句话 ROI"></a>1. 一句话 ROI</h3><p>把你能带来的效果用一句话带出，甚至直接说“我们客户一般能减少 x 成本 &#x2F; 节省 y 时间”。</p><p>别担心“数据虚假”，只要对案例客户确实有效，你只是在为他节省判断时间。</p><h3 id="2-引用同行故事"><a href="#2-引用同行故事" class="headerlink" title="2. 引用同行故事"></a>2. 引用同行故事</h3><p>“另一家和你们类似的公司，之前也有 xx 问题，后来用了我们之后……”</p><p>这样讲，客户更容易代入，也觉得“你不是来卖产品的，而是真的懂我们行业”。</p><h3 id="3-建立反差画面"><a href="#3-建立反差画面" class="headerlink" title="3. 建立反差画面"></a>3. 建立反差画面</h3><p>“如果还继续用现在的方式，到年底你们得额外投入多少人力？”</p><p>这种问题不是为了“吓唬”，而是帮客户看清现在方式的代价，就是算一笔账。</p><h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>这个时代的客户确实越来越“挑”，但他们也越来越现实。</p><p>如果你能让他们<strong>在第一分钟就看到价值的影子</strong>，价格反而不是最大的问题。</p><p>SaaS 销售的真正挑战，不是打败竞品，而是<strong>帮客户快速看见“用了产品之后的那个世界”</strong>。</p><p>在这个只看价格的时代，最好的反击方式，不是降价，而是<strong>让你说的每句话都像是在让客户“省钱”</strong>。</p><p>毕竟，一个产品值不值，客户会自己算。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
+    
+    
+    <summary type="html">在价格敏感日益加剧的SaaS市场环境中，客户关注的早已不是你产品有多少功能，而是能否在第一分钟内看出“值不值”。本篇文章深度剖析了SaaS销售如何打破“客户只看价格”的心理屏障，提出了“价值感快速显现”才是赢得信任的关键策略。内容涵盖高转化开场话术、ROI可视化表达、场景化讲述技巧等实战经验，适合B2B销售、SaaS从业者、商业增长操盘手参考。</summary>
+    
+    
+    
+    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>SaaS客户成功为何总爱“第一时间狡辩”？</title>
@@ -405,27 +426,6 @@
     
     
     <summary type="html">2025年企业服务行业面临寒冬，客户预算收紧、项目延期、回款难，竞争加剧。本文深入解析如何在困境中生存：以现金流为首要目标，聚焦刚需高回款客户，将产品打造成“必需品”，精细化运营降本增效，并通过合作共赢稳住市场。只有能为客户带来真实价值、不可替代的企业服务公司，才能熬过寒冬，赢得未来。</summary>
-    
-    
-    
-    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
-    
-    
-    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>客户提了天马行空的要求，高手是这样化解的</title>
-    <link href="https://heycsm.com/2025/08/02/%E5%AE%A2%E6%88%B7%E6%8F%90%E4%BA%86%E5%A4%A9%E9%A9%AC%E8%A1%8C%E7%A9%BA%E7%9A%84%E8%A6%81%E6%B1%82%EF%BC%8C%E9%AB%98%E6%89%8B%E6%98%AF%E8%BF%99%E6%A0%B7%E5%8C%96%E8%A7%A3%E7%9A%84/"/>
-    <id>https://heycsm.com/2025/08/02/%E5%AE%A2%E6%88%B7%E6%8F%90%E4%BA%86%E5%A4%A9%E9%A9%AC%E8%A1%8C%E7%A9%BA%E7%9A%84%E8%A6%81%E6%B1%82%EF%BC%8C%E9%AB%98%E6%89%8B%E6%98%AF%E8%BF%99%E6%A0%B7%E5%8C%96%E8%A7%A3%E7%9A%84/</id>
-    <published>2025-08-02T10:18:39.000Z</published>
-    <updated>2025-08-02T10:31:51.000Z</updated>
-    
-    <content type="html"><![CDATA[<div id="readmore-container"><p>在沟通中，“直接说不行”是最容易让关系僵化的方式。</p><p>你一定也遇到过这样的客户：</p><p>“这个功能能不能明天上线？其实不复杂吧。”</p><p>“预算就这么多，但我想要行业最佳实践的效果。”</p><p>“为什么你们家做不到自动生成周报？XX 公司都能做。”</p><p>看到这些需求时，你是不是心里默默翻了个白眼：这是认真的吗？</p><p>别急着生气，客户“不切实际”的背后，往往有原因。</p><p>高手不会直接回绝，而是既保护团队利益，又能让客户心甘情愿“回到现实”。</p><h2 id="一、为什么客户想法会偏离现实？"><a href="#一、为什么客户想法会偏离现实？" class="headerlink" title="一、为什么客户想法会偏离现实？"></a>一、为什么客户想法会偏离现实？</h2><p>客户提出离谱需求的背后，其实有三大成因：</p><ul><li><strong>信息差</strong>：他们不了解技术难度、行业规律、资源成本，想当然地以为“一键搞定”。</li><li><strong>心理预期失衡</strong>：看到竞品宣传、老板一句话、KPI 压力，容易把幻想当需求。</li><li><strong>沟通链路失真</strong>：需求多次转述，信息被扭曲、夸大，到你手上已经“天方夜谭”。</li></ul><p>理解这一点，你就能少些情绪，多些策略。</p><h2 id="二、高手的四步解法"><a href="#二、高手的四步解法" class="headerlink" title="二、高手的四步解法"></a>二、高手的四步解法</h2><h3 id="1-先接住，而不是立刻打回去"><a href="#1-先接住，而不是立刻打回去" class="headerlink" title="1. 先接住，而不是立刻打回去"></a>1. 先接住，而不是立刻打回去</h3><p>直接说“不可能”，只会让客户觉得你不专业，甚至会有对抗情绪产生。</p><p>试试这句话：</p><blockquote><p>“您的想法很有创意，我来帮您拆解一下可行性。”</p></blockquote><p>先接住情绪，再赢得耐心听你分析。</p><h3 id="2-用数据和事实把幻想拉回地面"><a href="#2-用数据和事实把幻想拉回地面" class="headerlink" title="2. 用数据和事实把幻想拉回地面"></a>2. 用数据和事实把幻想拉回地面</h3><p>告诉客户“不行”不如让他们自己看到代价，以“钱”和“时间”服人。</p><p>比如：</p><blockquote><p>“这个功能需要额外两周开发，预计增加 30%的成本，您看是否值得优先处理？”</p></blockquote><p>让客户自己在时间、成本、效果三维权衡，比硬拒绝更有效。</p><h3 id="3-提供替代方案，给台阶下"><a href="#3-提供替代方案，给台阶下" class="headerlink" title="3. 提供替代方案，给台阶下"></a>3. 提供替代方案，给台阶下</h3><p>不要只说“不行”，要给“行得通的路”。</p><blockquote><p>“如果我们把 A 方案简化，能 80%达成您的目标，还能准时上线，您觉得如何？”</p></blockquote><p>客户要的不是“完全满足”，而是被理解、被帮忙实现目标。</p><h3 id="4-做好提前预防，降低“离谱需求”频率"><a href="#4-做好提前预防，降低“离谱需求”频率" class="headerlink" title="4. 做好提前预防，降低“离谱需求”频率"></a>4. 做好提前预防，降低“离谱需求”频率</h3><p>高手不仅救火，更懂防火。</p><ul><li>在项目初期对功能边界、预算、时间做明确约定。</li><li>提前提供行业基准信息，帮客户建立合理预期。</li><li>定期复盘，让客户了解实现难度和取舍逻辑。</li></ul><p>避免一次次陷入“驳回离谱需求”的被动局面。</p><h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>真正的专业，不是对客户言听计从，而是用事实、方案和逻辑，引导他们走向可实现的价值。</p><p>下次遇到“天马行空”的想法，别急着翻白眼。</p><p>先接住情绪，再摆出数据、给出方案，最后用专业引导共识。</p><p>能把“不可能”化解成“能落地”，才是客户眼中值得信赖的高手。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
-    
-    
-    <summary type="html">客户经常提出看似“天马行空”的需求，如何既不伤和气又能引导其回归现实？本文解析客户不切实际想法的三大成因，并提供高手常用的“四步化解法”，通过情绪接纳、数据事实、替代方案和前期预防，让“不可能”变为可落地方案，建立更高效、专业、互信的合作关系。</summary>
     
     
     
