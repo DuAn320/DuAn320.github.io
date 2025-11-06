@@ -6,7 +6,7 @@
   <link href="https://heycsm.com/atom.xml" rel="self"/>
   
   <link href="https://heycsm.com/"/>
-  <updated>2025-11-05T13:37:08.379Z</updated>
+  <updated>2025-11-06T09:59:14.123Z</updated>
   <id>https://heycsm.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AI的后入，让SaaS变成了数据库</title>
+    <link href="https://heycsm.com/2025/11/06/AI%E7%9A%84%E5%90%8E%E5%85%A5%EF%BC%8C%E8%AE%A9SaaS%E5%8F%98%E6%88%90%E4%BA%86%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <id>https://heycsm.com/2025/11/06/AI%E7%9A%84%E5%90%8E%E5%85%A5%EF%BC%8C%E8%AE%A9SaaS%E5%8F%98%E6%88%90%E4%BA%86%E6%95%B0%E6%8D%AE%E5%BA%93/</id>
+    <published>2025-11-06T09:57:10.000Z</published>
+    <updated>2025-11-06T09:59:14.123Z</updated>
+    
+    <content type="html"><![CDATA[<div id="readmore-container"><p>AI 不是工具，AI 是环境。</p><p>AI 的到来，并没有让 SaaS 更强。相反，它让 SaaS 失去了主体。</p><p>当智能体接管交互与决策，SaaS 不再是“工具”，而成了“素材库”——</p><p>一个被 AI 调用、解析、训练的中间层。</p><h2 id="1-AI-不是外挂，而是宿主"><a href="#1-AI-不是外挂，而是宿主" class="headerlink" title="1. AI 不是外挂，而是宿主"></a>1. AI 不是外挂，而是宿主</h2><p>最初，我们以为 AI 是 SaaS 的增强器。</p><p>像 Excel 加了 Copilot，像 CRM 里多了一层智能推荐。</p><p>但事实很快反转：AI 不是外挂，而是宿主。</p><p>它不在 SaaS 之内，而是站在 SaaS 之上。</p><p>用户的行为路径、字段定义、数据流转、交互语境，都成了 AI 的养料。</p><p>AI 不需要再“使用”SaaS——</p><p>它直接“读取”SaaS。</p><p>在智能体的语境里，SaaS 不过是一张表格，一套被整理得井井有条的训练语料。</p><h2 id="2-功能被反转：从执行到解释"><a href="#2-功能被反转：从执行到解释" class="headerlink" title="2. 功能被反转：从执行到解释"></a>2. 功能被反转：从执行到解释</h2><p>传统 SaaS 的价值在“做什么”：</p><p>它定义流程、优化权限、改进体验。</p><p>而 AI 的介入让一切逻辑都可被解释、可被生成。</p><p>功能，不再是 SaaS 的边界；反而成了 AI 的延伸。</p><p>SaaS 的界面在退化，API 在前置，用户不再进入系统，而是“提问”。</p><p>系统不再“执行命令”，而是“生成答案”。</p><p>这是一种悄无声息的权力反转：</p><p>AI 不是工具的插件，而是工具的解释器。</p><h2 id="3-数据库化：SaaS-的宿命"><a href="#3-数据库化：SaaS-的宿命" class="headerlink" title="3. 数据库化：SaaS 的宿命"></a>3. 数据库化：SaaS 的宿命</h2><p>AI 的后入，让 SaaS 的本质被剥离。</p><p>从“功能集成”变成“数据源”。</p><p>一切复杂的权限、流程、字段，在 AI 眼里只是 schema，一种结构化的训练素材。</p><p>你以为自己在订阅一个产品，但 AI 在订阅你的数据。</p><p>SaaS 从卖“使用权”变成卖“语料权”。</p><p>那不是一场产品的升级，而是一场工作模式的吞噬。</p><h2 id="4-AI-不在-SaaS-里，SaaS-在-AI-里"><a href="#4-AI-不在-SaaS-里，SaaS-在-AI-里" class="headerlink" title="4. AI 不在 SaaS 里，SaaS 在 AI 里"></a>4. AI 不在 SaaS 里，SaaS 在 AI 里</h2><p>未来的用户，不再“登录系统”，而是与一个总控 AI 对话。</p><p>CRM、ERP、HRM 都变成它背后的数据库。</p><p>AI 不再调用 SaaS，而是直接调用信息。</p><p>那时候，SaaS 品牌的意义会像今天的数据库引擎——</p><p><strong>存在，但不可见；重要，但不被记得。</strong></p><h2 id="5-SaaS-的尽头，是被训练的样本"><a href="#5-SaaS-的尽头，是被训练的样本" class="headerlink" title="5. SaaS 的尽头，是被训练的样本"></a>5. SaaS 的尽头，是被训练的样本</h2><p>SaaS 曾是企业数字化的入口，如今成了 AI 理解世界的后端。</p><p>它从“提供功能”转为“提供语料”，从“创造价值”变为“支撑智能”。</p><p>AI 的后入，不是合作，而是吞噬。</p><p>SaaS 没有被淘汰，只是被吸收。</p><p>它还在运行，却早已被改写。</p><p>留在历史里的，只剩下数据结构的影子。</p><h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>AI 不是在 SaaS 之后诞生的，而是在 SaaS 的尽头等它。</p><p>为什么反事实的这么写？</p><p>当我们还在看“AI 能替代人”和“AI 永远替代不了人”的热闹时，我们却忘却了“AI”的工作方式是该怎么样的。</p><p>就像具身智能让 AI 能触摸真实世界一样，当智能体开始自我进化，每一个 SaaS 系统，都将变成它的一个表。</p><p>技术演进中常见的融合、共生状态永远只能是个过渡。</p><p><em>谨以此篇致敬又从字节离职的提出“飞书浏览器化（选项卡）”、“豆包 PC 客户端（浏览网页）”的齐俊元大佬，至少当时不被市场理解的路线被“ChatGPT Atlas”证明是对的。</em></p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
+    
+    
+    <summary type="html">AI的“后入”并非升级，而是吞噬。当智能体全面接管交互与决策，SaaS从功能平台退化为数据源，被AI吸收、解析、训练。功能被反转，界面被掀开，真正的价值沉入数据层。AI不再寄生于SaaS，而是以宿主之姿，重写整个商业逻辑——SaaS的尽头，不是创新，而是成为AI的数据库。</summary>
+    
+    
+    
+    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>SaaS品牌的声量之战，不择手段地成为被对标产品</title>
@@ -405,27 +426,6 @@
     
     
     <summary type="html">客户转介绍不是求来的，而是客户在“为自己发声”。本文深度解析客户推荐背后的心理动因，揭示客户成功如何通过价值交付、信任关系与社交机制，让客户主动为你站台。不是套路，而是让客户觉得“推荐你，是我自己的高光时刻”。打造可被炫耀的客户体验，才是转介绍的真正增长飞轮。</summary>
-    
-    
-    
-    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
-    
-    
-    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>做销售，一定要违心吗</title>
-    <link href="https://heycsm.com/2025/08/10/%E5%81%9A%E9%94%80%E5%94%AE%EF%BC%8C%E4%B8%80%E5%AE%9A%E8%A6%81%E8%BF%9D%E5%BF%83%E5%90%97/"/>
-    <id>https://heycsm.com/2025/08/10/%E5%81%9A%E9%94%80%E5%94%AE%EF%BC%8C%E4%B8%80%E5%AE%9A%E8%A6%81%E8%BF%9D%E5%BF%83%E5%90%97/</id>
-    <published>2025-08-10T11:16:37.000Z</published>
-    <updated>2025-08-10T11:17:44.000Z</updated>
-    
-    <content type="html"><![CDATA[<div id="readmore-container"><p>不是必然，关键在个人的选择和环境。</p><p>在很多人眼里，销售就意味着嘴甜、能说会道，甚至油腻。</p><p>似乎只要干这一行，就得说些违心的话、做些自己心里不认同的事。</p><p>这种印象为什么如此顽固？</p><p>它真的是销售职业的宿命吗？</p><h2 id="1-为什么销售容易滑向违心"><a href="#1-为什么销售容易滑向违心" class="headerlink" title="1. 为什么销售容易滑向违心"></a>1. 为什么销售容易滑向违心</h2><p>销售的目标很直接——让客户下单。</p><p>而要让人掏钱，得满足两个条件：<strong>客户信任你、客户觉得值得。</strong></p><p>这两个条件在现实里往往需要加工——把有利的一面放大，把不利的一面缩小。</p><p>这时候我们再引入这个问题——<strong>销售的工作本质是什么？</strong></p><p>销售的核心任务是促成交易，达成结果。</p><p>所以在现实中，销售所售卖的产品常常需要“调整呈现”——也就是话术、情绪、信息的加工。</p><p>这是销售的灰色区间，违心在销售中并不奇怪。</p><h2 id="2-那销售本质之外呢？"><a href="#2-那销售本质之外呢？" class="headerlink" title="2. 那销售本质之外呢？"></a>2. 那销售本质之外呢？</h2><p>就变成了一个价值观考题：</p><p><strong>销售是“以结果为导向”还是“以价值为导向”？</strong></p><p>如果是前者，就容易为了成交放弃原则；如果是后者，则会坚持不违心，即便短期损失部分订单。</p><p>我们很难说销售活动不受下列因素的影响：</p><ul><li><strong>信息不对称</strong>：客户很难完全掌握产品所有信息，销售可以选择强调有利面、弱化不利面。</li><li><strong>激励机制</strong>：销售薪酬大多与成交挂钩，奖金比例让他们倾向于短期结果。</li><li><strong>竞争压力</strong>：同行都在夸大优势，你保持真实可能被淘汰。</li><li><strong>情感策略</strong>：销售需要与客户建立情感连接，这会催生“社交违心”，比如虚假赞美、假装兴趣。</li></ul><p>如果把这些因素叠加在一起，违心是顺利成章的事情，几乎没有阻力。</p><p>除非销售有足够的<strong>外部保护</strong>（比如公司制度奖励真实销售）或<strong>内部坚守</strong>（个人价值观、职业信条），否则很容易被同化。</p><h2 id="3-不违心的可能性"><a href="#3-不违心的可能性" class="headerlink" title="3. 不违心的可能性"></a>3. 不违心的可能性</h2><p>然而，违心并不是唯一的生存方式。</p><p>要做到不违心，需要满足几个条件：</p><ul><li><strong>产品力足够强</strong>，客户能直接感知到价值，不必靠虚假承诺支撑销售话术。</li><li><strong>组织文化重视长期关系</strong>，鼓励维护客户而非一锤子买卖。</li><li><strong>销售自身专业过硬</strong>，能用事实、数据和行业洞察说服客户，而不是靠情绪操控。</li><li><strong>愿意接受短期业绩的牺牲</strong>，换取长期的信任和转介绍。</li></ul><p>我见过这样的例子：</p><p>一位销售，从不隐瞒产品的局限性，甚至会主动建议客户去试试竞品。</p><p>几年后，他的客户群稳定且忠诚，许多合作项目都是主动找上门的。</p><p>这种销售客户能感觉到他是站在自己一边的。</p><h2 id="4-这是一场选择题"><a href="#4-这是一场选择题" class="headerlink" title="4. 这是一场选择题"></a>4. 这是一场选择题</h2><p>说到底，这个问题不是简单的“是”或“否”，而是<strong>结果导向</strong>与<strong>价值导向</strong>的冲突。</p><ul><li><strong>结果导向</strong>：成交至上，过程只是手段，违心无可厚非。</li><li><strong>价值导向</strong>：过程必须守住原则，即便签单少，也不能牺牲底线。</li></ul><p>多数人感受到的，是被结果导向笼罩的销售生态，因此才觉得“销售必违心”。</p><p>但如果有人选择了价值导向，并且有能力、有环境支撑，他就能用真诚活下来，甚至活得很好。</p><p>而且还有一个可能是<strong>有两种违心的定义</strong>：</p><ol><li>礼貌性的社交话——比如你不是真的觉得客户今天发型好看，但说一句是为了气氛，这类违心属于职业礼节，风险低。</li><li>实质性虚假——比如明知产品功能达不到客户需求还硬说没问题，这类违心不仅伤害客户利益，还损害自己长远生意。</li></ol><p>关键在于，人们往往混淆了这两种违心，把前者和后者都归到“销售必违心”的印象里。</p><p>但实际上，前者在多数职业都存在（医生、老师、客服…），并非销售独有；而后者是否发生，取决于个人原则和组织文化。</p><h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>做销售，不必然要违心，但违心很容易——它顺应了人性弱点，也顺应了商业竞争的短期逻辑。</p><p>因此我们考虑的“做销售，一定要违心吗？”，如果回答“是”，就等于承认销售是一份道德绑架职业；如果回答“不是”，就必须承认职业选择里存在不同路径。</p><p>至少后者某种程度上可以<strong>推翻这个问题的必然性的，还是要看个人。</strong></p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
-    
-    
-    <summary type="html">这篇文章深度探讨了“做销售工作是否必然违心”的话题，从销售本质、行业机制、人性冲突到个人选择全方位剖析，指出违心虽易但并非宿命，并提出以产品力、组织文化和专业能力为支撑，坚持真诚也能赢得长期信任与业绩的可行路径。</summary>
     
     
     
