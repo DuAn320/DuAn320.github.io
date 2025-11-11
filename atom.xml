@@ -6,7 +6,7 @@
   <link href="https://heycsm.com/atom.xml" rel="self"/>
   
   <link href="https://heycsm.com/"/>
-  <updated>2025-11-10T09:56:20.335Z</updated>
+  <updated>2025-11-11T10:11:59.267Z</updated>
   <id>https://heycsm.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AI交付下的FDE模式，能否让SaaS放弃标准化幻想与客户成功的面子工程？</title>
+    <link href="https://heycsm.com/2025/11/11/AI%E4%BA%A4%E4%BB%98%E4%B8%8B%E7%9A%84FDE%E6%A8%A1%E5%BC%8F%EF%BC%8C%E8%83%BD%E5%90%A6%E8%AE%A9SaaS%E6%94%BE%E5%BC%83%E6%A0%87%E5%87%86%E5%8C%96%E5%B9%BB%E6%83%B3%E4%B8%8E%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E7%9A%84%E9%9D%A2%E5%AD%90%E5%B7%A5%E7%A8%8B%EF%BC%9F/"/>
+    <id>https://heycsm.com/2025/11/11/AI%E4%BA%A4%E4%BB%98%E4%B8%8B%E7%9A%84FDE%E6%A8%A1%E5%BC%8F%EF%BC%8C%E8%83%BD%E5%90%A6%E8%AE%A9SaaS%E6%94%BE%E5%BC%83%E6%A0%87%E5%87%86%E5%8C%96%E5%B9%BB%E6%83%B3%E4%B8%8E%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E7%9A%84%E9%9D%A2%E5%AD%90%E5%B7%A5%E7%A8%8B%EF%BC%9F/</id>
+    <published>2025-11-11T10:11:12.000Z</published>
+    <updated>2025-11-11T10:11:59.267Z</updated>
+    
+    <content type="html"><![CDATA[<div id="readmore-container"><p>SaaS和客户成功最想逃避的部分莫过于标准化的失败。</p><p>AI SaaS 交付的浪潮里，Forward Deployed Engineer（驻场工程师）成了 SaaS 的新符号——</p><p>技术深入一线、模型贴身客户、交付不再遥远。</p><p>但问题也更赤裸：</p><p>当人重新被派往前线，SaaS 真在放弃标准化的幻想，还是在换一种方式延续它？</p><h2 id="1-背景重构：何为-FDE-模式？"><a href="#1-背景重构：何为-FDE-模式？" class="headerlink" title="1. 背景重构：何为 FDE 模式？"></a>1. 背景重构：何为 FDE 模式？</h2><p>“驻场工程师”（Forward Deployed Engineer，简称 FDE）指的是将深技术工程师嵌入客户现场或客户环境内，承担从理解业务场景、构建原型、定制交付，到迁移与运维的“端到端工程”角色。</p><p>其典型特征包括：</p><ul><li><strong>混合工程＋产品＋客户能力</strong>：既写代码，也深入业务，还直接面对客户。</li><li><strong>起源于 Palantir Technologies</strong> 的 “Delta” 团队，专为政府与大型企业等复杂场景做现场部署服务。</li><li><strong>在 AI SaaS 交付体系中</strong>，FDE 被视为将“算法能力”转化为“客户价值”的关键桥梁。</li></ul><h2 id="2-标准化幻想：SaaS-的舒适区"><a href="#2-标准化幻想：SaaS-的舒适区" class="headerlink" title="2. 标准化幻想：SaaS 的舒适区"></a>2. 标准化幻想：SaaS 的舒适区</h2><p>传统 SaaS 模型强调“可重复、可规模、可低成本交付”。</p><p>标准化因此成为行业信条：</p><ul><li>产品模板化、功能模块化、客户可自行上云部署或轻度配置。</li><li>客户成功（Customer Success, CS）被用作引导、陪跑、培训等手段维持客户满意度。</li><li>结果是：一方面追求规模化，另一方面又不得不频繁做定制和补丁——“标准化”逐渐变成理想化口号，而非真实状态。</li></ul><h2 id="3-FDE-模式如何撼动标准化幻想？"><a href="#3-FDE-模式如何撼动标准化幻想？" class="headerlink" title="3. FDE 模式如何撼动标准化幻想？"></a>3. FDE 模式如何撼动标准化幻想？</h2><h3 id="3-1-从“一刀切”到“一客户一方案”"><a href="#3-1-从“一刀切”到“一客户一方案”" class="headerlink" title="3.1 从“一刀切”到“一客户一方案”"></a>3.1 从“一刀切”到“一客户一方案”</h3><p>FDE 强调“Embed with customer”——</p><p>工程师深入客户现场，理解数据流、业务流程、操作环境，并直接完成部署与验证。</p><p>这意味着：</p><ul><li>产品不再仅靠“通用模板＋客户配置”交付，而是“平台模板＋现场定制＋生态融合”；</li><li>标准化逻辑被压缩到平台底层，交付价值重心转向“场景落地”与“客户真实使用效果”。</li></ul><h3 id="3-2-标准化并未消失，而是被重塑为“平台抽象”"><a href="#3-2-标准化并未消失，而是被重塑为“平台抽象”" class="headerlink" title="3.2 标准化并未消失，而是被重塑为“平台抽象”"></a>3.2 标准化并未消失，而是被重塑为“平台抽象”</h3><p>尽管 FDE 看似走向个性化，但真正成功的公司，会将现场部署经验持续沉淀回平台，形成“通用化的可复制能力”。</p><p>这是一种新的标准化逻辑：</p><ul><li>可复制的部分不再是功能，而是从多客户场景中抽象出的平台能力；</li><li>标准化从产品形态转为“平台的学习能力”。</li></ul><h3 id="3-3-成本与规模的张力"><a href="#3-3-成本与规模的张力" class="headerlink" title="3.3 成本与规模的张力"></a>3.3 成本与规模的张力</h3><p>FDE 模式带来了极强的客户适配力，但也伴随高成本与人力依赖。</p><p>《华尔街日报》指出：依赖驻场工程师模式若每单都需大量人力参与，会削弱 SaaS 的边际收益。</p><p>因此：</p><ul><li>若完全放弃标准化，只靠 FDE，将难以维持规模经济；</li><li>SaaS 必须在“前端客户化部署”与“后端标准化平台”之间找到结构平衡。</li></ul><h2 id="4-客户成功“面子工程”被揭示还是转型？"><a href="#4-客户成功“面子工程”被揭示还是转型？" class="headerlink" title="4. 客户成功“面子工程”被揭示还是转型？"></a>4. 客户成功“面子工程”被揭示还是转型？</h2><h3 id="4-1-客户成功的旧逻辑"><a href="#4-1-客户成功的旧逻辑" class="headerlink" title="4.1 客户成功的旧逻辑"></a>4.1 客户成功的旧逻辑</h3><p>在传统 SaaS 中，客户成功部承担培训、复盘、续费谈判等事务，成为维系客户关系的“缓冲层”。</p><p>但许多公司将其异化为“面子工程”：</p><p>用频繁会议、形式化汇报和关系维持来替代真正的价值交付。</p><h3 id="4-2-FDE-时代的角色再造"><a href="#4-2-FDE-时代的角色再造" class="headerlink" title="4.2 FDE 时代的角色再造"></a>4.2 FDE 时代的角色再造</h3><p>AI 与 FDE 模式让“结果交付”成为核心。</p><ul><li>CS 不再仅陪跑，而需与驻场工程师共同对接客户场景；</li><li>客户对“感受好”的容忍度下降，对“落地效果”的敏感度上升；</li><li>面子工程因此失效：AI 系统的成效与失败都被量化、可追踪、可比较。</li></ul><h3 id="4-3-但关系仍是底层结构"><a href="#4-3-但关系仍是底层结构" class="headerlink" title="4.3 但关系仍是底层结构"></a>4.3 但关系仍是底层结构</h3><p>即便如此，关系与服务协调依然必要。</p><p>CS 的角色不再是维持情绪，而是承担“人机协作接口”——</p><p>在算法与客户组织之间维持理解与共识。</p><p>客户成功不被消灭，而是被“工程化”：</p><p>从“服务包装”转向“价值整合”。</p><h2 id="5-SaaS-的进化路径：标准化-×-FDE-×-CS-三元融合"><a href="#5-SaaS-的进化路径：标准化-×-FDE-×-CS-三元融合" class="headerlink" title="5. SaaS 的进化路径：标准化 × FDE × CS 三元融合"></a>5. SaaS 的进化路径：标准化 × FDE × CS 三元融合</h2><h3 id="5-1-三阶段逻辑"><a href="#5-1-三阶段逻辑" class="headerlink" title="5.1 三阶段逻辑"></a>5.1 三阶段逻辑</h3><ol><li><strong>标准产品阶段</strong>：客户自助配置、快速部署。</li><li><strong>FDE 驻场阶段</strong>：面对复杂场景，工程师嵌入现场进行定制与适配。</li><li><strong>能力回流阶段</strong>：将现场经验沉淀回平台，形成新的标准化能力。</li></ol><h3 id="5-2-组织与商业模型的迁移"><a href="#5-2-组织与商业模型的迁移" class="headerlink" title="5.2 组织与商业模型的迁移"></a>5.2 组织与商业模型的迁移</h3><ul><li>FDE 成为产品、销售、客户成功之间的桥梁；</li><li>收费模式从“订阅＋服务费”转为“订阅＋驻场＋持续升级”；</li><li>CS 的绩效指标也转向更硬的数据：部署完成度、价值实现周期、客户场景活跃率。</li></ul><h3 id="5-3-放弃幻想，而非放弃结构"><a href="#5-3-放弃幻想，而非放弃结构" class="headerlink" title="5.3 放弃幻想，而非放弃结构"></a>5.3 放弃幻想，而非放弃结构</h3><p>SaaS 不能再假装“一个模板解决所有问题”；也不能完全回到“人力交付”的旧时代。</p><p>真正的变革是承认标准化的边界，并用 FDE 去填补它。</p><p>这不是割裂，而是一次“结构性再平衡”：</p><p>从万能标准到智能抽象，从陪跑服务到结果共创。</p><h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>FDE 模式不是对标准化与客户成功的否定，而是它们的现实化。</p><p>它迫使 SaaS 放弃幻觉：</p><ul><li><strong>标准化</strong> 不再是模板，而是平台对复杂性的抽象能力；</li><li><strong>客户成功</strong> 不再是面子，而是人与系统协作的接口。</li></ul><p>AI 交付让企业必须面对那个被隐藏已久的问题——</p><p>真正的“成功”，不在流程与模板里，而在能否让技术，在客户的世界中，持续奏效。</p><p>而所谓的“前线部署”，其实是回到商业本身的真相：</p><p>理解、满足、<strong>兑现。</strong></p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
+    
+    
+    <summary type="html">AI 交付推动的 FDE （驻场工程师）模式正在重塑 SaaS 行业：它让工程师深入客户现场，将算法能力转化为真实业务价值，打破“标准化万能”的幻觉，也揭开“客户成功面子工程”的虚饰。标准化不再意味着模板复制，而是平台抽象与场景学习；客户成功不再是陪跑与汇报，而是人机协同的价值兑现。</summary>
+    
+    
+    
+    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>想做好客户成功？我劝你，离开你的破办公室</title>
@@ -405,27 +426,6 @@
     
     
     <summary type="html">客户经常说“不知道自己需要什么”，但真正优秀的客户成功经理不会止步于表面反馈。这篇文章深入探讨客户成功如何通过行为观察、业务流程嵌入、上下游协同和联合定义成功目标，挖掘客户的真实需求。以实战视角解构客户表象背后的动因，帮助SaaS团队实现更高续费率与客户价值达成，是客户成功、产品经理、B端运营者不可错过的洞察文章。</summary>
-    
-    
-    
-    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
-    
-    
-    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>为什么中小企业的产品，很难打动客户的心？</title>
-    <link href="https://heycsm.com/2025/08/24/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%AD%E5%B0%8F%E4%BC%81%E4%B8%9A%E7%9A%84%E4%BA%A7%E5%93%81%EF%BC%8C%E5%BE%88%E9%9A%BE%E6%89%93%E5%8A%A8%E5%AE%A2%E6%88%B7%E7%9A%84%E5%BF%83%EF%BC%9F/"/>
-    <id>https://heycsm.com/2025/08/24/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%AD%E5%B0%8F%E4%BC%81%E4%B8%9A%E7%9A%84%E4%BA%A7%E5%93%81%EF%BC%8C%E5%BE%88%E9%9A%BE%E6%89%93%E5%8A%A8%E5%AE%A2%E6%88%B7%E7%9A%84%E5%BF%83%EF%BC%9F/</id>
-    <published>2025-08-24T14:39:29.000Z</published>
-    <updated>2025-08-24T14:41:39.000Z</updated>
-    
-    <content type="html"><![CDATA[<div id="readmore-container"><p>在这个产品极度过剩的时代，客户不是没得选，而是选不过来。而很多中小企业拼了命做产品，却始终打不动客户的心。功能对了，价格低了，方案改了，依旧留不住客户，无法建立信任。</p><p>这不是产品不够好，而是你说的话，客户听不懂；你想表达的价值，客户无法共鸣；你努力表现出的专业，客户感知不到安全感。</p><p>问题不在“能力”，而在“连接方式”。</p><p>今天，我们从客户心理出发，聊聊中小企业在“共鸣”和“信任”上，到底缺了哪几步。</p><h2 id="1-他们讲的是“产品”，客户想听的是“我自己”"><a href="#1-他们讲的是“产品”，客户想听的是“我自己”" class="headerlink" title="1. 他们讲的是“产品”，客户想听的是“我自己”"></a>1. 他们讲的是“产品”，客户想听的是“我自己”</h2><p>大多数中小企业最擅长的是讲技术、讲性能、讲功能，说我们多专业，我们的解决方案多厉害。</p><p>但客户的注意力，根本不在你这里。</p><p>客户只关心一件事：<strong>“这个东西，能不能帮我解决我的问题？”</strong></p><p>不是“你能做什么”，而是“你能帮我怎样”。</p><p>产品介绍不是“展示自己多强”，而是“让客户看到自己在你产品里的样子”。说白了，是一面镜子，不是一个展柜。</p><p>比如你说：“我们的系统支持高并发处理”——客户的心声其实是：“我担心 618 当天系统挂了”；你说“我们团队有 10 年行业经验”——客户心里想的是：“你们能不能懂我业务的复杂场景”。</p><p>你在说“我是谁”，而客户想知道的是：“你懂不懂我”。</p><h2 id="2-他们展示的是“功能”，客户想要的是“意义”"><a href="#2-他们展示的是“功能”，客户想要的是“意义”" class="headerlink" title="2. 他们展示的是“功能”，客户想要的是“意义”"></a>2. 他们展示的是“功能”，客户想要的是“意义”</h2><p>很多产品能做的事不少，但客户常常不知道它“为什么重要”。</p><p>这不是客户笨，而是产品方没有解释清楚：<strong>“这个功能，跟客户的核心利益有什么关系？”</strong></p><p>比如一个 ERP 厂商说：“我们支持跨组织流程协同”，听起来很厉害，但客户的直觉反应是：“那又怎样？”</p><p>你得让客户看到这个功能的 <strong>“隐性收益”</strong>：是节省多少人力？减少多少错误率？加快多快的业务反应时间？能不能帮老板月末少掉几根头发？</p><p>功能没有意义，除非你赋予它“真实世界的上下文”。</p><p>把功能翻译成“客户听得懂的场景语言”，是共鸣的第一步。</p><h2 id="3-他们说的是“逻辑”，客户信的是“认同感”"><a href="#3-他们说的是“逻辑”，客户信的是“认同感”" class="headerlink" title="3. 他们说的是“逻辑”，客户信的是“认同感”"></a>3. 他们说的是“逻辑”，客户信的是“认同感”</h2><p>中小企业喜欢用逻辑说服——数据、优势、结构、成本对比，全都排列得井井有条。</p><p>可惜，客户的信任系统，不是靠逻辑建立的。</p><p>客户信的，是 <strong>“别人怎么说”</strong>、“别人也在用吗”、“这家公司跟我是不是同一个业务场景”。</p><p>所以：大厂的 logo 墙管用、KOL 推荐管用、真实案例管用、口碑截图管用、朋友圈里的“熟人体验”尤其管用。</p><p>这叫做“社会性认知捷径”——大脑偷懒的时候，不用分析，只信熟悉和从众。</p><p>你没有品牌、没有市场预算，那你有没有一两个典型客户愿意背书？有没有一个垂类社群能支持你？有没有一套话术能帮客户转述你的价值？</p><p>信任不是你说出来的，是“别人替你说出来的”。</p><h2 id="4-他们追的是“成交”，客户想要“情绪安全感”"><a href="#4-他们追的是“成交”，客户想要“情绪安全感”" class="headerlink" title="4. 他们追的是“成交”，客户想要“情绪安全感”"></a>4. 他们追的是“成交”，客户想要“情绪安全感”</h2><p>中小企业太着急成交，恨不得第一次接触就签单。于是文案里各种“限时”、“优惠”、“留资料就送”。</p><p>但客户根本没有准备好，甚至开始<strong>防备</strong>你。</p><p>真正能建立信任的，是一个渐进式的过程：</p><ul><li>第一步，让客户感兴趣；</li><li>第二步，让他觉得你懂他；</li><li>第三步，让他相信你不会害他；</li><li>第四步，让他感觉“跟你合作是轻松的”。</li></ul><p>成交的前提，是<strong>情绪安全感</strong>。不是压力感，不是紧迫感，是“我愿意让你靠近”。</p><p>信任的核心，是“可预测性 + 不冒险”。</p><h2 id="5-他们用的是“理性说服”，但信任来源于“感性触发”"><a href="#5-他们用的是“理性说服”，但信任来源于“感性触发”" class="headerlink" title="5. 他们用的是“理性说服”，但信任来源于“感性触发”"></a>5. 他们用的是“理性说服”，但信任来源于“感性触发”</h2><p>信任从来不是一份合同带来的，是“某个瞬间的情绪击中”。</p><p>比如你主动多问一句：“你们现在最困扰的环节是哪？”；你在售后群里 5 分钟内回应并解决问题；你发的文案，刚好说出了客户心里的一句话。</p><p>这种“感性触发”才是信任的核心动因。</p><p>而中小企业往往太强调“做对的事”，但忽视了“做让人感觉对的事”。</p><p>信任建立在体验之上，而体验是情绪主导的。</p><p>你可以很专业，但不一定让人觉得“你可靠”；你产品真的实用，但如果客户情绪不被照顾，信任门槛始终难跨越。</p><h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>中小企业不是没能力做出好产品，而是往往陷在“我们能做什么”里，而忽略了“客户想要什么样的关系”。</p><p><strong>共鸣，来自于你看到了客户的情绪；信任，来自于客户感受到了你的诚意和一致性。</strong></p><p>产品能力很重要，但表达方式、情绪理解、价值翻译能力，同样关键。</p><p>当你开始真正理解客户、表达客户、服务客户内心，而不只是服务功能，那些所谓的大公司“天然优势”，也就没那么不可逾越了。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
-    
-    
-    <summary type="html">中小企业常常面临一个难题：产品明明不错，却难以打动客户，建立信任。这篇文章深度剖析了中小企业在价值表达、品牌共鸣、情绪连接等方面存在的天然短板，揭示“客户听不懂你在说什么”的本质原因。从功能导向到信任构建，从理性输出到情感触达，帮助中小企业理解如何跨越共鸣与信任之间的鸿沟，实现客户真正认同的产品传达。</summary>
     
     
     
