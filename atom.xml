@@ -6,7 +6,7 @@
   <link href="https://heycsm.com/atom.xml" rel="self"/>
   
   <link href="https://heycsm.com/"/>
-  <updated>2026-01-05T10:25:13.818Z</updated>
+  <updated>2026-01-12T10:04:20.353Z</updated>
   <id>https://heycsm.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SaaS的丧钟，只可能敲响在产品和客户成功的手里</title>
+    <link href="https://heycsm.com/2026/01/12/SaaS%E7%9A%84%E4%B8%A7%E9%92%9F%EF%BC%8C%E5%8F%AA%E5%8F%AF%E8%83%BD%E6%95%B2%E5%93%8D%E5%9C%A8%E4%BA%A7%E5%93%81%E5%92%8C%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E7%9A%84%E6%89%8B%E9%87%8C/"/>
+    <id>https://heycsm.com/2026/01/12/SaaS%E7%9A%84%E4%B8%A7%E9%92%9F%EF%BC%8C%E5%8F%AA%E5%8F%AF%E8%83%BD%E6%95%B2%E5%93%8D%E5%9C%A8%E4%BA%A7%E5%93%81%E5%92%8C%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E7%9A%84%E6%89%8B%E9%87%8C/</id>
+    <published>2026-01-12T10:02:27.000Z</published>
+    <updated>2026-01-12T10:04:20.353Z</updated>
+    
+    <content type="html"><![CDATA[<div id="readmore-container"><p><strong>SaaS 解决了买断制软件的陈年旧疾，却带给组织一场前所未有的协作灾难。</strong></p><p>在软件行业的旧时代，逻辑是简单的“一锤子买卖”。</p><p>那是卖方市场，合同签掉，软件部署入场，款项回笼，销售开香槟，售后随缘。</p><p>至于客户用得好不好、业务有没有增量，那更多是客户自己的造化。</p><p>直到 SaaS（软件即服务）出现，这个物态改变了权力的天平。</p><p>它把“买断”变成了“租赁”，把“产品”变成了“服务”。</p><p>它解决了昂贵的服务器部署，解决了令人绝望的版本升级，解决了信息孤岛。</p><p><strong>但一个新物态的出现只意味着一件事：它在解决旧问题的同时，必然带来更棘手的新问题。</strong></p><p>而今天，大多数 SaaS 公司的丧钟，其实是从内部敲响的。</p><h2 id="1-客户成功，正在给产品经理“还债”"><a href="#1-客户成功，正在给产品经理“还债”" class="headerlink" title="1. 客户成功，正在给产品经理“还债”"></a>1. 客户成功，正在给产品经理“还债”</h2><p>在 SaaS 的理想国里，产品应该是自驱动的。</p><p>但现实是：</p><p><strong>产品经理在闭门造车，客户成功（CSM）在前线挡枪。</strong></p><ul><li><strong>产品侧</strong>：沉迷于堆砌功能，追求 UI 的极简和架构的宏大，却看不见客户在具体业务场景里的笨拙操作。</li><li><strong>CSM 侧</strong>：每天处理着海量的“这功能怎么不好使”和“那数据怎么对不上”，他们成了人肉说明书，成了情绪垃圾桶。</li></ul><p>最致命的断裂在于：</p><p>CSM 最了解客户的痛点，却最没有话语权；产品经理拥有最高决策权，却离真实战场最远。</p><p>当 CSM 拿着客户带血的需求回来时，产品经理往往冷冷地回一句：“这不符合我们的产品路线图。”</p><p><strong>这种协作上的“生殖隔离”，是 SaaS 走向平庸的起点。</strong></p><h2 id="2-内部协作的“隐形损耗”，比获客成本更贵"><a href="#2-内部协作的“隐形损耗”，比获客成本更贵" class="headerlink" title="2. 内部协作的“隐形损耗”，比获客成本更贵"></a>2. 内部协作的“隐形损耗”，比获客成本更贵</h2><p>人们总在算 CAC（获客成本），算 LTV（生命周期价值），却很少算过 <strong>“内部撕逼成本”</strong>。</p><p>SaaS 是一种极度依赖全链路交付的物态。</p><p>从销售承诺，到产品实现，再到 CSM 续约，任何一环的掉链子都要全公司买单。</p><ul><li><strong>销售为了签单，过度承诺了产品根本不存在的功能；</strong></li><li><strong>产品为了上线，交付了一个半成品；</strong></li><li><strong>CSM 为了留存，不得不像保姆一样手动帮客户导数据、做表格。</strong></li></ul><p>这种“内部互坑”的本质倒是和我们常说的“客户数字化现状”相似：</p><p><strong>大家在同一个公司做同一个项目，数据却各自散落在不同的系统里。</strong></p><p>SaaS 这种物态，对协作透明度的要求极高。</p><p>如果产品和 CS 之间不能达成“价值共识”，那公司雇佣的每一个员工，都在互相抵消对方的努力。</p><h2 id="3-新物态的代价：你不再拥有“掩体”"><a href="#3-新物态的代价：你不再拥有“掩体”" class="headerlink" title="3. 新物态的代价：你不再拥有“掩体”"></a>3. 新物态的代价：你不再拥有“掩体”</h2><p>为什么说 SaaS 死于产品和 CS？</p><p>因为在 SaaS 模式下，产品是透明的，服务是持续的。</p><p>你没有了传统软件时代的“掩体”。</p><ul><li><strong>过去</strong>：软件难用，客户认命，反正钱已经付了。</li><li><strong>现在</strong>：只要产品有一丁点不顺手，只要 CS 回复慢了五分钟，客户随时可以点点鼠标，下个月就不再续费。</li></ul><p><strong>SaaS 的死穴在于：它让客户的“反悔成本”降到了最低，却让厂商的“履约难度”升到了最高。</strong></p><p>这是历史上传统软件没有面临过的问题，或者说，也正是为了解决这个问题才产生了 SaaS。</p><p>如果产品不能在功能上解决业务问题，CS 不能在服务上提供情绪价值和战略指导，这种物态就会迅速枯萎。</p><p>它不是死于对手太强，而是死于内部协作的失能，死于那种“那是他们的事，跟我没关系”的傲慢。</p><h2 id="4-为什么不会是销售或其他？"><a href="#4-为什么不会是销售或其他？" class="headerlink" title="4. 为什么不会是销售或其他？"></a>4. 为什么不会是销售或其他？</h2><p>很多人觉得销售是 SaaS 的命门，这其实是一种思维惯性。</p><p>事实上，在长达几十年的商业进化中，组织已经进化出了极其强大的“销售抗体”，是的，这就是传统软件旧时代中我们学会的东西：</p><ul><li><strong>风险前置</strong>：销售工程（SE）的介入，让过度承诺在签单前就能被识别；</li><li><strong>利益约束</strong>：佣金回拨机制（Clawback）和分阶段回款，让销售不敢轻易玩火；</li><li><strong>逻辑成熟</strong>：如何管理线索、如何转化漏斗，这些已经是高度 SOP 化的工业逻辑。</li></ul><p><strong>销售的失能，是“已知”的恶意或意外。</strong></p><p>它是外伤，虽疼，但能医。</p><p>但在 SaaS 时代，真正的致命伤变成了“内科疾病”——</p><p>那是产品（Product）与客户成功（Customer Success）之间，那道从未被真正缝合过的裂痕。</p><p>而这，是第一次出现的病症。</p><h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>现在的 SaaS 圈子，喜欢谈模型，谈指标，谈 AI 赋能。</p><p>但回到生意本质：</p><ul><li><strong>产品是“1”，它是你入场的门票；</strong></li><li><strong>客户成功是“0”，它是你规模化的杠杆。</strong></li></ul><p>而连接“1”和“0”的那个连接符，叫作<strong>内部协作</strong>。</p><p>如果没有这个连接符，你引以为傲的 SaaS 架构，不过是一堆随时可能被弃用的代码，跟传统软件并没有什么区别。</p><p><strong>死在产品和 CS 的手里，其实不冤。因为这本就是这种新物态，给所有入局者设下的最高难度的考题。</strong></p><p>旧时代的销售难题我们已经解开了。</p><p>SaaS <strong>自有</strong>持续性面临的新问题是：</p><p><strong>向前看的产品和向后看的客户成功必须协作无间。</strong></p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
+    
+    
+    <summary type="html">为什么你的SaaS产品功能完善，客户续费率却持续走低？问题可能不在外部竞争，而在内部协作。本文深度剖析SaaS行业最致命的陷阱：产品团队与客户成功（CS）团队的断裂。销售过度承诺、产品闭门造车、CS人肉填坑——这种“内部互坑”如何无声地消耗你的LTV？我们将揭示，在客户反悔成本极低的SaaS世界里，构建产品与CS的价值共识，是比任何增长黑客都更重要的生存之道。</summary>
+    
+    
+    
+    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>于客户成功而言，Onboarding是很重要，但第一次培训更重要</title>
@@ -405,27 +426,6 @@
     
     
     <summary type="html">在后SaaS时代，企业竞争已从单纯满足用户痛点转向商业结构的较量。早期产品必须解决真实需求，但当行业进入成熟阶段，增长更依赖生态、渠道、定价与品牌的协同。本文深入解析SaaS从“痛点驱动”到“生意经驱动”的转型逻辑，揭示企业如何通过生态构建、打包定价、平台化与金融化手段赢得市场。</summary>
-    
-    
-    
-    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
-    
-    
-    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>大客与友商，SaaS产品的真正爹</title>
-    <link href="https://heycsm.com/2025/09/02/%E5%A4%A7%E5%AE%A2%E4%B8%8E%E5%8F%8B%E5%95%86%EF%BC%8CSaaS%E4%BA%A7%E5%93%81%E7%9A%84%E7%9C%9F%E6%AD%A3%E7%88%B9/"/>
-    <id>https://heycsm.com/2025/09/02/%E5%A4%A7%E5%AE%A2%E4%B8%8E%E5%8F%8B%E5%95%86%EF%BC%8CSaaS%E4%BA%A7%E5%93%81%E7%9A%84%E7%9C%9F%E6%AD%A3%E7%88%B9/</id>
-    <published>2025-09-02T10:57:35.000Z</published>
-    <updated>2025-09-02T10:58:23.000Z</updated>
-    
-    <content type="html"><![CDATA[<div id="readmore-container"><p>纯标品的产品结构里，多幼稚才会信产品和 CEO 嘴里的“从用户中来”？</p><p>在 SaaS 行业做产品时间久了，你会越来越清楚地感受到一个真实却不太“理想主义”的规律：</p><p><strong>“哪里来的用户需求啊？”</strong></p><p>SaaS 优先级最高的需求来源，从来不是什么“用户反馈池”，而是两个字眼：<strong>大客</strong>和<strong>友商</strong>。</p><p>这不是一句吐槽，而是行业的基本事实。</p><h2 id="1-一线的反馈，怎么就成不了产品的输入？"><a href="#1-一线的反馈，怎么就成不了产品的输入？" class="headerlink" title="1. 一线的反馈，怎么就成不了产品的输入？"></a>1. 一线的反馈，怎么就成不了产品的输入？</h2><p>在许多客户成功经理的日常里，都会出现这种循环：</p><p>客户提需求 → 整理反馈 → 发到产品群 → 被记录 → 无回应 or 优先级不高 → 客户不满 → 再次催促 → 产品说“这不是通用诉求”。</p><p>而几乎在同一时间，如果有：</p><ul><li>某竞品上线了新功能；</li><li>某大客户在招标文档里点名某项能力；</li><li>某销售说这个功能不做就签不下；</li></ul><p>这类信息出现时，立项的速度往往是惊人的。连需求文档都可以没有，甚至开发也先搞个半成品 demo 顶上。</p><p>于是，一线 CSM 们开始有了共识：</p><p><strong>你说的是“用户呼声”，但产品要的，是“商业锚点”。</strong></p><h2 id="2-为什么是大客户与友商？"><a href="#2-为什么是大客户与友商？" class="headerlink" title="2. 为什么是大客户与友商？"></a>2. 为什么是大客户与友商？</h2><p>不是因为他们提得更对，而是因为他们决定了 SaaS 公司的生死。</p><h3 id="大客——他们给你“确定性现金流”"><a href="#大客——他们给你“确定性现金流”" class="headerlink" title="大客——他们给你“确定性现金流”"></a>大客——他们给你“确定性现金流”</h3><p>在一个还没跑通产品-市场匹配的 SaaS 里，大客户往往是唯一稳定的收入来源。</p><p>他们的诉求不是“建议”，是“合同条款”。</p><p>他们的反馈不是“产品体验”，是“项目交付节点”。</p><p>哪怕这个需求极其特殊、不具备通用性、不合产品逻辑，只要挂在合同里，你就得立刻排上。</p><p>久而久之，SaaS 的产品演化不是“路径依赖”，而是“大客依赖”。</p><p>你的核心流程、你的架构设计、你的运营节奏，统统是为大客户量身定制的。</p><h3 id="友商——他们定义了“客户对你的预期”"><a href="#友商——他们定义了“客户对你的预期”" class="headerlink" title="友商——他们定义了“客户对你的预期”"></a>友商——他们定义了“客户对你的预期”</h3><p>有些功能你明知道没价值，但不能不做。因为对方做了，你没做，就意味着“你没有”。</p><p>客户不关心这功能谁先发的，他们只关心“你是不是比别人差”。</p><p>于是你的 Roadmap 不再是基于用户场景的深度挖掘，而是竞品更新日志的影子工程。</p><p>这就是中国 SaaS 生态的残酷：不是做得好才赢，而是不能落后太多。</p><p>不跟，就被说“缺失基础能力”；跟了，功能堆满一地、团队疲于奔命。</p><p>这是一个没有奖励原创、只惩罚落后的市场。</p><h2 id="3-SaaS-在理想中是产品驱动，现实中却是响应驱动"><a href="#3-SaaS-在理想中是产品驱动，现实中却是响应驱动" class="headerlink" title="3. SaaS 在理想中是产品驱动，现实中却是响应驱动"></a>3. SaaS 在理想中是产品驱动，现实中却是响应驱动</h2><p>许多 SaaS 团队嘴上说自己是产品型公司，但架构一拉开，逻辑一解构，组织节奏完全是典型的“乙方组织”：</p><ul><li>版本节奏服务于大客节点；</li><li>产品设计服务于项目交付；</li><li>技术团队背锅定制化；</li><li>售前团队参与定义 Roadmap。</li></ul><p>从客户成功到研发全线疲于应对。</p><p>每一个项目立项的理由，往往不是“这个需求验证过”，而是“这个客户很重要”。</p><p>那么问题来了：<strong>大客户带节奏，竞品定方向，我们的产品战略在哪里？这是否是一种“裹挟”？</strong></p><p><strong>是，也不是。</strong></p><ul><li><strong>是</strong>，因为这确实会让团队丧失自我节奏，容易进入“项目型产品化”的陷阱，变成一堆客户项目的拼图。</li><li><strong>不是</strong>，因为这是 SaaS 行业的自然演化路径——<strong>需求本身就是在实战中锤出来的</strong>，大客户和竞品提供的，恰恰是最接近“真实使用场景”的反馈机制。</li></ul><p>但尴尬的是：无论是否裹挟，你还得表现得像是你“主动探索”的。</p><h2 id="4-最危险的是：习惯了这种状态"><a href="#4-最危险的是：习惯了这种状态" class="headerlink" title="4. 最危险的是：习惯了这种状态"></a>4. 最危险的是：习惯了这种状态</h2><p>一开始你说这是“为了活下去”。</p><p>后来你说“只是暂时妥协”。</p><p>再后来，你的产品团队失去了判断力，团队节奏完全被大客户和友商牵着走。</p><p>你开始觉得：这就是 SaaS 本该有的样子。</p><p>更危险的是，当“乙方逻辑”深入骨髓后，<strong>你再也无法转身了</strong>。</p><p>因为：</p><ul><li>你的系统被塞满了例外；</li><li>你的代码充满了定制；</li><li>你的团队节奏无法对齐；</li><li>你的客户彼此割裂，没有标准版本。</li></ul><p>当你真的想“回归产品节奏”时，你发现整个组织和产品都不支持你这么做了。</p><h2 id="5-真正成熟的打法，是建立“双轨节奏系统”"><a href="#5-真正成熟的打法，是建立“双轨节奏系统”" class="headerlink" title="5. 真正成熟的打法，是建立“双轨节奏系统”"></a>5. 真正成熟的打法，是建立“双轨节奏系统”</h2><p>SaaS 想走出这个困局，靠理想主义没用，靠拒绝大客户更不现实。更可行的路径是：</p><h3 id="一条现实轨：交付轨道"><a href="#一条现实轨：交付轨道" class="headerlink" title="一条现实轨：交付轨道"></a>一条现实轨：交付轨道</h3><p>服务大客户，做定制交付，把这些作为<strong>项目线</strong>或<strong>运营线</strong>管理，有节奏、有预算、有隔离。</p><h3 id="一条未来轨：产品轨道"><a href="#一条未来轨：产品轨道" class="headerlink" title="一条未来轨：产品轨道"></a>一条未来轨：产品轨道</h3><p>建立一条独立的产品节奏线，推动<strong>面向未来、通用价值、平台演进</strong>的能力建设。</p><p>核心在于：</p><ul><li><strong>决策隔离</strong>：大客户的定制不能直接影响核心产品节奏；</li><li><strong>能力萃取</strong>：从定制中提炼出可复用的能力，不照单全收；</li><li><strong>节奏分层</strong>：用不同节奏满足不同诉求，既活下去，也能走下去。</li></ul><p>说到底，<strong>大客户和友商是 SaaS 产品最值得重视的信号源</strong>，但绝不该是唯一的锚点。</p><h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>客户成功经理很清楚，客户提出的哪些需求有可能被落地，哪些不会。</p><p>他们知道，真正能影响产品的，不是提得好不好，而是你是不是那个<strong>足够大的客户</strong>，或者你说的是不是<strong>友商也在做的事</strong>。</p><p>所以当他们说：“这是客户呼声”，有时只是在为流失找理由；</p><p>但更多时候，当他们不再转述客户建议，可能是知道——<strong>没有意义。</strong></p><p><strong>“哪里来的用户需求啊？”</strong></p><p>这不是一句反问，是一次提醒。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
-    
-    
-    <summary type="html">本文深入剖析SaaS产品需求优先级的真实来源，揭示大客户与竞争对手如何左右产品节奏。通过实战场景和策略建议，帮助产品人在“被动卷”中找到“顺势为王”的路径，实现平台能力与市场节奏的平衡。</summary>
     
     
     
