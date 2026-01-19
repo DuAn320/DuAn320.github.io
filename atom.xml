@@ -6,7 +6,7 @@
   <link href="https://heycsm.com/atom.xml" rel="self"/>
   
   <link href="https://heycsm.com/"/>
-  <updated>2026-01-12T10:04:20.353Z</updated>
+  <updated>2026-01-19T13:53:09.152Z</updated>
   <id>https://heycsm.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我反对把客户成功异化为事务性工作</title>
+    <link href="https://heycsm.com/2026/01/19/%E6%88%91%E5%8F%8D%E5%AF%B9%E6%8A%8A%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E5%BC%82%E5%8C%96%E4%B8%BA%E4%BA%8B%E5%8A%A1%E6%80%A7%E5%B7%A5%E4%BD%9C/"/>
+    <id>https://heycsm.com/2026/01/19/%E6%88%91%E5%8F%8D%E5%AF%B9%E6%8A%8A%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F%E5%BC%82%E5%8C%96%E4%B8%BA%E4%BA%8B%E5%8A%A1%E6%80%A7%E5%B7%A5%E4%BD%9C/</id>
+    <published>2026-01-19T13:51:34.000Z</published>
+    <updated>2026-01-19T13:53:09.152Z</updated>
+    
+    <content type="html"><![CDATA[<div id="readmore-container"><p><strong>亲爱的，请认真想想，事务性工作会给你高薪吗？</strong></p><p>客户成功（Customer Success）原本是一个极具战略野心的概念。</p><p>它诞生于 SaaS 时代的早期假设之上：</p><p><strong>当客户的持续成功决定了企业的长期收入时，企业就必须主动介入客户的价值实现过程。</strong></p><p>这不是支持，不是售后，更不是“处理问题”，而是围绕客户能否真正达成业务目标所展开的一整套协同机制。</p><p>但在今天的主流叙述中，<strong>客户成功正在悄然变形。</strong></p><p>它越来越像一份事务性工作：</p><p>续约提醒、健康度打分、QBR 模板、工单跟进、NPS 回访、CRM 更新……</p><p>一切都可量化，一切都可流程化，一切都可以被“交付”。</p><p>问题是：</p><p><strong>客户真的因此更成功了吗？</strong></p><h2 id="1-当“可规模化”压倒“有判断力”"><a href="#1-当“可规模化”压倒“有判断力”" class="headerlink" title="1. 当“可规模化”压倒“有判断力”"></a>1. 当“可规模化”压倒“有判断力”</h2><p>主流叙述开始异化客户成功，往往发生在一个看似理性的拐点——<strong>规模化焦虑。</strong></p><p>当企业从几十个客户走向几百、几千个客户时，客户成功被迫回答一个问题：</p><p><strong>这件事能不能被复制？能不能被标准化？能不能被低成本扩张？</strong></p><p>于是，“成功”不再被理解为一个复杂、情境化、需要判断力的过程，而被拆解成一系列可执行动作：</p><ul><li>是否按时开会</li><li>是否发送报告</li><li>是否完成流程节点</li><li>是否触达关键人</li></ul><p>只要动作完成，就被视为“履职”。</p><p>从这一刻起，客户成功开始从“判断型角色”退化为“执行型角色”。</p><h2 id="2-从“结果负责”到“过程免责”"><a href="#2-从“结果负责”到“过程免责”" class="headerlink" title="2. 从“结果负责”到“过程免责”"></a>2. 从“结果负责”到“过程免责”</h2><p>更深层的变化在于责任结构的改变。</p><p>早期的客户成功，隐含着一种危险但真实的承诺：</p><p><strong>客户没有成功，企业要承担部分责任。</strong></p><p>而在主流叙述被流程化之后，责任被悄然转移了。</p><p>客户是否成功，变成了一个<strong>外生变量</strong>：</p><ul><li>“我们已经按流程做了”</li><li>“我们已经给了建议”</li><li>“我们已经提醒过风险”</li></ul><p>如果客户没有达成目标，那是“客户执行不到位”、“客户组织问题”、“客户战略变化”。</p><p>于是，客户成功不再对“成功”负责，只对“是否做事”负责。</p><p>这正是事务性工作的典型特征：</p><p><strong>完成动作，而非承担结果。</strong></p><h2 id="3-当工具开始定义什么是“成功”"><a href="#3-当工具开始定义什么是“成功”" class="headerlink" title="3. 当工具开始定义什么是“成功”"></a>3. 当工具开始定义什么是“成功”</h2><p>主流叙述的第三次异化，来自工具和指标的反向统治。</p><p>健康度分数、使用率、登录频次、功能覆盖率……</p><p><strong>这些指标原本是辅助判断的信号，却逐渐被当成了“成功本身”。</strong></p><p>于是我们看到一种荒诞的场景：</p><ul><li>客户业务陷入困境，但健康度是绿的。</li><li>客户真实价值未实现，但系统显示“低风险”。</li><li>CSM 感觉不对劲，却被指标“纠正”。</li></ul><p>当系统比人更有话语权时，客户成功就不再需要理解客户，只需要“读懂仪表盘”。</p><p>而<strong>事务性工作的本质，正是对情境的去理解化。</strong></p><h2 id="4-当“最佳实践”成为思想钢印"><a href="#4-当“最佳实践”成为思想钢印" class="headerlink" title="4. 当“最佳实践”成为思想钢印"></a>4. 当“最佳实践”成为思想钢印</h2><p>异化的另一个推手，是所谓 <strong>“标准方法论”的泛滥。</strong></p><p>当工具定义的框架、流传的 CS 模板被奉为圭臬时，从业者开始放弃对特定客户业务逻辑的深度思考。</p><ul><li><strong>话术的同质化：</strong> 无论客户面临的是供应链危机还是组织变革，CSM 拿出的总是那一套“成熟度模型”。</li><li><strong>思维的懒惰：</strong> 既然有现成的 QBR（季度业务回顾）模板，为什么还要去深入一线调研客户的真实痛点？</li></ul><p>这种认知的平庸化，让客户成功从一种“商业艺术”降级为一种 <strong>“填空游戏”。</strong></p><p>当所有人都在复刻同样的动作，客户成功自然就变成了一种随处可见、毫无壁垒的事务性工作。</p><h2 id="5-被缩减为“KPI”的悲哀"><a href="#5-被缩减为“KPI”的悲哀" class="headerlink" title="5. 被缩减为“KPI”的悲哀"></a>5. 被缩减为“KPI”的悲哀</h2><p>在市场环境的压力下，续约率和增购率变成了客户成功管理的唯一指挥棒。</p><p>原本，<strong>续约应该是“客户获得价值”后顺理成章的副产品。</strong></p><p>但现在，为了保住续约，CSM 被迫做出变形动作：</p><ul><li><strong>讨好式服务：</strong> 处理大量与业务成功无关的琐碎需求。</li><li><strong>数据造假：</strong> 引导客户点击功能以刷高“活跃度”。</li><li><strong>末端催收：</strong> 在合同到期前三个月突然频繁联系，这种“带目的性的关心”让客户感到厌烦。</li></ul><p>当“成功”被等同于“打款”，客户成功就彻底沦为了披着 CS 外皮的二次销售。</p><h2 id="6-当客户成功被当作成本中心"><a href="#6-当客户成功被当作成本中心" class="headerlink" title="6. 当客户成功被当作成本中心"></a>6. 当客户成功被当作成本中心</h2><p>最终的临界点，是组织对客户成功的定位。</p><p>一旦客户成功被明确视为：</p><ul><li>成本可控的职能</li><li>需要证明 ROI 的部门</li><li>可以被 AI、流程、外包部分替代的角色</li></ul><p>那么它就不可避免地被压缩为事务集合。</p><p>因为只有事务，才好算账；只有流程，才好裁剪；只有动作，才好外包。</p><p>而判断、理解、博弈、共创，这些真正决定客户是否成功的能力，既昂贵，又难以量化。</p><p>甚至我暗戳戳地想：</p><p>CS 何以自信到<strong>成功</strong>是有明确路径而无需摸索和持续改进的？</p><h2 id="7-什么时候开始的？"><a href="#7-什么时候开始的？" class="headerlink" title="7. 什么时候开始的？"></a>7. 什么时候开始的？</h2><p>所以，什么时候主流叙述开始异化客户成功？</p><p>不是某一年、某个岗位说明、某套工具上线的瞬间。</p><p>而是当行业集体默认以下前提时开始的：</p><p><strong>客户成功可以被标准化，而不需要承担真实结果。</strong></p><p>从那一刻起，客户成功就不再是“帮助客户成功的人”，而是“把客户成功这件事处理完的人”。</p><p>那客户成功是否只能沦为事务性工作？</p><p><strong>不是。</strong></p><p>异化不是必然，但反抗需要代价。</p><h2 id="8-反异化的代价是什么？"><a href="#8-反异化的代价是什么？" class="headerlink" title="8. 反异化的代价是什么？"></a>8. 反异化的代价是什么？</h2><p>至少意味着：</p><ol><li>接受不可规模化的判断。</li><li>容忍短期指标的不完美。</li><li>承认成功本身具有不确定性。</li><li>让人重新拥有对系统的否决权。</li></ol><p>这在今天的主流叙述中，恰恰是最不被鼓励的事情。</p><p>而<strong>真正的客户成功，往往就诞生在这些“不被鼓励”的地方。</strong></p><h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>客户成功的异化，本质上是企业在面对复杂商业世界时的一种 <strong>“简化本能”</strong>。</p><p>我们习惯于把难以捉摸的“价值”简化为可以管理的“指标”，结果却在指标中迷失了价值。</p><p>主流叙述的转向或许难以阻挡，但优秀的客户成功和组织应该明白：</p><p><strong>客户的成功，衡量标准不应是“打了多少电话”，而是“解决了客户哪个具体的业务痛点”。</strong></p><p>它不应是事务的堆砌，而应是 <strong>“通过主动干预实现客户业务价值”</strong> 的过程。</p><p>当客户成功被异化为事务性工作，它也就失去了存在的根本理由。</p><p>更何况，于此间的你我而言，也正是反标准化才确定了此岗的高薪地位。</p><p><strong>陛下何故谋反？</strong></p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
+    
+    
+    <summary type="html">本文深刻剖析了SaaS行业中“客户成功”职能的异化现象：它如何从一项确保客户实现业务价值的战略工作，蜕变为追求流程化、标准化的事务性岗位。文章揭示了在规模化焦虑、工具反客为主及KPI暴政下，客户成功从业者从“价值共创者”沦为“动作执行者”的困境，并探讨了对抗异化、回归初心的可能路径。阅读本文，重新思考客户成功的本质。</summary>
+    
+    
+    
+    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>SaaS的丧钟，只可能敲响在产品和客户成功的手里</title>
@@ -405,27 +426,6 @@
     
     
     <summary type="html">顾问式销售的核心不是推销，而是通过有技巧的提问去发现客户的真实需求。本文从“为什么要问”到“如何问”，再到完整的顾问式销售流程，深入剖析了提问的力量，强调销售不在于说得多漂亮，而在于问得多深刻。</summary>
-    
-    
-    
-    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
-    
-    
-    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>后SaaS时代，用户需求没那么重要了</title>
-    <link href="https://heycsm.com/2025/09/10/%E5%90%8ESaaS%E6%97%B6%E4%BB%A3%EF%BC%8C%E7%94%A8%E6%88%B7%E9%9C%80%E6%B1%82%E6%B2%A1%E9%82%A3%E4%B9%88%E9%87%8D%E8%A6%81%E4%BA%86/"/>
-    <id>https://heycsm.com/2025/09/10/%E5%90%8ESaaS%E6%97%B6%E4%BB%A3%EF%BC%8C%E7%94%A8%E6%88%B7%E9%9C%80%E6%B1%82%E6%B2%A1%E9%82%A3%E4%B9%88%E9%87%8D%E8%A6%81%E4%BA%86/</id>
-    <published>2025-09-10T11:30:21.000Z</published>
-    <updated>2025-09-10T11:31:48.000Z</updated>
-    
-    <content type="html"><![CDATA[<div id="readmore-container"><p>当你还在功能清单上较劲时，赢面已经不在纸面上了。</p><p>还记得几年前，大家谈 SaaS 的时候，最常挂在嘴边的一句话是：<strong>“一切从用户需求出发。”</strong></p><p>每天访谈用户，做功能清单，快速迭代，谁能最快解决核心痛点，谁就能拿下市场。</p><p>可到了今天，我们不得不面对一个残酷的现实：</p><p><strong>需求已经不再是护城河。</strong></p><h2 id="1-过去：靠痛点崛起"><a href="#1-过去：靠痛点崛起" class="headerlink" title="1. 过去：靠痛点崛起"></a>1. 过去：靠痛点崛起</h2><p>早期的 SaaS 世界是纯粹的。</p><p>一个小小的效率工具，一个简单的 CRM 功能，甚至只是一套低价的 OA，都可能在市场杀出血路。因为那时候，用户真的有痛点，真的在找工具。</p><p>创业者每天跟用户打电话，听他们抱怨 Excel 太复杂、审批太混乱、团队沟通太低效。</p><p>只要你能给出一个简单、便宜、好用的方案，用户就会买单。</p><p>这是 SaaS 1.0 的黄金年代——需求驱动一切。</p><h2 id="2-现在：需求不再稀缺"><a href="#2-现在：需求不再稀缺" class="headerlink" title="2. 现在：需求不再稀缺"></a>2. 现在：需求不再稀缺</h2><p>可当行业走到今天，几乎所有痛点都有人解决过。</p><p>CRM？有几十个版本。</p><p>协同？钉钉、飞书、企业微信已经把赛道压到极致。</p><p>财务、人力、知识库？连中小厂都能找到替代品。</p><p>于是，一个冷冰冰的事实摆在面前：</p><p><strong>用户需求再怎么被满足，也不会自动转化为增长。</strong></p><p>因为需求不再是稀缺品，那功能自然不再是壁垒。</p><p>用户想要的，你隔壁公司也能给；甚至免费也能给。</p><p>你再怎么收集用户反馈，也只是给自己做一张漂亮却无力的需求表。</p><p>卖不出去跟产品好坏已经没那么大关系了。</p><h2 id="3-后-SaaS-时代：拼的不是需求，而是生意"><a href="#3-后-SaaS-时代：拼的不是需求，而是生意" class="headerlink" title="3. 后 SaaS 时代：拼的不是需求，而是生意"></a>3. 后 SaaS 时代：拼的不是需求，而是生意</h2><p>所以，进入后 SaaS 时代，真正决定胜负的不是谁理解用户更深，而是谁更懂“生意经”。</p><ul><li><strong>生态</strong>：谁能做成平台，把别人绑定进来。</li><li><strong>营销</strong>：谁能讲出一个让投资人、客户都信的故事。</li><li><strong>资本</strong>：谁能在烧钱游戏里活得更久，撑到收割的时刻。</li><li><strong>关系</strong>：谁能打通行业链条，成为标准，而不是一个孤立的功能点。</li></ul><p>简单说，<strong>前期靠需求拿入场券，后期靠商业模型赢门票。</strong></p><h2 id="4-一个残酷的隐喻"><a href="#4-一个残酷的隐喻" class="headerlink" title="4. 一个残酷的隐喻"></a>4. 一个残酷的隐喻</h2><p>想象一下，你开了一家餐厅。</p><p>前期大家都说“顾客的味觉最重要”，于是你拼命研究菜谱。</p><p>可当你发现街头十家店都能炒出同样的宫保鸡丁时，你才明白：</p><p>决定你活下来的，不再是菜的味道，而是位置、流量、供应链、加盟模式。</p><p>SaaS 也是一样。</p><p>产品好用是底线，但决定你能不能上市、能不能活得长久的，是生态位和商业模式。</p><h2 id="5-写给还在路上的创业者"><a href="#5-写给还在路上的创业者" class="headerlink" title="5. 写给还在路上的创业者"></a>5. 写给还在路上的创业者</h2><p>如果你正在做 SaaS 创业，别再把所有精力都压在“满足用户需求”上。</p><p>那只是生意的起点，不是终点。</p><p>更重要的是：从第一天起，你就要思考——</p><ul><li>我的产品能不能嵌进一个更大的生态？</li><li>我的商业模式是否能承受长期竞争？</li><li>我的市场故事，能不能打动资本和行业？</li></ul><p>因为后 SaaS 时代，比拼的不再是单点的功能，而是整盘的生意，必须从商业本质思考问题，包括商业模式、生态位、资本策略等。</p><p>甚至很多技术出身或产品出身的创业者最容易忽略的一点是：<strong>陷入“唯用户需求论”的误区</strong>，醉心于做产品忽略了公司、生意上的运营。</p><h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>用户需求，当然重要。</p><p>但那是所有人都能做的功课。</p><p>真正拉开差距的，不是你解决了什么痛点，而是你能不能把这些需求，编织进一张足够大的商业网络。</p><p><strong>用户需求只是 SaaS 的入场券，你要挣钱的生意才是终局。</strong></p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
-    
-    
-    <summary type="html">在后SaaS时代，企业竞争已从单纯满足用户痛点转向商业结构的较量。早期产品必须解决真实需求，但当行业进入成熟阶段，增长更依赖生态、渠道、定价与品牌的协同。本文深入解析SaaS从“痛点驱动”到“生意经驱动”的转型逻辑，揭示企业如何通过生态构建、打包定价、平台化与金融化手段赢得市场。</summary>
     
     
     
