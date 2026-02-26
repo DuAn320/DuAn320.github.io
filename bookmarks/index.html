@@ -1,0 +1,2181 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="HeyCSM, 客户成功经理, SaaS, Teambition, Worktile, PingCode, 段旭东">
+    
+    
+    <meta name="author" content="Anjou Duan">
+    
+    <!-- Completely eliminate flash of wrong theme -->
+    <script>
+        (function() {
+            const THEME_KEY = "REDEFINE-THEME-STATUS";
+            const DARK = "dark", LIGHT = "light";
+            
+            // Get preferred theme
+            function getTheme() {
+                try {
+                    const saved = localStorage.getItem(THEME_KEY);
+                    if (saved) {
+                        const { isDark } = JSON.parse(saved);
+                        return isDark ? DARK : LIGHT;
+                    }
+                } catch (e) {}
+                
+                return matchMedia("(prefers-color-scheme: dark)").matches ? DARK : LIGHT;
+            }
+            
+            // Apply theme to document
+            function applyTheme(theme) {
+                const isDark = theme === DARK;
+                const root = document.documentElement;
+                
+                // Set classes for compatibility
+                root.classList.add(theme);
+                root.classList.remove(isDark ? LIGHT : DARK);
+                root.style.colorScheme = theme;
+            }
+            
+            // Initial application
+            const theme = getTheme();
+            applyTheme(theme);
+            
+            // Listen for system preference changes
+            matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ matches }) => {
+                // Only update if using system preference (no localStorage entry)
+                if (!localStorage.getItem(THEME_KEY)) {
+                    applyTheme(matches ? DARK : LIGHT);
+                }
+            });
+            
+            // Set body classes ASAP (before DOMContentLoaded)
+            (function() {
+                const addBodyClass = () => {
+                    const b = document.body;
+                    if (!b) return false;
+                    b.classList.add(theme + "-mode");
+                    return true;
+                };
+
+                // Try immediately
+                if (addBodyClass()) return;
+
+                // Observe until body exists
+                const mo = new MutationObserver(() => {
+                    if (addBodyClass()) mo.disconnect();
+                });
+                mo.observe(document.documentElement, { childList: true, subtree: true });
+            })();
+        })();
+    </script>
+    
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+        
+        
+        
+            <link rel="preconnect" href="https://evan.beee.top" crossorigin>
+        
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="https://heycsm.com/bookmarks/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+    
+        
+        <meta name="description" content="HeyCSM，一个有态度、且有趣更有料的客户成功经理网站。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="导航">
+<meta property="og:url" content="https://heycsm.com/bookmarks/">
+<meta property="og:site_name" content="HeyCSM">
+<meta property="og:description" content="HeyCSM，一个有态度、且有趣更有料的客户成功经理网站。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://heycsm.com/bookmarks/heycsm-logo.png">
+<meta property="article:published_time" content="2024-09-06T15:03:01.000Z">
+<meta property="article:modified_time" content="2024-12-13T08:40:00.000Z">
+<meta property="article:author" content="Anjou Duan">
+<meta property="article:tag" content="HeyCSM, 客户成功经理, SaaS, Teambition, Worktile, PingCode, 段旭东">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://heycsm.com/bookmarks/heycsm-logo.png">
+    
+    
+        <!-- Google tag (gtag.js) -->
+        <script src="https://www.googletagmanager.com/gtag/js?id=G-DSCEBEZQ6K"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-DSCEBEZQ6K');
+        </script>
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="/images/heycsm-favicon.svg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/heycsm-favicon.svg">
+    <meta name="theme-color" content="#3F90FF">
+    <link rel="shortcut icon" href="/images/heycsm-favicon.svg">
+    <!--- Page Info-->
+    
+    <title>
+        
+            导航 | HeyCSM
+        
+    </title>
+
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.9.0/source/fonts/Chillax/chillax.css">
+
+    <!--- Inject Part-->
+    
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.9.0/source/css/build/tailwind.css">
+    
+
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.9.0/source/fonts/GeistMono/geist-mono.css">
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.9.0/source/fonts/Geist/geist.css">
+    <!--- Font Part-->
+    
+        <link href="/fonts/DingTalk/dingtalk.css" rel="stylesheet">
+    
+    
+    
+    
+    
+        <link href="/fonts/DingTalk/dingtalk.css" rel="stylesheet">
+    
+    
+        <script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.9.0/source/js/build/libs/anime.min.js" ></script>
+    
+
+    <script id="hexo-configurations">
+    window.config = {"hostname":"heycsm.com","root":"/","language":"zh-CN","path":"search.json"};
+    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"0px","image_alignment":"center","image_caption":true,"link_icon":true,"delete_mask":false,"title_alignment":"left","headings_top_spacing":{"h1":"3.2rem","h2":"2.4rem","h3":"1.9rem","h4":"1.6rem","h5":"1.4rem","h6":"1.3rem"}},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":["A better me, a better you."]},"code_block":{"copy":true,"style":"mac","highlight_theme":{"light":"github","dark":"vs2015"},"font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":6,"number":false,"expand":true,"init_open":true},"copyright":{"enable":true,"default":"cc_by_sa"},"lazyload":true,"pangu_js":false,"recommendation":{"enable":true,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery7-light.jpeg","skip_dirs":[]}},"colors":{"primary":"#3F90FF","secondary":null,"default_mode":"light"},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null},"title":{"enable":true,"family":"DingTalk JinBuTi","url":"/fonts/DingTalk/dingtalk.css"}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":true},"scroll_progress":{"bar":false,"percentage":true},"website_counter":{"url":"https://cn.vercount.one/js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"preloader":{"enable":true,"custom_message":"你好，客户成功经理"},"side_tools":{"gear_rotation":true,"auto_expand":false},"open_graph":{"enable":true,"image":"heycsm-logo.png","description":"HeyCSM，一个有态度、且有趣更有料的客户成功经理网站。"},"google_analytics":{"enable":true,"id":"G-DSCEBEZQ6K"}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"/images/wallhaven-wqery8-light.svg","dark":"/images/wallhaven-wqery8-dark.svg"},"title":"HeyCSM","subtitle":{"text":["你的到来，我们喜不自胜","并肩让进步发生，与有荣焉"],"hitokoto":{"enable":false,"show_author":false,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#000000","dark":"#FFFFFF"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":true,"family":"DingTalk JinBuTi","url":"/fonts/DingTalk/dingtalk.css"},"social_links":{"enable":true,"style":"default","links":[{"icon":"fa-brands fa-github","url":null},{"icon":"fa-brands fa-twitter","url":null},{"icon":"fa-solid fa-at","url":"anjou_duan@qq.com"},{"icon":"fa-brands fa-telegram","url":null},{"icon":"/images/custom-icon.svg","url":null}],"qrs":[{"icon":"fa-brands fa-weixin","qr":"https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG"},{"icon":"fa-solid fa-user-plus","qr":"https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091633309.JPG"},{"icon":"fa-solid fa-mug-hot","qr":"https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091644205.JPG"}]}},"plugins":{"feed":{"enable":true},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null,"lrc":null}]},"mermaid":{"enable":false,"version":"11.4.1","theme":{"light":"default","dark":"dark"}}},"version":"2.9.0","navbar":{"auto_hide":false,"color":{"left":"#D1D5DB","right":"#D1D5DB","transparency":80},"width":{"home":"1200px","pages":"1000px"},"links":{"Home":{"path":"none","icon":"fa-regular fa-house"},"导航":{"path":"/bookmarks","icon":"fa-solid fa-bookmark"},"职位":{"path":"https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkwNzczNjQwNg==&action=getalbum&album_id=4291025237929738240&scene=126#wechat_redirect","icon":"fa-solid fa-user-check"},"百科":{"path":"/wiki","icon":"fa-solid fa-book-open"},"更多":{"icon":"fa-solid fa-ellipsis-h","submenus":{"关于我":"/about","关于Heycsm":"/aboutheycsm","关于朋友们":"/aboutfriends","友情链接":"/links"}}},"search":{"enable":true,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur","masonry":{"batch_size":12,"initial_batch_size":24}},"home":{"sidebar":{"enable":true,"position":"left","first_item":"menu","announcement":"你好，客户成功经理","show_on_mobile":true,"links":{"文章":{"path":"/archives","icon":"fa-regular fa-archive"},"标签":{"path":"/tags","icon":"fa-regular fa-tags"},"分类":{"path":"/categories","icon":"fa-regular fa-folder"}}},"article_date_format":"auto","excerpt_length":200,"categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footer":{"runtime":true,"icon":"<i class=\"fa-solid fa-heart fa-beat\" style=\"--fa-animation-duration: 0.5s; color: #f54545\"></i>","start":"2024/7/25 13:46:00","statistics":true,"customize":"<span style=\"color:#E62412;font-weight:bold;\">heycsm.com</span> - <span style=\"color:#1B9AEE;font-weight:bold;\">你好，客户成功经理</span></p>","icp":{"enable":true,"number":"免责声明：本站所提及的产品名称和商标均属各权利人所有，仅供信息分享，不涉及推广或商业合作，如有侵权请联系处理。","url":"mailto:anjou_duan@qq.com"}},"footerStart":"2024/7/25 13:46:00","mermaid":{"style":{"light":"default","dark":"dark"}}};
+    window.lang_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+    window.i18n = {"search":"站内搜索您需要的内容...","toc":"目录","prev":"上一页","next":"下一页","prev_posts":"上一篇","next_posts":"下一篇","page":"第 %d 页","recent_posts":"最新文章","share":"分享","powered_by":"由 %s 驱动","theme":"主题","rss_feed":"RSS Feed","category":"分类","categories":"分类","tag":"标签","tags":"标签","post":"文章","posts":"文章","tagcloud":"标签云","comment":"评论","comments":"评论","top":"置顶","sticky":"置顶","go-back-home":"回到首页","masonry_loading":"照片加载中...","image_viewer":"图片查看器","close":"关闭","exif":{"title":"EXIF","cards":{"camera":"相机","lens":"镜头","exposure":"曝光","other":"其他"},"fields":{"make":"品牌","model":"机型","date_taken":"拍摄时间","lens_model":"镜头","focal_length":"焦距","focus_mode":"对焦模式","shutter":"快门","aperture":"光圈","iso":"感光度","exposure_program":"曝光程序","exposure_compensation":"曝光补偿","metering_mode":"测光模式","flash":"闪光灯","white_balance":"白平衡","latitude":"纬度","longitude":"经度","altitude":"海拔"},"status":{"loading":"加载中...","no_exif":"无 EXIF 信息","library_missing":"EXIF 库未加载","image_source_missing":"图片地址不可用","unavailable":"EXIF 不可用（可能被 CORS 阻止或缺少元数据）","flag_unavailable":"EXIF 不可用"}},"home":"首页","archive":"归档","archives":"归档","about":"关于","links":"链接","link":"链接","friends":"友情链接","friend":"友情链接","timeline":"时间轴","shuoshuo":"说说","bookmarks":"书签","site_uv":"访问人数","site_pv":"总访问量","read_more":"阅读全文","wordcount":"字","min2read":"分钟","changelog":"更新日志","status":"状态","runtime":"博客已运行","days":"天","hours":"小时","minutes":"分钟","seconds":"秒","optimized_by":"并由 Evan 进行优化","rights":"版权所有","site_posts":"共撰写了 %s 篇文章","site_wordcount":"共 %s 字","copyright":{"title":"标题","author":"作者","link":"链接","create_time":"创建于","update_time":"更新于","license_title":"版权声明","license_content":"本文章采用 %s 进行许可。","all_rights_reserved":"版权所有 &#169 %s，禁止转载。","public_domain":"本文为公有领域作品，可自由转载、引用。"},"ago":{"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"},"create_time":"创建","update_time":"更新","expired":"这篇文章最后更新于 %s 天前，内容可能已经过时。"};
+    window.data = {"masonry":false};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.9.0/source/fontawesome/fontawesome.min.css">
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.9.0/source/fontawesome/brands.min.css">
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.9.0/source/fontawesome/solid.min.css">
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.9.0/source/fontawesome/regular.min.css">
+    
+    
+    
+    
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="HeyCSM" type="application/atom+xml">
+</head>
+
+
+<body>
+	<div class="progress-bar-container">
+	
+
+	
+	<span class="pjax-progress-bar"></span>
+	<!--        <span class="swup-progress-icon">-->
+	<!--            <i class="fa-solid fa-circle-notch fa-spin"></i>-->
+	<!--        </span>-->
+	
+</div>
+
+<style>
+    :root {
+        --preloader-background-color: #fff;
+        --preloader-text-color: #000;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --preloader-background-color: #202124;
+            --preloader-text-color: #fff;
+        }
+    }
+
+    @media (prefers-color-scheme: light) {
+        :root {
+            --preloader-background-color: #fff;
+            --preloader-text-color: #000;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .ml13 {
+            font-size: 2.6rem !important; /* Adjust this value as needed */
+        }
+    }
+
+    .preloader {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem; /* Tailwind 'gap-4' is 1rem */
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        padding: 12px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh; /* 'h-screen' is 100% of the viewport height */
+        background-color: var(--preloader-background-color);
+        z-index: 1100; /* 'z-[1100]' sets the z-index */
+        transition: opacity 0.2s ease-in-out;
+    }
+
+    .ml13 {
+        font-size: 3.2rem;
+        /* text-transform: uppercase; */
+        color: var(--preloader-text-color);
+        letter-spacing: -1px;
+        font-weight: 500;
+        font-family: 'Chillax-Variable', sans-serif;
+        text-align: center;
+    }
+
+    .ml13 .word {
+        display: inline-flex;
+        flex-wrap: wrap;
+        white-space: nowrap;
+    }
+
+    .ml13 .letter {
+        display: inline-block;
+        line-height: 1em;
+    }
+</style>
+
+<div class="preloader">
+    <h2 class="ml13">
+        你好，客户成功经理
+    </h2>
+    <script>
+        var textWrapper = document.querySelector('.ml13');
+        // Split text into words
+        var words = textWrapper.textContent.trim().split(' ');
+
+        // Clear the existing content
+        textWrapper.innerHTML = '';
+
+        // Wrap each word and its letters in spans
+        words.forEach(function(word) {
+            var wordSpan = document.createElement('span');
+            wordSpan.classList.add('word');
+            wordSpan.innerHTML = word.replace(/\S/g, "<span class='letter'>$&</span>");
+            textWrapper.appendChild(wordSpan);
+            textWrapper.appendChild(document.createTextNode(' ')); // Add space between words
+        });
+
+        var animation = anime.timeline({ loop: true })
+            .add({
+                targets: '.ml13 .letter',
+                translateY: [20, 0],
+                translateZ: 0,
+                opacity: [0, 1],
+                filter: ['blur(5px)', 'blur(0px)'],
+                easing: "easeOutExpo",
+                duration: 1200,
+                delay: (el, i) => 300 + 20 * i,
+            })
+            .add({
+                targets: '.ml13 .letter',
+                translateY: [0, -20],
+                opacity: [1, 0],
+                filter: ['blur(0px)', 'blur(5px)'],
+                easing: "easeInExpo",
+                duration: 1000,
+                delay: (el, i) => 15 * i,
+                complete: function() {
+                    hidePreloader();
+                }
+            }, '-=700');
+
+
+        let themeStatus = JSON.parse(localStorage.getItem('REDEFINE-THEME-STATUS'))?.isDark;
+
+        // If the theme status is not found in local storage, check the preferred color scheme
+        if (themeStatus === undefined || themeStatus === null) {
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                themeStatus = 'dark';
+            } else {
+                themeStatus = 'light';
+            }
+        }
+
+        // Now you can use the themeStatus variable in your code
+        if (themeStatus) {
+            document.documentElement.style.setProperty('--preloader-background-color', '#202124');
+            document.documentElement.style.setProperty('--preloader-text-color', '#fff');
+        } else {
+            document.documentElement.style.setProperty('--preloader-background-color', '#fff');
+            document.documentElement.style.setProperty('--preloader-text-color', '#000');
+        }
+
+        window.addEventListener('load', function () {
+            setTimeout(hidePreloader, 5000); // Call hidePreloader after 5000 milliseconds if not already called by animation
+        });
+
+        function hidePreloader() {
+            var preloader = document.querySelector('.preloader');
+            preloader.style.opacity = '0';
+            setTimeout(function () {
+                preloader.style.display = 'none';
+            }, 200);
+        }
+    </script>
+</div>
+
+<main class="page-container" id="swup">
+
+	
+
+	<div class="main-content-container flex flex-col justify-between min-h-dvh">
+		<div class="main-content-header">
+			<header class="navbar-container px-6 md:px-12">
+    <div class="navbar-content transition-navbar ">
+        <div class="left">
+            
+                <a class="logo-image h-8 w-8 sm:w-10 sm:h-10 mr-3" href="/">
+                    <img src="/images/heycsm-logo.png" class="w-full h-full rounded-xs">
+                </a>
+            
+            <a class="logo-title" href="/">
+                
+                HeyCSM
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="active"
+                                   href="/bookmarks"
+                                        >
+                                    <i class="fa-solid fa-bookmark fa-fw"></i>
+                                    导航
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   target="_blank" rel="noopener" href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkwNzczNjQwNg==&amp;action=getalbum&amp;album_id=4291025237929738240&amp;scene=126#wechat_redirect"
+                                        >
+                                    <i class="fa-solid fa-user-check fa-fw"></i>
+                                    职位
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/wiki"
+                                        >
+                                    <i class="fa-solid fa-book-open fa-fw"></i>
+                                    百科
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="has-dropdown"
+                                   href="#"
+                                        onClick=&#34;return false;&#34;>
+                                    <i class="fa-solid fa-ellipsis-h fa-fw"></i>
+                                    更多
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a href="/about">
+                                                    关于我
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/aboutheycsm">
+                                                    关于HEYCSM
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/aboutfriends">
+                                                    关于朋友们
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/links">
+                                                    友情链接
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile sheet -->
+    <div class="navbar-drawer h-dvh w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
+            
+                
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/bookmarks"
+                        >
+                            <span>
+                                导航
+                            </span>
+                            
+                                <i class="fa-solid fa-bookmark fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           target="_blank" rel="noopener" href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkwNzczNjQwNg==&amp;action=getalbum&amp;album_id=4291025237929738240&amp;scene=126#wechat_redirect"
+                        >
+                            <span>
+                                职位
+                            </span>
+                            
+                                <i class="fa-solid fa-user-check fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/wiki"
+                        >
+                            <span>
+                                百科
+                            </span>
+                            
+                                <i class="fa-solid fa-book-open fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                             navbar-data-toggle="submenu-更多"
+                        >
+                            <span>
+                                更多
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
+
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-更多">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/about">关于我</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/aboutheycsm">关于HEYCSM</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/aboutfriends">关于朋友们</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/links">友情链接</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
+
+            
+            
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/archives"
+                        >
+                            <span>文章</span>
+                            <i class="fa-regular fa-archive fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/tags"
+                        >
+                            <span>标签</span>
+                            <i class="fa-regular fa-tags fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/categories"
+                        >
+                            <span>分类</span>
+                            <i class="fa-regular fa-folder fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+            
+        </ul>
+
+        <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">9</div>
+        <div class="label text-third-text-color text-sm">标签</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">4</div>
+        <div class="label text-third-text-color text-sm">分类</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">239</div>
+        <div class="label text-third-text-color text-sm">文章</div>
+    </a>
+</div>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+		</div>
+
+		<div class="main-content-body transition-fade-up">
+			
+
+			<div class="main-content">
+				<div class="py-8 sm:py-0">
+	<h1 class="page-title-header">
+		导航
+	</h1>
+	<div class="flex flex-col md:flex-row gap-6 md:gap-12 w-full">
+
+
+		<!-- Left Sidebar - Categories -->
+		<div class="w-full md:w-48 shrink-0 md:sticky md:top-[var(--navbar-height)] h-fit sm:py-6">
+			<nav class="flex md:block overflow-x-auto scrollbar-hide pb-4 md:pb-0 gap-2">
+				
+				<a href="#项目管理" class="whitespace-nowrap md:whitespace-normal block px-3 py-2 rounded-lg 
+                   hover:bg-second-background-color hover:text-primary hover:scale-102 
+                   transition-all duration-200 border border-transparent 
+                   hover:border-second-background-color
+                          shrink-0 font-medium
+                          bookmark-nav-item"
+                   data-category="项目管理">
+					<i class="fa-regular fa-solid fa-list-check mr-2 w-6 h-6"></i>
+					项目管理
+				</a>
+				
+				<a href="#研发管理" class="whitespace-nowrap md:whitespace-normal block px-3 py-2 rounded-lg 
+                   hover:bg-second-background-color hover:text-primary hover:scale-102 
+                   transition-all duration-200 border border-transparent 
+                   hover:border-second-background-color
+                          shrink-0 font-medium
+                          bookmark-nav-item"
+                   data-category="研发管理">
+					<i class="fa-regular fa-solid fa-code mr-2 w-6 h-6"></i>
+					研发管理
+				</a>
+				
+				<a href="#知识管理" class="whitespace-nowrap md:whitespace-normal block px-3 py-2 rounded-lg 
+                   hover:bg-second-background-color hover:text-primary hover:scale-102 
+                   transition-all duration-200 border border-transparent 
+                   hover:border-second-background-color
+                          shrink-0 font-medium
+                          bookmark-nav-item"
+                   data-category="知识管理">
+					<i class="fa-regular fa-solid fa-book mr-2 w-6 h-6"></i>
+					知识管理
+				</a>
+				
+				<a href="#数智底座" class="whitespace-nowrap md:whitespace-normal block px-3 py-2 rounded-lg 
+                   hover:bg-second-background-color hover:text-primary hover:scale-102 
+                   transition-all duration-200 border border-transparent 
+                   hover:border-second-background-color
+                          shrink-0 font-medium
+                          bookmark-nav-item"
+                   data-category="数智底座">
+					<i class="fa-regular fa-solid fa-cogs mr-2 w-6 h-6"></i>
+					数智底座
+				</a>
+				
+				<a href="#devops" class="whitespace-nowrap md:whitespace-normal block px-3 py-2 rounded-lg 
+                   hover:bg-second-background-color hover:text-primary hover:scale-102 
+                   transition-all duration-200 border border-transparent 
+                   hover:border-second-background-color
+                          shrink-0 font-medium
+                          bookmark-nav-item"
+                   data-category="devops">
+					<i class="fa-regular fa-solid fa-server mr-2 w-6 h-6"></i>
+					DevOps
+				</a>
+				
+				<a href="#团队协作" class="whitespace-nowrap md:whitespace-normal block px-3 py-2 rounded-lg 
+                   hover:bg-second-background-color hover:text-primary hover:scale-102 
+                   transition-all duration-200 border border-transparent 
+                   hover:border-second-background-color
+                          shrink-0 font-medium
+                          bookmark-nav-item"
+                   data-category="团队协作">
+					<i class="fa-regular fa-solid fa-users mr-2 w-6 h-6"></i>
+					团队协作
+				</a>
+				
+				<a href="#低代码" class="whitespace-nowrap md:whitespace-normal block px-3 py-2 rounded-lg 
+                   hover:bg-second-background-color hover:text-primary hover:scale-102 
+                   transition-all duration-200 border border-transparent 
+                   hover:border-second-background-color
+                          shrink-0 font-medium
+                          bookmark-nav-item"
+                   data-category="低代码">
+					<i class="fa-regular fa-solid fa-drafting-compass mr-2 w-6 h-6"></i>
+					低代码
+				</a>
+				
+				<a href="#智能表格" class="whitespace-nowrap md:whitespace-normal block px-3 py-2 rounded-lg 
+                   hover:bg-second-background-color hover:text-primary hover:scale-102 
+                   transition-all duration-200 border border-transparent 
+                   hover:border-second-background-color
+                          shrink-0 font-medium
+                          bookmark-nav-item"
+                   data-category="智能表格">
+					<i class="fa-regular fa-solid fa-table mr-2 w-6 h-6"></i>
+					智能表格
+				</a>
+				
+				<a href="#连接器" class="whitespace-nowrap md:whitespace-normal block px-3 py-2 rounded-lg 
+                   hover:bg-second-background-color hover:text-primary hover:scale-102 
+                   transition-all duration-200 border border-transparent 
+                   hover:border-second-background-color
+                          shrink-0 font-medium
+                          bookmark-nav-item"
+                   data-category="连接器">
+					<i class="fa-regular fa-solid fa-link mr-2 w-6 h-6"></i>
+					连接器
+				</a>
+				
+			</nav>
+		</div>
+
+		<!-- Right Content - Bookmarks -->
+		<div class="flex-1 max-w-full">
+			
+			<section id="项目管理" class="mb-12">
+				<h2 class="text-2xl font-semibold text-second-text-color mb-4 pb-2 border-b border-border-color">
+					项目管理
+				</h2>
+
+				<div class="grid gap-6 lg:grid-cols-2">
+					
+					<a href="https://www.teambition.com" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/20/25/a6/2025a663-0736-96bb-cd56-cadc3fecfb2b/AppIcon-0-0-1x_U007emarketing-0-8-0-0-sRGB-85-220.png/400x400ia-75.webp" alt="钉钉项目 Teambition" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											钉钉项目 Teambition
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										Teambition 是阿里巴巴旗下团队协作工具，以项目和任务的可视化管理来支撑企业团队协作，适合产品、研发、设计、市场、运营、销售、HR 等各类团队，让企业协同化繁为简，轻松愉悦。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.worktile.com" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7c/6f/5e/7c6f5ea4-2484-b7b2-955f-422d865f7e03/Placeholder.mill/400x400bb-75.webp" alt="Worktile" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											Worktile
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										Worktile 深度整合项目与任务管理、OKR、网盘、在线沟通等应用，支持丰富的自定义功能，满足各行业各场景的个性化工作需求，助力企业提高管理效能。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.etppm.com" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/2f/ab/b62fab26-d7de-3333-0250-29452738a3cc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/400x400ia-75.webp" alt="易趋 EasyTrack" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											易趋 EasyTrack
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										易趋easytrack 专注于项目组合管理工具研发，在IT项目组合管理、产品研发管理、软件开发管理和专业服务自动化领域拥有丰富的实施经验，为企业级用户提供符合国内市场的项目组合管理系统工具。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://project.feishu.cn/home" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://s1-imfile.feishucdn.com/static-resource/v1/v3_00t7_4d370d1f-8058-4dc0-879c-4cf7960c83fg" alt="飞书项目 Meego" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											飞书项目 Meego
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										飞书 为复杂场景打造的专业项目管理平台，通过标准化工作流，大幅提升协作效率，驱动项目成功。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://app.wps.cn/#/pm?pm_src=wps_365" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://vasvip-pub.wpscdn.cn/prod/2T/2T-PM/website/logo.png?a=1@base@tag=imgScale&amp;F=Webp" alt="WPS 项目管理" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											WPS 项目管理
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										WPS项目管理 是金山办公推出的在线项目管理工具，旨在帮助团队高效地规划、执行和监控项目。通过该平台，用户可以创建任务列表、分配资源、跟踪进度，并利用甘特图等工具直观地管理项目时间表。此外，WPS项目管理支持多人在线协作编辑文档，方便团队成员实时沟通与协作。 ￼
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.shijinran.com/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://www.shijinran.com/favicon.ico" alt="泛微 事井然" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											泛微 事井然
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										泛微旗下的“事井然”是一个数智化项目管理平台，帮助组织统一管理项目“人员、任务、进度、合同、收支、文档”等信息，实现项目全过程数智化管理，让项目中的各类事项井然有序；让组织的各类项目“知进度·控成本·防风险·提质量”。 ￼
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.zoho.com.cn/projects/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3e/d1/c0/3ed1c007-43db-f6f5-4163-fcde2b4215ea/Placeholder.mill/400x400bb-75.webp" alt="Zoho Projects" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											Zoho Projects
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										Zoho Projects是一款企业级 项目管理系统，可在一个 项目管理软件 中实现所有项目和任务的可视化管理，免费试用Zoho Projects项目管理工具，制定项目计划，跟进项目进度，制作甘特图，创建任务依赖关系等。确保高质量项目交付。 ￼
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://trello.com/zh-Hans" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/77/01/51/77015193-486c-9ef1-3e90-125172bf9811/Placeholder.mill/400x400bb-75.webp" alt="Trello" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											Trello
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										Trello 是终极的项目管理工具。在几秒钟内启动看板，自动执行繁琐的任务，并在任何地方（甚至在移动设备上）进行协作。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.antbim.com/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://static.dingtalk.com/media/lALPDeC27XAhXfTNCTrNCTo_2362_2362.png" alt="易协云 蚂蚁分工" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											易协云 蚂蚁分工
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										蚂蚁分工致力于为企业提供管理体系流程落地的项目管理产品及解决方案。从流程规范管理、进度效率管理、质量评审管理、文档记录管理以及跨部门协作等方面，助力企业在研发生产中严格遵循体系认证规范，实现业务流程标准化和自动化，高效落实体系，提升产品质量和项目交付效率，让客户持续满意。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+				</div>
+			</section>
+			
+			<section id="研发管理" class="mb-12">
+				<h2 class="text-2xl font-semibold text-second-text-color mb-4 pb-2 border-b border-border-color">
+					研发管理
+				</h2>
+
+				<div class="grid gap-6 lg:grid-cols-2">
+					
+					<a href="https://www.pingcode.com" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4d/7b/87/4d7b8725-5ea1-4866-db19-0c93f8ad63a9/Placeholder.mill/400x400bb-75.webp" alt="PingCode" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											PingCode
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										PingCode 是简单易用的新一代研发管理工具，覆盖敏捷开发、测试管理、项目集和知识库，让研发管理自动化、数据化、智能化，帮助企业提升研发效能。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.ones.cn" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3a/a8/39/3aa8398f-90ca-22dc-04d8-2363ae289c83/AppIcon-0-0-1x_U007emarketing-0-5-0-0-85-220.png/400x400ia-75.webp" alt="ONES" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											ONES
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										ONES 是领先的企业级研发管理平台。从初创团队到中大型企业，ONES 助力企业更好更快发布产品。ONES先后收购了 Tower、为知笔记和 SegmentFault 思否社区。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.tapd.cn/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://p.qlogo.cn/bizmail/xo3ichlCvricuypH3V6EZMMUsh2Ricic2sdEpsuzicWhh10Ix6xwfyzLeNw/" alt="TAPD" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											TAPD
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										TAPD 是源自于腾讯的敏捷产品研发协作平台，提供贯穿敏捷开发生命周期的一站式服务。覆盖从产品概念形成、产品规划、需求分析、项目规划和跟踪、质量测试到构建发布、用户反馈跟踪的产品研发全过程，提供了灵活的可定制化应用和强大的集成能力，帮助研发团队有效地管理需求、资源、进度和质量，规范和改进产品研发过程，提高研发效率和产品质量。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.zentao.net" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/51/62/87/516287fb-7fe5-b6ab-bea5-ac4697c7404f/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/400x400ia-75.webp" alt="禅道" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											禅道
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										禅道 项目管理软件 是国产的开源免费项目管理软件，专注研发项目管理，内置需求管理、任务管理、bug管理、缺陷管理、用例管理、计划发布等功能，实现了软件的完整生命周期管理及全面支持IPD管理流程，是一款好用的项目管理平台。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.ligai.cn/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://www.ligai.cn/images/webclip.png" alt="LigaAI" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											LigaAI
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										LigaAI智能研发管理平台,前海智看科技为企业提供项目管理协作工具,智能规划项目进度,智能研发管理,迭代管理,敏捷开发,看板,辅助决策,项目规划,助力企业高质量,高效率地创新与成长。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.atlassian.com/zh/software/jira" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/84/58/62/84586286-4d90-2918-d7c2-21d29cbc0ada/Placeholder.mill/400x400bb-75.webp" alt="Jira" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											Jira
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										在 Jira 中让不可能变为可能。使用适用于敏捷团队的首选项目管理工具，规划、跟踪和发布世界一流的软件。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+				</div>
+			</section>
+			
+			<section id="知识管理" class="mb-12">
+				<h2 class="text-2xl font-semibold text-second-text-color mb-4 pb-2 border-b border-border-color">
+					知识管理
+				</h2>
+
+				<div class="grid gap-6 lg:grid-cols-2">
+					
+					<a href="https://www.notion.com/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b0/a8/18/b0a81800-9f9a-4f14-90bd-9be56ec2de69/Placeholder.mill/400x400bb-75.webp" alt="Notion" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											Notion
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										Notion崭新工具，在互联工作空间中管理 Wikis 百科、文档和项目，将你的多个工作应用程序融为一体，成为你和团队的一站式工作空间。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.atlassian.com/zh/customers/dropbox" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0d/e3/d5/0de3d5f3-ed33-3358-d037-ac231624536e/Placeholder.mill/400x400bb-75.webp" alt="Confluence" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											Confluence
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										借助 Confluence Cloud，Dropbox 拥有了企业级的互连工作区，从而可为员工提供更多协作方式并节省时间。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+				</div>
+			</section>
+			
+			<section id="数智底座" class="mb-12">
+				<h2 class="text-2xl font-semibold text-second-text-color mb-4 pb-2 border-b border-border-color">
+					数智底座
+				</h2>
+
+				<div class="grid gap-6 lg:grid-cols-2">
+					
+					<a href="https://www.dingtalk.com/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b7/e6/a3/b7e6a31a-65d7-394e-fd69-08cccb141da0/Placeholder.mill/400x400bb-75.webp" alt="钉钉" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											钉钉
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										钉钉（Ding Talk）是阿里巴巴集团打造的企业级智能移动办公平台，引领未来新一代工作方式，将陪伴每一个企业成长，是数字经济时代的企业组织协同办公和应用开发平台，是新生产力工具。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.feishu.cn" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dd/d6/6d/ddd66dd1-84ac-d776-3aba-0cd331c2fb88/Placeholder.mill/400x400bb-75.webp" alt="飞书" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											飞书
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										飞书——AI 时代先进生产力平台，一站式无缝办公协作，团队上下对齐目标，全面激活组织和个人。先进团队，先用飞书。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://work.weixin.qq.com/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/0e/c7/170ec7dd-a631-3ef7-2b8f-5c402e87147f/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/400x400ia-75.webp" alt="企业微信" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											企业微信
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										企业微信，是腾讯微信团队为企业打造的专业办公管理工具。与微信一致的沟通体验，丰富免费的OA应用，并与微信消息、小程序、微信支付等互通，助力企业高效办公和管理。全面安全保障，国际权威认证，银行级别加密水平，保障企业数据安全。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.weaver.com.cn/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://www.weaver.com.cn/img/favicon.ico" alt="泛微" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											泛微
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										泛微二十余年专注协同管理软件的研发创新，八万多家中大型组织选用的OA软件产品，让组织实现智能、协同、高效的数智化办公，助力组织的数智化转型；与腾讯云、华为云等云厂商达成战略合作。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.landray.com.cn/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://photogallery.oss.aliyuncs.com/photo/1010857221009260/28782/5668bb33-f7a8-4a82-a80a-65a46f759a30.png" alt="蓝凌" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											蓝凌
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										蓝凌，是数智化办公专家、国家高新技术企业、知识管理国家标准制定者、信创供应商10强；居于中国数字化智能办公与知识管理市场领先地位；秉承“让组织更智慧”的使命，通过新一代智能协同与应用开发平台，助力组织实现高效办公与数字化转型。蓝凌OA、智能门户、BPM流程、低代码、智能知识管理等产品，大量应用于央国企、金融、制造等行业百强及中国500强，积累了50000家客户。咨询热线4000-180-300
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.seeyon.com/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://www.seeyon.com/Public/Home/images/favicon.ico" alt="致远" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											致远
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										致远互联,中国协同OA办公管理软件及云服务领导提供商,拥有超过万余家政府机构及企业级客户,科创板上市公司（688369.sh）。免费咨询电话：400-700-3322。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.yunzhijia.com/home/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/37/4f/2e/374f2e3d-e8d4-7e05-dc41-fc3a23c699cb/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/400x400ia-75.webp" alt="云之家" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											云之家
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										云之家是面向企业服务的新一代智能协同云，旨在颠覆传统OA，门户、审批、考勤等应用，全栈适配国产信创生态；IDC相关数据显示，云之家连续第五年蝉联中国企业SAAS协同市场占有率第一，典型客户包括中国兵装、河钢集团、OPPO、碧桂园、华海通讯等各行各业的头部企业，以及云天励飞、褚氏农业、湖南力合等中大型企业和专精特新企业。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.microsoft.com/zh-cn/microsoft-teams/group-chat-software/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/c2/f6/a2c2f641-2aa8-485b-d379-8652257fb696/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/400x400ia-75.webp" alt="Microsoft Teams" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											Microsoft Teams
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										Microsoft Teams 让协作更轻松。所有工具和文件都整合在一个位置，旨在帮助你轻松自如地建立联系、保持有序并将想法付诸于实践。*
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+				</div>
+			</section>
+			
+			<section id="devops" class="mb-12">
+				<h2 class="text-2xl font-semibold text-second-text-color mb-4 pb-2 border-b border-border-color">
+					DevOps
+				</h2>
+
+				<div class="grid gap-6 lg:grid-cols-2">
+					
+					<a href="https://www.aliyun.com/product/yunxiao" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://static.dingtalk.com/media/lALPDf0i1R9UnGXM8Mzw_240_240.png" alt="云效" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											云效
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										阿里云企业级一站式研发协同平台，数十万企业都在用。支持公共云、专有云和混合云多种部署形态，通过云原生新技术和研发新模式，助力创新创业和数字化转型企业快速实现研发敏捷和组织敏捷，打造“双敏”组织，实现多倍效能提升。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://gitlab.cn/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://jihulab.com/assets/auth_buttons/gitlab_64-2957169c8ef64c58616a1ac3f4fc626e8a35ce4eb3ed31bb0d873712f2a041a0.png" alt="极狐 GitLab" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											极狐 GitLab
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										极狐GitLab中文官网，提供企业级源代码管理，GitLab CI/CD，CodeReview，研发效能管理，GitLab DevSecOps等产品及服务。GitLab一站式DevOps平台，加速和优化软件开发全生命周期。现在下载安装GitLab，成为精英效能组织。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://ezone.work/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://ezone.work/defaultFavicon.ico" alt="简单云" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											简单云
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										简单云(ezOne.work)是一款企业一站式DevOps研发协同与效能平台，提供文档管理、项目管理、代码托管、代码评审、代码扫描、测试管理、流水线编排、制品管理、自动化部署等研发全流程功能支持，让您的企业快速实现devops转型，加速业务成功！
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+				</div>
+			</section>
+			
+			<section id="团队协作" class="mb-12">
+				<h2 class="text-2xl font-semibold text-second-text-color mb-4 pb-2 border-b border-border-color">
+					团队协作
+				</h2>
+
+				<div class="grid gap-6 lg:grid-cols-2">
+					
+					<a href="https://clickup.com/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/0d/fa/c70dfa0d-0be0-4df0-857a-79740f58a8e9/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/400x400ia-75.webp" alt="ClickUp" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											ClickUp
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										我们的使命是让世界变得更高效。为此，我们打造了一款适用于工作的全能应用——涵盖任务、文档、目标和聊天功能。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.rishiqing.com" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/db/fb/f2/dbfbf266-03db-3bca-f60e-9afcb3b8fffc/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/400x400ia-75.webp" alt="日事清" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											日事清
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										日事清 是高效能团队管理专家，OKR、项目、任务、绩效、流程、知识库一站式管理，为追求高效、有序的工作方式的团队管理者，提供专业、有效的团队管理工具和方法，让工作变得井井有条。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.pekhr.com/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://wework.qpic.cn/wwpic/839845_BQ0_Ad6lQEae3f2_1692948000/0" alt="北极星OKR" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											北极星OKR
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										融云北极星依托先进的人工智能与云计算技术，精心研发出多款明星SaaS产品：北极星OGSM，北极星OKR，北极星项目，北极星任务以及北极星绩效等。为企业打造培训咨询服务和数字化工具于一体的全方位解决方案，助力企业顺利踏上数字化、智能化的经营管理之路，推动企业实现高质量发展，更好地适应时代发展的新需求。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://tower.im/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://wework.qpic.cn/wwpic3az/921373_j0fo6cH2SmO-nr9_1760348283/0" alt="Tower" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											Tower
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										Tower 帮助你更高效的安排工作任务，管理项目进度，沉淀团队知识，让每个人走得更快，让团队走得更远。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.banlikanban.com" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/24/6c/a1/246ca1ca-86c0-9a85-de5a-d17cd64ca3af/AppIcon-0a-0-1x_U007emarketing-0-6-0-85-220.png/400x400ia-75.webp" alt="板栗看板" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											板栗看板
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										板栗看板是一款在线可视化项目协作工具，让团队协作自动化、数据化、智能化。板栗看板整合了协同办公软件,OA办公系统,移动办公,办公自动化,项目管理,任务管理,OKR,网盘,在线沟通,日历,简报,审批,企业管理,目标管理,团队协作,甘特图,流程自定义,统计报表,时间管理,计划管理等，并提供免费下载注册登录，是市面上高性价比的在线协作工具。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.feixiang.com" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b0/ea/7f/b0ea7fc7-6ea9-375b-ae00-ec2819597ac1/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/400x400ia-75.webp" alt="飞项" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											飞项
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										飞项，是一款适合多人协作的目标及任务管理平台，可实现多端数据云同步、日程管理、任务协作、团队目标及项目管理，帮助你更好的管理自己与团队的效率和工作。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.tita.com" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/1e/81/18/1e811828-cc98-38b4-0b9a-62587ca09e4e/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/400x400ia-75.webp" alt="Tita" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											Tita
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										Tita 提供企业 OKR 目标管理，持续绩效考核、项目管理、工作计划，依据 PDCA 质量管理理论，提供 OKRs-E 目标执行管理应用框架，结合 CFR 和绩效考核，从企业战略目标制定，到工作计划执行，再到工作结果考核，激发员工潜能，实现企业高速增长，带领企业走进人员管理新时代。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+				</div>
+			</section>
+			
+			<section id="低代码" class="mb-12">
+				<h2 class="text-2xl font-semibold text-second-text-color mb-4 pb-2 border-b border-border-color">
+					低代码
+				</h2>
+
+				<div class="grid gap-6 lg:grid-cols-2">
+					
+					<a href="https://www.aliwork.com/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://down-cdn.dingtalk.com/media/lALPECdcHAv4bUnNAeDNAeA_480_480.png" alt="宜搭" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											宜搭
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										宜搭具备页面编排(表单门户等)、业务模型编排、业务流程编排、服务编排、数据展现及分析 5 大核心能力，用户通过简单的拖拽、配置，即可完成业务应用的搭建。同时，平台还具备一次搭建双端适配、权限独立设置、定制消息提醒推送及海量信息存储等特性。旨在为广大中小企业提供一套低成本的企业应用搭建解决方案。宜搭构建的应用，天然具备 云原生 (分布式计算、弹性扩容、异地容灾、CDN加速、企业级云安全) 和 钉原生 特性 (天然和钉钉的消息，通讯录 、待办打通，应用可以一键发布到钉钉群，工作台等)。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://qingflow.com/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/76/7e/fa767edc-0250-0a1d-24b5-522d86ccc0e8/AppIcon-0-1x_U007epad-0-1-85-220-0.png/400x400ia-75.webp" alt="轻流" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											轻流
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										轻流·AI无代码系统搭建平台，将可拖拽的无代码搭建方式与企业级 AI能力深度结合，无需编写代码即可快速构建、优化并运行专属管理系统，将管理理念高效转化为可落地执行的数字化方案，加速企业数字化转型升级
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.do1.com.cn/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://wework.qpic.cn/wwpic3az/916646_f2jcZMLPR9uYKSy_1723803335/0" alt="道一云七巧低代码" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											道一云七巧低代码
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										道一云七巧低代码是一个低代码应用搭建平台，除具备一般的表单、流程功能外，还支持页面级自定义。帮助企业打通企业微信、小程序以及集成现有系统，快速响应业务需求，实现企业数字化管理。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.jiandaoyun.com/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://static.dingtalk.com/media/lALPDefRxc5dlNXMmMyY_152_152.png" alt="简道云" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											简道云
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										简道云是零代码的应用搭建平台，可以帮助各行业人员在不使用代码的情况下搭建个性化的CRM、ERP、OA、项目管理、进销存等系统，产品包含自定义表单、自定义报表、自定义流程引擎、知识库、团队协作等功能，适用于各种业务场景。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.huoban.com" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://static.dingtalk.com/media/lALPDfJ6aBlDM7zNBADNBAA_1024_1024.png" alt="伙伴云" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											伙伴云
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										伙伴云平台,企业微信战略投资伙伴云,帮助企业5分钟完成应用搭建的零代码平台,对外连接微信用户,对内企微办公协同,使团队高效协作,开发者绿色通道,便于快速获取平台内外数据和服务
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+				</div>
+			</section>
+			
+			<section id="智能表格" class="mb-12">
+				<h2 class="text-2xl font-semibold text-second-text-color mb-4 pb-2 border-b border-border-color">
+					智能表格
+				</h2>
+
+				<div class="grid gap-6 lg:grid-cols-2">
+					
+					<a href="https://www.feishu.cn/product/base" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/57a5ebec0ba0489facebfc7a1bc3d8a5.png~tplv-jbbdkfciu3-png:0:0.png" alt="飞书多维表格" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											飞书多维表格
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										飞书多维表格是一款满足个性化需求的新一代效率应用。它具备表格的轻盈和业务系统的强大，融合了在线协作、信息管理和可视化能力，能够自适应团队思维和业务，满足你的个性化管理需求，让工具驱动业务飞跃。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://vika.cn/?home=1" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/12/cb/a1/12cba184-5180-35fe-66c4-3519d7a94683/AppIcon-1x_U007emarketing-0-7-0-0-85-220.png/400x400ia-75.webp" alt="vika 维格云" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											vika 维格云
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										一键训练AI的多维表格，将表格数据训练成AI客服、AI线索收集器、数据分析师和更懂你的GPT。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+				</div>
+			</section>
+			
+			<section id="连接器" class="mb-12">
+				<h2 class="text-2xl font-semibold text-second-text-color mb-4 pb-2 border-b border-border-color">
+					连接器
+				</h2>
+
+				<div class="grid gap-6 lg:grid-cols-2">
+					
+					<a href="https://www.jijyun.cn/" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://s3-imfile.feishucdn.com/static-resource/v1/v2_154ef031-ca82-40bb-8c11-07a80aa9310g" alt="集简云" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											集简云
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										集简云无代码集成与AI人工智能平台，无需开发集成企业微信，简道云，微信公众号，金数据，纷享销客，爱客CRM等数十种企业外部与内部系统，配合NLP语义分析技术与人工智能预测模型帮助企业搭建自动化与智能化的商业流程。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+					<a href="https://www.hezhihulian.com/product2/28.html" target="_blank" rel="noopener noreferrer" class="group block">
+						<div class="p-5 rounded-xl redefine-box-shadow-flat transition-all duration-300
+                                      hover:transform hover:-translate-y-1">
+							<div class="flex items-center gap-5">
+								<div class="w-12 h-12 rounded-xl overflow-hidden bg-second-background-color shrink-0
+                                                transform group-hover:scale-105 transition-transform duration-300">
+									<img src="https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/20241210184813287.jpg" alt="合智数据平台" class="w-full h-full object-cover" onerror="this.src='/images/bookmark-placeholder.svg'">
+								</div>
+								<div class="flex-1 min-w-0 flex flex-col gap-1">
+									<div class="flex items-center justify-between">
+										<h3 class="font-medium text-second-text-color group-hover:text-primary transition-colors">
+											合智数据平台
+										</h3>
+										<i class="fa-regular fa-arrow-right text-third-text-color opacity-0 group-hover:opacity-100 -translate-x-1
+                                                      group-hover:translate-x-0 transition-all duration-300"></i>
+									</div>
+									<p class="text-sm text-third-text-color line-clamp-2">
+										合智互联是国内互联网时代较有影响力的IT领域整合服务提供商。经过多年的发展，合智互联旗下业务覆盖IT系统集成、云计算与大数据、IT服务等领域。公司在政府、金融、互联网、教育、科研、医疗、制造、能源、交通、军队等行业拥有大量成功案例。
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+					
+				</div>
+			</section>
+			
+		</div>
+	</div>
+
+</div>
+			</div>
+
+			
+		</div>
+
+		<div class="main-content-footer">
+			<footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+            <div class="customize-info my-1"><span style="color:#E62412;font-weight:bold;">heycsm.com</span> - <span style="color:#1B9AEE;font-weight:bold;">你好，客户成功经理</span></p></div>
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2024</span>
+              -
+            
+            2026&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">Anjou Duan</a>
+            
+                
+                <p class="post-count space-x-0.5">
+                    <span>
+                        共撰写了 239 篇文章
+                    </span>
+                    
+                        <span>
+                            共 458.5k 字
+                        </span>
+                    
+                </p>
+            
+        </div>
+        
+            <script data-swup-reload-script src="https://cn.vercount.one/js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">访问人数</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">总访问量</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a> 驱动</span>
+            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.9.0</a></span>
+        </div>
+        
+            <div class="icp-info my-1"><a target="_blank" rel="nofollow" href="
+                
+                    mailto:anjou_duan@qq.com
+                
+                ">免责声明：本站所提及的产品名称和商标均属各权利人所有，仅供信息分享，不涉及推广或商业合作，如有侵权请联系处理。</a></div>
+        
+        
+            <div>
+                博客已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
+            </div>
+        
+        
+            <script data-swup-reload-script>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+        
+    </div>  
+</footer>
+		</div>
+	</div>
+
+	
+
+	<div class="right-side-tools-container">
+		<div class="side-tools-container">
+	<ul class="hidden-tools-list">
+		<li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-plus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-minus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+			<i class="fa-regular fa-moon"></i>
+		</li>
+
+		<!-- rss -->
+		
+		<li class="right-bottom-tools rss flex justify-center items-center">
+			<a class="flex justify-center items-center" href="/atom.xml" target="_blank">
+				<i class="fa-regular fa-rss"></i>
+			</a>
+		</li>
+		
+
+		
+
+		<li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+			<i class="fa-regular fa-arrow-down"></i>
+		</li>
+	</ul>
+
+	<ul class="visible-tools-list">
+		<li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+			<i class="fa-regular fa-cog fa-spin"></i>
+		</li>
+		
+		<li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+			<i class="arrow-up fas fa-arrow-up"></i>
+			<span class="percent"></span>
+		</li>
+		
+		
+	</ul>
+</div>
+	</div>
+
+	<div class="image-viewer-container" role="dialog" aria-modal="true" aria-label="图片查看器">
+	<button class="image-viewer-close" type="button" aria-label="关闭">
+		<i class="fa-solid fa-xmark"></i>
+	</button>
+	<button class="image-viewer-prev" type="button" aria-label="上一页">
+		<i class="fa-solid fa-chevron-left"></i>
+	</button>
+	<div class="image-viewer-frame">
+		<img src="" alt="">
+	</div>
+	<div class="image-viewer-exif-panel hidden absolute left-1/2 bottom-20 -translate-x-1/2 w-[min(92vw,420px)] max-h-[60vh] overflow-hidden rounded-2xl bg-background-color-transparent-80 p-4 text-left shadow-redefine-flat backdrop-blur-md" role="dialog" aria-label="EXIF" aria-hidden="true">
+		<div class="flex items-center justify-between mb-3">
+			<span class="text-sm font-semibold text-first-text-color">EXIF</span>
+			<button class="image-viewer-exif-close flex h-8 w-8 items-center justify-center rounded-full bg-background-color-transparent-80 text-first-text-color transition hover:bg-background-color-transparent-40" type="button" aria-label="关闭">
+				<i class="fa-solid fa-xmark text-[0.65rem]"></i>
+			</button>
+		</div>
+		<div class="image-viewer-exif-cards grid grid-cols-1 sm:grid-cols-2 gap-3 max-h-[50vh] overflow-y-auto pr-1 scrollbar-hide"></div>
+		<template class="image-viewer-exif-card-template">
+			<div class="rounded-lg bg-background-color-transparent-40 px-3 py-2">
+				<div class="image-viewer-exif-card-header flex items-center gap-2 mb-1">
+					<i class="image-viewer-exif-card-icon fa-solid fa-circle-info text-xs text-third-text-color"></i>
+					<div class="image-viewer-exif-card-title text-xs font-semibold text-first-text-color"></div>
+				</div>
+				<div class="image-viewer-exif-card-items flex flex-col gap-1"></div>
+			</div>
+		</template>
+	</div>
+	<button class="image-viewer-exif-toggle flex items-center gap-2 hidden absolute left-1/2 bottom-6 -translate-x-1/2 rounded-full border border-border-color bg-background-color-transparent-80 px-4 py-2 text-first-text-color backdrop-blur-md transition hover:bg-background-color-transparent-40" type="button" aria-label="EXIF" aria-expanded="false">
+		<i class="fa-solid fa-circle-info text-xs"></i>
+		<span class="text-xs font-semibold uppercase tracking-wider">EXIF</span>
+	</button>
+	<button class="image-viewer-next" type="button" aria-label="下一页">
+		<i class="fa-solid fa-chevron-right"></i>
+	</button>
+</div>
+
+
+	
+	<div class="search-pop-overlay">
+	<div class="popup search-popup">
+		<div class="search-header">
+			<span class="search-input-field-pre">
+				<i class="fa-solid fa-keyboard"></i>
+			</span>
+			<div class="search-input-container">
+				<input autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="站内搜索您需要的内容..." spellcheck="false" type="search" class="search-input">
+			</div>
+			<span class="popup-btn-close">
+				<i class="fa-solid fa-times"></i>
+			</span>
+		</div>
+		<div id="search-result">
+			<div id="no-result">
+				<i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+			</div>
+		</div>
+	</div>
+</div>
+	
+
+</main>
+
+
+<script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.9.0/source/js/build/libs/Swup.min.js" ></script><script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.9.0/source/js/build/libs/SwupSlideTheme.min.js" ></script><script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.9.0/source/js/build/libs/SwupScriptsPlugin.min.js" ></script><script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.9.0/source/js/build/libs/SwupProgressPlugin.min.js" ></script><script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.9.0/source/js/build/libs/SwupScrollPlugin.min.js" ></script><script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.9.0/source/js/build/libs/SwupPreloadPlugin.min.js" ></script>
+<script>
+    window.swup = new Swup({
+        plugins: [
+            new SwupScriptsPlugin({
+                optin: true,
+            }),
+            new SwupProgressPlugin(),
+            new SwupScrollPlugin({
+                offset: 80,
+            }),
+            new SwupSlideTheme({
+                mainElement: ".main-content-body",
+            }),
+            new SwupPreloadPlugin(),
+        ],
+        containers: ["#swup"],
+    });
+
+    window.dispatchEvent(
+        new CustomEvent("redefine:swup:ready", {
+            detail: {
+                swup: window.swup,
+            },
+        }),
+    );
+</script>
+
+
+
+	<script type="module" src="https://evan.beee.top/projects/hexo-theme-redefine@2.9.0/source/js/build/main.js" ></script>
+
+
+    <script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.9.0/source/js/build/libs/odometer.min.js" ></script>
+    <link rel="stylesheet" href="https://evan.beee.top/projects/hexo-theme-redefine@2.9.0/source/assets/odometer-theme-minimal.css">
+
+
+
+
+
+
+  <script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.9.0/source/js/build/libs/Typed.min.js" ></script>
+
+
+
+
+
+
+
+
+<script  src="https://evan.beee.top/projects/hexo-theme-redefine@2.9.0/source/js/build/libs/moment-with-locales.min.js" data-swup-reload-script></script>
+
+
+	
+</body>
+
+</html>
