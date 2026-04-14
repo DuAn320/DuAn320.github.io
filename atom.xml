@@ -6,7 +6,7 @@
   <link href="https://heycsm.com/atom.xml" rel="self"/>
   
   <link href="https://heycsm.com/"/>
-  <updated>2026-03-02T14:38:03.000Z</updated>
+  <updated>2026-04-14T10:41:02.074Z</updated>
   <id>https://heycsm.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SaaS失利，技术和商业双重层面的不再被提起</title>
+    <link href="https://heycsm.com/2026/04/14/SaaS%E5%A4%B1%E5%88%A9%EF%BC%8C%E6%8A%80%E6%9C%AF%E5%92%8C%E5%95%86%E4%B8%9A%E5%8F%8C%E9%87%8D%E5%B1%82%E9%9D%A2%E7%9A%84%E4%B8%8D%E5%86%8D%E8%A2%AB%E6%8F%90%E8%B5%B7/"/>
+    <id>https://heycsm.com/2026/04/14/SaaS%E5%A4%B1%E5%88%A9%EF%BC%8C%E6%8A%80%E6%9C%AF%E5%92%8C%E5%95%86%E4%B8%9A%E5%8F%8C%E9%87%8D%E5%B1%82%E9%9D%A2%E7%9A%84%E4%B8%8D%E5%86%8D%E8%A2%AB%E6%8F%90%E8%B5%B7/</id>
+    <published>2026-04-14T10:37:49.000Z</published>
+    <updated>2026-04-14T10:41:02.074Z</updated>
+    
+    <content type="html"><![CDATA[<div id="readmore-container"><p><strong>我没有忘记客户成功，只是客户成功已经被归咎于人力重资产的垃圾堆了。</strong></p><p>曾几何时，SaaS 被视为软件行业的终极答案。</p><p>它代表着一种优雅的未来：</p><p>持续收费替代一次性买断，云端部署取代本地安装，产品迭代不再依赖用户升级。</p><p>资本市场为其赋予极高溢价，创业者趋之若鹜，技术人以之为信仰。</p><p>但今天，一个微妙却真实的变化正在发生：</p><p><strong>SaaS 没有被宣告失败，却正在“被不再提起”。</strong></p><p>这不是一场崩塌，而是一场更深层的退场——</p><p>技术叙事与商业叙事的双重失效。</p><h2 id="1-技术层面，SaaS-不再是“更优解”"><a href="#1-技术层面，SaaS-不再是“更优解”" class="headerlink" title="1. 技术层面，SaaS 不再是“更优解”"></a>1. 技术层面，SaaS 不再是“更优解”</h2><p>最初，SaaS 的技术逻辑是成立的。</p><p>在带宽提升、云计算成熟的背景下，将软件运行环境从本地迁移至云端，确实降低了部署成本，提高了协同效率，也让更新变得无缝。这是一种典型的“基础设施红利驱动创新”。</p><p>但问题在于，这种红利是一次性的。</p><p>当云成为默认基础设施后，SaaS 不再具备“技术先进性”，而只是“默认实现方式”。它不再是 differentiation，而是 baseline。</p><p>哪怕是正在进行时的 AI，人们也不得不关注于 token 费用，算力，电力。</p><p>更关键的是，新一代技术正在绕过 SaaS：</p><ul><li>AI 原生应用不再强调“软件形态”，而是“能力调用”</li><li>API 化与模块化让“完整产品”被拆解</li><li>本地大模型与边缘计算削弱了云端依赖</li></ul><p>换句话说，SaaS 解决的是“软件如何交付”，而新技术关心的是“能力如何存在”。</p><p>当问题被重写，答案自然失效。</p><h2 id="2-商业层面，哪里来的增长神话？"><a href="#2-商业层面，哪里来的增长神话？" class="headerlink" title="2. 商业层面，哪里来的增长神话？"></a>2. 商业层面，哪里来的增长神话？</h2><p>如果说技术层面是“失语”，那商业层面就是“失血”。</p><p>SaaS 最核心的商业逻辑是：</p><p><strong>高获客成本 + 长周期回收 + 稳定续费</strong></p><p>这在增长时代是成立的，因为：</p><ul><li>市场不断扩张</li><li>客户预算持续增长</li><li>融资可以覆盖亏损</li></ul><p>但当宏观环境变化，这套模型开始暴露脆弱性：</p><ol><li><p><strong>获客成本失控</strong><br>流量红利消失，销售费用持续攀升，CAC（客户获取成本）越来越高。</p></li><li><p><strong>续费不再稳定</strong><br>企业开始削减软件支出，SaaS 从“基础设施”退化为“可选成本”。</p></li><li><p><strong>增长叙事失效</strong><br>投资人不再为“ARR 增长”买单，而开始关注利润与现金流。</p></li></ol><p>结果是，SaaS 公司陷入一个悖论：</p><p><strong>不烧钱就无法增长，继续烧钱又无法被容忍。</strong></p><p>这不是周期波动，而是商业模型本身的边界被触达，哪怕你的模型美曰其名的“漏斗”或“蝴蝶”。</p><h2 id="3-“不再被提起”，更深的失败"><a href="#3-“不再被提起”，更深的失败" class="headerlink" title="3. “不再被提起”，更深的失败"></a>3. “不再被提起”，更深的失败</h2><p>真正值得警惕的，不是失败，而是沉默。</p><p>今天很少有人再高调讨论“SaaS 是未来”，也很少有创业项目以“SaaS 模式”作为核心卖点。它没有被否定，但也不再被强调。</p><p><strong>以前我们吹捧“云原生”、“多租户架构”，觉得这是先进生产力。</strong></p><p><strong>但现在看，这些技术名词在面对“私有化部署”和“无尽的定制化需求”时，显得多么苍白。技术上的“不被提起”，是因为我们发现所谓的标准化 SaaS 架构，在解决复杂业务逻辑时，效率反而不如传统的项目制外包。</strong></p><p><strong>在烧钱换规模的时代过去后，大家惊觉：</strong></p><p><strong>续费率上不去，获客成本高得离谱，客单价又被内卷压到了尘埃里。投资人不再相信“订阅制”的画饼，企业主也不再愿意为“未来的提效”买单。</strong></p><p><strong>就连曾经的 SaaS 布道者们，要么转型去做 AI 套壳，要么深耕传统私有化软件，或者干脆转行。</strong></p><p>这意味着什么？</p><p>意味着它从“叙事中心”退化为“实现细节”。</p><p>就像当年没有人再讨论“互联网公司”，因为所有公司都已经互联网化；今天也不再需要讨论“SaaS 公司”，因为软件本就应该是服务。</p><p>但这种“常态化”，对曾经此间依赖叙事红利的参与者你我来说，就是一种失败。</p><p>因为我们的竞争优势，正是建立在“这是一个新范式”之上。</p><p>当范式消失，护城河也随之消失。</p><h2 id="4-从“SaaS”到“能力即服务”，或许有隐性的解"><a href="#4-从“SaaS”到“能力即服务”，或许有隐性的解" class="headerlink" title="4. 从“SaaS”到“能力即服务”，或许有隐性的解"></a>4. 从“SaaS”到“能力即服务”，或许有隐性的解</h2><p>SaaS 并没有消失，它只是被溶解进更大的结构中。</p><p>新的范式正在形成，但它不再以“SaaS”命名：</p><ul><li>AI 产品按调用计费，而非按席位订阅</li><li>工具变成插件，嵌入其他系统</li><li>软件边界消失，能力以接口形式存在</li></ul><p>未来的竞争，不再是谁拥有一个 SaaS 产品，而是谁控制关键能力节点。</p><p>从这个角度看，SaaS 的失利，本质上是一次“抽象层级的迁移”：</p><p><strong>从“软件产品” → “服务能力” → “智能接口”</strong></p><p>现在的技术语境里，大家更愿意谈论 <strong>AI Native（大模型原生）</strong>，因为 SaaS 架构在应对动态、非结构化的业务场景时，已经显露出某种“古典技术”的迟钝。</p><p>而<strong>动态、非结构化的业务场景</strong>跟我们在实际落地时觉察到的<strong>国内企业的需求是极度离散且个性化的</strong>是相符的。</p><p>至于单纯的技术架构领先，到底能不能跨越业务复杂度的鸿沟，我想，这个问题已经无需答案了。</p><p>只是一味地等待着脱下了那件名为“高增长、高溢价”外衣的 SaaS 在更领先的 AI 浪潮下的某种重生。</p><h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>历史上大多数技术或者商业<strong>范式，并不是被打败的，而是被吸收的。</strong></p><p>SaaS 也是如此。</p><p>它不会消失，但它将不再作为一个独立叙事存在。它的语言、估值模型、增长逻辑，都会逐渐退出舞台。</p><p>最终，人们不会再问“你是不是一家 SaaS 公司”，就像不会再问“你是不是一家互联网公司”。</p><p><strong>当一种模式不再被提起时，它要么成为基础设施，要么已经过时。</strong></p><p>而 SaaS，或许正同时走向这两种命运。</p><p>产业发展，终究是产业回归常识的过程。</p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
+    
+    
+    <summary type="html">本文围绕“SaaS失利”这一现象，深入剖析其在技术与商业双重层面的退场逻辑：一方面，随着云计算成为基础设施，SaaS从技术创新沦为默认实现方式，被AI原生应用与能力接口逐步取代；另一方面，其依赖高获客成本与持续增长的商业模式在宏观环境变化下逐渐失效。文章进一步指出，SaaS并未真正消失，而是被溶解进“能力即服务”的新范式中，从叙事中心退化为底层实现。适合关注SaaS商业模式、AI时代软件演进及科技产业趋势的读者阅读。</summary>
+    
+    
+    
+    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
+    
+    
+    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>客户成功，SaaS宏观叙事下“劳苦功高”的体力活</title>
@@ -405,27 +426,6 @@
     
     
     <summary type="html">在SaaS的真实世界里，“客户成功”从来不是核心价值，而是一场被温情包裹的自我欺骗。企业追逐的是可售出的产品与现金流的增长，而非续费的理想。销售是发动机，客户成功只是减震器——它延缓流失，却无法改变速度的方向。真正成熟的SaaS，不靠陪伴，而靠自愈；当“客户成功”被算法接管，商业才彻底冷静。</summary>
-    
-    
-    
-    <category term="深度文章" scheme="https://heycsm.com/categories/%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AB%A0/"/>
-    
-    
-    <category term="客户成功" scheme="https://heycsm.com/tags/%E5%AE%A2%E6%88%B7%E6%88%90%E5%8A%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>AI的后入，让SaaS变成了数据库</title>
-    <link href="https://heycsm.com/2025/11/06/AI%E7%9A%84%E5%90%8E%E5%85%A5%EF%BC%8C%E8%AE%A9SaaS%E5%8F%98%E6%88%90%E4%BA%86%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    <id>https://heycsm.com/2025/11/06/AI%E7%9A%84%E5%90%8E%E5%85%A5%EF%BC%8C%E8%AE%A9SaaS%E5%8F%98%E6%88%90%E4%BA%86%E6%95%B0%E6%8D%AE%E5%BA%93/</id>
-    <published>2025-11-06T09:57:10.000Z</published>
-    <updated>2025-11-06T09:59:14.000Z</updated>
-    
-    <content type="html"><![CDATA[<div id="readmore-container"><p>AI 不是工具，AI 是环境。</p><p>AI 的到来，并没有让 SaaS 更强。相反，它让 SaaS 失去了主体。</p><p>当智能体接管交互与决策，SaaS 不再是“工具”，而成了“素材库”——</p><p>一个被 AI 调用、解析、训练的中间层。</p><h2 id="1-AI-不是外挂，而是宿主"><a href="#1-AI-不是外挂，而是宿主" class="headerlink" title="1. AI 不是外挂，而是宿主"></a>1. AI 不是外挂，而是宿主</h2><p>最初，我们以为 AI 是 SaaS 的增强器。</p><p>像 Excel 加了 Copilot，像 CRM 里多了一层智能推荐。</p><p>但事实很快反转：AI 不是外挂，而是宿主。</p><p>它不在 SaaS 之内，而是站在 SaaS 之上。</p><p>用户的行为路径、字段定义、数据流转、交互语境，都成了 AI 的养料。</p><p>AI 不需要再“使用”SaaS——</p><p>它直接“读取”SaaS。</p><p>在智能体的语境里，SaaS 不过是一张表格，一套被整理得井井有条的训练语料。</p><h2 id="2-功能被反转：从执行到解释"><a href="#2-功能被反转：从执行到解释" class="headerlink" title="2. 功能被反转：从执行到解释"></a>2. 功能被反转：从执行到解释</h2><p>传统 SaaS 的价值在“做什么”：</p><p>它定义流程、优化权限、改进体验。</p><p>而 AI 的介入让一切逻辑都可被解释、可被生成。</p><p>功能，不再是 SaaS 的边界；反而成了 AI 的延伸。</p><p>SaaS 的界面在退化，API 在前置，用户不再进入系统，而是“提问”。</p><p>系统不再“执行命令”，而是“生成答案”。</p><p>这是一种悄无声息的权力反转：</p><p>AI 不是工具的插件，而是工具的解释器。</p><h2 id="3-数据库化：SaaS-的宿命"><a href="#3-数据库化：SaaS-的宿命" class="headerlink" title="3. 数据库化：SaaS 的宿命"></a>3. 数据库化：SaaS 的宿命</h2><p>AI 的后入，让 SaaS 的本质被剥离。</p><p>从“功能集成”变成“数据源”。</p><p>一切复杂的权限、流程、字段，在 AI 眼里只是 schema，一种结构化的训练素材。</p><p>你以为自己在订阅一个产品，但 AI 在订阅你的数据。</p><p>SaaS 从卖“使用权”变成卖“语料权”。</p><p>那不是一场产品的升级，而是一场工作模式的吞噬。</p><h2 id="4-AI-不在-SaaS-里，SaaS-在-AI-里"><a href="#4-AI-不在-SaaS-里，SaaS-在-AI-里" class="headerlink" title="4. AI 不在 SaaS 里，SaaS 在 AI 里"></a>4. AI 不在 SaaS 里，SaaS 在 AI 里</h2><p>未来的用户，不再“登录系统”，而是与一个总控 AI 对话。</p><p>CRM、ERP、HRM 都变成它背后的数据库。</p><p>AI 不再调用 SaaS，而是直接调用信息。</p><p>那时候，SaaS 品牌的意义会像今天的数据库引擎——</p><p><strong>存在，但不可见；重要，但不被记得。</strong></p><h2 id="5-SaaS-的尽头，是被训练的样本"><a href="#5-SaaS-的尽头，是被训练的样本" class="headerlink" title="5. SaaS 的尽头，是被训练的样本"></a>5. SaaS 的尽头，是被训练的样本</h2><p>SaaS 曾是企业数字化的入口，如今成了 AI 理解世界的后端。</p><p>它从“提供功能”转为“提供语料”，从“创造价值”变为“支撑智能”。</p><p>AI 的后入，不是合作，而是吞噬。</p><p>SaaS 没有被淘汰，只是被吸收。</p><p>它还在运行，却早已被改写。</p><p>留在历史里的，只剩下数据结构的影子。</p><h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>AI 不是在 SaaS 之后诞生的，而是在 SaaS 的尽头等它。</p><p>为什么反事实的这么写？</p><p>当我们还在看“AI 能替代人”和“AI 永远替代不了人”的热闹时，我们却忘却了“AI”的工作方式是该怎么样的。</p><p>就像具身智能让 AI 能触摸真实世界一样，当智能体开始自我进化，每一个 SaaS 系统，都将变成它的一个表。</p><p>技术演进中常见的融合、共生状态永远只能是个过渡。</p><p><em>谨以此篇致敬又从字节离职的提出“飞书浏览器化（选项卡）”、“豆包 PC 客户端（浏览网页）”的齐俊元大佬，至少当时不被市场理解的路线被“ChatGPT Atlas”证明是对的。</em></p></div><link rel="stylesheet" type="text/css" href="https://qiniu.techgrow.cn/readmore/dist/hexo.css"><script src="https://qiniu.techgrow.cn/readmore/dist/readmore.js" type="text/javascript"></script><script>var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);var isEncrypt = document.getElementById('hexo-blog-encrypt');var allowMobile = false;if (!isEncrypt && (!isMobile || (isMobile && allowMobile))) {try {var plugin = new ReadmorePlugin();plugin.init({"type": "hexo","id": "readmore-container","name": "HeyCSM-你好客户成功经理","blogId": "85700-3670119654427-676","qrcode": "https://raw.githubusercontent.com/DuAn320/heycsm-img/main/img/202409091618442.JPG","keyword": "heycsm","random": "1","height": "auto","expires": "365","lockToc": "yes","interval": "60","baseUrl": "","tocSelector": ""});} catch(e) {console.warn("readmore plugin occurred error: " + e.name + " | " + e.message);}}</script>]]></content>
-    
-    
-    <summary type="html">AI的“后入”并非升级，而是吞噬。当智能体全面接管交互与决策，SaaS从功能平台退化为数据源，被AI吸收、解析、训练。功能被反转，界面被掀开，真正的价值沉入数据层。AI不再寄生于SaaS，而是以宿主之姿，重写整个商业逻辑——SaaS的尽头，不是创新，而是成为AI的数据库。</summary>
     
     
     
